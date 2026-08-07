@@ -1,0 +1,61 @@
+# Large data (download separately, see README.md)
+data/
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.run.xml
+paper/*.synctex.gz
+
+# Auto-generated figures (from generate_figures.py)
+/paper/figures/cross_domain_anchor.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Runtime logs
+logs/
+/main.log
+/stdout
+/paper/stdout
+
+# Transient process artifacts (PID files are meaningless after exit)
+*.pid
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# internal working docs
+reviews/
+/AGENTS.md
+/EXPERIMENT_AUDIT.json
+/EXPERIMENT_AUDIT.md
+/VisualAnchor.log
+/paper/.aris/
+/paper/CITATION_AUDIT.json
+/paper/CITATION_AUDIT.md
+/paper/PAPER_CLAIM_AUDIT.json
+/paper/PAPER_CLAIM_AUDIT.md
+results/**/run.log
+
+# Local-only docs
+/TODO.md
+
+# Local multi-machine sync scripts (user-specific)
+/sync_to_server.sh
+/pull_from_server.sh
+
+# Personal launch wrappers
+/experiments/05_applications/run_prompt_opt.sh
