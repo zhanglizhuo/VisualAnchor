@@ -1,0 +1,26 @@
+Input Pipeline Verification Log
+==============================
+Date: 2026-07-19
+Server: A100 (/school_Agri)
+
+=== Stanford40 ===
+CLIP (anchor_stanford40.py): Image.open → convert("RGB") → transform(Resize+Crop)
+MLLM (stanford40_ollama.py): open("rb") → base64 (raw bytes, no preprocessing)
+Result: Both use full-frame images. No bbox cropping.
+Sample images verified: applauding_001.jpg (300×400), ...9532 total.
+
+=== EuroSAT ===
+CLIP (anchor_cross_domain.py): Image.open → convert("RGB") → transform(Resize+Crop)
+MLLM (cross-domain): Same pipeline.
+Result: Full satellite images, all 64×64. No bbox annotations exist.
+Sample: AnnualCrop_1.jpg (64×64), Forest_1.jpg (64×64), ...27,000 total.
+
+=== MedMNIST (BloodMNIST, TissueMNIST, PathMNIST) ===
+CLIP (anchor_cross_domain.py): medmnist.DataClass → numpy array → Image.fromarray
+MLLM (cross-domain): Same pipeline.
+Result: Pre-cropped medical image patches. No bbox concept.
+
+=== Conclusion ===
+Input representation mismatch is specific to SCB5 person-centered action
+classes where YOLO bbox annotations exist. Stanford40, EuroSAT, and MedMNIST
+are NOT affected.
