@@ -1,0 +1,52 @@
+{
+  "AnnualCrop": {
+    "correct": 46,
+    "total": 50,
+    "acc": 92.0
+  },
+  "Forest": {
+    "correct": 38,
+    "total": 50,
+    "acc": 76.0
+  },
+  "HerbaceousVegetation": {
+    "correct": 0,
+    "total": 50,
+    "acc": 0.0
+  },
+  "Highway": {
+    "correct": 40,
+    "total": 50,
+    "acc": 80.0
+  },
+  "Industrial": {
+    "correct": 22,
+    "total": 50,
+    "acc": 44.0
+  },
+  "Pasture": {
+    "correct": 31,
+    "total": 50,
+    "acc": 62.0
+  },
+  "PermanentCrop": {
+    "correct": 0,
+    "total": 50,
+    "acc": 0.0
+  },
+  "Residential": {
+    "correct": 20,
+    "total": 50,
+    "acc": 40.0
+  },
+  "River": {
+    "correct": 32,
+    "total": 50,
+    "acc": 64.0
+  },
+  "SeaLake": {
+    "correct": 11,
+    "total": 50,
+    "acc": 22.0
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "EuroSAT": {
+    "accuracy": {
+      "AnnualCrop": 10.0,
+      "Forest": 66.0,
+      "HerbaceousVegetation": 2.0,
+      "Highway": 24.0,
+      "Industrial": 62.0,
+      "Pasture": 0.0,
+      "PermanentCrop": 0.0,
+      "Residential": 32.0,
+      "River": 64.0,
+      "SeaLake": 64.0
+    },
+    "mean_accuracy": 32.4,
+    "per_class": {
+      "AnnualCrop": {
+        "correct": 5,
+        "total": 50
+      },
+      "Forest": {
+        "correct": 33,
+        "total": 50
+      },
+      "HerbaceousVegetation": {
+        "correct": 1,
+        "total": 50
+      },
+      "Highway": {
+        "correct": 12,
+        "total": 50
+      },
+      "Industrial": {
+        "correct": 31,
+        "total": 50
+      },
+      "Pasture": {
+        "correct": 0,
+        "total": 50
+      },
+      "PermanentCrop": {
+        "correct": 0,
+        "total": 50
+      },
+      "Residential": {
+        "correct": 16,
+        "total": 50
+      },
+      "River": {
+        "correct": 32,
+        "total": 50
+      },
+      "SeaLake": {
+        "correct": 32,
+        "total": 50
+      }
+    }
+  },
+  "PathMNIST": {
+    "accuracy": {
+      "Adipose tissue": 8.0,
+      "Background": 64.0,
+      "Debris": 2.0,
+      "Lymphocytes": 6.0,
+      "Mucus": 12.0,
+      "Smooth muscle": 10.0,
+      "Normal colon mucosa": 24.0,
+      "Cancer-associated stroma": 44.0,
+      "Tumor epithelium": 0.0
+    },
+    "mean_accuracy": 18.89,
+    "per_class": {
+      "Adipose tissue": {
+        "correct": 4,
+        "total": 50
+      },
+      "Background": {
+        "correct": 32,
+        "total": 50
+      },
+      "Debris": {
+        "correct": 1,
+        "total": 50
+      },
+      "Lymphocytes": {
+        "correct": 3,
+        "total": 50
+      },
+      "Mucus": {
+        "correct": 6,
+        "total": 50
+      },
+      "Smooth muscle": {
+        "correct": 5,
+        "total": 50
+      },
+      "Normal colon mucosa": {
+        "correct": 12,
+        "total": 50
+      },
+      "Cancer-associated stroma": {
+        "correct": 22,
+        "total": 50
+      },
+      "Tumor epithelium": {
+        "correct": 0,
+        "total": 50
+      }
+    }
+  },
+  "BloodMNIST": {
+    "accuracy": {
+      "Basophil": 82.0,
+      "Eosinophil": 24.0,
+      "Erythroblast": 0.0,
+      "Immature granulocyte": 0.0,
+      "Lymphocyte": 2.0,
+      "Monocyte": 0.0,
+      "Neutrophil": 2.0,
+      "Platelet": 18.0
+    },
+    "mean_accuracy": 16.0,
+    "per_class": {
+      "Basophil": {
+        "correct": 41,
+        "total": 50
+      },
+      "Eosinophil": {
+        "correct": 12,
+        "total": 50
+      },
+      "Erythroblast": {
+        "correct": 0,
+        "total": 50
+      },
+      "Immature granulocyte": {
+        "correct": 0,
+        "total": 50
+      },
+      "Lymphocyte": {
+        "correct": 1,
+        "total": 50
+      },
+      "Monocyte": {
+        "correct": 0,
+        "total": 50
+      },
+      "Neutrophil": {
+        "correct": 1,
+        "total": 50
+      },
+      "Platelet": {
+        "correct": 9,
+        "total": 50
+      }
+    }
+  },
+  "TissueMNIST": {
+    "accuracy": {
+      "Collecting Duct": 2.0,
+      "Connecting Tubule": 0.0,
+      "Distal Convoluted Tubule": 0.0,
+      "Glomerular Endothelial Cells": 0.0,
+      "Interstitial Endothelial Cells": 0.0,
+      "Leukocytes": 0.0,
+      "Podocytes": 94.0,
+      "Proximal Tubule Segments": 4.0
+    },
+    "mean_accuracy": 12.5,
+    "per_class": {
+      "Collecting Duct": {
+        "correct": 1,
+        "total": 50
+      },
+      "Connecting Tubule": {
+        "correct": 0,
+        "total": 50
+      },
+      "Distal Convoluted Tubule": {
+        "correct": 0,
+        "total": 50
+      },
+      "Glomerular Endothelial Cells": {
+        "correct": 0,
+        "total": 50
+      },
+      "Interstitial Endothelial Cells": {
+        "correct": 0,
+        "total": 50
+      },
+      "Leukocytes": {
+        "correct": 0,
+        "total": 50
+      },
+      "Podocytes": {
+        "correct": 47,
+        "total": 50
+      },
+      "Proximal Tubule Segments": {
+        "correct": 2,
+        "total": 50
+      }
+    }
+  }
+}

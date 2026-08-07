@@ -1,0 +1,65 @@
+{
+  "description": "Calibration analysis: AnchorScore vs MLLM accuracy",
+  "source": "results/01_core/correlation/pooled_class_level_results.json",
+  "n_classes": 47,
+  "n_bins": 5,
+  "ece": 0.152,
+  "ece_pct": 15.2,
+  "bin_details": [
+    {
+      "bin": 1,
+      "range": [
+        0.0,
+        20.0
+      ],
+      "n_classes": 27,
+      "mean_anchor": 4.11,
+      "mean_mllm": 18.3,
+      "abs_error": 14.19
+    },
+    {
+      "bin": 2,
+      "range": [
+        20.0,
+        40.0
+      ],
+      "n_classes": 7,
+      "mean_anchor": 26.15,
+      "mean_mllm": 32.57,
+      "abs_error": 6.42
+    },
+    {
+      "bin": 3,
+      "range": [
+        40.0,
+        60.0
+      ],
+      "n_classes": 6,
+      "mean_anchor": 48.96,
+      "mean_mllm": 69.72,
+      "abs_error": 20.76
+    },
+    {
+      "bin": 4,
+      "range": [
+        60.0,
+        80.0
+      ],
+      "n_classes": 2,
+      "mean_anchor": 66.54,
+      "mean_mllm": 65.6,
+      "abs_error": 0.94
+    },
+    {
+      "bin": 5,
+      "range": [
+        80.0,
+        100.0
+      ],
+      "n_classes": 5,
+      "mean_anchor": 90.78,
+      "mean_mllm": 58.4,
+      "abs_error": 32.38
+    }
+  ]
+}

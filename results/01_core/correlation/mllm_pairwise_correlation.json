@@ -1,0 +1,147 @@
+{
+  "description": "MLLM pairwise Spearman \u03c1 on SCB5 class-level accuracy (13 classes)",
+  "n_models": 9,
+  "n_classes": 13,
+  "model_names": [
+    "Gemma-3-27B",
+    "Gemma4-26B",
+    "Gemma4-31B",
+    "LLaVA-1.5-7B",
+    "Qwen2-VL-7B",
+    "Qwen3.5-27B",
+    "Qwen3.5-35B",
+    "Qwen3.6-27B",
+    "Qwen3.6-35B"
+  ],
+  "pairwise_core6": {
+    "Gemma4-26B vs Gemma4-31B": {
+      "model_1": "Gemma4-26B",
+      "model_2": "Gemma4-31B",
+      "spearman_rho": 0.7857,
+      "p": 0.0014541896038438224,
+      "n": 13
+    },
+    "Gemma4-26B vs Qwen3.5-27B": {
+      "model_1": "Gemma4-26B",
+      "model_2": "Qwen3.5-27B",
+      "spearman_rho": 0.7637,
+      "p": 0.002376614797908445,
+      "n": 13
+    },
+    "Gemma4-26B vs Qwen3.5-35B": {
+      "model_1": "Gemma4-26B",
+      "model_2": "Qwen3.5-35B",
+      "spearman_rho": 0.8077,
+      "p": 0.0008391600097274243,
+      "n": 13
+    },
+    "Gemma4-26B vs Qwen3.6-27B": {
+      "model_1": "Gemma4-26B",
+      "model_2": "Qwen3.6-27B",
+      "spearman_rho": 0.7857,
+      "p": 0.0014541896038438224,
+      "n": 13
+    },
+    "Gemma4-26B vs Qwen3.6-35B": {
+      "model_1": "Gemma4-26B",
+      "model_2": "Qwen3.6-35B",
+      "spearman_rho": 0.8626,
+      "p": 0.00014744785947619764,
+      "n": 13
+    },
+    "Gemma4-31B vs Qwen3.5-27B": {
+      "model_1": "Gemma4-31B",
+      "model_2": "Qwen3.5-27B",
+      "spearman_rho": 0.8791,
+      "p": 7.54456235935913e-05,
+      "n": 13
+    },
+    "Gemma4-31B vs Qwen3.5-35B": {
+      "model_1": "Gemma4-31B",
+      "model_2": "Qwen3.5-35B",
+      "spearman_rho": 0.8571,
+      "p": 0.0001809340887252406,
+      "n": 13
+    },
+    "Gemma4-31B vs Qwen3.6-27B": {
+      "model_1": "Gemma4-31B",
+      "model_2": "Qwen3.6-27B",
+      "spearman_rho": 0.9341,
+      "p": 2.998703750099579e-06,
+      "n": 13
+    },
+    "Gemma4-31B vs Qwen3.6-35B": {
+      "model_1": "Gemma4-31B",
+      "model_2": "Qwen3.6-35B",
+      "spearman_rho": 0.8956,
+      "p": 3.480972994482087e-05,
+      "n": 13
+    },
+    "Qwen3.5-27B vs Qwen3.5-35B": {
+      "model_1": "Qwen3.5-27B",
+      "model_2": "Qwen3.5-35B",
+      "spearman_rho": 0.8681,
+      "p": 0.00011910255980042727,
+      "n": 13
+    },
+    "Qwen3.5-27B vs Qwen3.6-27B": {
+      "model_1": "Qwen3.5-27B",
+      "model_2": "Qwen3.6-27B",
+      "spearman_rho": 0.956,
+      "p": 3.365097276351456e-07,
+      "n": 13
+    },
+    "Qwen3.5-27B vs Qwen3.6-35B": {
+      "model_1": "Qwen3.5-27B",
+      "model_2": "Qwen3.6-35B",
+      "spearman_rho": 0.8516,
+      "p": 0.00022021941625366222,
+      "n": 13
+    },
+    "Qwen3.5-35B vs Qwen3.6-27B": {
+      "model_1": "Qwen3.5-35B",
+      "model_2": "Qwen3.6-27B",
+      "spearman_rho": 0.8956,
+      "p": 3.480972994482087e-05,
+      "n": 13
+    },
+    "Qwen3.5-35B vs Qwen3.6-35B": {
+      "model_1": "Qwen3.5-35B",
+      "model_2": "Qwen3.6-35B",
+      "spearman_rho": 0.8626,
+      "p": 0.00014744785947619764,
+      "n": 13
+    },
+    "Qwen3.6-27B vs Qwen3.6-35B": {
+      "model_1": "Qwen3.6-27B",
+      "model_2": "Qwen3.6-35B",
+      "spearman_rho": 0.9505,
+      "p": 6.363704773478595e-07,
+      "n": 13
+    }
+  },
+  "summary_core6": {
+    "mean_rho": 0.8637,
+    "min_rho": 0.7637,
+    "max_rho": 0.956,
+    "std_rho": 0.057,
+    "n_pairs": 15
+  },
+  "summary_by_family": {
+    "qwen_qwen_within": {
+      "description": "Qwen-3.5 vs Qwen-3.6 same-size comparisons",
+      "mean_rho": 0.8974,
+      "n_pairs": 6
+    },
+    "gemma_gemma_within": {
+      "description": "Gemma4-26B vs Gemma4-31B",
+      "mean_rho": 0.7857,
+      "n_pairs": 1
+    },
+    "qwen_gemma_cross": {
+      "description": "Any Qwen vs any Gemma",
+      "mean_rho": 0.8482,
+      "n_pairs": 8
+    }
+  }
+}

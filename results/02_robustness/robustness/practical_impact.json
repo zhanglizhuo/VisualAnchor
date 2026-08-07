@@ -1,0 +1,115 @@
+{
+  "budget_simulation": {
+    "teacher_behavior_k8": {
+      "1": {
+        "precision": 1.0,
+        "recall": 0.25,
+        "n_caught": 1
+      },
+      "2": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "n_caught": 2
+      },
+      "3": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "n_caught": 3
+      },
+      "4": {
+        "precision": 0.75,
+        "recall": 0.75,
+        "n_caught": 3
+      },
+      "5": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "n_caught": 4
+      },
+      "6": {
+        "precision": 0.6667,
+        "recall": 1.0,
+        "n_caught": 4
+      },
+      "7": {
+        "precision": 0.5714,
+        "recall": 1.0,
+        "n_caught": 4
+      },
+      "8": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "n_caught": 4
+      }
+    },
+    "pooled_n13": {
+      "4": {
+        "precision": 1.0,
+        "recall": 0.6667,
+        "n_caught": 4
+      },
+      "5": {
+        "precision": 0.8,
+        "recall": 0.6667,
+        "n_caught": 4
+      },
+      "6": {
+        "precision": 0.8333,
+        "recall": 0.8333,
+        "n_caught": 5
+      },
+      "7": {
+        "precision": 0.8571,
+        "recall": 1.0,
+        "n_caught": 6
+      }
+    },
+    "random_baseline": {
+      "precision_k3": 0.4646,
+      "precision_k_half": 0.4621
+    }
+  },
+  "cost_comparison": {
+    "clip_flops_total": 595760000000000.0,
+    "mllm_flops_total": 1.6248e+17,
+    "ratio": 272.72727272727275,
+    "clip_time_min": 3,
+    "mllm_time_hours": 14,
+    "clip_gpu_hours": 0.05,
+    "mllm_gpu_hours": 56,
+    "clip_cost_usd": 0.125,
+    "mllm_cost_usd": 140.0,
+    "savings_per_validation": 139.875
+  },
+  "min_labeling": {
+    "images_per_class": 20,
+    "total_images_needed": 260,
+    "labeling_time_min": 21.666666666666668
+  },
+  "three_tier_heuristic": {
+    "low": {
+      "n": 3,
+      "mean_mllm": 26.28380952380952,
+      "range": [
+        10.80285714285714,
+        46.04
+      ]
+    },
+    "mid": {
+      "n": 3,
+      "mean_mllm": 52.345238095238095,
+      "range": [
+        27.027142857142856,
+        93.55428571428573
+      ]
+    },
+    "high": {
+      "n": 7,
+      "mean_mllm": 79.66714285714285,
+      "range": [
+        66.20714285714284,
+        97.11571428571429
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "per_dataset": {
+    "TeacherBehavior": {
+      "clip_vs_mllm": {
+        "rho": 0.5952,
+        "p": 0.1195,
+        "n": 8
+      },
+      "dinov2_vs_mllm": {
+        "rho": -0.0479,
+        "p": 0.9103,
+        "n": 8
+      },
+      "n_classes": 8
+    },
+    "HandriseReadWrite": {
+      "clip_vs_mllm": {
+        "rho": 1.0,
+        "p": 0.0,
+        "n": 3
+      },
+      "dinov2_vs_mllm": {
+        "rho": -0.5,
+        "p": 0.6667,
+        "n": 3
+      },
+      "n_classes": 3
+    }
+  },
+  "class_level": {
+    "clip": {
+      "rho": 0.7692,
+      "p": 0.0021,
+      "n": 13
+    },
+    "dinov2": {
+      "rho": 0.0495,
+      "p": 0.8724,
+      "n": 13
+    },
+    "clip_vs_dinov2": {
+      "rho": 0.1403,
+      "p": 0.6475,
+      "n": 13
+    }
+  }
+}

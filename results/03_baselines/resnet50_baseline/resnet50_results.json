@@ -1,0 +1,49 @@
+{
+  "best_val_acc": 0.1712,
+  "final_val_acc": 0.1712,
+  "per_class_accuracy": {
+    "guide": 0.0,
+    "answer": 0.0,
+    "On-stage interaction": 0.0,
+    "blackboard-writing": 21.7,
+    "teacher": 0.9,
+    "stand": 13.0,
+    "screen": 0.0,
+    "blackBoard": 20.9,
+    "hand-raising": 43.6,
+    "read": 62.1,
+    "write": 0.4,
+    "BowHead": 0.0,
+    "TurnHead": 0.0
+  },
+  "per_class_mllm_mean": {
+    "guide": 42.5,
+    "answer": 12.4,
+    "On-stage interaction": 80.2,
+    "blackboard-writing": 97.5,
+    "teacher": 68.8,
+    "stand": 23.1,
+    "screen": 67.8,
+    "blackBoard": 44.6,
+    "hand-raising": 89.2,
+    "read": 27.0,
+    "write": 97.8,
+    "BowHead": 80.5,
+    "TurnHead": 83.7
+  },
+  "spearman_vs_mllm": {
+    "rho": 0.0809,
+    "p": 0.7927,
+    "n": 13
+  },
+  "args": {
+    "epochs": 15,
+    "lr": 0.001,
+    "batch_size": 64,
+    "wd": 0.0001,
+    "data_root": "/home/broadsense/works/lizhuo/AutoResearchClaw/datasets_scb",
+    "out": null,
+    "freeze_backbone": false
+  },
+  "mllm_source": "pooled_class_level_results.json (canonical 6-MLLM)"
+}

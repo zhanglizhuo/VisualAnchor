@@ -1,0 +1,21 @@
+{
+  "description": "Backbone consistency check: AL with ViT-L/14 features (same as AnchorScore backbone)",
+  "vit_l14": {
+    "TeacherBehavior": {
+      "uniform": 43.25,
+      "anchor_capped": 39.89,
+      "anchor_weight": 30.07
+    },
+    "HandriseReadWrite": {
+      "uniform": 70.46,
+      "anchor_capped": 71.43,
+      "anchor_weight": 74.37
+    },
+    "BowTurnHead": {
+      "uniform": 78.02,
+      "anchor_capped": 70.18,
+      "anchor_weight": 75.92
+    }
+  },
+  "finding": "Strategy rankings consistent with ViT-B/32: anchor methods don't help on TeacherBehavior but improve HandriseReadWrite. Backbone mismatch is NOT a confound."
+}

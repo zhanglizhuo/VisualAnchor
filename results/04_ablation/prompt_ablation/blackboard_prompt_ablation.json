@@ -1,0 +1,100 @@
+{
+  "description": "Prompt ablation: CLASS_NAME_MAP (mapped prompts) vs literal class names for blackBoard class. TeacherBehavior dataset, ViT-L-14 LAION-2B.",
+  "model": "ViT-L-14 laion2B-s32B-b82K",
+  "prompt_templates": [
+    "a photo of a person {} in classroom.",
+    "a classroom scene showing {}.",
+    "the action of {} in a school environment."
+  ],
+  "results": {
+    "mapped_prompts": {
+      "guide": {
+        "correct": 49,
+        "total": 167,
+        "acc": 29.34
+      },
+      "answer": {
+        "correct": 16,
+        "total": 287,
+        "acc": 5.57
+      },
+      "On-stage interaction": {
+        "correct": 26,
+        "total": 48,
+        "acc": 54.17
+      },
+      "blackboard-writing": {
+        "correct": 42,
+        "total": 161,
+        "acc": 26.09
+      },
+      "teacher": {
+        "correct": 848,
+        "total": 1684,
+        "acc": 50.36
+      },
+      "stand": {
+        "correct": 41,
+        "total": 439,
+        "acc": 9.34
+      },
+      "screen": {
+        "correct": 17,
+        "total": 42,
+        "acc": 40.48
+      },
+      "blackBoard": {
+        "correct": 14,
+        "total": 412,
+        "acc": 3.4
+      }
+    },
+    "literal_prompts": {
+      "guide": {
+        "correct": 9,
+        "total": 167,
+        "acc": 5.39
+      },
+      "answer": {
+        "correct": 37,
+        "total": 287,
+        "acc": 12.89
+      },
+      "On-stage interaction": {
+        "correct": 10,
+        "total": 48,
+        "acc": 20.83
+      },
+      "blackboard-writing": {
+        "correct": 37,
+        "total": 161,
+        "acc": 22.98
+      },
+      "teacher": {
+        "correct": 627,
+        "total": 1684,
+        "acc": 37.23
+      },
+      "stand": {
+        "correct": 13,
+        "total": 439,
+        "acc": 2.96
+      },
+      "screen": {
+        "correct": 13,
+        "total": 42,
+        "acc": 30.95
+      },
+      "blackBoard": {
+        "correct": 10,
+        "total": 412,
+        "acc": 2.43
+      }
+    }
+  },
+  "blackBoard_comparison": {
+    "with_mapping_prompt": 3.4,
+    "without_mapping_prompt": 2.43,
+    "delta": 0.97
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "per_model": {
+    "LLaVA-1.5-7B": {
+      "confidence_vs_acc": {
+        "rho": 0.5662,
+        "p": 0.0437,
+        "n": 13
+      },
+      "anchor_vs_acc": {
+        "rho": 0.2717,
+        "p": 0.3692,
+        "n": 13
+      },
+      "n_classes": 13
+    },
+    "Gemma4-26B": {
+      "confidence_vs_acc": {
+        "rho": -0.2127,
+        "p": 0.4854,
+        "n": 13
+      },
+      "anchor_vs_acc": {
+        "rho": 0.7125,
+        "p": 0.0063,
+        "n": 13
+      },
+      "n_classes": 13
+    },
+    "Qwen3.5-27B": {
+      "confidence_vs_acc": {
+        "rho": 0.4987,
+        "p": 0.0828,
+        "n": 13
+      },
+      "anchor_vs_acc": {
+        "rho": 0.5986,
+        "p": 0.0307,
+        "n": 13
+      },
+      "n_classes": 13
+    },
+    "Qwen3.6-27B": {
+      "confidence_vs_acc": {
+        "rho": null,
+        "p": null,
+        "n": 13
+      },
+      "anchor_vs_acc": {
+        "rho": 0.6832,
+        "p": 0.0101,
+        "n": 13
+      },
+      "n_classes": 13
+    },
+    "Qwen3.6-35B": {
+      "confidence_vs_acc": {
+        "rho": 0.3484,
+        "p": 0.2434,
+        "n": 13
+      },
+      "anchor_vs_acc": {
+        "rho": 0.551,
+        "p": 0.051,
+        "n": 13
+      },
+      "n_classes": 13
+    }
+  },
+  "pooled": {
+    "confidence": {
+      "rho": 0.3703,
+      "p": 0.0024,
+      "n": 65
+    },
+    "anchor": {
+      "rho": 0.5264,
+      "p": 0.0,
+      "n": 65
+    }
+  },
+  "class_level": {
+    "confidence": {
+      "rho": -0.0716,
+      "p": 0.8161,
+      "n": 13
+    },
+    "anchor": {
+      "rho": 0.5934,
+      "p": 0.0325,
+      "n": 13
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "description": "CLIP-derived baseline predictors vs MLLM accuracy on SCB5 (n=13 classes). Computed with ViT-L-14 LAION-2B, FP16, 3-prompt templates.",
+  "model": "ViT-L-14 laion2b_s32b_b82k",
+  "n_classes": 13,
+  "per_class": {
+    "guide": {
+      "n_images": 167,
+      "dataset": "TeacherBehavior",
+      "confidence_mean": 0.4484081154098054,
+      "confidence_std": 0.16312528707960766,
+      "margin_mean": 0.2548681933008982,
+      "margin_std": 0.20770387650191977,
+      "entropy_mean": 1.5580265250748504,
+      "entropy_std": 0.3392003585900654,
+      "dispersion": 0.123301,
+      "anchor_score": 29.34
+    },
+    "answer": {
+      "n_images": 287,
+      "dataset": "TeacherBehavior",
+      "confidence_mean": 0.3694600494065767,
+      "confidence_std": 0.1341996006655623,
+      "margin_mean": 0.17454055626633275,
+      "margin_std": 0.1606116294937082,
+      "entropy_mean": 1.7342916349085367,
+      "entropy_std": 0.25125668287386366,
+      "dispersion": 0.142363,
+      "anchor_score": 5.57
+    },
+    "On-stage interaction": {
+      "n_images": 48,
+      "dataset": "TeacherBehavior",
+      "confidence_mean": 0.4386393229166667,
+      "confidence_std": 0.14097742083891773,
+      "margin_mean": 0.20768229166666666,
+      "margin_std": 0.1904226290924379,
+      "entropy_mean": 1.5103658040364583,
+      "entropy_std": 0.2529846728554705,
+      "dispersion": 0.162318,
+      "anchor_score": 54.17
+    },
+    "blackboard-writing": {
+      "n_images": 161,
+      "dataset": "TeacherBehavior",
+      "confidence_mean": 0.6699590268342391,
+      "confidence_std": 0.22012107548263402,
+      "margin_mean": 0.5444661963800466,
+      "margin_std": 0.2929457060342889,
+      "entropy_mean": 1.118846443128882,
+      "entropy_std": 0.5754836089369599,
+      "dispersion": 0.229419,
+      "anchor_score": 26.09
+    },
+    "teacher": {
+      "n_images": 1684,
+      "dataset": "TeacherBehavior",
+      "confidence_mean": 0.5134602091374703,
+      "confidence_std": 0.18853517001717202,
+      "margin_mean": 0.3340009023344715,
+      "margin_std": 0.2517953224634338,
+      "entropy_mean": 1.469463393693865,
+      "entropy_std": 0.4323956022594643,
+      "dispersion": 0.25129,
+      "anchor_score": 50.48
+    },
+    "stand": {
+      "n_images": 439,
+      "dataset": "TeacherBehavior",
+      "confidence_mean": 0.4861276405004271,
+      "confidence_std": 0.20794910803690417,
+      "margin_mean": 0.2997507429883257,
+      "margin_std": 0.2731158292778591,
+      "entropy_mean": 1.4928580177672088,
+      "entropy_std": 0.49112112749907455,
+      "dispersion": 0.219176,
+      "anchor_score": 9.57
+    },
+    "screen": {
+      "n_images": 42,
+      "dataset": "TeacherBehavior",
+      "confidence_mean": 0.5042143322172619,
+      "confidence_std": 0.20976271157212384,
+      "margin_mean": 0.3211088634672619,
+      "margin_std": 0.2663217606855257,
+      "entropy_mean": 1.4899844215029763,
+      "entropy_std": 0.5248902622677815,
+      "dispersion": 0.190444,
+      "anchor_score": 40.48
+    },
+    "blackBoard": {
+      "n_images": 412,
+      "dataset": "TeacherBehavior",
+      "confidence_mean": 0.5224156055635619,
+      "confidence_std": 0.22139286239724867,
+      "margin_mean": 0.35406464511908375,
+      "margin_std": 0.29280870325114955,
+      "entropy_mean": 1.4474118427165503,
+      "entropy_std": 0.5168081299408848,
+      "dispersion": 0.245997,
+      "anchor_score": 3.16
+    },
+    "hand-raising": {
+      "n_images": 826,
+      "dataset": "HandriseReadWrite",
+      "confidence_mean": 0.5362009413305842,
+      "confidence_std": 0.20632250836241198,
+      "margin_mean": 0.3568747753669794,
+      "margin_std": 0.2762752028737271,
+      "entropy_mean": 1.3957880126361986,
+      "entropy_std": 0.4905314807615514,
+      "dispersion": 0.212454,
+      "anchor_score": 80.02
+    },
+    "read": {
+      "n_images": 601,
+      "dataset": "HandriseReadWrite",
+      "confidence_mean": 0.4742780993266431,
+      "confidence_std": 0.20554199787720376,
+      "margin_mean": 0.28062725860544924,
+      "margin_std": 0.25931673266711874,
+      "entropy_mean": 1.4976389753243293,
+      "entropy_std": 0.4945062208664467,
+      "dispersion": 0.195626,
+      "anchor_score": 22.96
+    },
+    "write": {
+      "n_images": 244,
+      "dataset": "HandriseReadWrite",
+      "confidence_mean": 0.5106486336129611,
+      "confidence_std": 0.18624914103764528,
+      "margin_mean": 0.3243368180071721,
+      "margin_std": 0.2431857682785048,
+      "entropy_mean": 1.4305314861360143,
+      "entropy_std": 0.4331913886113139,
+      "dispersion": 0.182438,
+      "anchor_score": 89.75
+    },
+    "BowHead": {
+      "n_images": 112,
+      "dataset": "BowTurnHead",
+      "confidence_mean": 0.4676055908203125,
+      "confidence_std": 0.16800549660045438,
+      "margin_mean": 0.2576751708984375,
+      "margin_std": 0.22536515153400657,
+      "entropy_mean": 1.4900218418666296,
+      "entropy_std": 0.36495132812883485,
+      "dispersion": 0.209954,
+      "anchor_score": 49.11
+    },
+    "TurnHead": {
+      "n_images": 393,
+      "dataset": "BowTurnHead",
+      "confidence_mean": 0.40624347715887404,
+      "confidence_std": 0.1432598296340099,
+      "margin_mean": 0.19970765247296438,
+      "margin_std": 0.1826652009748085,
+      "entropy_mean": 1.666612775574507,
+      "entropy_std": 0.2918038138936736,
+      "dispersion": 0.200696,
+      "anchor_score": 64.12
+    }
+  },
+  "correlations": {
+    "anchor_score": {
+      "spearman_rho": 0.7692,
+      "spearman_p": 0.0021,
+      "n": 13
+    },
+    "confidence": {
+      "spearman_rho": 0.4341,
+      "spearman_p": 0.1383,
+      "n": 13
+    },
+    "margin": {
+      "spearman_rho": 0.4341,
+      "spearman_p": 0.1383,
+      "n": 13
+    },
+    "entropy_inv": {
+      "spearman_rho": 0.6044,
+      "spearman_p": 0.0287,
+      "n": 13
+    },
+    "dispersion": {
+      "spearman_rho": 0.2033,
+      "spearman_p": 0.5053,
+      "n": 13
+    }
+  }
+}

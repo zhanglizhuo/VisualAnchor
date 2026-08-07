@@ -1,0 +1,544 @@
+{
+  "meta": {
+    "description": "Unified correlation analysis \u2014 single source of truth",
+    "canonical_mllms": [
+      "Qwen3.5-27B",
+      "Qwen3.6-27B",
+      "Qwen3.5-35B",
+      "Qwen3.6-35B",
+      "Gemma4-31B",
+      "Gemma4-26B"
+    ],
+    "n_mllms": 6,
+    "scb5_datasets": [
+      "TeacherBehavior",
+      "HandriseReadWrite",
+      "BowTurnHead"
+    ],
+    "generated_by": "analysis/01_core/unified_correlation.py"
+  },
+  "scb5_pooled": {
+    "n": 78,
+    "spearman_rho": 0.6925,
+    "spearman_p": 0.0,
+    "pearson_r": 0.7461,
+    "pearson_p": 0.0,
+    "bootstrap_ci_95": [
+      0.53,
+      0.811
+    ]
+  },
+  "scb5_class_level": {
+    "n": 13,
+    "spearman_rho": 0.7692,
+    "spearman_p": 0.002112,
+    "pearson_r": 0.7951,
+    "pearson_p": 0.001158,
+    "bootstrap_ci_95": [
+      0.317,
+      1.0
+    ]
+  },
+  "cross_domain_class_level": {
+    "n": 34,
+    "spearman_rho": 0.462,
+    "spearman_p": 0.005953,
+    "pearson_r": 0.4298,
+    "pearson_p": 0.011187,
+    "bootstrap_ci_95": [
+      0.151,
+      0.691
+    ]
+  },
+  "pooled_class_level": {
+    "n": 47,
+    "spearman_rho": 0.6302,
+    "spearman_p": 2e-06,
+    "pearson_r": 0.5991,
+    "pearson_p": 9e-06,
+    "bootstrap_ci_95": [
+      0.421,
+      0.775
+    ]
+  },
+  "leave_one_dataset_out": {
+    "exclude_BloodMNIST": {
+      "n": 39,
+      "rho": 0.674,
+      "p": 0.0
+    },
+    "exclude_BowTurnHead": {
+      "n": 45,
+      "rho": 0.6,
+      "p": 0.0
+    },
+    "exclude_EuroSAT": {
+      "n": 37,
+      "rho": 0.635,
+      "p": 0.0
+    },
+    "exclude_HandriseReadWrite": {
+      "n": 44,
+      "rho": 0.59,
+      "p": 0.0
+    },
+    "exclude_PathMNIST": {
+      "n": 38,
+      "rho": 0.66,
+      "p": 0.0
+    },
+    "exclude_TeacherBehavior": {
+      "n": 39,
+      "rho": 0.587,
+      "p": 0.0001
+    },
+    "exclude_TissueMNIST": {
+      "n": 40,
+      "rho": 0.619,
+      "p": 0.0
+    }
+  },
+  "leave_one_class_out": {
+    "exclude_BowHead": {
+      "n": 12,
+      "rho": 0.776,
+      "p": 0.003
+    },
+    "exclude_On-stage interaction": {
+      "n": 12,
+      "rho": 0.769,
+      "p": 0.0034
+    },
+    "exclude_TurnHead": {
+      "n": 12,
+      "rho": 0.755,
+      "p": 0.0045
+    },
+    "exclude_answer": {
+      "n": 12,
+      "rho": 0.734,
+      "p": 0.0065
+    },
+    "exclude_blackBoard": {
+      "n": 12,
+      "rho": 0.783,
+      "p": 0.0026
+    },
+    "exclude_blackboard-writing": {
+      "n": 12,
+      "rho": 0.909,
+      "p": 0.0
+    },
+    "exclude_guide": {
+      "n": 12,
+      "rho": 0.79,
+      "p": 0.0022
+    },
+    "exclude_hand-raising": {
+      "n": 12,
+      "rho": 0.755,
+      "p": 0.0045
+    },
+    "exclude_read": {
+      "n": 12,
+      "rho": 0.734,
+      "p": 0.0065
+    },
+    "exclude_screen": {
+      "n": 12,
+      "rho": 0.755,
+      "p": 0.0045
+    },
+    "exclude_stand": {
+      "n": 12,
+      "rho": 0.734,
+      "p": 0.0065
+    },
+    "exclude_teacher": {
+      "n": 12,
+      "rho": 0.769,
+      "p": 0.0034
+    },
+    "exclude_write": {
+      "n": 12,
+      "rho": 0.706,
+      "p": 0.0102
+    }
+  },
+  "leave_one_mllm_out_pooled": {
+    "exclude_Gemma4-26B": {
+      "n": 65,
+      "rho": 0.68,
+      "p": 0.0
+    },
+    "exclude_Gemma4-31B": {
+      "n": 65,
+      "rho": 0.689,
+      "p": 0.0
+    },
+    "exclude_Qwen3.5-27B": {
+      "n": 65,
+      "rho": 0.708,
+      "p": 0.0
+    },
+    "exclude_Qwen3.5-35B": {
+      "n": 65,
+      "rho": 0.68,
+      "p": 0.0
+    },
+    "exclude_Qwen3.6-27B": {
+      "n": 65,
+      "rho": 0.704,
+      "p": 0.0
+    },
+    "exclude_Qwen3.6-35B": {
+      "n": 65,
+      "rho": 0.692,
+      "p": 0.0
+    }
+  },
+  "leave_one_mllm_out_class_level": {
+    "exclude_Qwen3.5-27B": {
+      "n": 13,
+      "rho": 0.78,
+      "p": 0.0017
+    },
+    "exclude_Qwen3.6-27B": {
+      "n": 13,
+      "rho": 0.808,
+      "p": 0.0008
+    },
+    "exclude_Qwen3.5-35B": {
+      "n": 13,
+      "rho": 0.775,
+      "p": 0.0019
+    },
+    "exclude_Qwen3.6-35B": {
+      "n": 13,
+      "rho": 0.769,
+      "p": 0.0021
+    },
+    "exclude_Gemma4-31B": {
+      "n": 13,
+      "rho": 0.725,
+      "p": 0.005
+    },
+    "exclude_Gemma4-26B": {
+      "n": 13,
+      "rho": 0.725,
+      "p": 0.005
+    }
+  },
+  "extended_model_sets": {
+    "base_plus_llava": {
+      "n": 13,
+      "n_mllms": 7,
+      "rho": 0.819,
+      "p": 0.0006
+    },
+    "base_plus_qwen2vl": {
+      "n": 13,
+      "n_mllms": 7,
+      "rho": 0.72,
+      "p": 0.0055
+    },
+    "base_plus_llava_qwen2vl": {
+      "n": 13,
+      "n_mllms": 8,
+      "rho": 0.819,
+      "p": 0.0006
+    },
+    "base_only": {
+      "n": 13,
+      "n_mllms": 6,
+      "rho": 0.769,
+      "p": 0.0021
+    }
+  },
+  "teacher_behavior_only": {
+    "n": 8,
+    "rho": 0.595,
+    "p": 0.1195
+  },
+  "per_model": {
+    "Gemma4-26B": {
+      "n": 13,
+      "spearman_rho": 0.736,
+      "spearman_p": 0.0041
+    },
+    "Gemma4-31B": {
+      "n": 13,
+      "spearman_rho": 0.725,
+      "spearman_p": 0.005
+    },
+    "Qwen3.5-27B": {
+      "n": 13,
+      "spearman_rho": 0.604,
+      "spearman_p": 0.0287
+    },
+    "Qwen3.5-35B": {
+      "n": 13,
+      "spearman_rho": 0.736,
+      "spearman_p": 0.0041
+    },
+    "Qwen3.6-27B": {
+      "n": 13,
+      "spearman_rho": 0.648,
+      "spearman_p": 0.0165
+    },
+    "Qwen3.6-35B": {
+      "n": 13,
+      "spearman_rho": 0.687,
+      "spearman_p": 0.0095
+    }
+  },
+  "per_dataset": {
+    "TeacherBehavior": {
+      "n": 48,
+      "spearman_rho": 0.549,
+      "spearman_p": 0.0001
+    },
+    "HandriseReadWrite": {
+      "n": 18,
+      "spearman_rho": 0.944,
+      "spearman_p": 0.0
+    },
+    "BowTurnHead": {
+      "n": 12,
+      "spearman_rho": 0.048,
+      "spearman_p": 0.8813
+    }
+  },
+  "per_class": [
+    {
+      "dataset": "TeacherBehavior",
+      "class": "blackBoard",
+      "anchor_score": 3.16,
+      "mllm_mean": 44.55,
+      "mllm_std": 15.61,
+      "n_mllms": 6,
+      "mllm_values": {
+        "Qwen3.5-27B": 60.12,
+        "Qwen3.6-27B": 54.19,
+        "Qwen3.5-35B": 19.54,
+        "Qwen3.6-35B": 33.27,
+        "Gemma4-31B": 44.21,
+        "Gemma4-26B": 55.97
+      }
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "answer",
+      "anchor_score": 5.57,
+      "mllm_mean": 12.37,
+      "mllm_std": 7.55,
+      "n_mllms": 6,
+      "mllm_values": {
+        "Qwen3.5-27B": 17.7,
+        "Qwen3.6-27B": 8.68,
+        "Qwen3.5-35B": 18.87,
+        "Qwen3.6-35B": 19.23,
+        "Gemma4-31B": 9.38,
+        "Gemma4-26B": 0.35
+      }
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "stand",
+      "anchor_score": 9.57,
+      "mllm_mean": 23.09,
+      "mllm_std": 6.7,
+      "n_mllms": 6,
+      "mllm_values": {
+        "Qwen3.5-27B": 33.26,
+        "Qwen3.6-27B": 25.25,
+        "Qwen3.5-35B": 21.68,
+        "Qwen3.6-35B": 15.54,
+        "Gemma4-31B": 26.47,
+        "Gemma4-26B": 16.32
+      }
+    },
+    {
+      "dataset": "HandriseReadWrite",
+      "class": "read",
+      "anchor_score": 22.96,
+      "mllm_mean": 26.97,
+      "mllm_std": 5.66,
+      "n_mllms": 6,
+      "mllm_values": {
+        "Qwen3.5-27B": 27.6,
+        "Qwen3.6-27B": 30.0,
+        "Qwen3.5-35B": 31.84,
+        "Qwen3.6-35B": 32.3,
+        "Gemma4-31B": 21.21,
+        "Gemma4-26B": 18.88
+      }
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "blackboard-writing",
+      "anchor_score": 26.09,
+      "mllm_mean": 97.47,
+      "mllm_std": 1.87,
+      "n_mllms": 6,
+      "mllm_values": {
+        "Qwen3.5-27B": 98.19,
+        "Qwen3.6-27B": 98.92,
+        "Qwen3.5-35B": 98.56,
+        "Qwen3.6-35B": 98.92,
+        "Gemma4-31B": 95.67,
+        "Gemma4-26B": 94.58
+      }
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "guide",
+      "anchor_score": 29.34,
+      "mllm_mean": 42.49,
+      "mllm_std": 22.56,
+      "n_mllms": 6,
+      "mllm_values": {
+        "Qwen3.5-27B": 52.34,
+        "Qwen3.6-27B": 37.42,
+        "Qwen3.5-35B": 24.5,
+        "Qwen3.6-35B": 21.83,
+        "Gemma4-31B": 82.85,
+        "Gemma4-26B": 36.02
+      }
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "screen",
+      "anchor_score": 40.48,
+      "mllm_mean": 67.78,
+      "mllm_std": 15.01,
+      "n_mllms": 6,
+      "mllm_values": {
+        "Qwen3.5-27B": 88.77,
+        "Qwen3.6-27B": 74.32,
+        "Qwen3.5-35B": 73.51,
+        "Qwen3.6-35B": 69.12,
+        "Gemma4-31B": 48.14,
+        "Gemma4-26B": 52.83
+      }
+    },
+    {
+      "dataset": "BowTurnHead",
+      "class": "BowHead",
+      "anchor_score": 49.11,
+      "mllm_mean": 80.49,
+      "mllm_std": 17.93,
+      "n_mllms": 6,
+      "mllm_values": {
+        "Qwen3.5-27B": 89.44,
+        "Qwen3.6-27B": 91.11,
+        "Qwen3.5-35B": 76.85,
+        "Qwen3.6-35B": 90.0,
+        "Gemma4-31B": 90.0,
+        "Gemma4-26B": 45.56
+      }
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "teacher",
+      "anchor_score": 50.48,
+      "mllm_mean": 68.83,
+      "mllm_std": 8.77,
+      "n_mllms": 6,
+      "mllm_values": {
+        "Qwen3.5-27B": 54.89,
+        "Qwen3.6-27B": 69.89,
+        "Qwen3.5-35B": 72.68,
+        "Qwen3.6-35B": 71.9,
+        "Gemma4-31B": 63.23,
+        "Gemma4-26B": 80.38
+      }
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "On-stage interaction",
+      "anchor_score": 54.17,
+      "mllm_mean": 80.2,
+      "mllm_std": 9.02,
+      "n_mllms": 6,
+      "mllm_values": {
+        "Qwen3.5-27B": 73.83,
+        "Qwen3.6-27B": 77.85,
+        "Qwen3.5-35B": 67.79,
+        "Qwen3.6-35B": 92.62,
+        "Gemma4-31B": 87.25,
+        "Gemma4-26B": 81.88
+      }
+    },
+    {
+      "dataset": "BowTurnHead",
+      "class": "TurnHead",
+      "anchor_score": 64.12,
+      "mllm_mean": 83.67,
+      "mllm_std": 9.4,
+      "n_mllms": 6,
+      "mllm_values": {
+        "Qwen3.5-27B": 77.81,
+        "Qwen3.6-27B": 72.39,
+        "Qwen3.5-35B": 91.47,
+        "Qwen3.6-35B": 77.59,
+        "Gemma4-31B": 85.75,
+        "Gemma4-26B": 97.01
+      }
+    },
+    {
+      "dataset": "HandriseReadWrite",
+      "class": "hand-raising",
+      "anchor_score": 80.02,
+      "mllm_mean": 89.24,
+      "mllm_std": 2.57,
+      "n_mllms": 6,
+      "mllm_values": {
+        "Qwen3.5-27B": 84.83,
+        "Qwen3.6-27B": 87.61,
+        "Qwen3.5-35B": 91.7,
+        "Qwen3.6-35B": 90.73,
+        "Gemma4-31B": 89.81,
+        "Gemma4-26B": 90.77
+      }
+    },
+    {
+      "dataset": "HandriseReadWrite",
+      "class": "write",
+      "anchor_score": 89.75,
+      "mllm_mean": 97.77,
+      "mllm_std": 0.39,
+      "n_mllms": 6,
+      "mllm_values": {
+        "Qwen3.5-27B": 98.26,
+        "Qwen3.6-27B": 98.0,
+        "Qwen3.5-35B": 97.11,
+        "Qwen3.6-35B": 97.61,
+        "Gemma4-31B": 97.76,
+        "Gemma4-26B": 97.88
+      }
+    }
+  ],
+  "cross_domain_summary": {
+    "EuroSAT (10cls)": {
+      "AnchorScore": 38.7,
+      "n": 27000
+    },
+    "PathMNIST (9cls)": {
+      "AnchorScore": 15.49,
+      "n": 7180
+    },
+    "BloodMNIST (8cls)": {
+      "AnchorScore": 5.88,
+      "n": 3421
+    },
+    "TissueMNIST (8cls)": {
+      "AnchorScore": 15.6,
+      "n": 47280
+    },
+    "SCB5 (weighted avg)": {
+      "AnchorScore": 43.9,
+      "n": 5416
+    }
+  }
+}

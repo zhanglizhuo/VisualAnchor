@@ -1,0 +1,391 @@
+{
+  "description": "Pooled class-level analysis: SCB5 (13) + cross-domain (34) = 47 classes. Cross-domain uses 4 MLLM avg. TissueMNIST drops Thick Ascending Limb (no MLLM match).",
+  "computation_date": "2026-07-14",
+  "n_mllms_cross_domain": 4,
+  "cross_domain_mllms": [
+    "LLaVA-1.5-7B",
+    "LLaVA-NeXT-Mistral-7B",
+    "Qwen2.5-VL-7B",
+    "Qwen2-VL-7B"
+  ],
+  "pooled": {
+    "n": 47,
+    "spearman_rho": 0.63,
+    "spearman_p": 2.0681307638072246e-06,
+    "pearson_r": 0.599,
+    "pearson_p": 8.641192143735126e-06
+  },
+  "scb5_only": {
+    "n": 13,
+    "spearman_rho": 0.769,
+    "spearman_p": 0.0021122295993498776
+  },
+  "cross_domain_only": {
+    "n": 34,
+    "spearman_rho": 0.462,
+    "spearman_p": 0.005952875673407053
+  },
+  "per_domain": {
+    "BloodMNIST": {
+      "n": 8,
+      "spearman_rho": 0.019,
+      "spearman_p": 0.9653
+    },
+    "EuroSAT": {
+      "n": 10,
+      "spearman_rho": 0.286,
+      "spearman_p": 0.4236
+    },
+    "PathMNIST": {
+      "n": 9,
+      "spearman_rho": 0.162,
+      "spearman_p": 0.6777
+    },
+    "SCB5-BowTurnHead": {
+      "n": 2,
+      "spearman_rho": 1.0,
+      "spearman_p": null
+    },
+    "SCB5-HandriseReadWrite": {
+      "n": 3,
+      "spearman_rho": 1.0,
+      "spearman_p": 0.0
+    },
+    "SCB5-TeacherBehavior": {
+      "n": 8,
+      "spearman_rho": 0.595,
+      "spearman_p": 0.1195
+    },
+    "TissueMNIST": {
+      "n": 7,
+      "spearman_rho": 0.741,
+      "spearman_p": 0.0566
+    }
+  },
+  "leave_one_dataset_out": {
+    "exclude_BloodMNIST": {
+      "n": 39,
+      "rho": 0.674,
+      "p": 0.0
+    },
+    "exclude_EuroSAT": {
+      "n": 37,
+      "rho": 0.635,
+      "p": 0.0
+    },
+    "exclude_PathMNIST": {
+      "n": 38,
+      "rho": 0.66,
+      "p": 0.0
+    },
+    "exclude_SCB5-BowTurnHead": {
+      "n": 45,
+      "rho": 0.6,
+      "p": 0.0
+    },
+    "exclude_SCB5-HandriseReadWrite": {
+      "n": 44,
+      "rho": 0.59,
+      "p": 0.0
+    },
+    "exclude_SCB5-TeacherBehavior": {
+      "n": 39,
+      "rho": 0.587,
+      "p": 0.0001
+    },
+    "exclude_TissueMNIST": {
+      "n": 40,
+      "rho": 0.619,
+      "p": 0.0
+    }
+  },
+  "leave_one_dataset_out_range": [
+    0.587,
+    0.674
+  ],
+  "leave_one_dataset_out_mean": 0.624,
+  "data": [
+    {
+      "domain": "SCB5-TeacherBehavior",
+      "class": "guide",
+      "anchor_score": 29.34,
+      "mllm_mean": 42.5
+    },
+    {
+      "domain": "SCB5-TeacherBehavior",
+      "class": "answer",
+      "anchor_score": 5.57,
+      "mllm_mean": 12.4
+    },
+    {
+      "domain": "SCB5-TeacherBehavior",
+      "class": "On-stage interaction",
+      "anchor_score": 54.17,
+      "mllm_mean": 80.2
+    },
+    {
+      "domain": "SCB5-TeacherBehavior",
+      "class": "blackboard-writing",
+      "anchor_score": 26.09,
+      "mllm_mean": 97.5
+    },
+    {
+      "domain": "SCB5-TeacherBehavior",
+      "class": "teacher",
+      "anchor_score": 50.48,
+      "mllm_mean": 68.8
+    },
+    {
+      "domain": "SCB5-TeacherBehavior",
+      "class": "stand",
+      "anchor_score": 9.57,
+      "mllm_mean": 23.1
+    },
+    {
+      "domain": "SCB5-TeacherBehavior",
+      "class": "screen",
+      "anchor_score": 40.48,
+      "mllm_mean": 67.8
+    },
+    {
+      "domain": "SCB5-TeacherBehavior",
+      "class": "blackBoard",
+      "anchor_score": 3.16,
+      "mllm_mean": 44.6
+    },
+    {
+      "domain": "SCB5-HandriseReadWrite",
+      "class": "hand-raising",
+      "anchor_score": 80.02,
+      "mllm_mean": 89.2
+    },
+    {
+      "domain": "SCB5-HandriseReadWrite",
+      "class": "read",
+      "anchor_score": 22.96,
+      "mllm_mean": 27.0
+    },
+    {
+      "domain": "SCB5-HandriseReadWrite",
+      "class": "write",
+      "anchor_score": 89.75,
+      "mllm_mean": 97.8
+    },
+    {
+      "domain": "SCB5-BowTurnHead",
+      "class": "BowHead",
+      "anchor_score": 49.11,
+      "mllm_mean": 80.5
+    },
+    {
+      "domain": "SCB5-BowTurnHead",
+      "class": "TurnHead",
+      "anchor_score": 64.12,
+      "mllm_mean": 83.7
+    },
+    {
+      "domain": "EuroSAT",
+      "class": "AnnualCrop",
+      "anchor_score": 0.53,
+      "mllm_mean": 36.5
+    },
+    {
+      "domain": "EuroSAT",
+      "class": "Forest",
+      "anchor_score": 2.53,
+      "mllm_mean": 56.0
+    },
+    {
+      "domain": "EuroSAT",
+      "class": "HerbaceousVegetation",
+      "anchor_score": 0.33,
+      "mllm_mean": 1.0
+    },
+    {
+      "domain": "EuroSAT",
+      "class": "Highway",
+      "anchor_score": 68.96,
+      "mllm_mean": 47.5
+    },
+    {
+      "domain": "EuroSAT",
+      "class": "Industrial",
+      "anchor_score": 57.72,
+      "mllm_mean": 55.5
+    },
+    {
+      "domain": "EuroSAT",
+      "class": "Pasture",
+      "anchor_score": 13.65,
+      "mllm_mean": 36.5
+    },
+    {
+      "domain": "EuroSAT",
+      "class": "PermanentCrop",
+      "anchor_score": 90.84,
+      "mllm_mean": 13.5
+    },
+    {
+      "domain": "EuroSAT",
+      "class": "Residential",
+      "anchor_score": 96.0,
+      "mllm_mean": 49.5
+    },
+    {
+      "domain": "EuroSAT",
+      "class": "River",
+      "anchor_score": 41.8,
+      "mllm_mean": 65.5
+    },
+    {
+      "domain": "EuroSAT",
+      "class": "SeaLake",
+      "anchor_score": 23.73,
+      "mllm_mean": 41.0
+    },
+    {
+      "domain": "PathMNIST",
+      "class": "adipose",
+      "anchor_score": 4.78,
+      "mllm_mean": 25.5
+    },
+    {
+      "domain": "PathMNIST",
+      "class": "background",
+      "anchor_score": 97.28,
+      "mllm_mean": 42.0
+    },
+    {
+      "domain": "PathMNIST",
+      "class": "debris",
+      "anchor_score": 0.0,
+      "mllm_mean": 0.5
+    },
+    {
+      "domain": "PathMNIST",
+      "class": "lymphocytes",
+      "anchor_score": 0.0,
+      "mllm_mean": 2.5
+    },
+    {
+      "domain": "PathMNIST",
+      "class": "mucus",
+      "anchor_score": 0.0,
+      "mllm_mean": 3.0
+    },
+    {
+      "domain": "PathMNIST",
+      "class": "smooth muscle",
+      "anchor_score": 13.34,
+      "mllm_mean": 2.5
+    },
+    {
+      "domain": "PathMNIST",
+      "class": "normal colon mucosa",
+      "anchor_score": 2.02,
+      "mllm_mean": 17.5
+    },
+    {
+      "domain": "PathMNIST",
+      "class": "cancer-associated stroma",
+      "anchor_score": 0.0,
+      "mllm_mean": 35.0
+    },
+    {
+      "domain": "PathMNIST",
+      "class": "colorectal adenocarcinoma epithelium",
+      "anchor_score": 10.54,
+      "mllm_mean": 0.0
+    },
+    {
+      "domain": "BloodMNIST",
+      "class": "basophil",
+      "anchor_score": 6.15,
+      "mllm_mean": 24.5
+    },
+    {
+      "domain": "BloodMNIST",
+      "class": "eosinophil",
+      "anchor_score": 7.69,
+      "mllm_mean": 48.0
+    },
+    {
+      "domain": "BloodMNIST",
+      "class": "erythroblast",
+      "anchor_score": 0.0,
+      "mllm_mean": 0.0
+    },
+    {
+      "domain": "BloodMNIST",
+      "class": "immature granulocytes(myelocytes, metamyelocytes and promyelocytes)",
+      "anchor_score": 4.66,
+      "mllm_mean": 0.0
+    },
+    {
+      "domain": "BloodMNIST",
+      "class": "lymphocyte",
+      "anchor_score": 20.58,
+      "mllm_mean": 2.5
+    },
+    {
+      "domain": "BloodMNIST",
+      "class": "monocyte",
+      "anchor_score": 21.13,
+      "mllm_mean": 0.0
+    },
+    {
+      "domain": "BloodMNIST",
+      "class": "neutrophil",
+      "anchor_score": 0.0,
+      "mllm_mean": 24.0
+    },
+    {
+      "domain": "BloodMNIST",
+      "class": "platelet",
+      "anchor_score": 0.21,
+      "mllm_mean": 24.0
+    },
+    {
+      "domain": "TissueMNIST",
+      "class": "Collecting Duct, Connecting Tubule",
+      "anchor_score": 39.2,
+      "mllm_mean": 17.5
+    },
+    {
+      "domain": "TissueMNIST",
+      "class": "Distal Convoluted Tubule",
+      "anchor_score": 12.58,
+      "mllm_mean": 28.0
+    },
+    {
+      "domain": "TissueMNIST",
+      "class": "Glomerular endothelial cells",
+      "anchor_score": 0.0,
+      "mllm_mean": 0.0
+    },
+    {
+      "domain": "TissueMNIST",
+      "class": "Interstitial endothelial cells",
+      "anchor_score": 0.02,
+      "mllm_mean": 0.0
+    },
+    {
+      "domain": "TissueMNIST",
+      "class": "Leukocytes",
+      "anchor_score": 5.46,
+      "mllm_mean": 0.0
+    },
+    {
+      "domain": "TissueMNIST",
+      "class": "Podocytes",
+      "anchor_score": 6.4,
+      "mllm_mean": 47.0
+    },
+    {
+      "domain": "TissueMNIST",
+      "class": "Proximal Tubule Segments",
+      "anchor_score": 1.78,
+      "mllm_mean": 2.0
+    }
+  ]
+}

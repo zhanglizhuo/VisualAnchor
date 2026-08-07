@@ -1,0 +1,33 @@
+{
+  "n_points": 78,
+  "full_frame": {
+    "spearman_rho": 0.6925,
+    "p_value": 2.178476594998808e-12,
+    "ci_95": [
+      0.5312,
+      0.8104
+    ]
+  },
+  "bbox_aligned": {
+    "spearman_rho": 0.4237,
+    "p_value": 0.00011097491175292477,
+    "ci_95": [
+      0.2302,
+      0.5827
+    ]
+  },
+  "delta": {
+    "value": 0.2688,
+    "ci_95": [
+      0.1506,
+      0.3961
+    ],
+    "attenuation_pct": 38.8
+  },
+  "method": "Point-level bootstrap, B=5000, seed=42",
+  "input_files": {
+    "mllm": "/home/lizhuo/Work/Mayan/VisualAnchor/results/01_core/paper_data/mllm_raw.json",
+    "full_anchor": "/home/lizhuo/Work/Mayan/VisualAnchor/results/01_core/anchor_score_scb5/anchor_scores.json",
+    "bbox_anchor": "/home/lizhuo/Work/Mayan/VisualAnchor/results/01_core/anchor_score_scb5_bbox/anchor_scores_bbox.json"
+  }
+}

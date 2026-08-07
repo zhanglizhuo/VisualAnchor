@@ -1,0 +1,99 @@
+{
+  "description": "Stanford40 AnchorScore-MLLM correlation",
+  "anchor_source": "/home/lizhuo/Work/Mayan/VisualAnchor/results/02_robustness/stanford40/anchor_scores.json",
+  "mllm_source": "/home/lizhuo/Work/Mayan/VisualAnchor/results/02_robustness/stanford40/ollama_results.json",
+  "per_model": {
+    "qwen3.5:27b": {
+      "spearman_rho": 0.5801,
+      "p": 8.722858295139378e-05,
+      "n": 40
+    },
+    "qwen3.5:35b-a3b": {
+      "spearman_rho": 0.6387,
+      "p": 9.209403182685459e-06,
+      "n": 40
+    },
+    "qwen3.6:27b": {
+      "spearman_rho": 0.7232,
+      "p": 1.35858492436414e-07,
+      "n": 40
+    },
+    "qwen3.6:35b-a3b": {
+      "spearman_rho": 0.7231,
+      "p": 1.3601660978671648e-07,
+      "n": 40
+    },
+    "gemma4:26b": {
+      "spearman_rho": 0.6781,
+      "p": 1.5273915421104546e-06,
+      "n": 40
+    },
+    "gemma4:31b": {
+      "spearman_rho": 0.6624,
+      "p": 3.2306160693020187e-06,
+      "n": 40
+    },
+    "LLaVA-1.5-7B": {
+      "spearman_rho": 0.3726,
+      "p": 0.01788979446969049,
+      "n": 40
+    }
+  },
+  "multi_model_mean_5_ollama": {
+    "models": [
+      "qwen3.5:27b",
+      "qwen3.5:35b-a3b",
+      "qwen3.6:27b",
+      "qwen3.6:35b-a3b",
+      "gemma4:26b"
+    ],
+    "notes": "5 Ollama MLLMs (gemma4:31b excluded due to multi-GPU cold-start overhead)",
+    "spearman_rho": 0.8106,
+    "p": 2.3012149679775667e-10,
+    "n": 40,
+    "bootstrap_95_ci": [
+      0.6163,
+      0.9244
+    ],
+    "bootstrap_n_iter": 10000
+  },
+  "multi_model_mean_6_ollama": {
+    "models": [
+      "qwen3.5:27b",
+      "qwen3.5:35b-a3b",
+      "qwen3.6:27b",
+      "qwen3.6:35b-a3b",
+      "gemma4:26b",
+      "gemma4:31b"
+    ],
+    "notes": "All 6 Ollama MLLMs (gemma4:31b now completed, negligible \u0394 vs 5-model)",
+    "spearman_rho": 0.8167,
+    "p": 1.315322061597672e-10,
+    "n": 40,
+    "bootstrap_95_ci": [
+      0.6219,
+      0.93
+    ],
+    "bootstrap_n_iter": 10000
+  },
+  "multi_model_mean_6_mllms": {
+    "models": [
+      "qwen3.5:27b",
+      "qwen3.5:35b-a3b",
+      "qwen3.6:27b",
+      "qwen3.6:35b-a3b",
+      "gemma4:26b",
+      "LLaVA-1.5-7B"
+    ],
+    "notes": "All 6 MLLMs (5 Ollama + LLaVA-1.5-7B)",
+    "spearman_rho": 0.5609,
+    "p": 0.00016655183083945672,
+    "n": 40,
+    "bootstrap_95_ci": [
+      0.2423,
+      0.8005
+    ],
+    "bootstrap_n_iter": 10000
+  },
+  "canonical": "6 Ollama MLLMs (includes gemma4:31b)"
+}

@@ -1,0 +1,86 @@
+{
+  "TeacherBehavior": {
+    "guide": {
+      "correct": 23,
+      "total": 30,
+      "acc": 76.7,
+      "mean_confidence": 4.93
+    },
+    "answer": {
+      "correct": 0,
+      "total": 30,
+      "acc": 0.0,
+      "mean_confidence": 5.0
+    },
+    "On-stage interaction": {
+      "correct": 7,
+      "total": 30,
+      "acc": 23.3,
+      "mean_confidence": 5.0
+    },
+    "blackboard-writing": {
+      "correct": 29,
+      "total": 30,
+      "acc": 96.7,
+      "mean_confidence": 5.0
+    },
+    "teacher": {
+      "correct": 27,
+      "total": 30,
+      "acc": 90.0,
+      "mean_confidence": 5.0
+    },
+    "stand": {
+      "correct": 9,
+      "total": 30,
+      "acc": 30.0,
+      "mean_confidence": 4.9
+    },
+    "screen": {
+      "correct": 2,
+      "total": 30,
+      "acc": 6.7,
+      "mean_confidence": 4.73
+    },
+    "blackBoard": {
+      "correct": 0,
+      "total": 30,
+      "acc": 0.0,
+      "mean_confidence": 4.9
+    }
+  },
+  "HandriseReadWrite": {
+    "hand-raising": {
+      "correct": 29,
+      "total": 30,
+      "acc": 96.7,
+      "mean_confidence": 5.0
+    },
+    "read": {
+      "correct": 15,
+      "total": 30,
+      "acc": 50.0,
+      "mean_confidence": 5.0
+    },
+    "write": {
+      "correct": 23,
+      "total": 30,
+      "acc": 76.7,
+      "mean_confidence": 5.0
+    }
+  },
+  "BowTurnHead": {
+    "BowHead": {
+      "correct": 18,
+      "total": 30,
+      "acc": 60.0,
+      "mean_confidence": 4.93
+    },
+    "TurnHead": {
+      "correct": 28,
+      "total": 30,
+      "acc": 93.3,
+      "mean_confidence": 5.0
+    }
+  }
+}

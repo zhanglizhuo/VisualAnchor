@@ -1,0 +1,36 @@
+{
+  "description": "Web-presence control analysis: partial Spearman controlling for log word frequency",
+  "n_classes": 47,
+  "full_spearman": {
+    "rho": 0.6344,
+    "p": 2e-06
+  },
+  "partial_spearman_controlling_word_freq": {
+    "rho": 0.5988,
+    "p": 9e-06
+  },
+  "web_freq_vs_anchor": {
+    "rho": 0.3101,
+    "p": 0.0339
+  },
+  "web_freq_vs_mllm": {
+    "rho": 0.3099,
+    "p": 0.034
+  },
+  "per_domain": {
+    "Classroom only (SCB5)": {
+      "n": 13,
+      "full_rho": 0.7692,
+      "full_p": 0.002112,
+      "web_vs_anchor_rho": -0.2696,
+      "web_vs_mllm_rho": -0.5585
+    },
+    "Cross-domain only": {
+      "n": 34,
+      "full_rho": 0.462,
+      "full_p": 0.005953,
+      "web_vs_anchor_rho": 0.2003,
+      "web_vs_mllm_rho": 0.2722
+    }
+  }
+}

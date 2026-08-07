@@ -1,0 +1,6932 @@
+{
+  "0": {
+    "threshold": 0,
+    "accuracy": 91.86,
+    "cost": 9532.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 99.0,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "clip",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 197.0,
+        "cost": 284.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 158.0,
+        "cost": 200.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "clip",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 90.0,
+        "cost": 189.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "clip",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 243.0,
+        "cost": 256.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 182.0,
+        "cost": 203.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 122.0,
+        "cost": 200.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "clip",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 224.0,
+        "cost": 241.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "clip",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 169.0,
+        "cost": 197.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "clip",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 102.0,
+        "cost": 193.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "clip",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 157.0,
+        "cost": 182.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "clip",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 164.0,
+        "cost": 210.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "clip",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 145.0,
+        "cost": 246.0
+      }
+    }
+  },
+  "5": {
+    "threshold": 5,
+    "accuracy": 91.86,
+    "cost": 9532.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 99.0,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "clip",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 197.0,
+        "cost": 284.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 158.0,
+        "cost": 200.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "clip",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 90.0,
+        "cost": 189.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "clip",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 243.0,
+        "cost": 256.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 182.0,
+        "cost": 203.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 122.0,
+        "cost": 200.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "clip",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 224.0,
+        "cost": 241.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "clip",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 169.0,
+        "cost": 197.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "clip",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 102.0,
+        "cost": 193.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "clip",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 157.0,
+        "cost": 182.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "clip",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 164.0,
+        "cost": 210.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "clip",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 145.0,
+        "cost": 246.0
+      }
+    }
+  },
+  "10": {
+    "threshold": 10,
+    "accuracy": 91.86,
+    "cost": 9532.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 99.0,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "clip",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 197.0,
+        "cost": 284.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 158.0,
+        "cost": 200.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "clip",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 90.0,
+        "cost": 189.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "clip",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 243.0,
+        "cost": 256.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 182.0,
+        "cost": 203.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 122.0,
+        "cost": 200.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "clip",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 224.0,
+        "cost": 241.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "clip",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 169.0,
+        "cost": 197.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "clip",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 102.0,
+        "cost": 193.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "clip",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 157.0,
+        "cost": 182.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "clip",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 164.0,
+        "cost": 210.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "clip",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 145.0,
+        "cost": 246.0
+      }
+    }
+  },
+  "15": {
+    "threshold": 15,
+    "accuracy": 91.86,
+    "cost": 9532.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 99.0,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "clip",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 197.0,
+        "cost": 284.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 158.0,
+        "cost": 200.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "clip",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 90.0,
+        "cost": 189.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "clip",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 243.0,
+        "cost": 256.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 182.0,
+        "cost": 203.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 122.0,
+        "cost": 200.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "clip",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 224.0,
+        "cost": 241.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "clip",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 169.0,
+        "cost": 197.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "clip",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 102.0,
+        "cost": 193.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "clip",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 157.0,
+        "cost": 182.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "clip",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 164.0,
+        "cost": 210.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "clip",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 145.0,
+        "cost": 246.0
+      }
+    }
+  },
+  "20": {
+    "threshold": 20,
+    "accuracy": 91.86,
+    "cost": 9532.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 99.0,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "clip",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 197.0,
+        "cost": 284.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 158.0,
+        "cost": 200.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "clip",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 90.0,
+        "cost": 189.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "clip",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 243.0,
+        "cost": 256.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 182.0,
+        "cost": 203.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 122.0,
+        "cost": 200.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "clip",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 224.0,
+        "cost": 241.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "clip",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 169.0,
+        "cost": 197.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "clip",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 102.0,
+        "cost": 193.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "clip",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 157.0,
+        "cost": 182.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "clip",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 164.0,
+        "cost": 210.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "clip",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 145.0,
+        "cost": 246.0
+      }
+    }
+  },
+  "25": {
+    "threshold": 25,
+    "accuracy": 91.86,
+    "cost": 9532.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 99.0,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "clip",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 197.0,
+        "cost": 284.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 158.0,
+        "cost": 200.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "clip",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 90.0,
+        "cost": 189.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "clip",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 243.0,
+        "cost": 256.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 182.0,
+        "cost": 203.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 122.0,
+        "cost": 200.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "clip",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 224.0,
+        "cost": 241.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "clip",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 169.0,
+        "cost": 197.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "clip",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 102.0,
+        "cost": 193.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "clip",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 157.0,
+        "cost": 182.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "clip",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 164.0,
+        "cost": 210.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "clip",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 145.0,
+        "cost": 246.0
+      }
+    }
+  },
+  "30": {
+    "threshold": 30,
+    "accuracy": 91.86,
+    "cost": 9532.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 99.0,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "clip",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 197.0,
+        "cost": 284.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 158.0,
+        "cost": 200.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "clip",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 90.0,
+        "cost": 189.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "clip",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 243.0,
+        "cost": 256.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 182.0,
+        "cost": 203.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 122.0,
+        "cost": 200.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "clip",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 224.0,
+        "cost": 241.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "clip",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 169.0,
+        "cost": 197.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "clip",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 102.0,
+        "cost": 193.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "clip",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 157.0,
+        "cost": 182.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "clip",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 164.0,
+        "cost": 210.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "clip",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 145.0,
+        "cost": 246.0
+      }
+    }
+  },
+  "35": {
+    "threshold": 35,
+    "accuracy": 91.86,
+    "cost": 9532.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 99.0,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "clip",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 197.0,
+        "cost": 284.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 158.0,
+        "cost": 200.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "clip",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 90.0,
+        "cost": 189.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "clip",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 243.0,
+        "cost": 256.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 182.0,
+        "cost": 203.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 122.0,
+        "cost": 200.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "clip",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 224.0,
+        "cost": 241.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "clip",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 169.0,
+        "cost": 197.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "clip",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 102.0,
+        "cost": 193.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "clip",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 157.0,
+        "cost": 182.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "clip",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 164.0,
+        "cost": 210.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "clip",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 145.0,
+        "cost": 246.0
+      }
+    }
+  },
+  "40": {
+    "threshold": 40,
+    "accuracy": 91.86,
+    "cost": 9532.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 99.0,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "clip",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 197.0,
+        "cost": 284.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 158.0,
+        "cost": 200.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "clip",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 90.0,
+        "cost": 189.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "clip",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 243.0,
+        "cost": 256.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 182.0,
+        "cost": 203.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 122.0,
+        "cost": 200.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "clip",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 224.0,
+        "cost": 241.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "clip",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 169.0,
+        "cost": 197.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "clip",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 102.0,
+        "cost": 193.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "clip",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 157.0,
+        "cost": 182.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "clip",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 164.0,
+        "cost": 210.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "clip",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 145.0,
+        "cost": 246.0
+      }
+    }
+  },
+  "45": {
+    "threshold": 45,
+    "accuracy": 91.86,
+    "cost": 9532.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 99.0,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "clip",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 197.0,
+        "cost": 284.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 158.0,
+        "cost": 200.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "clip",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 90.0,
+        "cost": 189.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "clip",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 243.0,
+        "cost": 256.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 182.0,
+        "cost": 203.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 122.0,
+        "cost": 200.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "clip",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 224.0,
+        "cost": 241.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "clip",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 169.0,
+        "cost": 197.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "clip",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 102.0,
+        "cost": 193.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "clip",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 157.0,
+        "cost": 182.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "clip",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 164.0,
+        "cost": 210.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "clip",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 145.0,
+        "cost": 246.0
+      }
+    }
+  },
+  "50": {
+    "threshold": 50,
+    "accuracy": 92.58,
+    "cost": 28243.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 97.0,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "clip",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 197.0,
+        "cost": 284.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 158.0,
+        "cost": 200.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "mllm",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 158.8,
+        "cost": 18900.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "clip",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 243.0,
+        "cost": 256.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 182.0,
+        "cost": 203.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 122.0,
+        "cost": 200.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "clip",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 224.0,
+        "cost": 241.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "clip",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 169.0,
+        "cost": 197.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "clip",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 102.0,
+        "cost": 193.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "clip",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 157.0,
+        "cost": 182.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "clip",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 164.0,
+        "cost": 210.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "clip",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 145.0,
+        "cost": 246.0
+      }
+    }
+  },
+  "55": {
+    "threshold": 55,
+    "accuracy": 93.37,
+    "cost": 47350.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 95.0,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "clip",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 197.0,
+        "cost": 284.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 158.0,
+        "cost": 200.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "mllm",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 158.8,
+        "cost": 18900.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "clip",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 243.0,
+        "cost": 256.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 182.0,
+        "cost": 203.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 122.0,
+        "cost": 200.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "clip",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 224.0,
+        "cost": 241.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "clip",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 169.0,
+        "cost": 197.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "mllm",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 177.6,
+        "cost": 19300.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "clip",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 157.0,
+        "cost": 182.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "clip",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 164.0,
+        "cost": 210.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "clip",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 145.0,
+        "cost": 246.0
+      }
+    }
+  },
+  "60": {
+    "threshold": 60,
+    "accuracy": 94.28,
+    "cost": 71704.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 92.5,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "clip",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 197.0,
+        "cost": 284.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 158.0,
+        "cost": 200.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "mllm",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 158.8,
+        "cost": 18900.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "clip",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 243.0,
+        "cost": 256.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 182.0,
+        "cost": 203.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 122.0,
+        "cost": 200.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "clip",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 224.0,
+        "cost": 241.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "clip",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 169.0,
+        "cost": 197.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "mllm",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 177.6,
+        "cost": 19300.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "clip",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 157.0,
+        "cost": 182.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "clip",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 164.0,
+        "cost": 210.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "mllm",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 231.2,
+        "cost": 24600.0
+      }
+    }
+  },
+  "65": {
+    "threshold": 65,
+    "accuracy": 95.1,
+    "cost": 91504.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 90.4,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "clip",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 197.0,
+        "cost": 284.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 158.0,
+        "cost": 200.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "mllm",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 158.8,
+        "cost": 18900.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "clip",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 243.0,
+        "cost": 256.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 182.0,
+        "cost": 203.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "mllm",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 200.0,
+        "cost": 20000.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "clip",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 224.0,
+        "cost": 241.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "clip",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 169.0,
+        "cost": 197.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "mllm",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 177.6,
+        "cost": 19300.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "clip",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 157.0,
+        "cost": 182.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "clip",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 164.0,
+        "cost": 210.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "mllm",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 231.2,
+        "cost": 24600.0
+      }
+    }
+  },
+  "70": {
+    "threshold": 70,
+    "accuracy": 95.77,
+    "cost": 119620.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 87.5,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "mllm",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 261.3,
+        "cost": 28400.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 158.0,
+        "cost": 200.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "mllm",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 158.8,
+        "cost": 18900.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "clip",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 243.0,
+        "cost": 256.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 182.0,
+        "cost": 203.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "mllm",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 200.0,
+        "cost": 20000.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "clip",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 224.0,
+        "cost": 241.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "clip",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 169.0,
+        "cost": 197.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "mllm",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 177.6,
+        "cost": 19300.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "clip",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 157.0,
+        "cost": 182.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "clip",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 164.0,
+        "cost": 210.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "mllm",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 231.2,
+        "cost": 24600.0
+      }
+    }
+  },
+  "75": {
+    "threshold": 75,
+    "accuracy": 95.77,
+    "cost": 119620.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 87.5,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "mllm",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 261.3,
+        "cost": 28400.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "clip",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 158.0,
+        "cost": 200.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "mllm",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 158.8,
+        "cost": 18900.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "clip",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 243.0,
+        "cost": 256.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 182.0,
+        "cost": 203.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "mllm",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 200.0,
+        "cost": 20000.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "clip",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 224.0,
+        "cost": 241.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "clip",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 169.0,
+        "cost": 197.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "mllm",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 177.6,
+        "cost": 19300.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "clip",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 157.0,
+        "cost": 182.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "clip",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 164.0,
+        "cost": 210.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "mllm",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 231.2,
+        "cost": 24600.0
+      }
+    }
+  },
+  "80": {
+    "threshold": 80,
+    "accuracy": 96.53,
+    "cost": 160210.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 83.2,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "mllm",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 261.3,
+        "cost": 28400.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "mllm",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 184.0,
+        "cost": 20000.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "mllm",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 158.8,
+        "cost": 18900.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "clip",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 243.0,
+        "cost": 256.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 182.0,
+        "cost": 203.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "mllm",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 200.0,
+        "cost": 20000.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "clip",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 224.0,
+        "cost": 241.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "clip",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 169.0,
+        "cost": 197.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "mllm",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 177.6,
+        "cost": 19300.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "clip",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 157.0,
+        "cost": 182.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "mllm",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 210.0,
+        "cost": 21000.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "mllm",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 231.2,
+        "cost": 24600.0
+      }
+    }
+  },
+  "85": {
+    "threshold": 85,
+    "accuracy": 96.53,
+    "cost": 160210.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 83.2,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "mllm",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 261.3,
+        "cost": 28400.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "mllm",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 184.0,
+        "cost": 20000.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "mllm",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 158.8,
+        "cost": 18900.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "clip",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 243.0,
+        "cost": 256.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 182.0,
+        "cost": 203.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "mllm",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 200.0,
+        "cost": 20000.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "clip",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 224.0,
+        "cost": 241.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "clip",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 169.0,
+        "cost": 197.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "mllm",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 177.6,
+        "cost": 19300.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "clip",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 157.0,
+        "cost": 182.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "mllm",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 210.0,
+        "cost": 21000.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "mllm",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 231.2,
+        "cost": 24600.0
+      }
+    }
+  },
+  "90": {
+    "threshold": 90,
+    "accuracy": 97.06,
+    "cost": 217828.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 77.1,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "mllm",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 261.3,
+        "cost": 28400.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "mllm",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 184.0,
+        "cost": 20000.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "mllm",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 158.8,
+        "cost": 18900.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "clip",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 243.0,
+        "cost": 256.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "mllm",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 190.8,
+        "cost": 20300.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "mllm",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 200.0,
+        "cost": 20000.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "clip",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 224.0,
+        "cost": 241.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "mllm",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 193.1,
+        "cost": 19700.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "mllm",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 177.6,
+        "cost": 19300.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "mllm",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 174.7,
+        "cost": 18200.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "mllm",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 210.0,
+        "cost": 21000.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "mllm",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 231.2,
+        "cost": 24600.0
+      }
+    }
+  },
+  "95": {
+    "threshold": 95,
+    "accuracy": 97.17,
+    "cost": 267031.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 72.0,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "mllm",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 261.3,
+        "cost": 28400.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 259.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "mllm",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 184.0,
+        "cost": 20000.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "clip",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 205.0,
+        "cost": 212.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 295.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "clip",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 281.0,
+        "cost": 288.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "clip",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 203.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "mllm",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 158.8,
+        "cost": 18900.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "mllm",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 250.9,
+        "cost": 25600.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "clip",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 283.0,
+        "cost": 287.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "clip",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 271.0,
+        "cost": 273.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "clip",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 226.0,
+        "cost": 228.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "clip",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 193.0,
+        "cost": 199.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "clip",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 286.0,
+        "cost": 292.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "clip",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 282.0,
+        "cost": 295.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "clip",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 190.0,
+        "cost": 191.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "mllm",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 190.8,
+        "cost": 20300.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "clip",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 248.0,
+        "cost": 259.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "clip",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 289.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "clip",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 257.0,
+        "cost": 260.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "mllm",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 200.0,
+        "cost": 20000.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "clip",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 229.0,
+        "cost": 235.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "clip",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 239.0,
+        "cost": 245.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 293.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 294.0,
+        "cost": 296.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 243.0,
+        "cost": 251.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "clip",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 213.0,
+        "cost": 214.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "mllm",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 226.5,
+        "cost": 24100.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "mllm",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 193.1,
+        "cost": 19700.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "mllm",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 177.6,
+        "cost": 19300.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "clip",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 198.0,
+        "cost": 202.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "clip",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 219.0,
+        "cost": 230.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "clip",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 291.0,
+        "cost": 293.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "mllm",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 174.7,
+        "cost": 18200.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "clip",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.0,
+        "cost": 223.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "mllm",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 210.0,
+        "cost": 21000.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "clip",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 180.0,
+        "cost": 183.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "mllm",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 231.2,
+        "cost": 24600.0
+      }
+    }
+  },
+  "100": {
+    "threshold": 100,
+    "accuracy": 98.15,
+    "cost": 910036.0,
+    "all_mllm_cost": 953200.0,
+    "cost_savings_pct": 4.5,
+    "n_total": 9532,
+    "per_class": {
+      "applauding": {
+        "n": 284,
+        "use": "mllm",
+        "anchor_acc": 69.37,
+        "mllm_acc": 92.0,
+        "correct": 261.3,
+        "cost": 28400.0
+      },
+      "blowing bubbles": {
+        "n": 259,
+        "use": "mllm",
+        "anchor_acc": 96.91,
+        "mllm_acc": 100.0,
+        "correct": 259.0,
+        "cost": 25900.0
+      },
+      "brushing teeth": {
+        "n": 200,
+        "use": "mllm",
+        "anchor_acc": 79.0,
+        "mllm_acc": 92.0,
+        "correct": 184.0,
+        "cost": 20000.0
+      },
+      "cleaning the floor": {
+        "n": 212,
+        "use": "mllm",
+        "anchor_acc": 96.7,
+        "mllm_acc": 100.0,
+        "correct": 212.0,
+        "cost": 21200.0
+      },
+      "climbing": {
+        "n": 295,
+        "use": "mllm",
+        "anchor_acc": 98.98,
+        "mllm_acc": 100.0,
+        "correct": 295.0,
+        "cost": 29500.0
+      },
+      "cooking": {
+        "n": 288,
+        "use": "mllm",
+        "anchor_acc": 97.57,
+        "mllm_acc": 100.0,
+        "correct": 288.0,
+        "cost": 28800.0
+      },
+      "cutting trees": {
+        "n": 203,
+        "use": "mllm",
+        "anchor_acc": 99.51,
+        "mllm_acc": 100.0,
+        "correct": 203.0,
+        "cost": 20300.0
+      },
+      "cutting vegetables": {
+        "n": 189,
+        "use": "mllm",
+        "anchor_acc": 47.62,
+        "mllm_acc": 84.0,
+        "correct": 158.8,
+        "cost": 18900.0
+      },
+      "drinking": {
+        "n": 256,
+        "use": "mllm",
+        "anchor_acc": 94.92,
+        "mllm_acc": 98.0,
+        "correct": 250.9,
+        "cost": 25600.0
+      },
+      "feeding a horse": {
+        "n": 287,
+        "use": "mllm",
+        "anchor_acc": 98.61,
+        "mllm_acc": 100.0,
+        "correct": 287.0,
+        "cost": 28700.0
+      },
+      "fishing": {
+        "n": 273,
+        "use": "mllm",
+        "anchor_acc": 99.27,
+        "mllm_acc": 100.0,
+        "correct": 273.0,
+        "cost": 27300.0
+      },
+      "fixing a bike": {
+        "n": 228,
+        "use": "mllm",
+        "anchor_acc": 99.12,
+        "mllm_acc": 100.0,
+        "correct": 228.0,
+        "cost": 22800.0
+      },
+      "fixing a car": {
+        "n": 251,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 251.0
+      },
+      "gardening": {
+        "n": 199,
+        "use": "mllm",
+        "anchor_acc": 96.98,
+        "mllm_acc": 98.0,
+        "correct": 195.0,
+        "cost": 19900.0
+      },
+      "holding an umbrella": {
+        "n": 292,
+        "use": "mllm",
+        "anchor_acc": 97.95,
+        "mllm_acc": 100.0,
+        "correct": 292.0,
+        "cost": 29200.0
+      },
+      "jumping": {
+        "n": 295,
+        "use": "mllm",
+        "anchor_acc": 95.59,
+        "mllm_acc": 96.0,
+        "correct": 283.2,
+        "cost": 29500.0
+      },
+      "looking through a microscope": {
+        "n": 191,
+        "use": "mllm",
+        "anchor_acc": 99.48,
+        "mllm_acc": 98.0,
+        "correct": 187.2,
+        "cost": 19100.0
+      },
+      "looking through a telescope": {
+        "n": 203,
+        "use": "mllm",
+        "anchor_acc": 89.66,
+        "mllm_acc": 94.0,
+        "correct": 190.8,
+        "cost": 20300.0
+      },
+      "phoning": {
+        "n": 259,
+        "use": "mllm",
+        "anchor_acc": 95.75,
+        "mllm_acc": 100.0,
+        "correct": 259.0,
+        "cost": 25900.0
+      },
+      "playing guitar": {
+        "n": 289,
+        "use": "mllm",
+        "anchor_acc": 99.65,
+        "mllm_acc": 100.0,
+        "correct": 289.0,
+        "cost": 28900.0
+      },
+      "playing violin": {
+        "n": 260,
+        "use": "mllm",
+        "anchor_acc": 98.85,
+        "mllm_acc": 100.0,
+        "correct": 260.0,
+        "cost": 26000.0
+      },
+      "pouring liquid": {
+        "n": 200,
+        "use": "mllm",
+        "anchor_acc": 61.0,
+        "mllm_acc": 100.0,
+        "correct": 200.0,
+        "cost": 20000.0
+      },
+      "pushing a cart": {
+        "n": 235,
+        "use": "mllm",
+        "anchor_acc": 97.45,
+        "mllm_acc": 100.0,
+        "correct": 235.0,
+        "cost": 23500.0
+      },
+      "reading": {
+        "n": 245,
+        "use": "mllm",
+        "anchor_acc": 97.55,
+        "mllm_acc": 96.0,
+        "correct": 235.2,
+        "cost": 24500.0
+      },
+      "riding a bike": {
+        "n": 293,
+        "use": "mllm",
+        "anchor_acc": 98.29,
+        "mllm_acc": 100.0,
+        "correct": 293.0,
+        "cost": 29300.0
+      },
+      "riding a horse": {
+        "n": 296,
+        "use": "mllm",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 296.0,
+        "cost": 29600.0
+      },
+      "rowing a boat": {
+        "n": 185,
+        "use": "clip",
+        "anchor_acc": 100.0,
+        "mllm_acc": 100.0,
+        "correct": 185.0,
+        "cost": 185.0
+      },
+      "running": {
+        "n": 251,
+        "use": "mllm",
+        "anchor_acc": 96.81,
+        "mllm_acc": 100.0,
+        "correct": 251.0,
+        "cost": 25100.0
+      },
+      "shooting an arrow": {
+        "n": 214,
+        "use": "mllm",
+        "anchor_acc": 99.53,
+        "mllm_acc": 100.0,
+        "correct": 214.0,
+        "cost": 21400.0
+      },
+      "smoking": {
+        "n": 241,
+        "use": "mllm",
+        "anchor_acc": 92.95,
+        "mllm_acc": 94.0,
+        "correct": 226.5,
+        "cost": 24100.0
+      },
+      "taking photos": {
+        "n": 197,
+        "use": "mllm",
+        "anchor_acc": 85.79,
+        "mllm_acc": 98.0,
+        "correct": 193.1,
+        "cost": 19700.0
+      },
+      "texting message": {
+        "n": 193,
+        "use": "mllm",
+        "anchor_acc": 52.85,
+        "mllm_acc": 92.0,
+        "correct": 177.6,
+        "cost": 19300.0
+      },
+      "throwing frisby": {
+        "n": 202,
+        "use": "mllm",
+        "anchor_acc": 98.02,
+        "mllm_acc": 100.0,
+        "correct": 202.0,
+        "cost": 20200.0
+      },
+      "using a computer": {
+        "n": 230,
+        "use": "mllm",
+        "anchor_acc": 95.22,
+        "mllm_acc": 100.0,
+        "correct": 230.0,
+        "cost": 23000.0
+      },
+      "walking the dog": {
+        "n": 293,
+        "use": "mllm",
+        "anchor_acc": 99.32,
+        "mllm_acc": 100.0,
+        "correct": 293.0,
+        "cost": 29300.0
+      },
+      "washing dishes": {
+        "n": 182,
+        "use": "mllm",
+        "anchor_acc": 86.26,
+        "mllm_acc": 96.0,
+        "correct": 174.7,
+        "cost": 18200.0
+      },
+      "watching TV": {
+        "n": 223,
+        "use": "mllm",
+        "anchor_acc": 97.76,
+        "mllm_acc": 98.0,
+        "correct": 218.5,
+        "cost": 22300.0
+      },
+      "waving hands": {
+        "n": 210,
+        "use": "mllm",
+        "anchor_acc": 78.1,
+        "mllm_acc": 100.0,
+        "correct": 210.0,
+        "cost": 21000.0
+      },
+      "writing on a board": {
+        "n": 183,
+        "use": "mllm",
+        "anchor_acc": 98.36,
+        "mllm_acc": 100.0,
+        "correct": 183.0,
+        "cost": 18300.0
+      },
+      "writing on a book": {
+        "n": 246,
+        "use": "mllm",
+        "anchor_acc": 58.94,
+        "mllm_acc": 94.0,
+        "correct": 231.2,
+        "cost": 24600.0
+      }
+    }
+  }
+}

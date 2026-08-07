@@ -1,0 +1,25 @@
+{
+  "description": "GPU FP16 (main) AnchorScore vs MLLM accuracy (n=13). CPU FP32 comparison data was an intermediate check and is no longer preserved.",
+  "n_classes": 13,
+  "metrics": {
+    "anchor_score_gpu_fp16_main": {
+      "rho": 0.7692,
+      "p": 0.0021122295993498776,
+      "source": "paper_70pt_results.json (GPU FP16, class-level \u03c1)"
+    },
+    "per_dataset": {
+      "TeacherBehavior": {
+        "rho": 0.5312,
+        "p": 0.000420620820679355
+      },
+      "HandriseReadWrite": {
+        "rho": 0.9443,
+        "p": 3.926793684798383e-09
+      },
+      "BowTurnHead": {
+        "rho": 0.0484,
+        "p": 0.8813469952912765
+      }
+    }
+  }
+}

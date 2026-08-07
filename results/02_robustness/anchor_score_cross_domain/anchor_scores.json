@@ -1,0 +1,170 @@
+{
+  "EuroSAT": {
+    "overall_acc": 38.7,
+    "per_class_acc": {
+      "AnnualCrop": {
+        "n": 3000,
+        "acc": 0.53
+      },
+      "Forest": {
+        "n": 3000,
+        "acc": 2.53
+      },
+      "HerbaceousVegetation": {
+        "n": 3000,
+        "acc": 0.33
+      },
+      "Highway": {
+        "n": 2500,
+        "acc": 68.96
+      },
+      "Industrial": {
+        "n": 2500,
+        "acc": 57.72
+      },
+      "Pasture": {
+        "n": 2000,
+        "acc": 13.65
+      },
+      "PermanentCrop": {
+        "n": 2500,
+        "acc": 90.84
+      },
+      "Residential": {
+        "n": 3000,
+        "acc": 96.0
+      },
+      "River": {
+        "n": 2500,
+        "acc": 41.8
+      },
+      "SeaLake": {
+        "n": 3000,
+        "acc": 23.73
+      }
+    },
+    "total": 27000,
+    "correct": 10450
+  },
+  "PathMNIST": {
+    "overall_acc": 15.49,
+    "per_class_acc": {
+      "adipose": {
+        "n": 1338,
+        "acc": 4.78
+      },
+      "background": {
+        "n": 847,
+        "acc": 97.28
+      },
+      "debris": {
+        "n": 339,
+        "acc": 0.0
+      },
+      "lymphocytes": {
+        "n": 634,
+        "acc": 0.0
+      },
+      "mucus": {
+        "n": 1035,
+        "acc": 0.0
+      },
+      "smooth muscle": {
+        "n": 592,
+        "acc": 13.34
+      },
+      "normal colon mucosa": {
+        "n": 741,
+        "acc": 2.02
+      },
+      "cancer-associated stroma": {
+        "n": 421,
+        "acc": 0.0
+      },
+      "colorectal adenocarcinoma epithelium": {
+        "n": 1233,
+        "acc": 10.54
+      }
+    },
+    "total": 7180,
+    "correct": 1112
+  },
+  "BloodMNIST": {
+    "overall_acc": 5.88,
+    "per_class_acc": {
+      "basophil": {
+        "n": 244,
+        "acc": 6.15
+      },
+      "eosinophil": {
+        "n": 624,
+        "acc": 7.69
+      },
+      "erythroblast": {
+        "n": 311,
+        "acc": 0.0
+      },
+      "immature granulocytes(myelocytes, metamyelocytes and promyelocytes)": {
+        "n": 579,
+        "acc": 4.66
+      },
+      "lymphocyte": {
+        "n": 243,
+        "acc": 20.58
+      },
+      "monocyte": {
+        "n": 284,
+        "acc": 21.13
+      },
+      "neutrophil": {
+        "n": 666,
+        "acc": 0.0
+      },
+      "platelet": {
+        "n": 470,
+        "acc": 0.21
+      }
+    },
+    "total": 3421,
+    "correct": 201
+  },
+  "TissueMNIST": {
+    "overall_acc": 15.6,
+    "per_class_acc": {
+      "Collecting Duct, Connecting Tubule": {
+        "n": 15165,
+        "acc": 39.2
+      },
+      "Distal Convoluted Tubule": {
+        "n": 2233,
+        "acc": 12.58
+      },
+      "Glomerular endothelial cells": {
+        "n": 1677,
+        "acc": 0.0
+      },
+      "Interstitial endothelial cells": {
+        "n": 4402,
+        "acc": 0.02
+      },
+      "Leukocytes": {
+        "n": 3369,
+        "acc": 5.46
+      },
+      "Podocytes": {
+        "n": 2202,
+        "acc": 6.4
+      },
+      "Proximal Tubule Segments": {
+        "n": 11201,
+        "acc": 1.78
+      },
+      "Thick Ascending Limb": {
+        "n": 7031,
+        "acc": 8.9
+      }
+    },
+    "total": 47280,
+    "correct": 7377
+  }
+}

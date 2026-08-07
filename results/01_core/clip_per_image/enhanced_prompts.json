@@ -1,0 +1,64 @@
+{
+  "TeacherBehavior": {
+    "blackBoard": {
+      "standard_prompt": "Classify the classroom activity in this image. Choose exactly one category from the list: guide, answer, On-stage interaction, blackboard-writing, teacher, stand, screen, blackBoard. Output only the category name, nothing else.",
+      "enhanced_prompt": "Classify the classroom activity in this image. Note: this image may show near a blackboard, not teacher at the front. Be careful to distinguish between these two. Choose exactly one category from the list: guide, answer, On-stage interaction, blackboard-writing, teacher, stand, screen, blackBoard. Output only the category name, nothing else.",
+      "anchor_score": 3.16,
+      "most_confused": "teacher",
+      "confusion_rate": 37.14
+    },
+    "answer": {
+      "standard_prompt": "Classify the classroom activity in this image. Choose exactly one category from the list: guide, answer, On-stage interaction, blackboard-writing, teacher, stand, screen, blackBoard. Output only the category name, nothing else.",
+      "enhanced_prompt": "Classify the classroom activity in this image. Note: this image may show answering questions, not standing. Be careful to distinguish between these two. Choose exactly one category from the list: guide, answer, On-stage interaction, blackboard-writing, teacher, stand, screen, blackBoard. Output only the category name, nothing else.",
+      "anchor_score": 5.57,
+      "most_confused": "stand",
+      "confusion_rate": 58.89
+    },
+    "stand": {
+      "standard_prompt": "Classify the classroom activity in this image. Choose exactly one category from the list: guide, answer, On-stage interaction, blackboard-writing, teacher, stand, screen, blackBoard. Output only the category name, nothing else.",
+      "enhanced_prompt": "Classify the classroom activity in this image. Note: this image may show standing, not answering questions. Be careful to distinguish between these two. Choose exactly one category from the list: guide, answer, On-stage interaction, blackboard-writing, teacher, stand, screen, blackBoard. Output only the category name, nothing else.",
+      "anchor_score": 9.34,
+      "most_confused": "answer",
+      "confusion_rate": 26.88
+    }
+  },
+  "HandriseReadWrite": {
+    "read": {
+      "standard_prompt": "Classify the classroom activity in this image. Choose exactly one category from the list: hand-raising, read, write. Output only the category name, nothing else.",
+      "enhanced_prompt": "Classify the classroom activity in this image. Note: this image may show reading, not writing. Be careful to distinguish between these two. Choose exactly one category from the list: hand-raising, read, write. Output only the category name, nothing else.",
+      "anchor_score": 22.96,
+      "most_confused": "write",
+      "confusion_rate": 66.39
+    },
+    "hand-raising": {
+      "standard_prompt": "Classify the classroom activity in this image. Choose exactly one category from the list: hand-raising, read, write. Output only the category name, nothing else.",
+      "enhanced_prompt": "Classify the classroom activity in this image. Note: this image may show raising hand, not writing. Be careful to distinguish between these two. Choose exactly one category from the list: hand-raising, read, write. Output only the category name, nothing else.",
+      "anchor_score": 80.27,
+      "most_confused": "write",
+      "confusion_rate": 11.62
+    },
+    "write": {
+      "standard_prompt": "Classify the classroom activity in this image. Choose exactly one category from the list: hand-raising, read, write. Output only the category name, nothing else.",
+      "enhanced_prompt": "Classify the classroom activity in this image. Note: this image may show writing, not reading. Be careful to distinguish between these two. Choose exactly one category from the list: hand-raising, read, write. Output only the category name, nothing else.",
+      "anchor_score": 89.75,
+      "most_confused": "read",
+      "confusion_rate": 5.74
+    }
+  },
+  "BowTurnHead": {
+    "BowHead": {
+      "standard_prompt": "Classify the classroom activity in this image. Choose exactly one category from the list: BowHead, TurnHead. Output only the category name, nothing else.",
+      "enhanced_prompt": "Classify the classroom activity in this image. Note: this image may show bowing head, not turning head. Be careful to distinguish between these two. Choose exactly one category from the list: BowHead, TurnHead. Output only the category name, nothing else.",
+      "anchor_score": 49.11,
+      "most_confused": "TurnHead",
+      "confusion_rate": 50.89
+    },
+    "TurnHead": {
+      "standard_prompt": "Classify the classroom activity in this image. Choose exactly one category from the list: BowHead, TurnHead. Output only the category name, nothing else.",
+      "enhanced_prompt": "Classify the classroom activity in this image. Note: this image may show turning head, not bowing head. Be careful to distinguish between these two. Choose exactly one category from the list: BowHead, TurnHead. Output only the category name, nothing else.",
+      "anchor_score": 63.61,
+      "most_confused": "BowHead",
+      "confusion_rate": 36.39
+    }
+  }
+}

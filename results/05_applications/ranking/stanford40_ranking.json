@@ -1,0 +1,67 @@
+{
+  "description": "Stanford40 (k=40) downstream ranking: AnchorScore as review priority predictor",
+  "n_classes": 40,
+  "n_hard": 19,
+  "median_mllm": 98.67,
+  "auc": 0.8421,
+  "auc_ci_95_bootstrap_5000": [
+    0.6901,
+    0.9575
+  ],
+  "permutation_p_1e4": 0.0001,
+  "loko": {
+    "auc": 0.8421,
+    "loko_mean": 0.8421,
+    "loko_sd": 0.011,
+    "loko_min": 0.8333,
+    "loko_max": 0.8783,
+    "n_loko": 40
+  },
+  "hit_rate_at_k_third": {
+    "k": 14,
+    "n_hard": 19,
+    "n_caught": 12,
+    "precision": 0.8571,
+    "recall": 0.6316,
+    "random_expected_caught": 6.65,
+    "gain_vs_random": 1.8045
+  },
+  "per_model_auc": {
+    "qwen3.5:27b": {
+      "auc": 0.8145,
+      "n_hard": 19
+    },
+    "qwen3.5:35b-a3b": {
+      "auc": 0.84,
+      "n_hard": 15
+    },
+    "qwen3.6:27b": {
+      "auc": 0.8561,
+      "n_hard": 18
+    },
+    "qwen3.6:35b-a3b": {
+      "auc": 0.8889,
+      "n_hard": 18
+    },
+    "gemma4:26b": {
+      "auc": 0.824,
+      "n_hard": 15
+    },
+    "gemma4:31b": {
+      "auc": 0.87,
+      "n_hard": 20
+    }
+  },
+  "mllm_models_used": [
+    "qwen3.5:27b",
+    "qwen3.5:35b-a3b",
+    "qwen3.6:27b",
+    "qwen3.6:35b-a3b",
+    "gemma4:26b",
+    "gemma4:31b"
+  ],
+  "class_anchor_range": [
+    47.62,
+    100.0
+  ]
+}

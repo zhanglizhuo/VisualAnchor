@@ -1,0 +1,142 @@
+{
+  "headline": {
+    "n": 13,
+    "rho": 0.7692,
+    "p": 0.002112
+  },
+  "teacher_only": {
+    "n": 8,
+    "rho": 0.595,
+    "p": 0.1195
+  },
+  "exp2_subset_meta": {
+    "teacherbehavior_(n=8)": {
+      "n": 8,
+      "rho": 0.5952380952380953,
+      "p": 0.11952980613879259,
+      "ci_low": -0.11231231231231226,
+      "ci_high": 1.0
+    },
+    "handrisereadwrite_(n=3)": {
+      "n": 3,
+      "rho": 1.0,
+      "p": 0.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0
+    },
+    "bowturnhead_(n=2)": {
+      "n": 2,
+      "rho": 0.9999999999999999,
+      "p": NaN,
+      "ci_low": 0.9999999999999999,
+      "ci_high": 0.9999999999999999
+    }
+  },
+  "exp2_pooled": {
+    "rho": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "i2": 0
+  },
+  "exp3_leave2out": {
+    "min": 0.6727272727272727,
+    "max": 0.990909090909091,
+    "mean": 0.7762237762237764,
+    "sd": 0.07054161503427556,
+    "pct_below_05": 0.0,
+    "all_positive": true
+  },
+  "exp4_auc": {
+    "auc": 0.9375,
+    "p_perm": 0.0281,
+    "loco_mean": 0.8125,
+    "loco_range": [
+      0.6666666666666666,
+      1.0
+    ]
+  },
+  "exp5_fisher": {
+    "z": 0.6079622375617968,
+    "p": 0.5432125196173689
+  },
+  "per_class": [
+    {
+      "dataset": "TeacherBehavior",
+      "class": "guide",
+      "anchor_score": 29.34,
+      "mllm_mean": 36.45428571428572
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "answer",
+      "anchor_score": 5.57,
+      "mllm_mean": 10.80285714285714
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "On-stage interaction",
+      "anchor_score": 54.17,
+      "mllm_mean": 75.84
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "blackboard-writing",
+      "anchor_score": 26.09,
+      "mllm_mean": 93.55428571428573
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "teacher",
+      "anchor_score": 50.48,
+      "mllm_mean": 71.32142857142857
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "stand",
+      "anchor_score": 9.57,
+      "mllm_mean": 22.008571428571425
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "screen",
+      "anchor_score": 40.48,
+      "mllm_mean": 66.20714285714284
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "blackBoard",
+      "anchor_score": 3.16,
+      "mllm_mean": 46.04
+    },
+    {
+      "dataset": "HandriseReadWrite",
+      "class": "hand-raising",
+      "anchor_score": 80.02,
+      "mllm_mean": 88.24857142857142
+    },
+    {
+      "dataset": "HandriseReadWrite",
+      "class": "read",
+      "anchor_score": 22.96,
+      "mllm_mean": 27.027142857142856
+    },
+    {
+      "dataset": "HandriseReadWrite",
+      "class": "write",
+      "anchor_score": 89.75,
+      "mllm_mean": 97.11571428571429
+    },
+    {
+      "dataset": "BowTurnHead",
+      "class": "BowHead",
+      "anchor_score": 49.11,
+      "mllm_mean": 75.82000000000001
+    },
+    {
+      "dataset": "BowTurnHead",
+      "class": "TurnHead",
+      "anchor_score": 64.12,
+      "mllm_mean": 83.11714285714287
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "description": "Baseline comparison: AnchorScore vs alternative difficulty proxies at class level (n=13).",
+  "n_classes": 13,
+  "methods": {
+    "AnchorScore": {
+      "predictor": "CLIP zero-shot per-class accuracy",
+      "spearman_rho": 0.7692,
+      "spearman_p": 0.0021122295993498776,
+      "interpretation": "Higher AnchorScore predicts higher MLLM accuracy."
+    },
+    "Inverse_class_frequency": {
+      "predictor": "1 / (number of validation samples in class)",
+      "spearman_rho": 0.1868,
+      "spearman_p": 0.5411235235098939,
+      "interpretation": "Tests whether rarer classes (smaller N) are harder for MLLMs."
+    },
+    "Log_class_frequency": {
+      "predictor": "log(N) where N = number of validation samples",
+      "spearman_rho": -0.1868,
+      "spearman_p": 0.5411235235098939,
+      "interpretation": "Log-scaled class size; tests if common classes are easier."
+    },
+    "Random_baseline": {
+      "predictor": "random assignment",
+      "expected_rho": 0.0,
+      "null_std": 0.2887,
+      "interpretation": "Expected \u03c1 under null hypothesis of no relationship."
+    }
+  },
+  "per_class_data": [
+    {
+      "dataset": "TeacherBehavior",
+      "class": "guide",
+      "n_samples": 167,
+      "inverse_frequency": 0.005988023952095809,
+      "log_inverse_frequency": 5.117993812416755,
+      "anchor_score": 29.34,
+      "mllm_avg_accuracy": 42.49333333333333
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "answer",
+      "n_samples": 287,
+      "inverse_frequency": 0.003484320557491289,
+      "log_inverse_frequency": 5.659482215759621,
+      "anchor_score": 5.57,
+      "mllm_avg_accuracy": 12.368333333333332
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "On-stage interaction",
+      "n_samples": 48,
+      "inverse_frequency": 0.020833333333333332,
+      "log_inverse_frequency": 3.871201010907891,
+      "anchor_score": 54.17,
+      "mllm_avg_accuracy": 80.20333333333333
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "blackboard-writing",
+      "n_samples": 161,
+      "inverse_frequency": 0.006211180124223602,
+      "log_inverse_frequency": 5.081404364984463,
+      "anchor_score": 26.09,
+      "mllm_avg_accuracy": 97.47333333333334
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "teacher",
+      "n_samples": 1684,
+      "inverse_frequency": 0.0005938242280285036,
+      "log_inverse_frequency": 7.428927194802272,
+      "anchor_score": 50.42,
+      "mllm_avg_accuracy": 68.82833333333333
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "stand",
+      "n_samples": 439,
+      "inverse_frequency": 0.002277904328018223,
+      "log_inverse_frequency": 6.0844994130751715,
+      "anchor_score": 9.34,
+      "mllm_avg_accuracy": 23.086666666666662
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "screen",
+      "n_samples": 42,
+      "inverse_frequency": 0.023809523809523808,
+      "log_inverse_frequency": 3.7376696182833684,
+      "anchor_score": 40.48,
+      "mllm_avg_accuracy": 67.78166666666665
+    },
+    {
+      "dataset": "TeacherBehavior",
+      "class": "blackBoard",
+      "n_samples": 412,
+      "inverse_frequency": 0.0024271844660194173,
+      "log_inverse_frequency": 6.021023349349527,
+      "anchor_score": 2.91,
+      "mllm_avg_accuracy": 44.550000000000004
+    },
+    {
+      "dataset": "HandriseReadWrite",
+      "class": "hand-raising",
+      "n_samples": 826,
+      "inverse_frequency": 0.0012106537530266344,
+      "log_inverse_frequency": 6.716594773520978,
+      "anchor_score": 80.15,
+      "mllm_avg_accuracy": 89.24166666666667
+    },
+    {
+      "dataset": "HandriseReadWrite",
+      "class": "read",
+      "n_samples": 601,
+      "inverse_frequency": 0.0016638935108153079,
+      "log_inverse_frequency": 6.398594934535208,
+      "anchor_score": 22.8,
+      "mllm_avg_accuracy": 26.971666666666664
+    },
+    {
+      "dataset": "HandriseReadWrite",
+      "class": "write",
+      "n_samples": 244,
+      "inverse_frequency": 0.004098360655737705,
+      "log_inverse_frequency": 5.497168225293202,
+      "anchor_score": 89.75,
+      "mllm_avg_accuracy": 97.77
+    },
+    {
+      "dataset": "BowTurnHead",
+      "class": "BowHead",
+      "n_samples": 112,
+      "inverse_frequency": 0.008928571428571428,
+      "log_inverse_frequency": 4.718498871295094,
+      "anchor_score": 49.11,
+      "mllm_avg_accuracy": 80.49333333333333
+    },
+    {
+      "dataset": "BowTurnHead",
+      "class": "TurnHead",
+      "n_samples": 393,
+      "inverse_frequency": 0.002544529262086514,
+      "log_inverse_frequency": 5.973809611869261,
+      "anchor_score": 64.12,
+      "mllm_avg_accuracy": 83.67
+    }
+  ],
+  "conclusion": "AnchorScore (\u03c1=0.769) substantially outperforms inverse class frequency (\u03c1=0.187), demonstrating that CLIP zero-shot accuracy provides predictive signal beyond what is available from class frequency alone."
+}

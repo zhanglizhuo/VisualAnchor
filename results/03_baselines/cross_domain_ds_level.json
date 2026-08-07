@@ -1,0 +1,120 @@
+{
+  "description": "Cross-domain dataset-level correlation (4 datasets x 4 MLLMs = 16 points)",
+  "n_points": 16,
+  "spearman_rho": 0.3398,
+  "spearman_p": 0.1979,
+  "data": [
+    {
+      "dataset": "EuroSAT",
+      "mllm": "LLaVA-1.5-7B",
+      "anchor_score": 38.7,
+      "mllm_accuracy": 48.2
+    },
+    {
+      "dataset": "PathMNIST",
+      "mllm": "LLaVA-1.5-7B",
+      "anchor_score": 15.5,
+      "mllm_accuracy": 15.33
+    },
+    {
+      "dataset": "BloodMNIST",
+      "mllm": "LLaVA-1.5-7B",
+      "anchor_score": 5.9,
+      "mllm_accuracy": 14.75
+    },
+    {
+      "dataset": "TissueMNIST",
+      "mllm": "LLaVA-1.5-7B",
+      "anchor_score": 15.6,
+      "mllm_accuracy": 10.5
+    },
+    {
+      "dataset": "EuroSAT",
+      "mllm": "LLaVA-NeXT-Mistral-7B",
+      "anchor_score": 38.7,
+      "mllm_accuracy": 43.6
+    },
+    {
+      "dataset": "PathMNIST",
+      "mllm": "LLaVA-NeXT-Mistral-7B",
+      "anchor_score": 15.5,
+      "mllm_accuracy": 11.11
+    },
+    {
+      "dataset": "BloodMNIST",
+      "mllm": "LLaVA-NeXT-Mistral-7B",
+      "anchor_score": 5.9,
+      "mllm_accuracy": 15.25
+    },
+    {
+      "dataset": "TissueMNIST",
+      "mllm": "LLaVA-NeXT-Mistral-7B",
+      "anchor_score": 15.6,
+      "mllm_accuracy": 12.5
+    },
+    {
+      "dataset": "EuroSAT",
+      "mllm": "Qwen2-VL-7B",
+      "anchor_score": 38.7,
+      "mllm_accuracy": 36.8
+    },
+    {
+      "dataset": "PathMNIST",
+      "mllm": "Qwen2-VL-7B",
+      "anchor_score": 15.5,
+      "mllm_accuracy": 11.78
+    },
+    {
+      "dataset": "BloodMNIST",
+      "mllm": "Qwen2-VL-7B",
+      "anchor_score": 5.9,
+      "mllm_accuracy": 15.5
+    },
+    {
+      "dataset": "TissueMNIST",
+      "mllm": "Qwen2-VL-7B",
+      "anchor_score": 15.6,
+      "mllm_accuracy": 12.25
+    },
+    {
+      "dataset": "EuroSAT",
+      "mllm": "Qwen2.5-VL-7B",
+      "anchor_score": 38.7,
+      "mllm_accuracy": 32.4
+    },
+    {
+      "dataset": "PathMNIST",
+      "mllm": "Qwen2.5-VL-7B",
+      "anchor_score": 15.5,
+      "mllm_accuracy": 18.89
+    },
+    {
+      "dataset": "BloodMNIST",
+      "mllm": "Qwen2.5-VL-7B",
+      "anchor_score": 5.9,
+      "mllm_accuracy": 16.0
+    },
+    {
+      "dataset": "TissueMNIST",
+      "mllm": "Qwen2.5-VL-7B",
+      "anchor_score": 15.6,
+      "mllm_accuracy": 12.5
+    }
+  ],
+  "four_point": {
+    "anchor_scores": [
+      38.7,
+      15.5,
+      5.9,
+      15.6
+    ],
+    "mean_mllm_accs": [
+      40.3,
+      14.3,
+      15.4,
+      11.9
+    ],
+    "spearman_rho": 0.2,
+    "spearman_p": 0.8
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "PathMNIST": {
+    "Adipose tissue": {
+      "correct": 0,
+      "total": 50,
+      "acc": 0.0
+    },
+    "Background": {
+      "correct": 46,
+      "total": 50,
+      "acc": 92.0
+    },
+    "Debris": {
+      "correct": 0,
+      "total": 50,
+      "acc": 0.0
+    },
+    "Lymphocytes": {
+      "correct": 0,
+      "total": 50,
+      "acc": 0.0
+    },
+    "Mucus": {
+      "correct": 0,
+      "total": 50,
+      "acc": 0.0
+    },
+    "Smooth muscle": {
+      "correct": 0,
+      "total": 50,
+      "acc": 0.0
+    },
+    "Normal colon mucosa": {
+      "correct": 15,
+      "total": 50,
+      "acc": 30.0
+    },
+    "Cancer-associated stroma": {
+      "correct": 19,
+      "total": 50,
+      "acc": 38.0
+    },
+    "Tumor epithelium": {
+      "correct": 0,
+      "total": 50,
+      "acc": 0.0
+    }
+  },
+  "BloodMNIST": {
+    "Basophil": {
+      "correct": 2,
+      "total": 50,
+      "acc": 4.0
+    },
+    "Eosinophil": {
+      "correct": 43,
+      "total": 50,
+      "acc": 86.0
+    },
+    "Erythroblast": {
+      "correct": 4,
+      "total": 50,
+      "acc": 8.0
+    },
+    "Immature granulocyte": {
+      "correct": 0,
+      "total": 50,
+      "acc": 0.0
+    },
+    "Lymphocyte": {
+      "correct": 23,
+      "total": 50,
+      "acc": 46.0
+    },
+    "Monocyte": {
+      "correct": 0,
+      "total": 50,
+      "acc": 0.0
+    },
+    "Neutrophil": {
+      "correct": 2,
+      "total": 50,
+      "acc": 4.0
+    },
+    "Platelet": {
+      "correct": 1,
+      "total": 50,
+      "acc": 2.0
+    }
+  }
+}

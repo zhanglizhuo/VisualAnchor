@@ -1,0 +1,205 @@
+{
+  "overall_acc": 74.55,
+  "per_class_acc": {
+    "applauding": {
+      "n": 50,
+      "correct": 46,
+      "acc": 92.0
+    },
+    "blowing bubbles": {
+      "n": 50,
+      "correct": 45,
+      "acc": 90.0
+    },
+    "brushing teeth": {
+      "n": 50,
+      "correct": 49,
+      "acc": 98.0
+    },
+    "cleaning the floor": {
+      "n": 50,
+      "correct": 50,
+      "acc": 100.0
+    },
+    "climbing": {
+      "n": 50,
+      "correct": 50,
+      "acc": 100.0
+    },
+    "cooking": {
+      "n": 50,
+      "correct": 49,
+      "acc": 98.0
+    },
+    "cutting trees": {
+      "n": 50,
+      "correct": 47,
+      "acc": 94.0
+    },
+    "cutting vegetables": {
+      "n": 50,
+      "correct": 0,
+      "acc": 0.0
+    },
+    "drinking": {
+      "n": 50,
+      "correct": 50,
+      "acc": 100.0
+    },
+    "feeding a horse": {
+      "n": 50,
+      "correct": 46,
+      "acc": 92.0
+    },
+    "fishing": {
+      "n": 50,
+      "correct": 50,
+      "acc": 100.0
+    },
+    "fixing a bike": {
+      "n": 50,
+      "correct": 50,
+      "acc": 100.0
+    },
+    "fixing a car": {
+      "n": 50,
+      "correct": 0,
+      "acc": 0.0
+    },
+    "gardening": {
+      "n": 50,
+      "correct": 49,
+      "acc": 98.0
+    },
+    "holding an umbrella": {
+      "n": 50,
+      "correct": 50,
+      "acc": 100.0
+    },
+    "jumping": {
+      "n": 50,
+      "correct": 47,
+      "acc": 94.0
+    },
+    "looking through a microscope": {
+      "n": 50,
+      "correct": 50,
+      "acc": 100.0
+    },
+    "looking through a telescope": {
+      "n": 50,
+      "correct": 0,
+      "acc": 0.0
+    },
+    "phoning": {
+      "n": 50,
+      "correct": 47,
+      "acc": 94.0
+    },
+    "playing guitar": {
+      "n": 50,
+      "correct": 50,
+      "acc": 100.0
+    },
+    "playing violin": {
+      "n": 50,
+      "correct": 0,
+      "acc": 0.0
+    },
+    "pouring liquid": {
+      "n": 50,
+      "correct": 8,
+      "acc": 16.0
+    },
+    "pushing a cart": {
+      "n": 50,
+      "correct": 27,
+      "acc": 54.0
+    },
+    "reading": {
+      "n": 50,
+      "correct": 50,
+      "acc": 100.0
+    },
+    "riding a bike": {
+      "n": 50,
+      "correct": 48,
+      "acc": 96.0
+    },
+    "riding a horse": {
+      "n": 50,
+      "correct": 0,
+      "acc": 0.0
+    },
+    "rowing a boat": {
+      "n": 50,
+      "correct": 50,
+      "acc": 100.0
+    },
+    "running": {
+      "n": 50,
+      "correct": 49,
+      "acc": 98.0
+    },
+    "shooting an arrow": {
+      "n": 50,
+      "correct": 50,
+      "acc": 100.0
+    },
+    "smoking": {
+      "n": 50,
+      "correct": 49,
+      "acc": 98.0
+    },
+    "taking photos": {
+      "n": 50,
+      "correct": 45,
+      "acc": 90.0
+    },
+    "texting message": {
+      "n": 50,
+      "correct": 28,
+      "acc": 56.0
+    },
+    "throwing frisby": {
+      "n": 50,
+      "correct": 34,
+      "acc": 68.0
+    },
+    "using a computer": {
+      "n": 50,
+      "correct": 45,
+      "acc": 90.0
+    },
+    "walking the dog": {
+      "n": 50,
+      "correct": 45,
+      "acc": 90.0
+    },
+    "washing dishes": {
+      "n": 50,
+      "correct": 14,
+      "acc": 28.0
+    },
+    "watching TV": {
+      "n": 50,
+      "correct": 49,
+      "acc": 98.0
+    },
+    "waving hands": {
+      "n": 50,
+      "correct": 35,
+      "acc": 70.0
+    },
+    "writing on a board": {
+      "n": 50,
+      "correct": 40,
+      "acc": 80.0
+    },
+    "writing on a book": {
+      "n": 50,
+      "correct": 0,
+      "acc": 0.0
+    }
+  }
+}

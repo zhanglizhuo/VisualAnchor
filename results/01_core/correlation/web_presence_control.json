@@ -1,0 +1,44 @@
+{
+  "description": "Web-presence confound control on the pooled 47-class dataset",
+  "n": 47,
+  "full_spearman": {
+    "rho": 0.6302,
+    "p": 2e-06
+  },
+  "partial_spearman": {
+    "rho": 0.5938,
+    "p": 1.1e-05
+  },
+  "pearson_partial": {
+    "rho": 0.5923,
+    "p": 1.5e-05
+  },
+  "web_freq_vs_anchor": {
+    "rho": 0.3101,
+    "p": 0.03391
+  },
+  "web_freq_vs_mllm": {
+    "rho": 0.2722,
+    "p": 0.119324
+  },
+  "per_domain": {
+    "Classroom only": {
+      "n": 13,
+      "spearman_rho": 0.7692,
+      "spearman_p": 0.002112,
+      "web_freq_vs_anchor_rho": -0.2696,
+      "web_freq_vs_anchor_p": 0.37305,
+      "web_freq_vs_mllm_rho": -0.5585,
+      "web_freq_vs_mllm_p": 0.047292
+    },
+    "Cross-domain only": {
+      "n": 34,
+      "spearman_rho": 0.462,
+      "spearman_p": 0.005953,
+      "web_freq_vs_anchor_rho": 0.2003,
+      "web_freq_vs_anchor_p": 0.256128,
+      "web_freq_vs_mllm_rho": 0.2722,
+      "web_freq_vs_mllm_p": 0.119324
+    }
+  }
+}

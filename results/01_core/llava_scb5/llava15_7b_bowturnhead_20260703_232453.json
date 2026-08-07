@@ -1,0 +1,12 @@
+{
+  "BowHead": {
+    "correct": 4,
+    "total": 100,
+    "acc": 4.0
+  },
+  "TurnHead": {
+    "correct": 91,
+    "total": 100,
+    "acc": 91.0
+  }
+}

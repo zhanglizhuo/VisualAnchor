@@ -1,0 +1,210 @@
+{
+  "qwen3.5:27b": {
+    "answering_questions": {
+      "correct": 14,
+      "total": 50,
+      "acc": 28.0
+    },
+    "discussion": {
+      "correct": 21,
+      "total": 50,
+      "acc": 42.0
+    },
+    "lecturing": {
+      "correct": 11,
+      "total": 50,
+      "acc": 22.0
+    },
+    "listening_to_lecture": {
+      "correct": 18,
+      "total": 50,
+      "acc": 36.0
+    },
+    "patrolling": {
+      "correct": 24,
+      "total": 50,
+      "acc": 48.0
+    },
+    "reading_aloud": {
+      "correct": 38,
+      "total": 50,
+      "acc": 76.0
+    },
+    "responding": {
+      "correct": 0,
+      "total": 50,
+      "acc": 0.0
+    },
+    "stage_interaction": {
+      "correct": 12,
+      "total": 50,
+      "acc": 24.0
+    },
+    "stage_presentation": {
+      "correct": 33,
+      "total": 44,
+      "acc": 75.0
+    },
+    "student_blackboard_writing": {
+      "correct": 47,
+      "total": 50,
+      "acc": 94.0
+    }
+  },
+  "qwen3.6:27b": {
+    "answering_questions": {
+      "correct": 13,
+      "total": 50,
+      "acc": 26.0
+    },
+    "discussion": {
+      "correct": 16,
+      "total": 50,
+      "acc": 32.0
+    },
+    "lecturing": {
+      "correct": 25,
+      "total": 50,
+      "acc": 50.0
+    },
+    "listening_to_lecture": {
+      "correct": 17,
+      "total": 50,
+      "acc": 34.0
+    },
+    "patrolling": {
+      "correct": 10,
+      "total": 50,
+      "acc": 20.0
+    },
+    "reading_aloud": {
+      "correct": 36,
+      "total": 50,
+      "acc": 72.0
+    },
+    "responding": {
+      "correct": 0,
+      "total": 50,
+      "acc": 0.0
+    },
+    "stage_interaction": {
+      "correct": 21,
+      "total": 50,
+      "acc": 42.0
+    },
+    "stage_presentation": {
+      "correct": 28,
+      "total": 44,
+      "acc": 63.6
+    },
+    "student_blackboard_writing": {
+      "correct": 49,
+      "total": 50,
+      "acc": 98.0
+    }
+  },
+  "qwen3.6:35b-a3b": {
+    "answering_questions": {
+      "correct": 14,
+      "total": 50,
+      "acc": 28.0
+    },
+    "discussion": {
+      "correct": 10,
+      "total": 50,
+      "acc": 20.0
+    },
+    "lecturing": {
+      "correct": 37,
+      "total": 50,
+      "acc": 74.0
+    },
+    "listening_to_lecture": {
+      "correct": 15,
+      "total": 50,
+      "acc": 30.0
+    },
+    "patrolling": {
+      "correct": 5,
+      "total": 50,
+      "acc": 10.0
+    },
+    "reading_aloud": {
+      "correct": 36,
+      "total": 50,
+      "acc": 72.0
+    },
+    "responding": {
+      "correct": 0,
+      "total": 50,
+      "acc": 0.0
+    },
+    "stage_interaction": {
+      "correct": 13,
+      "total": 50,
+      "acc": 26.0
+    },
+    "stage_presentation": {
+      "correct": 39,
+      "total": 44,
+      "acc": 88.6
+    },
+    "student_blackboard_writing": {
+      "correct": 31,
+      "total": 50,
+      "acc": 62.0
+    }
+  },
+  "gemma4:26b": {
+    "answering_questions": {
+      "correct": 15,
+      "total": 50,
+      "acc": 30.0
+    },
+    "discussion": {
+      "correct": 7,
+      "total": 50,
+      "acc": 14.0
+    },
+    "lecturing": {
+      "correct": 24,
+      "total": 50,
+      "acc": 48.0
+    },
+    "listening_to_lecture": {
+      "correct": 28,
+      "total": 50,
+      "acc": 56.0
+    },
+    "patrolling": {
+      "correct": 4,
+      "total": 50,
+      "acc": 8.0
+    },
+    "reading_aloud": {
+      "correct": 10,
+      "total": 50,
+      "acc": 20.0
+    },
+    "responding": {
+      "correct": 0,
+      "total": 50,
+      "acc": 0.0
+    },
+    "stage_interaction": {
+      "correct": 12,
+      "total": 50,
+      "acc": 24.0
+    },
+    "stage_presentation": {
+      "correct": 21,
+      "total": 44,
+      "acc": 47.7
+    },
+    "student_blackboard_writing": {
+      "correct": 30,
+      "total": 50,
+      "acc": 60.0
+    }
+  }
+}

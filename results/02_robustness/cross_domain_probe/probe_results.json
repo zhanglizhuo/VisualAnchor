@@ -1,0 +1,221 @@
+[
+  {
+    "dataset": "EuroSAT",
+    "classes": [
+      "AnnualCrop",
+      "Forest",
+      "HerbaceousVegetation",
+      "Highway",
+      "Industrial",
+      "Pasture",
+      "PermanentCrop",
+      "Residential",
+      "River",
+      "SeaLake"
+    ],
+    "overall_anchor": 40.17,
+    "overall_probe": 96.67,
+    "spearman": 0.0507,
+    "spearman_p": 0.889416,
+    "per_class": {
+      "AnnualCrop": {
+        "anchor": 6.67,
+        "probe": 95.0
+      },
+      "Forest": {
+        "anchor": 3.33,
+        "probe": 100.0
+      },
+      "HerbaceousVegetation": {
+        "anchor": 1.67,
+        "probe": 95.0
+      },
+      "Highway": {
+        "anchor": 68.33,
+        "probe": 95.0
+      },
+      "Industrial": {
+        "anchor": 73.33,
+        "probe": 100.0
+      },
+      "Pasture": {
+        "anchor": 26.67,
+        "probe": 96.67
+      },
+      "PermanentCrop": {
+        "anchor": 71.67,
+        "probe": 91.67
+      },
+      "Residential": {
+        "anchor": 95.0,
+        "probe": 100.0
+      },
+      "River": {
+        "anchor": 40.0,
+        "probe": 93.33
+      },
+      "SeaLake": {
+        "anchor": 15.0,
+        "probe": 100.0
+      }
+    }
+  },
+  {
+    "dataset": "bloodmnist",
+    "classes": [
+      "lymphocyte",
+      "monocyte",
+      "neutrophil",
+      "eosinophil",
+      "basophil",
+      "erythroblast",
+      "myeloblast",
+      "monoblast"
+    ],
+    "overall_anchor": 11.3,
+    "overall_probe": 86.81,
+    "spearman": 0.4783,
+    "spearman_p": 0.230623,
+    "per_class": {
+      "lymphocyte": {
+        "anchor": 2.04,
+        "probe": 85.71
+      },
+      "monocyte": {
+        "anchor": 88.33,
+        "probe": 96.67
+      },
+      "neutrophil": {
+        "anchor": 0.0,
+        "probe": 85.0
+      },
+      "eosinophil": {
+        "anchor": 0.0,
+        "probe": 68.33
+      },
+      "basophil": {
+        "anchor": 0.0,
+        "probe": 83.67
+      },
+      "erythroblast": {
+        "anchor": 0.0,
+        "probe": 84.21
+      },
+      "myeloblast": {
+        "anchor": 0.0,
+        "probe": 93.33
+      },
+      "monoblast": {
+        "anchor": 0.0,
+        "probe": 96.67
+      }
+    }
+  },
+  {
+    "dataset": "tissuemnist",
+    "classes": [
+      "kidney connective tissue",
+      "prostate connective tissue",
+      "lung connective tissue",
+      "breast connective tissue",
+      "colon connective tissue",
+      "ovary connective tissue",
+      "endometrium connective tissue",
+      "duodenum connective tissue"
+    ],
+    "overall_anchor": 12.92,
+    "overall_probe": 46.25,
+    "spearman": 0.5706,
+    "spearman_p": 0.139697,
+    "per_class": {
+      "kidney connective tissue": {
+        "anchor": 10.0,
+        "probe": 55.0
+      },
+      "prostate connective tissue": {
+        "anchor": 1.67,
+        "probe": 38.33
+      },
+      "lung connective tissue": {
+        "anchor": 28.33,
+        "probe": 51.67
+      },
+      "breast connective tissue": {
+        "anchor": 51.67,
+        "probe": 50.0
+      },
+      "colon connective tissue": {
+        "anchor": 10.0,
+        "probe": 45.0
+      },
+      "ovary connective tissue": {
+        "anchor": 1.67,
+        "probe": 51.67
+      },
+      "endometrium connective tissue": {
+        "anchor": 0.0,
+        "probe": 33.33
+      },
+      "duodenum connective tissue": {
+        "anchor": 0.0,
+        "probe": 45.0
+      }
+    }
+  },
+  {
+    "dataset": "pathmnist",
+    "classes": [
+      "adipose tissue",
+      "breast tissue",
+      "liver tissue",
+      "squamous cell carcinoma",
+      "cervix tissue",
+      "kidney tissue",
+      "bladder tissue",
+      "stomach tissue",
+      "prostate tissue"
+    ],
+    "overall_anchor": 6.48,
+    "overall_probe": 94.26,
+    "spearman": -0.1556,
+    "spearman_p": 0.689352,
+    "per_class": {
+      "adipose tissue": {
+        "anchor": 16.67,
+        "probe": 100.0
+      },
+      "breast tissue": {
+        "anchor": 0.0,
+        "probe": 100.0
+      },
+      "liver tissue": {
+        "anchor": 6.67,
+        "probe": 96.67
+      },
+      "squamous cell carcinoma": {
+        "anchor": 0.0,
+        "probe": 100.0
+      },
+      "cervix tissue": {
+        "anchor": 1.67,
+        "probe": 93.33
+      },
+      "kidney tissue": {
+        "anchor": 0.0,
+        "probe": 91.67
+      },
+      "bladder tissue": {
+        "anchor": 0.0,
+        "probe": 88.33
+      },
+      "stomach tissue": {
+        "anchor": 3.33,
+        "probe": 90.0
+      },
+      "prostate tissue": {
+        "anchor": 30.0,
+        "probe": 88.33
+      }
+    }
+  }
+]

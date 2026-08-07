@@ -1,0 +1,39 @@
+{
+  "model_label": "siglip",
+  "model": "siglip_anchor",
+  "spearman_vs_mllm": {
+    "rho": 0.2008,
+    "p": 0.5106,
+    "n": 13
+  },
+  "per_class_vl": {
+    "guide": 87.43,
+    "answer": 3.14,
+    "On-stage interaction": 0.0,
+    "blackboard-writing": 26.71,
+    "teacher": 16.51,
+    "stand": 9.34,
+    "screen": 28.57,
+    "blackBoard": 0.0,
+    "hand-raising": 68.89,
+    "read": 83.03,
+    "write": 52.46,
+    "BowHead": 65.18,
+    "TurnHead": 66.16
+  },
+  "per_class_mllm": {
+    "guide": 42.5,
+    "answer": 12.4,
+    "On-stage interaction": 80.2,
+    "blackboard-writing": 97.5,
+    "teacher": 68.8,
+    "stand": 23.1,
+    "screen": 67.8,
+    "blackBoard": 44.6,
+    "hand-raising": 89.2,
+    "read": 27.0,
+    "write": 97.8,
+    "BowHead": 80.5,
+    "TurnHead": 83.7
+  }
+}

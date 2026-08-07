@@ -1,0 +1,32 @@
+{
+  "description": "Three-tier heuristic on pooled 47-class data",
+  "tiers": {
+    "low": {
+      "threshold": "<=10%",
+      "n": 23,
+      "mean_mllm": 18.6,
+      "range": [
+        0.0,
+        56.0
+      ]
+    },
+    "mid": {
+      "threshold": "10-40%",
+      "n": 11,
+      "mean_mllm": 26.8,
+      "range": [
+        0.0,
+        97.5
+      ]
+    },
+    "high": {
+      "threshold": ">40%",
+      "n": 13,
+      "mean_mllm": 64.7,
+      "range": [
+        13.5,
+        97.8
+      ]
+    }
+  }
+}

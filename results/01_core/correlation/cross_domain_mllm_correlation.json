@@ -1,0 +1,40 @@
+{
+  "combined": {
+    "n": 136,
+    "spearman_rho": 0.4021,
+    "spearman_p": 0.033904,
+    "pearson_r": 0.1632,
+    "pearson_p": 0.406733
+  },
+  "per_mllm": {
+    "LLaVA-1.5-7B": {
+      "n": 34,
+      "spearman_rho": 0.3296,
+      "spearman_p": 0.057002,
+      "pearson_r": 0.1496,
+      "pearson_p": 0.398423
+    },
+    "LLaVA-NeXT-Mistral-7B": {
+      "n": 34,
+      "spearman_rho": 0.4787,
+      "spearman_p": 0.004185,
+      "pearson_r": 0.6139,
+      "pearson_p": 0.000113
+    },
+    "Qwen2.5-VL-7B": {
+      "n": 34,
+      "spearman_rho": 0.2134,
+      "spearman_p": 0.225571,
+      "pearson_r": 0.248,
+      "pearson_p": 0.157326
+    },
+    "Qwen2-VL-7B": {
+      "n": 34,
+      "spearman_rho": 0.1426,
+      "spearman_p": 0.421178,
+      "pearson_r": 0.083,
+      "pearson_p": 0.640773
+    }
+  },
+  "per_dataset": {}
+}

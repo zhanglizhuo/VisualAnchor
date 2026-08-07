@@ -1,0 +1,49 @@
+{
+  "TeacherBehavior": {
+    "overall_acc": 10.26,
+    "per_class": {
+      "guide": {
+        "correct": 0,
+        "total": 0,
+        "acc": 0.0
+      },
+      "answer": {
+        "correct": 0,
+        "total": 0,
+        "acc": 0.0
+      },
+      "On-stage interaction": {
+        "correct": 0,
+        "total": 0,
+        "acc": 0.0
+      },
+      "blackboard-writing": {
+        "correct": 0,
+        "total": 0,
+        "acc": 0.0
+      },
+      "teacher": {
+        "correct": 0,
+        "total": 7,
+        "acc": 0.0
+      },
+      "stand": {
+        "correct": 0,
+        "total": 20,
+        "acc": 0.0
+      },
+      "screen": {
+        "correct": 0,
+        "total": 0,
+        "acc": 0.0
+      },
+      "blackBoard": {
+        "correct": 4,
+        "total": 12,
+        "acc": 33.33
+      }
+    },
+    "predictions_path": "/home/broadsense/works/lizhuo/AutoResearchClaw/VisualAnchor/results/01_core/mllm_image_level/predictions_qwen3_6_35b-a3b_TeacherBehavior.jsonl",
+    "n_predictions": 1731
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "TeacherBehavior": {
+    "overall_acc": 57.87,
+    "per_class_acc": {
+      "guide": {
+        "n": 167,
+        "acc": 64.67
+      },
+      "answer": {
+        "n": 287,
+        "acc": 35.54
+      },
+      "On-stage interaction": {
+        "n": 48,
+        "acc": 0.0
+      },
+      "blackboard-writing": {
+        "n": 161,
+        "acc": 36.65
+      },
+      "teacher": {
+        "n": 1684,
+        "acc": 83.02
+      },
+      "stand": {
+        "n": 439,
+        "acc": 27.56
+      },
+      "screen": {
+        "n": 42,
+        "acc": 0.0
+      },
+      "blackBoard": {
+        "n": 412,
+        "acc": 21.12
+      }
+    },
+    "total": 3240,
+    "correct": 1875,
+    "model": "dinov2_vitb14",
+    "k": 5
+  },
+  "HandriseReadWrite": {
+    "overall_acc": 66.85,
+    "per_class_acc": {
+      "hand-raising": {
+        "n": 826,
+        "acc": 88.26
+      },
+      "read": {
+        "n": 601,
+        "acc": 57.4
+      },
+      "write": {
+        "n": 244,
+        "acc": 17.62
+      }
+    },
+    "total": 1671,
+    "correct": 1117,
+    "model": "dinov2_vitb14",
+    "k": 5
+  },
+  "BowTurnHead": {
+    "overall_acc": 79.6,
+    "per_class_acc": {
+      "BowHead": {
+        "n": 112,
+        "acc": 22.32
+      },
+      "TurnHead": {
+        "n": 393,
+        "acc": 95.93
+      }
+    },
+    "total": 505,
+    "correct": 402,
+    "model": "dinov2_vitb14",
+    "k": 5
+  }
+}

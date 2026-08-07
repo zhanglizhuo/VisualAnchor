@@ -1,0 +1,239 @@
+{
+  "laion_l14": {
+    "model_name": "ViT-L-14",
+    "pretrained": "LAION-2B",
+    "results": {
+      "TeacherBehavior": {
+        "overall_acc": 32.47,
+        "per_class_acc": {
+          "guide": {
+            "n": 167,
+            "acc": 29.34
+          },
+          "answer": {
+            "n": 287,
+            "acc": 5.57
+          },
+          "On-stage interaction": {
+            "n": 48,
+            "acc": 54.17
+          },
+          "blackboard-writing": {
+            "n": 161,
+            "acc": 26.09
+          },
+          "teacher": {
+            "n": 1684,
+            "acc": 50.42
+          },
+          "stand": {
+            "n": 439,
+            "acc": 9.34
+          },
+          "screen": {
+            "n": 42,
+            "acc": 40.48
+          },
+          "blackBoard": {
+            "n": 412,
+            "acc": 2.91
+          }
+        },
+        "total": 3240,
+        "correct": 1052
+      },
+      "HandriseReadWrite": {
+        "overall_acc": 60.92,
+        "per_class_acc": {
+          "hand-raising": {
+            "n": 826,
+            "acc": 80.15
+          },
+          "read": {
+            "n": 601,
+            "acc": 22.8
+          },
+          "write": {
+            "n": 244,
+            "acc": 89.75
+          }
+        },
+        "total": 1671,
+        "correct": 1018
+      },
+      "BowTurnHead": {
+        "overall_acc": 60.79,
+        "per_class_acc": {
+          "BowHead": {
+            "n": 112,
+            "acc": 49.11
+          },
+          "TurnHead": {
+            "n": 393,
+            "acc": 64.12
+          }
+        },
+        "total": 505,
+        "correct": 307
+      }
+    }
+  },
+  "openai_l14": {
+    "model_name": "ViT-L-14",
+    "pretrained": "OpenAI",
+    "results": {
+      "TeacherBehavior": {
+        "overall_acc": 24.57,
+        "per_class_acc": {
+          "guide": {
+            "n": 167,
+            "acc": 65.87
+          },
+          "answer": {
+            "n": 287,
+            "acc": 0.35
+          },
+          "On-stage interaction": {
+            "n": 48,
+            "acc": 27.08
+          },
+          "blackboard-writing": {
+            "n": 161,
+            "acc": 13.04
+          },
+          "teacher": {
+            "n": 1684,
+            "acc": 34.68
+          },
+          "stand": {
+            "n": 439,
+            "acc": 6.83
+          },
+          "screen": {
+            "n": 42,
+            "acc": 2.38
+          },
+          "blackBoard": {
+            "n": 412,
+            "acc": 8.74
+          }
+        },
+        "total": 3240,
+        "correct": 796
+      },
+      "HandriseReadWrite": {
+        "overall_acc": 65.29,
+        "per_class_acc": {
+          "hand-raising": {
+            "n": 826,
+            "acc": 88.01
+          },
+          "read": {
+            "n": 601,
+            "acc": 35.61
+          },
+          "write": {
+            "n": 244,
+            "acc": 61.48
+          }
+        },
+        "total": 1671,
+        "correct": 1091
+      },
+      "BowTurnHead": {
+        "overall_acc": 27.13,
+        "per_class_acc": {
+          "BowHead": {
+            "n": 112,
+            "acc": 70.54
+          },
+          "TurnHead": {
+            "n": 393,
+            "acc": 14.76
+          }
+        },
+        "total": 505,
+        "correct": 137
+      }
+    }
+  },
+  "openai_b32": {
+    "model_name": "ViT-B-32",
+    "pretrained": "OpenAI",
+    "results": {
+      "TeacherBehavior": {
+        "overall_acc": 25.68,
+        "per_class_acc": {
+          "guide": {
+            "n": 167,
+            "acc": 85.63
+          },
+          "answer": {
+            "n": 287,
+            "acc": 0.7
+          },
+          "On-stage interaction": {
+            "n": 48,
+            "acc": 0.0
+          },
+          "blackboard-writing": {
+            "n": 161,
+            "acc": 14.91
+          },
+          "teacher": {
+            "n": 1684,
+            "acc": 27.26
+          },
+          "stand": {
+            "n": 439,
+            "acc": 25.51
+          },
+          "screen": {
+            "n": 42,
+            "acc": 14.29
+          },
+          "blackBoard": {
+            "n": 412,
+            "acc": 20.87
+          }
+        },
+        "total": 3240,
+        "correct": 832
+      },
+      "HandriseReadWrite": {
+        "overall_acc": 57.27,
+        "per_class_acc": {
+          "hand-raising": {
+            "n": 826,
+            "acc": 82.81
+          },
+          "read": {
+            "n": 601,
+            "acc": 13.81
+          },
+          "write": {
+            "n": 244,
+            "acc": 77.87
+          }
+        },
+        "total": 1671,
+        "correct": 957
+      },
+      "BowTurnHead": {
+        "overall_acc": 24.16,
+        "per_class_acc": {
+          "BowHead": {
+            "n": 112,
+            "acc": 82.14
+          },
+          "TurnHead": {
+            "n": 393,
+            "acc": 7.63
+          }
+        },
+        "total": 505,
+        "correct": 122
+      }
+    }
+  }
+}

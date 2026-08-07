@@ -1,0 +1,107 @@
+{
+  "TeacherBehavior": {
+    "uniform": {
+      "per_seed": [
+        49.44,
+        41.88,
+        47.25,
+        46.2,
+        48.3
+      ],
+      "mean_acc": 46.61,
+      "std_acc": 2.6
+    },
+    "anchor_capped": {
+      "per_seed": [
+        47.81,
+        46.97,
+        44.45,
+        43.86,
+        46.86
+      ],
+      "mean_acc": 45.99,
+      "std_acc": 1.55
+    },
+    "anchor_weight": {
+      "per_seed": [
+        35.99,
+        40.74,
+        36.57,
+        33.46,
+        30.65
+      ],
+      "mean_acc": 35.48,
+      "std_acc": 3.36
+    }
+  },
+  "HandriseReadWrite": {
+    "uniform": {
+      "per_seed": [
+        64.57,
+        63.79,
+        62.3,
+        60.92,
+        63.26
+      ],
+      "mean_acc": 62.97,
+      "std_acc": 1.26
+    },
+    "anchor_capped": {
+      "per_seed": [
+        65.29,
+        64.21,
+        64.51,
+        63.91,
+        63.97
+      ],
+      "mean_acc": 64.38,
+      "std_acc": 0.5
+    },
+    "anchor_weight": {
+      "per_seed": [
+        68.22,
+        68.4,
+        65.11,
+        67.98,
+        68.52
+      ],
+      "mean_acc": 67.65,
+      "std_acc": 1.28
+    }
+  },
+  "BowTurnHead": {
+    "uniform": {
+      "per_seed": [
+        65.74,
+        63.76,
+        71.09,
+        69.11,
+        71.29
+      ],
+      "mean_acc": 68.2,
+      "std_acc": 2.98
+    },
+    "anchor_capped": {
+      "per_seed": [
+        58.02,
+        56.24,
+        63.96,
+        52.08,
+        54.26
+      ],
+      "mean_acc": 56.91,
+      "std_acc": 4.04
+    },
+    "anchor_weight": {
+      "per_seed": [
+        61.19,
+        63.17,
+        65.15,
+        63.76,
+        63.96
+      ],
+      "mean_acc": 63.45,
+      "std_acc": 1.3
+    }
+  }
+}

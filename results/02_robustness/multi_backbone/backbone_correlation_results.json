@@ -1,0 +1,29 @@
+{
+  "laion_l14": {
+    "model_name": "ViT-L-14",
+    "pretrained": "LAION-2B",
+    "n_points": 78,
+    "spearman_rho": 0.6925,
+    "spearman_p": 0.0,
+    "pearson_r": 0.7464,
+    "pearson_p": 0.0
+  },
+  "openai_l14": {
+    "model_name": "ViT-L-14",
+    "pretrained": "OpenAI",
+    "n_points": 78,
+    "spearman_rho": 0.4047,
+    "spearman_p": 0.000238,
+    "pearson_r": 0.3764,
+    "pearson_p": 0.000684
+  },
+  "openai_b32": {
+    "model_name": "ViT-B-32",
+    "pretrained": "OpenAI",
+    "n_points": 78,
+    "spearman_rho": 0.2083,
+    "spearman_p": 0.067178,
+    "pearson_r": 0.2885,
+    "pearson_p": 0.010421
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "TeacherBehavior": {
+    "per_model": {
+      "Qwen2-VL-7B": {
+        "n": 8,
+        "spearman": 0.0719,
+        "p_s": 0.8657,
+        "pearson": 0.1379,
+        "p_p": 0.7447
+      },
+      "LLaVA-1.5-7B": {
+        "n": 8,
+        "spearman": 0.6596,
+        "p_s": 0.0752,
+        "pearson": 0.4973,
+        "p_p": 0.2099
+      },
+      "Qwen3.5-27B": {
+        "n": 8,
+        "spearman": 0.381,
+        "p_s": 0.3518,
+        "pearson": 0.5199,
+        "p_p": 0.1866
+      },
+      "Qwen3.6-27B": {
+        "n": 8,
+        "spearman": 0.5714,
+        "p_s": 0.139,
+        "pearson": 0.6326,
+        "p_p": 0.0923
+      },
+      "Qwen3.5-35B": {
+        "n": 8,
+        "spearman": 0.6429,
+        "p_s": 0.0856,
+        "pearson": 0.6986,
+        "p_p": 0.0539
+      },
+      "Qwen3.6-35B": {
+        "n": 8,
+        "spearman": 0.5714,
+        "p_s": 0.139,
+        "pearson": 0.7232,
+        "p_p": 0.0426
+      },
+      "Gemma-3-27B": {
+        "n": 8,
+        "spearman": 0.3095,
+        "p_s": 0.4556,
+        "pearson": 0.5186,
+        "p_p": 0.1879
+      },
+      "Gemma4-31B": {
+        "n": 8,
+        "spearman": 0.619,
+        "p_s": 0.1017,
+        "pearson": 0.6364,
+        "p_p": 0.0898
+      },
+      "Gemma4-26B": {
+        "n": 8,
+        "spearman": 0.4762,
+        "p_s": 0.2329,
+        "pearson": 0.6542,
+        "p_p": 0.0784
+      }
+    }
+  },
+  "HandriseReadWrite": {
+    "per_model": {
+      "Qwen2-VL-7B": {
+        "n": 3,
+        "spearman": 1.0,
+        "p_s": 0.0,
+        "pearson": 0.9916,
+        "p_p": 0.0828
+      },
+      "LLaVA-1.5-7B": {
+        "n": 3,
+        "spearman": -0.5,
+        "p_s": 0.6667,
+        "pearson": -0.1705,
+        "p_p": 0.8909
+      },
+      "Qwen3.5-27B": {
+        "n": 3,
+        "spearman": 1.0,
+        "p_s": 0.0,
+        "pearson": 0.999,
+        "p_p": 0.0284
+      },
+      "Qwen3.6-27B": {
+        "n": 3,
+        "spearman": 1.0,
+        "p_s": 0.0,
+        "pearson": 1.0,
+        "p_p": 0.0045
+      },
+      "Qwen3.5-35B": {
+        "n": 3,
+        "spearman": 1.0,
+        "p_s": 0.0,
+        "pearson": 0.9982,
+        "p_p": 0.0385
+      },
+      "Qwen3.6-35B": {
+        "n": 3,
+        "spearman": 1.0,
+        "p_s": 0.0,
+        "pearson": 0.9992,
+        "p_p": 0.025
+      },
+      "Gemma-3-27B": {
+        "n": 3,
+        "spearman": 1.0,
+        "p_s": 0.0,
+        "pearson": 0.9998,
+        "p_p": 0.0126
+      },
+      "Gemma4-31B": {
+        "n": 3,
+        "spearman": 1.0,
+        "p_s": 0.0,
+        "pearson": 0.9992,
+        "p_p": 0.0259
+      },
+      "Gemma4-26B": {
+        "n": 3,
+        "spearman": 1.0,
+        "p_s": 0.0,
+        "pearson": 0.9986,
+        "p_p": 0.0343
+      }
+    }
+  },
+  "BowTurnHead": {
+    "per_model": {
+      "Qwen2-VL-7B": {
+        "n": 2,
+        "spearman": null,
+        "pearson": null,
+        "p_s": null,
+        "p_p": null
+      },
+      "LLaVA-1.5-7B": {
+        "n": 2,
+        "spearman": null,
+        "pearson": null,
+        "p_s": null,
+        "p_p": null
+      },
+      "Qwen3.5-27B": {
+        "n": 2,
+        "spearman": null,
+        "pearson": null,
+        "p_s": null,
+        "p_p": null
+      },
+      "Qwen3.6-27B": {
+        "n": 2,
+        "spearman": null,
+        "pearson": null,
+        "p_s": null,
+        "p_p": null
+      },
+      "Qwen3.5-35B": {
+        "n": 2,
+        "spearman": null,
+        "pearson": null,
+        "p_s": null,
+        "p_p": null
+      },
+      "Qwen3.6-35B": {
+        "n": 2,
+        "spearman": null,
+        "pearson": null,
+        "p_s": null,
+        "p_p": null
+      },
+      "Gemma-3-27B": {
+        "n": 2,
+        "spearman": null,
+        "pearson": null,
+        "p_s": null,
+        "p_p": null
+      },
+      "Gemma4-31B": {
+        "n": 2,
+        "spearman": null,
+        "pearson": null,
+        "p_s": null,
+        "p_p": null
+      },
+      "Gemma4-26B": {
+        "n": 2,
+        "spearman": null,
+        "pearson": null,
+        "p_s": null,
+        "p_p": null
+      }
+    }
+  },
+  "global": {
+    "n": 117,
+    "spearman": 0.6127,
+    "p_s": 0.0,
+    "pearson": 0.6365,
+    "p_p": 0.0
+  },
+  "n_pairs": 117
+}

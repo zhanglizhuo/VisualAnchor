@@ -1,0 +1,1572 @@
+{
+  "blackBoard": {
+    "dataset": "TeacherBehavior",
+    "most_confused": "teacher",
+    "n": 20,
+    "standard_acc": 35.0,
+    "standard_results": [
+      {
+        "image": "132_001652.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "147_001311.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "132_000106.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "145_002082.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "132_001324.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0089_000716.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "132_001067.jpg",
+        "response": "screen",
+        "is_correct": false
+      },
+      {
+        "image": "132_000226.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "147_001259.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "132_000029.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "146_000422.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "139_002634.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "1276044.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "145_000210.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "136_001480.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0107008.jpg",
+        "response": "on-stage interaction",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001776.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "1314028.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "132_000736.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "132_001233.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      }
+    ],
+    "enhanced_acc": 5.0,
+    "enhanced_results": [
+      {
+        "image": "145_002082.jpg",
+        "response": "blackboard-writing",
+        "is_correct": false
+      },
+      {
+        "image": "132_001652.jpg",
+        "response": "blackboard-writing",
+        "is_correct": false
+      },
+      {
+        "image": "132_001324.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "132_000106.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0089_000716.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "147_001311.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "132_001067.jpg",
+        "response": "screen",
+        "is_correct": false
+      },
+      {
+        "image": "132_000226.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "147_001259.jpg",
+        "response": "blackboard-writing",
+        "is_correct": false
+      },
+      {
+        "image": "132_000029.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "146_000422.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "139_002634.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "1276044.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "145_000210.jpg",
+        "response": "screen",
+        "is_correct": false
+      },
+      {
+        "image": "136_001480.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0107008.jpg",
+        "response": "screen",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001776.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "1314028.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "132_000736.jpg",
+        "response": "blackboard-writing",
+        "is_correct": false
+      },
+      {
+        "image": "132_001233.jpg",
+        "response": "blackboard-writing",
+        "is_correct": false
+      }
+    ],
+    "direct_acc": 65.0,
+    "direct_results": [
+      {
+        "image": "145_002082.jpg",
+        "response": "blackboard-writing",
+        "is_correct": false
+      },
+      {
+        "image": "132_001652.jpg",
+        "response": "blackboard-writing",
+        "is_correct": false
+      },
+      {
+        "image": "132_000106.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "147_001311.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "132_001324.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "0089_000716.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "132_001067.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "132_000226.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "147_001259.jpg",
+        "response": "blackboard-writing",
+        "is_correct": false
+      },
+      {
+        "image": "132_000029.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "146_000422.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "139_002634.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "1276044.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "145_000210.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "136_001480.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "0107008.jpg",
+        "response": "screen",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001776.jpg",
+        "response": "blackboard",
+        "is_correct": true
+      },
+      {
+        "image": "1314028.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "132_000736.jpg",
+        "response": "blackboard-writing",
+        "is_correct": false
+      },
+      {
+        "image": "132_001233.jpg",
+        "response": "blackboard-writing",
+        "is_correct": false
+      }
+    ]
+  },
+  "answer": {
+    "dataset": "TeacherBehavior",
+    "most_confused": "stand",
+    "n": 20,
+    "standard_acc": 10.0,
+    "standard_results": [
+      {
+        "image": "0089_001752.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0090_000386.jpg",
+        "response": "answer",
+        "is_correct": true
+      },
+      {
+        "image": "0089_001788.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001605.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0090_000338.jpg",
+        "response": "answer",
+        "is_correct": true
+      },
+      {
+        "image": "0090_000262.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001747.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "3001329.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001666.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0090_001384.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001622.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001621.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001742.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0090_000255.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0090_000271.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "1000022.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001618.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0090_000129.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0090_001374.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0090_000259.jpg",
+        "response": "teacher",
+        "is_correct": false
+      }
+    ],
+    "enhanced_acc": 15.0,
+    "enhanced_results": [
+      {
+        "image": "0090_000338.jpg",
+        "response": "answer",
+        "is_correct": true
+      },
+      {
+        "image": "0089_001752.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001605.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001788.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0090_000386.jpg",
+        "response": "answer",
+        "is_correct": true
+      },
+      {
+        "image": "0090_000262.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001747.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "3001329.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001666.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0090_001384.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001622.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001621.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001742.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0090_000255.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0090_000271.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "1000022.jpg",
+        "response": "answer",
+        "is_correct": true
+      },
+      {
+        "image": "0089_001618.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0090_000129.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0090_001374.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0090_000259.jpg",
+        "response": "teacher",
+        "is_correct": false
+      }
+    ],
+    "direct_acc": 65.0,
+    "direct_results": [
+      {
+        "image": "0090_000338.jpg",
+        "response": "answer",
+        "is_correct": true
+      },
+      {
+        "image": "0089_001788.jpg",
+        "response": "stand",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001605.jpg",
+        "response": "stand",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001752.jpg",
+        "response": "answer",
+        "is_correct": true
+      },
+      {
+        "image": "0090_000386.jpg",
+        "response": "answer",
+        "is_correct": true
+      },
+      {
+        "image": "0090_000262.jpg",
+        "response": "answer",
+        "is_correct": true
+      },
+      {
+        "image": "0089_001747.jpg",
+        "response": "answer",
+        "is_correct": true
+      },
+      {
+        "image": "3001329.jpg",
+        "response": "stand",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001666.jpg",
+        "response": "answer",
+        "is_correct": true
+      },
+      {
+        "image": "0090_001384.jpg",
+        "response": "answer",
+        "is_correct": true
+      },
+      {
+        "image": "0089_001622.jpg",
+        "response": "stand",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001621.jpg",
+        "response": "stand",
+        "is_correct": false
+      },
+      {
+        "image": "0089_001742.jpg",
+        "response": "answer",
+        "is_correct": true
+      },
+      {
+        "image": "0090_000255.jpg",
+        "response": "answer",
+        "is_correct": true
+      },
+      {
+        "image": "0090_000271.jpg",
+        "response": "answer",
+        "is_correct": true
+      },
+      {
+        "image": "1000022.jpg",
+        "response": "answer",
+        "is_correct": true
+      },
+      {
+        "image": "0089_001618.jpg",
+        "response": "stand",
+        "is_correct": false
+      },
+      {
+        "image": "0090_000129.jpg",
+        "response": "answer",
+        "is_correct": true
+      },
+      {
+        "image": "0090_001374.jpg",
+        "response": "stand",
+        "is_correct": false
+      },
+      {
+        "image": "0090_000259.jpg",
+        "response": "answer",
+        "is_correct": true
+      }
+    ]
+  },
+  "stand": {
+    "dataset": "TeacherBehavior",
+    "most_confused": "answer",
+    "n": 20,
+    "standard_acc": 15.0,
+    "standard_results": [
+      {
+        "image": "1320029.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "49_001852.jpg",
+        "response": "on-stage interaction",
+        "is_correct": false
+      },
+      {
+        "image": "136_000530.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "3005175.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "1119037.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "00030017.jpg",
+        "response": "blackboard",
+        "is_correct": false
+      },
+      {
+        "image": "1314012.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "113_000956.jpg",
+        "response": "on-stage interaction",
+        "is_correct": false
+      },
+      {
+        "image": "49_001843.jpg",
+        "response": "blackboard",
+        "is_correct": false
+      },
+      {
+        "image": "1000040.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "3005260.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "3001209.jpg",
+        "response": "stand",
+        "is_correct": true
+      },
+      {
+        "image": "0201020.jpg",
+        "response": "stand",
+        "is_correct": true
+      },
+      {
+        "image": "3005013.jpg",
+        "response": "stand",
+        "is_correct": true
+      },
+      {
+        "image": "21_001344.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "0011009.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "0009029.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "06010038.jpg",
+        "response": "guide",
+        "is_correct": false
+      },
+      {
+        "image": "1314009.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "1314038.jpg",
+        "response": "answer",
+        "is_correct": false
+      }
+    ],
+    "enhanced_acc": 20.0,
+    "enhanced_results": [
+      {
+        "image": "1119037.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "136_000530.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "49_001852.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "1320029.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "3005175.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "00030017.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "1314012.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "113_000956.jpg",
+        "response": "stand",
+        "is_correct": true
+      },
+      {
+        "image": "49_001843.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "1000040.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "3005260.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "3001209.jpg",
+        "response": "stand",
+        "is_correct": true
+      },
+      {
+        "image": "0201020.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "3005013.jpg",
+        "response": "stand",
+        "is_correct": true
+      },
+      {
+        "image": "21_001344.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "0011009.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "0009029.jpg",
+        "response": "stand",
+        "is_correct": true
+      },
+      {
+        "image": "06010038.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "1314009.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "1314038.jpg",
+        "response": "answer",
+        "is_correct": false
+      }
+    ],
+    "direct_acc": 20.0,
+    "direct_results": [
+      {
+        "image": "00030017.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "3005175.jpg",
+        "response": "stand",
+        "is_correct": true
+      },
+      {
+        "image": "136_000530.jpg",
+        "response": "teacher",
+        "is_correct": false
+      },
+      {
+        "image": "49_001852.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "1320029.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "1119037.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "1314012.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "113_000956.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "49_001843.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "1000040.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "3005260.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "3001209.jpg",
+        "response": "stand",
+        "is_correct": true
+      },
+      {
+        "image": "0201020.jpg",
+        "response": "stand",
+        "is_correct": true
+      },
+      {
+        "image": "3005013.jpg",
+        "response": "stand",
+        "is_correct": true
+      },
+      {
+        "image": "21_001344.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "0011009.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "0009029.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "06010038.jpg",
+        "response": "guide",
+        "is_correct": false
+      },
+      {
+        "image": "1314009.jpg",
+        "response": "answer",
+        "is_correct": false
+      },
+      {
+        "image": "1314038.jpg",
+        "response": "answer",
+        "is_correct": false
+      }
+    ]
+  },
+  "read": {
+    "dataset": "HandriseReadWrite",
+    "most_confused": "write",
+    "n": 20,
+    "standard_acc": 65.0,
+    "standard_results": [
+      {
+        "image": "0014027.jpg",
+        "response": "write",
+        "is_correct": false
+      },
+      {
+        "image": "10_000262.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "10_002091.jpg",
+        "response": "write",
+        "is_correct": false
+      },
+      {
+        "image": "10_000953.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "10_002444.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "10_001791.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "0090_001748.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "3002241.jpg",
+        "response": "write",
+        "is_correct": false
+      },
+      {
+        "image": "0090_001717.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "3002004.jpg",
+        "response": "write",
+        "is_correct": false
+      },
+      {
+        "image": "0022011.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "0022005.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "0090_001723.jpg",
+        "response": "write",
+        "is_correct": false
+      },
+      {
+        "image": "10_001786.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "10_001808.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "3002157.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "0014029.jpg",
+        "response": "write",
+        "is_correct": false
+      },
+      {
+        "image": "6_000688.jpg",
+        "response": "write",
+        "is_correct": false
+      },
+      {
+        "image": "10_001543.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "3001393.jpg",
+        "response": "read",
+        "is_correct": true
+      }
+    ],
+    "enhanced_acc": 80.0,
+    "enhanced_results": [
+      {
+        "image": "10_002444.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "10_001791.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "10_002091.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "10_000262.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "0014027.jpg",
+        "response": "write",
+        "is_correct": false
+      },
+      {
+        "image": "10_000953.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "0090_001748.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "3002241.jpg",
+        "response": "write",
+        "is_correct": false
+      },
+      {
+        "image": "0090_001717.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "3002004.jpg",
+        "response": "write",
+        "is_correct": false
+      },
+      {
+        "image": "0022011.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "0022005.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "0090_001723.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "10_001786.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "10_001808.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "3002157.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "0014029.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "6_000688.jpg",
+        "response": "write",
+        "is_correct": false
+      },
+      {
+        "image": "10_001543.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "3001393.jpg",
+        "response": "read",
+        "is_correct": true
+      }
+    ],
+    "direct_acc": 75.0,
+    "direct_results": [
+      {
+        "image": "10_001791.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "10_002091.jpg",
+        "response": "write",
+        "is_correct": false
+      },
+      {
+        "image": "0014027.jpg",
+        "response": "write",
+        "is_correct": false
+      },
+      {
+        "image": "10_000262.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "10_002444.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "10_000953.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "0090_001748.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "3002241.jpg",
+        "response": "write",
+        "is_correct": false
+      },
+      {
+        "image": "0090_001717.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "3002004.jpg",
+        "response": "write",
+        "is_correct": false
+      },
+      {
+        "image": "0022011.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "0022005.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "0090_001723.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "10_001786.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "10_001808.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "3002157.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "0014029.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "6_000688.jpg",
+        "response": "write",
+        "is_correct": false
+      },
+      {
+        "image": "10_001543.jpg",
+        "response": "read",
+        "is_correct": true
+      },
+      {
+        "image": "3001393.jpg",
+        "response": "read",
+        "is_correct": true
+      }
+    ]
+  },
+  "BowHead": {
+    "dataset": "BowTurnHead",
+    "most_confused": "TurnHead",
+    "n": 20,
+    "standard_acc": 75.0,
+    "standard_results": [
+      {
+        "image": "0009046.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "19_001652.jpg",
+        "response": "turnhead",
+        "is_correct": false
+      },
+      {
+        "image": "0014033.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0009015.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "19_002486.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0015007.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0014030.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0009051.jpg",
+        "response": "turnhead",
+        "is_correct": false
+      },
+      {
+        "image": "0009037.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "19_001981.jpg",
+        "response": "turnhead",
+        "is_correct": false
+      },
+      {
+        "image": "17_001305.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0009035.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "19_001349.jpg",
+        "response": "turnhead",
+        "is_correct": false
+      },
+      {
+        "image": "141_001258.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0009016.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0014021.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0014031.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "145_000683.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "19_001356.jpg",
+        "response": "turnhead",
+        "is_correct": false
+      },
+      {
+        "image": "19_000793.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      }
+    ],
+    "enhanced_acc": 90.0,
+    "enhanced_results": [
+      {
+        "image": "19_001652.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0009046.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0009015.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0015007.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "19_002486.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0014033.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0014030.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0009051.jpg",
+        "response": "turnhead",
+        "is_correct": false
+      },
+      {
+        "image": "0009037.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "19_001981.jpg",
+        "response": "turnhead",
+        "is_correct": false
+      },
+      {
+        "image": "17_001305.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0009035.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "19_001349.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "141_001258.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0009016.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0014021.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0014031.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "145_000683.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "19_001356.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "19_000793.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      }
+    ],
+    "direct_acc": 90.0,
+    "direct_results": [
+      {
+        "image": "19_001652.jpg",
+        "response": "turnhead",
+        "is_correct": false
+      },
+      {
+        "image": "0014033.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0009015.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "19_002486.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0009046.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0015007.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0014030.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0009051.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0009037.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "19_001981.jpg",
+        "response": "turnhead",
+        "is_correct": false
+      },
+      {
+        "image": "17_001305.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0009035.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "19_001349.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "141_001258.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0009016.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0014021.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "0014031.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "145_000683.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "19_001356.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      },
+      {
+        "image": "19_000793.jpg",
+        "response": "bowhead",
+        "is_correct": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "n_classes": 13,
+  "n_mllms": 6,
+  "entropy_vs_mllm": {
+    "spearman_rho": -0.6648,
+    "p": 0.013166
+  },
+  "mean_confidence_vs_mllm": {
+    "spearman_rho": 0.4959,
+    "p": 0.084828
+  },
+  "per_class": [
+    {
+      "class": "guide",
+      "dataset": "TeacherBehavior",
+      "n": 167,
+      "anchor_rate": 29.34,
+      "confusion_entropy": 2.0853,
+      "mean_confidence": 0.1284,
+      "top_confused_class": "answer",
+      "top_confused_pct": 28.74
+    },
+    {
+      "class": "answer",
+      "dataset": "TeacherBehavior",
+      "n": 287,
+      "anchor_rate": 5.57,
+      "confusion_entropy": 1.6754,
+      "mean_confidence": 0.1289,
+      "top_confused_class": "stand",
+      "top_confused_pct": 58.89
+    },
+    {
+      "class": "On-stage interaction",
+      "dataset": "TeacherBehavior",
+      "n": 48,
+      "anchor_rate": 54.17,
+      "confusion_entropy": 1.6955,
+      "mean_confidence": 0.1282,
+      "top_confused_class": "screen",
+      "top_confused_pct": 20.83
+    },
+    {
+      "class": "blackboard-writing",
+      "dataset": "TeacherBehavior",
+      "n": 161,
+      "anchor_rate": 26.09,
+      "confusion_entropy": 1.3161,
+      "mean_confidence": 0.1301,
+      "top_confused_class": "screen",
+      "top_confused_pct": 65.84
+    },
+    {
+      "class": "teacher",
+      "dataset": "TeacherBehavior",
+      "n": 1684,
+      "anchor_rate": 50.18,
+      "confusion_entropy": 2.1336,
+      "mean_confidence": 0.1286,
+      "top_confused_class": "screen",
+      "top_confused_pct": 17.46
+    },
+    {
+      "class": "stand",
+      "dataset": "TeacherBehavior",
+      "n": 439,
+      "anchor_rate": 9.34,
+      "confusion_entropy": 2.3767,
+      "mean_confidence": 0.1284,
+      "top_confused_class": "answer",
+      "top_confused_pct": 26.88
+    },
+    {
+      "class": "screen",
+      "dataset": "TeacherBehavior",
+      "n": 42,
+      "anchor_rate": 40.48,
+      "confusion_entropy": 2.0402,
+      "mean_confidence": 0.1282,
+      "top_confused_class": "teacher",
+      "top_confused_pct": 33.33
+    },
+    {
+      "class": "blackBoard",
+      "dataset": "TeacherBehavior",
+      "n": 412,
+      "anchor_rate": 3.16,
+      "confusion_entropy": 2.2465,
+      "mean_confidence": 0.1285,
+      "top_confused_class": "teacher",
+      "top_confused_pct": 37.14
+    },
+    {
+      "class": "hand-raising",
+      "dataset": "HandriseReadWrite",
+      "n": 826,
+      "anchor_rate": 80.27,
+      "confusion_entropy": 0.9094,
+      "mean_confidence": 0.3411,
+      "top_confused_class": "write",
+      "top_confused_pct": 11.62
+    },
+    {
+      "class": "read",
+      "dataset": "HandriseReadWrite",
+      "n": 601,
+      "anchor_rate": 22.96,
+      "confusion_entropy": 1.2238,
+      "mean_confidence": 0.3393,
+      "top_confused_class": "write",
+      "top_confused_pct": 66.39
+    },
+    {
+      "class": "write",
+      "dataset": "HandriseReadWrite",
+      "n": 244,
+      "anchor_rate": 89.75,
+      "confusion_entropy": 0.5781,
+      "mean_confidence": 0.3404,
+      "top_confused_class": "read",
+      "top_confused_pct": 5.74
+    },
+    {
+      "class": "BowHead",
+      "dataset": "BowTurnHead",
+      "n": 112,
+      "anchor_rate": 49.11,
+      "confusion_entropy": 0.9998,
+      "mean_confidence": 0.5024,
+      "top_confused_class": "TurnHead",
+      "top_confused_pct": 50.89
+    },
+    {
+      "class": "TurnHead",
+      "dataset": "BowTurnHead",
+      "n": 393,
+      "anchor_rate": 63.61,
+      "confusion_entropy": 0.9458,
+      "mean_confidence": 0.5021,
+      "top_confused_class": "BowHead",
+      "top_confused_pct": 36.39
+    }
+  ]
+}

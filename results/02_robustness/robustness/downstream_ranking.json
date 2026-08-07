@@ -1,0 +1,242 @@
+{
+  "description": "Downstream ranking: AnchorScore as MLLM review priority predictor",
+  "per_dataset": {
+    "TeacherBehavior": {
+      "n_classes": 8,
+      "spearman_rho": 0.5952,
+      "ranking": {
+        "n_classes": 8,
+        "n_hard": 4,
+        "median_mllm": 50.47,
+        "auc": 0.9375,
+        "hit_rate_at_k_third": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "n_caught": 3
+        },
+        "hit_rate_at_k_half": {
+          "precision": 0.75,
+          "recall": 0.75,
+          "n_caught": 3
+        },
+        "per_k": {
+          "1": {
+            "precision": 1.0,
+            "recall": 0.25,
+            "n_caught": 1
+          },
+          "2": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "n_caught": 2
+          },
+          "3": {
+            "precision": 1.0,
+            "recall": 0.75,
+            "n_caught": 3
+          },
+          "4": {
+            "precision": 0.75,
+            "recall": 0.75,
+            "n_caught": 3
+          },
+          "5": {
+            "precision": 0.8,
+            "recall": 1.0,
+            "n_caught": 4
+          },
+          "6": {
+            "precision": 0.6667,
+            "recall": 1.0,
+            "n_caught": 4
+          },
+          "7": {
+            "precision": 0.5714,
+            "recall": 1.0,
+            "n_caught": 4
+          },
+          "8": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "n_caught": 4
+          }
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "n_classes": 3,
+      "spearman_rho": 0.5,
+      "ranking": {
+        "n_classes": 3,
+        "n_hard": 1,
+        "median_mllm": 85.61,
+        "auc": 1.0,
+        "hit_rate_at_k_third": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "n_caught": 1
+        },
+        "hit_rate_at_k_half": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "n_caught": 1
+        },
+        "per_k": {
+          "1": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "n_caught": 1
+          },
+          "2": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "n_caught": 1
+          },
+          "3": {
+            "precision": 0.3333,
+            "recall": 1.0,
+            "n_caught": 1
+          }
+        }
+      }
+    },
+    "BowTurnHead": {
+      "n_classes": 2,
+      "spearman_rho": null,
+      "ranking": {
+        "n_classes": 2,
+        "n_hard": 1,
+        "median_mllm": 74.47,
+        "auc": 1.0,
+        "hit_rate_at_k_third": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "n_caught": 1
+        },
+        "hit_rate_at_k_half": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "n_caught": 1
+        },
+        "per_k": {
+          "1": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "n_caught": 1
+          },
+          "2": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "n_caught": 1
+          }
+        }
+      }
+    }
+  },
+  "pooled": {
+    "n_classes": 13,
+    "spearman_rho": 0.8462,
+    "ranking": {
+      "n_classes": 13,
+      "n_hard": 6,
+      "median_mllm": 61.68,
+      "auc": 0.9524,
+      "hit_rate_at_k_third": {
+        "precision": 0.8,
+        "recall": 0.6667,
+        "n_caught": 4
+      },
+      "hit_rate_at_k_half": {
+        "precision": 0.8571,
+        "recall": 1.0,
+        "n_caught": 6
+      },
+      "per_k": {
+        "1": {
+          "precision": 1.0,
+          "recall": 0.1667,
+          "n_caught": 1
+        },
+        "2": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "n_caught": 2
+        },
+        "3": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "n_caught": 3
+        },
+        "4": {
+          "precision": 1.0,
+          "recall": 0.6667,
+          "n_caught": 4
+        },
+        "5": {
+          "precision": 0.8,
+          "recall": 0.6667,
+          "n_caught": 4
+        },
+        "6": {
+          "precision": 0.8333,
+          "recall": 0.8333,
+          "n_caught": 5
+        },
+        "7": {
+          "precision": 0.8571,
+          "recall": 1.0,
+          "n_caught": 6
+        },
+        "8": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "n_caught": 6
+        },
+        "9": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "n_caught": 6
+        },
+        "10": {
+          "precision": 0.6,
+          "recall": 1.0,
+          "n_caught": 6
+        },
+        "11": {
+          "precision": 0.5455,
+          "recall": 1.0,
+          "n_caught": 6
+        },
+        "12": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "n_caught": 6
+        },
+        "13": {
+          "precision": 0.4615,
+          "recall": 1.0,
+          "n_caught": 6
+        }
+      }
+    }
+  },
+  "random_baseline": {
+    "n_trials": 10000,
+    "precision_at_k_third": {
+      "mean": 0.4646,
+      "std": 0.1814,
+      "ci_95": [
+        0.2,
+        0.8
+      ]
+    },
+    "precision_at_k_half": {
+      "mean": 0.4621,
+      "std": 0.1332,
+      "ci_95": [
+        0.2857,
+        0.7143
+      ]
+    }
+  }
+}

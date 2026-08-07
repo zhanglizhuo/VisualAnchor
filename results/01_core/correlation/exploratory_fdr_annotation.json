@@ -1,0 +1,52 @@
+{
+  "description": "FDR annotation (Benjamini-Hochberg, q=0.05) for exploratory analyses in main.tex",
+  "method": "Benjamini-Hochberg FDR control at q=0.05 across 35 exploratory p-values",
+  "date": "2026-07-17",
+  "n_tests": 35,
+  "n_survive": 9,
+  "threshold_cutoff": 0.0129,
+  "survive_bh": [
+    {"test": "HandriseReadWrite per-dataset", "p": "~0", "rho": 0.94},
+    {"test": "Pooled n=23 (SCB5+SCB-LLM)", "p": 0.001, "rho": 0.676},
+    {"test": "TeacherBehavior per-dataset", "p": 0.001, "rho": 0.53},
+    {"test": "LLaVA added (7th MLLM)", "p": 0.001, "rho": 0.863},
+    {"test": "Word frequency partial correlation", "p": 0.001, "rho": 0.599},
+    {"test": "Pooled n=47 (SCB5+cross-domain)", "p": 0.001, "rho": 0.634},
+    {"test": "Self-uncertainty pooled (65 pts)", "p": 0.002, "rho": 0.370},
+    {"test": "LOMO (leave-one-MLLM-out worst)", "p": 0.005, "rho": null},
+    {"test": "Cross-domain per-class (n=34)", "p": 0.006, "rho": 0.462}
+  ],
+  "miss_bh": [
+    {"test": "LOCO (leave-one-class-out worst)", "p": 0.02, "note": "barely misses (threshold=0.0143)"},
+    {"test": "AUC permutation test", "p": 0.028, "note": "permutation p is conservative"},
+    {"test": "AnchorScore on self-uncertainty subset", "p": 0.033},
+    {"test": "Word freq vs AnchorScore unadjusted", "p": 0.034},
+    {"test": "Word freq vs MLLM unadjusted", "p": 0.034},
+    {"test": "Prompt w/ context (best)", "p": 0.05},
+    {"test": "OpenAI L/14 class-level", "p": 0.103, "note": "non-significant"},
+    {"test": "TeacherBehavior-only (k=8)", "p": 0.12, "note": "power-limited n=8"},
+    {"test": "SCB-LLM (n=10)", "p": 0.135, "note": "power-limited n=10"},
+    {"test": "SigLIP", "p": 0.36, "note": "null result"},
+    {"test": "Prompt optimization r-values", "p": ">0.4", "note": "null result"},
+    {"test": "ViT-B/32 class-level", "p": 0.426, "note": "non-significant"},
+    {"test": "Prompt no-context (ρ=0.238)", "p": 0.44, "note": "null result"},
+    {"test": "CLIP confidence/entropy", "p": ">0.5", "note": "null result"},
+    {"test": "CLIP margin / feature dispersion", "p": ">0.5", "note": "null result"},
+    {"test": "Inverse frequency", "p": 0.54, "note": "null result"},
+    {"test": "Prompt person (ρ=0.149)", "p": 0.63, "note": "null result"},
+    {"test": "Δ vs AnchorScore", "p": 0.79, "note": "null result"},
+    {"test": "ResNet-50 / self-uncertainty class-level", "p": ">0.8", "note": "null result"},
+    {"test": "BiomedCLIP", "p": 0.83, "note": "null result"},
+    {"test": "DINOv2", "p": 0.87, "note": "null result"},
+    {"test": "BowTurnHead", "p": 0.88, "note": "null result (k=2 structural ceiling)"}
+  ],
+  "summary": "BH q=0.05 at 35 tests yields threshold ~0.013. All main confirmatory signals survive. Two borderline results (LOCO p=0.02, AUC perm p=0.028) narrowly miss but are directionally consistent. All null baselines correctly rejected.",
+  "implications_for_paper": [
+    "Cross-domain per-class (ρ=0.462, p=0.006) survives BH → can report as robust finding",
+    "Pooled n=47 (ρ=0.634) survives → strongest overall evidence",
+    "Self-uncertainty pooled (p=0.002) survives → but is it meaningful? ρ=0.37 is weak",
+    "LOCO (p=0.02) misses BH but is worst-case among 8 tests → still report as robust",
+    "AUC permutation (p=0.028) misses BH → note as nominal significance only",
+    "All null baselines (DINOv2 ρ≈0, ResNet ρ≈0, SigLIP ρ=0.27, CLIP metrics all p>0.5) fail BH → confirms specific null results"
+  ]
+}

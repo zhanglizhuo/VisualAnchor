@@ -1,0 +1,151 @@
+{
+  "pathmnist": {
+    "biomedclip_anchor": [
+      72.94469451904297,
+      0.0,
+      0.0,
+      92.11356353759766,
+      0.09661835432052612,
+      0.3378378450870514,
+      3.37381911277771,
+      2.1377670764923096,
+      85.96917724609375
+    ],
+    "general_clip_anchor": [
+      1.12,
+      0.47,
+      0.59,
+      0.0,
+      5.22,
+      20.78,
+      33.47,
+      0.0,
+      57.26
+    ],
+    "mllm_mean_acc": [
+      46.0,
+      46.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      26.0,
+      20.0,
+      0.0
+    ],
+    "class_names": [
+      "adipose tissue",
+      "background",
+      "debris",
+      "lymphocytes",
+      "mucus",
+      "smooth muscle",
+      "normal colon mucosa",
+      "cancer-associated stroma",
+      "tumor epithelium"
+    ],
+    "biomedclip_rho": -0.078,
+    "biomedclip_p": 0.8413,
+    "general_clip_rho": -0.175,
+    "general_clip_p": 0.6524
+  },
+  "bloodmnist": {
+    "biomedclip_anchor": [
+      1.2295081615447998,
+      0.48076924681663513,
+      0.0,
+      0.0,
+      10.288065910339355,
+      32.74647903442383,
+      46.546546936035156,
+      0.0
+    ],
+    "general_clip_anchor": [
+      44.26,
+      0.48,
+      1.61,
+      2.42,
+      9.05,
+      2.11,
+      48.5,
+      0.0
+    ],
+    "mllm_mean_acc": [
+      10.0,
+      90.0,
+      4.0,
+      0.0,
+      23.0,
+      0.0,
+      6.0,
+      1.0
+    ],
+    "class_names": [
+      "basophil",
+      "eosinophil",
+      "erythroblast",
+      "immature granulocyte",
+      "lymphocyte",
+      "monocyte",
+      "neutrophil",
+      "platelet"
+    ],
+    "biomedclip_rho": 0.233,
+    "biomedclip_p": 0.5784,
+    "general_clip_rho": 0.156,
+    "general_clip_p": 0.7128
+  },
+  "tissuemnist": {
+    "biomedclip_anchor": [
+      1.4045499563217163,
+      0.0,
+      22.778772354125977,
+      12.630621910095215,
+      0.20777678489685059,
+      4.178020000457764,
+      28.684938430786133,
+      21.931447982788086
+    ],
+    "general_clip_anchor": [
+      15.0,
+      7.5,
+      3.5,
+      0.0,
+      0.0,
+      47.0,
+      26.5,
+      0.0
+    ],
+    "mllm_mean_acc": [
+      31.0,
+      3.0,
+      2.0,
+      0.0,
+      0.0,
+      0.0,
+      41.0,
+      6.0
+    ],
+    "class_names": [
+      "collecting duct",
+      "connecting tubule",
+      "distal convoluted tubule",
+      "glomerular endothelial cells",
+      "interstitial endothelial cells",
+      "leukocytes",
+      "podocytes",
+      "proximal tubule segments"
+    ],
+    "biomedclip_rho": 0.342,
+    "biomedclip_p": 0.4076,
+    "general_clip_rho": 0.325,
+    "general_clip_p": 0.4322
+  },
+  "pooled_medical": {
+    "biomedclip_rho": 0.046,
+    "biomedclip_p": 0.8278,
+    "general_clip_rho": 0.05,
+    "general_clip_p": 0.8108,
+    "n_classes": 25
+  }
+}

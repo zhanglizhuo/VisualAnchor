@@ -1,0 +1,96 @@
+{
+  "EuroSAT": {
+    "AnnualCrop": {
+      "correct": 22,
+      "total": 50,
+      "acc": 44.0
+    },
+    "Forest": {
+      "correct": 29,
+      "total": 50,
+      "acc": 58.0
+    },
+    "HerbaceousVegetation": {
+      "correct": 2,
+      "total": 50,
+      "acc": 4.0
+    },
+    "Highway": {
+      "correct": 5,
+      "total": 50,
+      "acc": 10.0
+    },
+    "Industrial": {
+      "correct": 43,
+      "total": 50,
+      "acc": 86.0
+    },
+    "Pasture": {
+      "correct": 2,
+      "total": 50,
+      "acc": 4.0
+    },
+    "PermanentCrop": {
+      "correct": 0,
+      "total": 50,
+      "acc": 0.0
+    },
+    "Residential": {
+      "correct": 26,
+      "total": 50,
+      "acc": 52.0
+    },
+    "River": {
+      "correct": 25,
+      "total": 50,
+      "acc": 50.0
+    },
+    "SeaLake": {
+      "correct": 42,
+      "total": 50,
+      "acc": 84.0
+    }
+  },
+  "TissueMNIST": {
+    "Collecting Duct": {
+      "correct": 0,
+      "total": 50,
+      "acc": 0.0
+    },
+    "Connecting Tubule": {
+      "correct": 0,
+      "total": 50,
+      "acc": 0.0
+    },
+    "Distal Convoluted Tubule": {
+      "correct": 0,
+      "total": 50,
+      "acc": 0.0
+    },
+    "Glomerular Endothelial Cells": {
+      "correct": 0,
+      "total": 50,
+      "acc": 0.0
+    },
+    "Interstitial Endothelial Cells": {
+      "correct": 0,
+      "total": 50,
+      "acc": 0.0
+    },
+    "Leukocytes": {
+      "correct": 0,
+      "total": 50,
+      "acc": 0.0
+    },
+    "Podocytes": {
+      "correct": 41,
+      "total": 50,
+      "acc": 82.0
+    },
+    "Proximal Tubule Segments": {
+      "correct": 6,
+      "total": 50,
+      "acc": 12.0
+    }
+  }
+}

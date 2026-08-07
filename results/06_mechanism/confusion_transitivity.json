@@ -1,0 +1,277 @@
+{
+  "description": "Confusion-matrix transitivity: do CLIP and MLLMs confuse the same class pairs? Mantel test on 28 TeacherBehavior class pairs, 10000 class-label permutations.",
+  "dataset": "TeacherBehavior",
+  "n_classes": 8,
+  "n_class_pairs": 28,
+  "clip_split_half_ceiling": {
+    "rho_spearman": 0.978,
+    "rho_pearson": 0.9821,
+    "p_mantel_spearman": 0.0001,
+    "p_mantel_pearson": 0.0001,
+    "n_perm": 10000
+  },
+  "clip_top_confused_pairs": [
+    {
+      "pair": "answer <-> stand",
+      "affinity": 0.4288
+    },
+    {
+      "pair": "blackboard-writing <-> screen",
+      "affinity": 0.3768
+    },
+    {
+      "pair": "teacher <-> screen",
+      "affinity": 0.254
+    },
+    {
+      "pair": "guide <-> stand",
+      "affinity": 0.2395
+    },
+    {
+      "pair": "teacher <-> blackBoard",
+      "affinity": 0.1884
+    }
+  ],
+  "per_model": {
+    "qwen3_5_27b": {
+      "status": "ok",
+      "n_images": 1990,
+      "n_rejected_unparsed": 0,
+      "n_usable": 1990,
+      "rho_spearman": 0.1929,
+      "rho_pearson": 0.2547,
+      "p_mantel_spearman": 0.21048,
+      "p_mantel_pearson": 0.10279,
+      "n_perm": 10000,
+      "mllm_top_confused_pairs": [
+        {
+          "pair": "answer <-> stand",
+          "affinity": 0.6139
+        },
+        {
+          "pair": "blackboard-writing <-> blackBoard",
+          "affinity": 0.4951
+        },
+        {
+          "pair": "On-stage interaction <-> stand",
+          "affinity": 0.3646
+        },
+        {
+          "pair": "teacher <-> stand",
+          "affinity": 0.2758
+        },
+        {
+          "pair": "stand <-> blackBoard",
+          "affinity": 0.2424
+        }
+      ],
+      "dominant_response": "standing at the front of a classroom",
+      "dominant_share": 0.4246,
+      "n_distinct": 8,
+      "p_mantel_spearman_fdr_bh": 0.21048
+    },
+    "qwen3_6_27b": {
+      "status": "ok",
+      "n_images": 888,
+      "n_rejected_unparsed": 0,
+      "n_usable": 888,
+      "rho_spearman": 0.359,
+      "rho_pearson": 0.3,
+      "p_mantel_spearman": 0.05739,
+      "p_mantel_pearson": 0.07339,
+      "n_perm": 10000,
+      "mllm_top_confused_pairs": [
+        {
+          "pair": "answer <-> stand",
+          "affinity": 0.5079
+        },
+        {
+          "pair": "blackboard-writing <-> blackBoard",
+          "affinity": 0.4882
+        },
+        {
+          "pair": "answer <-> teacher",
+          "affinity": 0.4057
+        },
+        {
+          "pair": "On-stage interaction <-> teacher",
+          "affinity": 0.3533
+        },
+        {
+          "pair": "answer <-> screen",
+          "affinity": 0.3095
+        }
+      ],
+      "dominant_response": "teacher",
+      "dominant_share": 0.2827,
+      "n_distinct": 9,
+      "p_mantel_spearman_fdr_bh": 0.17217
+    },
+    "qwen3_5_35b-a3b": {
+      "status": "ok",
+      "n_images": 1040,
+      "n_rejected_unparsed": 0,
+      "n_usable": 1040,
+      "rho_spearman": 0.2102,
+      "rho_pearson": 0.1843,
+      "p_mantel_spearman": 0.18618,
+      "p_mantel_pearson": 0.16508,
+      "n_perm": 10000,
+      "mllm_top_confused_pairs": [
+        {
+          "pair": "answer <-> stand",
+          "affinity": 0.5015
+        },
+        {
+          "pair": "blackboard-writing <-> blackBoard",
+          "affinity": 0.4803
+        },
+        {
+          "pair": "answer <-> On-stage interaction",
+          "affinity": 0.3854
+        },
+        {
+          "pair": "answer <-> screen",
+          "affinity": 0.3472
+        },
+        {
+          "pair": "guide <-> answer",
+          "affinity": 0.3396
+        }
+      ],
+      "dominant_response": "guiding students in classroom",
+      "dominant_share": 0.3962,
+      "n_distinct": 8,
+      "p_mantel_spearman_fdr_bh": 0.21048
+    },
+    "qwen3_6_35b-a3b": {
+      "status": "ok",
+      "n_images": 1692,
+      "n_rejected_unparsed": 0,
+      "n_usable": 1692,
+      "rho_spearman": 0.214,
+      "rho_pearson": 0.069,
+      "p_mantel_spearman": 0.20478,
+      "p_mantel_pearson": 0.40276,
+      "n_perm": 10000,
+      "mllm_top_confused_pairs": [
+        {
+          "pair": "guide <-> On-stage interaction",
+          "affinity": 0.4792
+        },
+        {
+          "pair": "guide <-> answer",
+          "affinity": 0.4477
+        },
+        {
+          "pair": "guide <-> teacher",
+          "affinity": 0.3818
+        },
+        {
+          "pair": "guide <-> blackBoard",
+          "affinity": 0.3514
+        },
+        {
+          "pair": "guide <-> stand",
+          "affinity": 0.3308
+        }
+      ],
+      "dominant_response": "guiding students in classroom",
+      "dominant_share": 0.7447,
+      "n_distinct": 7,
+      "p_mantel_spearman_fdr_bh": 0.21048
+    },
+    "gemma4_31b": {
+      "status": "ok",
+      "n_images": 1148,
+      "n_rejected_unparsed": 2,
+      "n_usable": 1146,
+      "rho_spearman": 0.2125,
+      "rho_pearson": 0.1292,
+      "p_mantel_spearman": 0.19048,
+      "p_mantel_pearson": 0.23808,
+      "n_perm": 10000,
+      "mllm_top_confused_pairs": [
+        {
+          "pair": "blackboard-writing <-> blackBoard",
+          "affinity": 0.437
+        },
+        {
+          "pair": "answer <-> stand",
+          "affinity": 0.3499
+        },
+        {
+          "pair": "guide <-> answer",
+          "affinity": 0.2857
+        },
+        {
+          "pair": "guide <-> On-stage interaction",
+          "affinity": 0.2812
+        },
+        {
+          "pair": "guide <-> teacher",
+          "affinity": 0.2606
+        }
+      ],
+      "dominant_response": "guiding students in",
+      "dominant_share": 0.5017,
+      "n_distinct": 9,
+      "p_mantel_spearman_fdr_bh": 0.21048
+    },
+    "gemma4_26b": {
+      "status": "ok",
+      "n_images": 996,
+      "n_rejected_unparsed": 0,
+      "n_usable": 996,
+      "rho_spearman": 0.4869,
+      "rho_pearson": 0.2812,
+      "p_mantel_spearman": 0.0108,
+      "p_mantel_pearson": 0.07919,
+      "n_perm": 10000,
+      "mllm_top_confused_pairs": [
+        {
+          "pair": "answer <-> teacher",
+          "affinity": 0.3089
+        },
+        {
+          "pair": "teacher <-> blackBoard",
+          "affinity": 0.3071
+        },
+        {
+          "pair": "blackboard-writing <-> blackBoard",
+          "affinity": 0.2953
+        },
+        {
+          "pair": "On-stage interaction <-> teacher",
+          "affinity": 0.2812
+        },
+        {
+          "pair": "guide <-> On-stage interaction",
+          "affinity": 0.2083
+        }
+      ],
+      "dominant_response": "teacher",
+      "dominant_share": 0.4267,
+      "n_distinct": 8,
+      "p_mantel_spearman_fdr_bh": 0.0648
+    }
+  },
+  "cross_mllm_summary": {
+    "n_models_ok": 6,
+    "rho_spearman_range": [
+      0.193,
+      0.487
+    ],
+    "rho_spearman_mean": 0.279,
+    "rho_spearman_std": 0.108,
+    "rho_pearson_range": [
+      0.069,
+      0.3
+    ],
+    "n_significant_uncorrected_p_lt_05": 1,
+    "n_significant_fdr_bh_lt_05": 0,
+    "expected_fp_under_global_null": 0.3,
+    "multiple_comparison_note": "BH-FDR applied (uniform with the rest of the paper). 1/6 uncorrected significant, 0/6 FDR-significant. Under the global null at alpha=0.05 we would expect ~0.3 false positives from pure noise; the observed uncorrected count is consistent with that null, so the family of tests is treated as an overall NULL result (no model singled out).",
+    "note": "The 6 MLLMs are not independent estimates (pairwise per-class rho=0.864); we report the range and significance pattern rather than a formal meta-analysis."
+  }
+}

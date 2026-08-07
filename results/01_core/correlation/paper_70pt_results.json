@@ -1,0 +1,174 @@
+{
+  "description": "VisualAnchor paper results (6 MLLMs, 78 class-model pairs). Models: Gemma4-26B, Gemma4-31B, Qwen3.5-27B, Qwen3.5-35B, Qwen3.6-27B, Qwen3.6-35B.",
+  "data_points": "78 (TB: 48, HRW: 18, BTH: 12)",
+  "global_correlation": {
+    "n": 78,
+    "spearman_rho": 0.6925,
+    "spearman_p": 2.178476594998808e-12,
+    "pearson_r": 0.7461,
+    "pearson_p": 4.539024412980777e-15,
+    "n_models": 6
+  },
+  "per_dataset": {
+    "TeacherBehavior": {
+      "n": 48,
+      "n_classes": 8,
+      "spearman_rho": 0.5487,
+      "spearman_p": 5.39136850287487e-05
+    },
+    "HandriseReadWrite": {
+      "n": 18,
+      "n_classes": 3,
+      "spearman_rho": 0.9443,
+      "spearman_p": 3.926793684798383e-09
+    },
+    "BowTurnHead": {
+      "n": 12,
+      "n_classes": 2,
+      "spearman_rho": 0.0484,
+      "spearman_p": 0.8813469952912765
+    }
+  },
+  "class_level": {
+    "n": 13,
+    "spearman_rho": 0.7692,
+    "spearman_p": 0.0021122295993498776
+  },
+  "bootstrap": {
+    "B": 100000,
+    "method": "class-level resampling, one MLLM per class per replicate",
+    "rho_mean": 0.6584,
+    "rho_std": 0.1941,
+    "ci_95": [
+      0.1856,
+      0.9432
+    ],
+    "pct_positive": 99.29
+  },
+  "ranking": {
+    "auc": 0.9524,
+    "threshold": "median MLLM accuracy",
+    "n_classes": 13
+  },
+  "leave_one_class_out": {
+    "rho_range": [
+      0.7063,
+      0.9091
+    ],
+    "rho_mean": 0.7671
+  },
+  "leave_one_mllm_out": {
+    "rho_range": [
+      0.6796,
+      0.7083
+    ],
+    "rho_mean": 0.6923
+  },
+  "leave_one_mllm_out_per_model": {
+    "exclude_Gemma4-26B": {
+      "n": 65,
+      "rho": 0.6803,
+      "p": 4.5758336358332714e-10
+    },
+    "exclude_Gemma4-31B": {
+      "n": 65,
+      "rho": 0.6895,
+      "p": 2.1398136501545466e-10
+    },
+    "exclude_Qwen3.5-27B": {
+      "n": 65,
+      "rho": 0.7083,
+      "p": 4.1136807941563165e-11
+    },
+    "exclude_Qwen3.5-35B": {
+      "n": 65,
+      "rho": 0.6796,
+      "p": 4.826287001477023e-10
+    },
+    "exclude_Qwen3.6-27B": {
+      "n": 65,
+      "rho": 0.7044,
+      "p": 5.874517398100302e-11
+    },
+    "exclude_Qwen3.6-35B": {
+      "n": 65,
+      "rho": 0.6917,
+      "p": 1.7791082099640775e-10
+    }
+  },
+  "leave_one_dataset_out": {
+    "exclude_TeacherBehavior": {
+      "n": 5,
+      "rho": 1.0,
+      "p": 1.4042654220543672e-24
+    },
+    "exclude_HandriseReadWrite": {
+      "n": 10,
+      "rho": 0.6242,
+      "p": 0.053717767217167395
+    },
+    "exclude_BowTurnHead": {
+      "n": 11,
+      "rho": 0.7636,
+      "p": 0.006233059747904751
+    }
+  },
+  "per_class_teacher_behavior": [
+    {
+      "class": "guide",
+      "anchor_score": 29.34,
+      "mllm_mean": 42.5,
+      "mllm_std": 20.6,
+      "delta": 13.2
+    },
+    {
+      "class": "answer",
+      "anchor_score": 5.57,
+      "mllm_mean": 12.4,
+      "mllm_std": 6.9,
+      "delta": 6.8
+    },
+    {
+      "class": "On-stage interaction",
+      "anchor_score": 54.17,
+      "mllm_mean": 80.2,
+      "mllm_std": 8.2,
+      "delta": 26.0
+    },
+    {
+      "class": "blackboard-writing",
+      "anchor_score": 26.09,
+      "mllm_mean": 97.5,
+      "mllm_std": 1.7,
+      "delta": 71.4
+    },
+    {
+      "class": "teacher",
+      "anchor_score": 50.48,
+      "mllm_mean": 68.8,
+      "mllm_std": 8.0,
+      "delta": 18.3
+    },
+    {
+      "class": "stand",
+      "anchor_score": 9.57,
+      "mllm_mean": 23.1,
+      "mllm_std": 6.1,
+      "delta": 13.5
+    },
+    {
+      "class": "screen",
+      "anchor_score": 40.48,
+      "mllm_mean": 67.8,
+      "mllm_std": 13.7,
+      "delta": 27.3
+    },
+    {
+      "class": "blackBoard",
+      "anchor_score": 3.16,
+      "mllm_mean": 44.6,
+      "mllm_std": 14.3,
+      "delta": 41.4
+    }
+  ]
+}

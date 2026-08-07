@@ -1,0 +1,114 @@
+{
+  "description": "Leave-one-class-out robustness + Bootstrap CI + Delta-vs-AnchorScore",
+  "full_scb5": {
+    "rho": 0.7692,
+    "p": 0.002112,
+    "n": 13,
+    "bootstrap_ci_95": {
+      "low": 0.3165,
+      "high": 1.0,
+      "B": 10000
+    }
+  },
+  "loco": {
+    "guide": {
+      "rho": 0.7902,
+      "p": 0.002223,
+      "n": 12
+    },
+    "answer": {
+      "rho": 0.7343,
+      "p": 0.006543,
+      "n": 12
+    },
+    "On-stage interaction": {
+      "rho": 0.7692,
+      "p": 0.003446,
+      "n": 12
+    },
+    "blackboard-writing": {
+      "rho": 0.9091,
+      "p": 4.2e-05,
+      "n": 12
+    },
+    "teacher": {
+      "rho": 0.7692,
+      "p": 0.003446,
+      "n": 12
+    },
+    "stand": {
+      "rho": 0.7343,
+      "p": 0.006543,
+      "n": 12
+    },
+    "screen": {
+      "rho": 0.7552,
+      "p": 0.004508,
+      "n": 12
+    },
+    "blackBoard": {
+      "rho": 0.7832,
+      "p": 0.002586,
+      "n": 12
+    },
+    "hand-raising": {
+      "rho": 0.7552,
+      "p": 0.004508,
+      "n": 12
+    },
+    "read": {
+      "rho": 0.7343,
+      "p": 0.006543,
+      "n": 12
+    },
+    "write": {
+      "rho": 0.7063,
+      "p": 0.010245,
+      "n": 12
+    },
+    "BowHead": {
+      "rho": 0.7762,
+      "p": 0.002993,
+      "n": 12
+    },
+    "TurnHead": {
+      "rho": 0.7552,
+      "p": 0.004508,
+      "n": 12
+    }
+  },
+  "loco_summary": {
+    "range": [
+      0.7063,
+      0.9091
+    ],
+    "mean": 0.7671
+  },
+  "cross_domain": {
+    "rho": 0.462,
+    "p": 0.005953,
+    "n": 34,
+    "bootstrap_ci_95": {
+      "low": 0.1541,
+      "high": 0.6908,
+      "B": 10000
+    }
+  },
+  "delta_vs_anchor": {
+    "pooled_47": {
+      "rho": -0.1878,
+      "p": 0.206311,
+      "mean_delta_pp": 8.27
+    },
+    "scb5_13": {
+      "rho": -0.0989,
+      "p": 0.747868,
+      "mean_delta_pp": 22.33
+    },
+    "cross_domain_34": {
+      "rho": -0.4762,
+      "p": 0.004417,
+      "mean_delta_pp": 2.9
+    }
+  }
+}

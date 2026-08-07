@@ -1,0 +1,64 @@
+{
+  "laion_l14": {
+    "description": "LAION ViT-L/14 class-level (n=13)",
+    "full_78pt": {
+      "n": 13,
+      "spearman_rho": 0.7692,
+      "spearman_p": 0.002112
+    },
+    "truncated_70pt": {
+      "n": 13,
+      "spearman_rho": 0.7692,
+      "spearman_p": 0.002112
+    },
+    "delta_rho": 0.0,
+    "unchanged": true
+  },
+  "backbones": {
+    "laion_l14": {
+      "model": "LAION ViT-L/14",
+      "full_78pt": {
+        "n": 13,
+        "spearman_rho": 0.7692,
+        "spearman_p": 0.002112
+      },
+      "truncated_70pt": {
+        "n": 13,
+        "spearman_rho": 0.7692,
+        "spearman_p": 0.002112
+      },
+      "delta_rho": 0.0,
+      "unchanged": true
+    },
+    "openai_l14": {
+      "model": "OpenAI ViT-L/14",
+      "full_78pt": {
+        "n": 13,
+        "spearman_rho": 0.4725,
+        "spearman_p": 0.102981
+      },
+      "truncated_70pt": {
+        "n": 13,
+        "spearman_rho": 0.4725,
+        "spearman_p": 0.102981
+      },
+      "delta_rho": 0.0,
+      "unchanged": true
+    },
+    "openai_b32": {
+      "model": "OpenAI ViT-B/32",
+      "full_78pt": {
+        "n": 13,
+        "spearman_rho": 0.2418,
+        "spearman_p": 0.426176
+      },
+      "truncated_70pt": {
+        "n": 13,
+        "spearman_rho": 0.2418,
+        "spearman_p": 0.426176
+      },
+      "delta_rho": 0.0,
+      "unchanged": true
+    }
+  }
+}

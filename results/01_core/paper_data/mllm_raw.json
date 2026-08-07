@@ -1,0 +1,124 @@
+{
+  "_provenance": "SCB5 per-class accuracy (%) for 6 MLLMs. Extracted from llm-annotation cross_model_annotate.py (HuggingFace Transformers, bbox crops). These values are the frozen numbers used in the VisualAnchor paper (78 data points, 6 MLLMs × 13 classes minus missing entries). Qwen3.6-35B TeacherBehavior added 2026-07-19 from llm-annotation cross_model_validation results.",
+  "_llava_provenance": "LLaVA-1.5-7B SCB5 data is read programmatically from results/llava_scb5/llava15_7b_scb5_summary_*.json and is NOT included here (to avoid duplication).",
+  "TeacherBehavior": {
+    "Qwen3.5-27B": {
+      "guide": 52.34,
+      "answer": 17.7,
+      "On-stage interaction": 73.83,
+      "blackboard-writing": 98.19,
+      "teacher": 54.89,
+      "stand": 33.26,
+      "screen": 88.77,
+      "blackBoard": 60.12
+    },
+    "Qwen3.6-27B": {
+      "guide": 37.42,
+      "answer": 8.68,
+      "On-stage interaction": 77.85,
+      "blackboard-writing": 98.92,
+      "teacher": 69.89,
+      "stand": 25.25,
+      "screen": 74.32,
+      "blackBoard": 54.19
+    },
+    "Qwen3.5-35B": {
+      "guide": 24.5,
+      "answer": 18.87,
+      "On-stage interaction": 67.79,
+      "blackboard-writing": 98.56,
+      "teacher": 72.68,
+      "stand": 21.68,
+      "screen": 73.51,
+      "blackBoard": 19.54
+    },
+    "Gemma4-31B": {
+      "guide": 82.85,
+      "answer": 9.38,
+      "On-stage interaction": 87.25,
+      "blackboard-writing": 95.67,
+      "teacher": 63.23,
+      "stand": 26.47,
+      "screen": 48.14,
+      "blackBoard": 44.21
+    },
+    "Gemma4-26B": {
+      "guide": 36.02,
+      "answer": 0.35,
+      "On-stage interaction": 81.88,
+      "blackboard-writing": 94.58,
+      "teacher": 80.38,
+      "stand": 16.32,
+      "screen": 52.83,
+      "blackBoard": 55.97
+    },
+    "Qwen3.6-35B": {
+      "guide": 21.83,
+      "answer": 19.23,
+      "On-stage interaction": 92.62,
+      "blackboard-writing": 98.92,
+      "teacher": 71.9,
+      "stand": 15.54,
+      "screen": 69.12,
+      "blackBoard": 33.27
+    }
+  },
+  "HandriseReadWrite": {
+    "Qwen3.5-27B": {
+      "hand-raising": 84.83,
+      "read": 27.6,
+      "write": 98.26
+    },
+    "Qwen3.6-27B": {
+      "hand-raising": 87.61,
+      "read": 30.0,
+      "write": 98.0
+    },
+    "Qwen3.5-35B": {
+      "hand-raising": 91.7,
+      "read": 31.84,
+      "write": 97.11
+    },
+    "Qwen3.6-35B": {
+      "hand-raising": 90.73,
+      "read": 32.3,
+      "write": 97.61
+    },
+    "Gemma4-31B": {
+      "hand-raising": 89.81,
+      "read": 21.21,
+      "write": 97.76
+    },
+    "Gemma4-26B": {
+      "hand-raising": 90.77,
+      "read": 18.88,
+      "write": 97.88
+    }
+  },
+  "BowTurnHead": {
+    "Qwen3.5-27B": {
+      "BowHead": 89.44,
+      "TurnHead": 77.81
+    },
+    "Qwen3.6-27B": {
+      "BowHead": 91.11,
+      "TurnHead": 72.39
+    },
+    "Qwen3.5-35B": {
+      "BowHead": 76.85,
+      "TurnHead": 91.47
+    },
+    "Qwen3.6-35B": {
+      "BowHead": 90.0,
+      "TurnHead": 77.59
+    },
+    "Gemma4-31B": {
+      "BowHead": 90.0,
+      "TurnHead": 85.75
+    },
+    "Gemma4-26B": {
+      "BowHead": 45.56,
+      "TurnHead": 97.01
+    }
+  }
+}

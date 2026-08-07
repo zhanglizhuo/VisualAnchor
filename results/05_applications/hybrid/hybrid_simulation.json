@@ -1,0 +1,3257 @@
+{
+  "0": {
+    "TeacherBehavior": {
+      "threshold": 0,
+      "accuracy": 32.5,
+      "cost": 3240.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 99.0,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "clip",
+          "anchor_acc": 29.34,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 49.0,
+          "cost": 167.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "clip",
+          "anchor_acc": 5.57,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 16.0,
+          "cost": 287.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "clip",
+          "anchor_acc": 54.17,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 26.0,
+          "cost": 48.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "clip",
+          "anchor_acc": 26.09,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 42.0,
+          "cost": 161.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "clip",
+          "anchor_acc": 50.36,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 848.1,
+          "cost": 1684.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "clip",
+          "anchor_acc": 9.34,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 41.0,
+          "cost": 439.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "clip",
+          "anchor_acc": 40.48,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 17.0,
+          "cost": 42.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "clip",
+          "anchor_acc": 3.4,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 14.0,
+          "cost": 412.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 0,
+      "accuracy": 60.98,
+      "cost": 1671.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 99.0,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "clip",
+          "anchor_acc": 80.15,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 662.0,
+          "cost": 826.0
+        },
+        "read": {
+          "n": 601,
+          "use": "clip",
+          "anchor_acc": 22.96,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 138.0,
+          "cost": 601.0
+        },
+        "write": {
+          "n": 244,
+          "use": "clip",
+          "anchor_acc": 89.75,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 219.0,
+          "cost": 244.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 0,
+      "accuracy": 60.59,
+      "cost": 505.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 99.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "clip",
+          "anchor_acc": 50.0,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 56.0,
+          "cost": 112.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "clip",
+          "anchor_acc": 63.61,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 250.0,
+          "cost": 393.0
+        }
+      }
+    }
+  },
+  "5": {
+    "TeacherBehavior": {
+      "threshold": 5,
+      "accuracy": 39.19,
+      "cost": 44028.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 86.4,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "clip",
+          "anchor_acc": 29.34,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 49.0,
+          "cost": 167.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "clip",
+          "anchor_acc": 5.57,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 16.0,
+          "cost": 287.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "clip",
+          "anchor_acc": 54.17,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 26.0,
+          "cost": 48.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "clip",
+          "anchor_acc": 26.09,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 42.0,
+          "cost": 161.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "clip",
+          "anchor_acc": 50.36,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 848.1,
+          "cost": 1684.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "clip",
+          "anchor_acc": 9.34,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 41.0,
+          "cost": 439.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "clip",
+          "anchor_acc": 40.48,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 17.0,
+          "cost": 42.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 5,
+      "accuracy": 60.98,
+      "cost": 1671.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 99.0,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "clip",
+          "anchor_acc": 80.15,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 662.0,
+          "cost": 826.0
+        },
+        "read": {
+          "n": 601,
+          "use": "clip",
+          "anchor_acc": 22.96,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 138.0,
+          "cost": 601.0
+        },
+        "write": {
+          "n": 244,
+          "use": "clip",
+          "anchor_acc": 89.75,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 219.0,
+          "cost": 244.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 5,
+      "accuracy": 60.59,
+      "cost": 505.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 99.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "clip",
+          "anchor_acc": 50.0,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 56.0,
+          "cost": 112.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "clip",
+          "anchor_acc": 63.61,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 250.0,
+          "cost": 393.0
+        }
+      }
+    }
+  },
+  "10": {
+    "TeacherBehavior": {
+      "threshold": 10,
+      "accuracy": 39.67,
+      "cost": 115902.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 64.2,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "clip",
+          "anchor_acc": 29.34,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 49.0,
+          "cost": 167.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "mllm",
+          "anchor_acc": 5.57,
+          "mllm_acc": 0.35,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1.0,
+          "cost": 28700.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "clip",
+          "anchor_acc": 54.17,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 26.0,
+          "cost": 48.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "clip",
+          "anchor_acc": 26.09,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 42.0,
+          "cost": 161.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "clip",
+          "anchor_acc": 50.36,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 848.1,
+          "cost": 1684.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "mllm",
+          "anchor_acc": 9.34,
+          "mllm_acc": 16.32,
+          "best_mllm": "Gemma4-26B",
+          "correct": 71.6,
+          "cost": 43900.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "clip",
+          "anchor_acc": 40.48,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 17.0,
+          "cost": 42.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 10,
+      "accuracy": 60.98,
+      "cost": 1671.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 99.0,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "clip",
+          "anchor_acc": 80.15,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 662.0,
+          "cost": 826.0
+        },
+        "read": {
+          "n": 601,
+          "use": "clip",
+          "anchor_acc": 22.96,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 138.0,
+          "cost": 601.0
+        },
+        "write": {
+          "n": 244,
+          "use": "clip",
+          "anchor_acc": 89.75,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 219.0,
+          "cost": 244.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 10,
+      "accuracy": 60.59,
+      "cost": 505.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 99.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "clip",
+          "anchor_acc": 50.0,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 56.0,
+          "cost": 112.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "clip",
+          "anchor_acc": 63.61,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 250.0,
+          "cost": 393.0
+        }
+      }
+    }
+  },
+  "15": {
+    "TeacherBehavior": {
+      "threshold": 15,
+      "accuracy": 39.67,
+      "cost": 115902.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 64.2,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "clip",
+          "anchor_acc": 29.34,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 49.0,
+          "cost": 167.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "mllm",
+          "anchor_acc": 5.57,
+          "mllm_acc": 0.35,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1.0,
+          "cost": 28700.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "clip",
+          "anchor_acc": 54.17,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 26.0,
+          "cost": 48.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "clip",
+          "anchor_acc": 26.09,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 42.0,
+          "cost": 161.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "clip",
+          "anchor_acc": 50.36,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 848.1,
+          "cost": 1684.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "mllm",
+          "anchor_acc": 9.34,
+          "mllm_acc": 16.32,
+          "best_mllm": "Gemma4-26B",
+          "correct": 71.6,
+          "cost": 43900.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "clip",
+          "anchor_acc": 40.48,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 17.0,
+          "cost": 42.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 15,
+      "accuracy": 60.98,
+      "cost": 1671.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 99.0,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "clip",
+          "anchor_acc": 80.15,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 662.0,
+          "cost": 826.0
+        },
+        "read": {
+          "n": 601,
+          "use": "clip",
+          "anchor_acc": 22.96,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 138.0,
+          "cost": 601.0
+        },
+        "write": {
+          "n": 244,
+          "use": "clip",
+          "anchor_acc": 89.75,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 219.0,
+          "cost": 244.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 15,
+      "accuracy": 60.59,
+      "cost": 505.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 99.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "clip",
+          "anchor_acc": 50.0,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 56.0,
+          "cost": 112.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "clip",
+          "anchor_acc": 63.61,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 250.0,
+          "cost": 393.0
+        }
+      }
+    }
+  },
+  "20": {
+    "TeacherBehavior": {
+      "threshold": 20,
+      "accuracy": 39.67,
+      "cost": 115902.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 64.2,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "clip",
+          "anchor_acc": 29.34,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 49.0,
+          "cost": 167.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "mllm",
+          "anchor_acc": 5.57,
+          "mllm_acc": 0.35,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1.0,
+          "cost": 28700.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "clip",
+          "anchor_acc": 54.17,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 26.0,
+          "cost": 48.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "clip",
+          "anchor_acc": 26.09,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 42.0,
+          "cost": 161.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "clip",
+          "anchor_acc": 50.36,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 848.1,
+          "cost": 1684.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "mllm",
+          "anchor_acc": 9.34,
+          "mllm_acc": 16.32,
+          "best_mllm": "Gemma4-26B",
+          "correct": 71.6,
+          "cost": 43900.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "clip",
+          "anchor_acc": 40.48,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 17.0,
+          "cost": 42.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 20,
+      "accuracy": 60.98,
+      "cost": 1671.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 99.0,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "clip",
+          "anchor_acc": 80.15,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 662.0,
+          "cost": 826.0
+        },
+        "read": {
+          "n": 601,
+          "use": "clip",
+          "anchor_acc": 22.96,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 138.0,
+          "cost": 601.0
+        },
+        "write": {
+          "n": 244,
+          "use": "clip",
+          "anchor_acc": 89.75,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 219.0,
+          "cost": 244.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 20,
+      "accuracy": 60.59,
+      "cost": 505.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 99.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "clip",
+          "anchor_acc": 50.0,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 56.0,
+          "cost": 112.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "clip",
+          "anchor_acc": 63.61,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 250.0,
+          "cost": 393.0
+        }
+      }
+    }
+  },
+  "25": {
+    "TeacherBehavior": {
+      "threshold": 25,
+      "accuracy": 39.67,
+      "cost": 115902.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 64.2,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "clip",
+          "anchor_acc": 29.34,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 49.0,
+          "cost": 167.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "mllm",
+          "anchor_acc": 5.57,
+          "mllm_acc": 0.35,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1.0,
+          "cost": 28700.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "clip",
+          "anchor_acc": 54.17,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 26.0,
+          "cost": 48.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "clip",
+          "anchor_acc": 26.09,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 42.0,
+          "cost": 161.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "clip",
+          "anchor_acc": 50.36,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 848.1,
+          "cost": 1684.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "mllm",
+          "anchor_acc": 9.34,
+          "mllm_acc": 16.32,
+          "best_mllm": "Gemma4-26B",
+          "correct": 71.6,
+          "cost": 43900.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "clip",
+          "anchor_acc": 40.48,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 17.0,
+          "cost": 42.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 25,
+      "accuracy": 64.18,
+      "cost": 61170.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 63.4,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "clip",
+          "anchor_acc": 80.15,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 662.0,
+          "cost": 826.0
+        },
+        "read": {
+          "n": 601,
+          "use": "mllm",
+          "anchor_acc": 22.96,
+          "mllm_acc": 31.84,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 191.4,
+          "cost": 60100.0
+        },
+        "write": {
+          "n": 244,
+          "use": "clip",
+          "anchor_acc": 89.75,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 219.0,
+          "cost": 244.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 25,
+      "accuracy": 60.59,
+      "cost": 505.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 99.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "clip",
+          "anchor_acc": 50.0,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 56.0,
+          "cost": 112.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "clip",
+          "anchor_acc": 63.61,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 250.0,
+          "cost": 393.0
+        }
+      }
+    }
+  },
+  "30": {
+    "TeacherBehavior": {
+      "threshold": 30,
+      "accuracy": 43.42,
+      "cost": 148374.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 54.2,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "mllm",
+          "anchor_acc": 29.34,
+          "mllm_acc": 36.02,
+          "best_mllm": "Gemma4-26B",
+          "correct": 60.2,
+          "cost": 16700.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "mllm",
+          "anchor_acc": 5.57,
+          "mllm_acc": 0.35,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1.0,
+          "cost": 28700.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "clip",
+          "anchor_acc": 54.17,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 26.0,
+          "cost": 48.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "mllm",
+          "anchor_acc": 26.09,
+          "mllm_acc": 94.58,
+          "best_mllm": "Gemma4-26B",
+          "correct": 152.3,
+          "cost": 16100.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "clip",
+          "anchor_acc": 50.36,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 848.1,
+          "cost": 1684.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "mllm",
+          "anchor_acc": 9.34,
+          "mllm_acc": 16.32,
+          "best_mllm": "Gemma4-26B",
+          "correct": 71.6,
+          "cost": 43900.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "clip",
+          "anchor_acc": 40.48,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 17.0,
+          "cost": 42.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 30,
+      "accuracy": 64.18,
+      "cost": 61170.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 63.4,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "clip",
+          "anchor_acc": 80.15,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 662.0,
+          "cost": 826.0
+        },
+        "read": {
+          "n": 601,
+          "use": "mllm",
+          "anchor_acc": 22.96,
+          "mllm_acc": 31.84,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 191.4,
+          "cost": 60100.0
+        },
+        "write": {
+          "n": 244,
+          "use": "clip",
+          "anchor_acc": 89.75,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 219.0,
+          "cost": 244.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 30,
+      "accuracy": 60.59,
+      "cost": 505.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 99.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "clip",
+          "anchor_acc": 50.0,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 56.0,
+          "cost": 112.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "clip",
+          "anchor_acc": 63.61,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 250.0,
+          "cost": 393.0
+        }
+      }
+    }
+  },
+  "35": {
+    "TeacherBehavior": {
+      "threshold": 35,
+      "accuracy": 43.42,
+      "cost": 148374.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 54.2,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "mllm",
+          "anchor_acc": 29.34,
+          "mllm_acc": 36.02,
+          "best_mllm": "Gemma4-26B",
+          "correct": 60.2,
+          "cost": 16700.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "mllm",
+          "anchor_acc": 5.57,
+          "mllm_acc": 0.35,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1.0,
+          "cost": 28700.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "clip",
+          "anchor_acc": 54.17,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 26.0,
+          "cost": 48.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "mllm",
+          "anchor_acc": 26.09,
+          "mllm_acc": 94.58,
+          "best_mllm": "Gemma4-26B",
+          "correct": 152.3,
+          "cost": 16100.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "clip",
+          "anchor_acc": 50.36,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 848.1,
+          "cost": 1684.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "mllm",
+          "anchor_acc": 9.34,
+          "mllm_acc": 16.32,
+          "best_mllm": "Gemma4-26B",
+          "correct": 71.6,
+          "cost": 43900.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "clip",
+          "anchor_acc": 40.48,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 17.0,
+          "cost": 42.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 35,
+      "accuracy": 64.18,
+      "cost": 61170.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 63.4,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "clip",
+          "anchor_acc": 80.15,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 662.0,
+          "cost": 826.0
+        },
+        "read": {
+          "n": 601,
+          "use": "mllm",
+          "anchor_acc": 22.96,
+          "mllm_acc": 31.84,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 191.4,
+          "cost": 60100.0
+        },
+        "write": {
+          "n": 244,
+          "use": "clip",
+          "anchor_acc": 89.75,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 219.0,
+          "cost": 244.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 35,
+      "accuracy": 60.59,
+      "cost": 505.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 99.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "clip",
+          "anchor_acc": 50.0,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 56.0,
+          "cost": 112.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "clip",
+          "anchor_acc": 63.61,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 250.0,
+          "cost": 393.0
+        }
+      }
+    }
+  },
+  "40": {
+    "TeacherBehavior": {
+      "threshold": 40,
+      "accuracy": 43.42,
+      "cost": 148374.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 54.2,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "mllm",
+          "anchor_acc": 29.34,
+          "mllm_acc": 36.02,
+          "best_mllm": "Gemma4-26B",
+          "correct": 60.2,
+          "cost": 16700.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "mllm",
+          "anchor_acc": 5.57,
+          "mllm_acc": 0.35,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1.0,
+          "cost": 28700.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "clip",
+          "anchor_acc": 54.17,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 26.0,
+          "cost": 48.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "mllm",
+          "anchor_acc": 26.09,
+          "mllm_acc": 94.58,
+          "best_mllm": "Gemma4-26B",
+          "correct": 152.3,
+          "cost": 16100.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "clip",
+          "anchor_acc": 50.36,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 848.1,
+          "cost": 1684.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "mllm",
+          "anchor_acc": 9.34,
+          "mllm_acc": 16.32,
+          "best_mllm": "Gemma4-26B",
+          "correct": 71.6,
+          "cost": 43900.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "clip",
+          "anchor_acc": 40.48,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 17.0,
+          "cost": 42.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 40,
+      "accuracy": 64.18,
+      "cost": 61170.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 63.4,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "clip",
+          "anchor_acc": 80.15,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 662.0,
+          "cost": 826.0
+        },
+        "read": {
+          "n": 601,
+          "use": "mllm",
+          "anchor_acc": 22.96,
+          "mllm_acc": 31.84,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 191.4,
+          "cost": 60100.0
+        },
+        "write": {
+          "n": 244,
+          "use": "clip",
+          "anchor_acc": 89.75,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 219.0,
+          "cost": 244.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 40,
+      "accuracy": 60.59,
+      "cost": 505.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 99.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "clip",
+          "anchor_acc": 50.0,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 56.0,
+          "cost": 112.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "clip",
+          "anchor_acc": 63.61,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 250.0,
+          "cost": 393.0
+        }
+      }
+    }
+  },
+  "45": {
+    "TeacherBehavior": {
+      "threshold": 45,
+      "accuracy": 43.58,
+      "cost": 152532.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 52.9,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "mllm",
+          "anchor_acc": 29.34,
+          "mllm_acc": 36.02,
+          "best_mllm": "Gemma4-26B",
+          "correct": 60.2,
+          "cost": 16700.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "mllm",
+          "anchor_acc": 5.57,
+          "mllm_acc": 0.35,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1.0,
+          "cost": 28700.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "clip",
+          "anchor_acc": 54.17,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 26.0,
+          "cost": 48.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "mllm",
+          "anchor_acc": 26.09,
+          "mllm_acc": 94.58,
+          "best_mllm": "Gemma4-26B",
+          "correct": 152.3,
+          "cost": 16100.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "clip",
+          "anchor_acc": 50.36,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 848.1,
+          "cost": 1684.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "mllm",
+          "anchor_acc": 9.34,
+          "mllm_acc": 16.32,
+          "best_mllm": "Gemma4-26B",
+          "correct": 71.6,
+          "cost": 43900.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "mllm",
+          "anchor_acc": 40.48,
+          "mllm_acc": 52.83,
+          "best_mllm": "Gemma4-26B",
+          "correct": 22.2,
+          "cost": 4200.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 45,
+      "accuracy": 64.18,
+      "cost": 61170.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 63.4,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "clip",
+          "anchor_acc": 80.15,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 662.0,
+          "cost": 826.0
+        },
+        "read": {
+          "n": 601,
+          "use": "mllm",
+          "anchor_acc": 22.96,
+          "mllm_acc": 31.84,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 191.4,
+          "cost": 60100.0
+        },
+        "write": {
+          "n": 244,
+          "use": "clip",
+          "anchor_acc": 89.75,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 219.0,
+          "cost": 244.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 45,
+      "accuracy": 60.59,
+      "cost": 505.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 99.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "clip",
+          "anchor_acc": 50.0,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 56.0,
+          "cost": 112.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "clip",
+          "anchor_acc": 63.61,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 250.0,
+          "cost": 393.0
+        }
+      }
+    }
+  },
+  "50": {
+    "TeacherBehavior": {
+      "threshold": 50,
+      "accuracy": 43.58,
+      "cost": 152532.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 52.9,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "mllm",
+          "anchor_acc": 29.34,
+          "mllm_acc": 36.02,
+          "best_mllm": "Gemma4-26B",
+          "correct": 60.2,
+          "cost": 16700.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "mllm",
+          "anchor_acc": 5.57,
+          "mllm_acc": 0.35,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1.0,
+          "cost": 28700.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "clip",
+          "anchor_acc": 54.17,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 26.0,
+          "cost": 48.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "mllm",
+          "anchor_acc": 26.09,
+          "mllm_acc": 94.58,
+          "best_mllm": "Gemma4-26B",
+          "correct": 152.3,
+          "cost": 16100.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "clip",
+          "anchor_acc": 50.36,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 848.1,
+          "cost": 1684.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "mllm",
+          "anchor_acc": 9.34,
+          "mllm_acc": 16.32,
+          "best_mllm": "Gemma4-26B",
+          "correct": 71.6,
+          "cost": 43900.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "mllm",
+          "anchor_acc": 40.48,
+          "mllm_acc": 52.83,
+          "best_mllm": "Gemma4-26B",
+          "correct": 22.2,
+          "cost": 4200.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 50,
+      "accuracy": 64.18,
+      "cost": 61170.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 63.4,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "clip",
+          "anchor_acc": 80.15,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 662.0,
+          "cost": 826.0
+        },
+        "read": {
+          "n": 601,
+          "use": "mllm",
+          "anchor_acc": 22.96,
+          "mllm_acc": 31.84,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 191.4,
+          "cost": 60100.0
+        },
+        "write": {
+          "n": 244,
+          "use": "clip",
+          "anchor_acc": 89.75,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 219.0,
+          "cost": 244.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 50,
+      "accuracy": 60.59,
+      "cost": 505.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 99.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "clip",
+          "anchor_acc": 50.0,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 56.0,
+          "cost": 112.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "clip",
+          "anchor_acc": 63.61,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 250.0,
+          "cost": 393.0
+        }
+      }
+    }
+  },
+  "55": {
+    "TeacherBehavior": {
+      "threshold": 55,
+      "accuracy": 59.59,
+      "cost": 324000.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "mllm",
+          "anchor_acc": 29.34,
+          "mllm_acc": 36.02,
+          "best_mllm": "Gemma4-26B",
+          "correct": 60.2,
+          "cost": 16700.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "mllm",
+          "anchor_acc": 5.57,
+          "mllm_acc": 0.35,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1.0,
+          "cost": 28700.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "mllm",
+          "anchor_acc": 54.17,
+          "mllm_acc": 81.88,
+          "best_mllm": "Gemma4-26B",
+          "correct": 39.3,
+          "cost": 4800.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "mllm",
+          "anchor_acc": 26.09,
+          "mllm_acc": 94.58,
+          "best_mllm": "Gemma4-26B",
+          "correct": 152.3,
+          "cost": 16100.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "mllm",
+          "anchor_acc": 50.36,
+          "mllm_acc": 80.38,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1353.6,
+          "cost": 168400.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "mllm",
+          "anchor_acc": 9.34,
+          "mllm_acc": 16.32,
+          "best_mllm": "Gemma4-26B",
+          "correct": 71.6,
+          "cost": 43900.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "mllm",
+          "anchor_acc": 40.48,
+          "mllm_acc": 52.83,
+          "best_mllm": "Gemma4-26B",
+          "correct": 22.2,
+          "cost": 4200.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 55,
+      "accuracy": 64.18,
+      "cost": 61170.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 63.4,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "clip",
+          "anchor_acc": 80.15,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 662.0,
+          "cost": 826.0
+        },
+        "read": {
+          "n": 601,
+          "use": "mllm",
+          "anchor_acc": 22.96,
+          "mllm_acc": 31.84,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 191.4,
+          "cost": 60100.0
+        },
+        "write": {
+          "n": 244,
+          "use": "clip",
+          "anchor_acc": 89.75,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 219.0,
+          "cost": 244.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 55,
+      "accuracy": 66.55,
+      "cost": 11593.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 77.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "mllm",
+          "anchor_acc": 50.0,
+          "mllm_acc": 76.85,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 86.1,
+          "cost": 11200.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "clip",
+          "anchor_acc": 63.61,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 250.0,
+          "cost": 393.0
+        }
+      }
+    }
+  },
+  "60": {
+    "TeacherBehavior": {
+      "threshold": 60,
+      "accuracy": 59.59,
+      "cost": 324000.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "mllm",
+          "anchor_acc": 29.34,
+          "mllm_acc": 36.02,
+          "best_mllm": "Gemma4-26B",
+          "correct": 60.2,
+          "cost": 16700.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "mllm",
+          "anchor_acc": 5.57,
+          "mllm_acc": 0.35,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1.0,
+          "cost": 28700.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "mllm",
+          "anchor_acc": 54.17,
+          "mllm_acc": 81.88,
+          "best_mllm": "Gemma4-26B",
+          "correct": 39.3,
+          "cost": 4800.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "mllm",
+          "anchor_acc": 26.09,
+          "mllm_acc": 94.58,
+          "best_mllm": "Gemma4-26B",
+          "correct": 152.3,
+          "cost": 16100.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "mllm",
+          "anchor_acc": 50.36,
+          "mllm_acc": 80.38,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1353.6,
+          "cost": 168400.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "mllm",
+          "anchor_acc": 9.34,
+          "mllm_acc": 16.32,
+          "best_mllm": "Gemma4-26B",
+          "correct": 71.6,
+          "cost": 43900.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "mllm",
+          "anchor_acc": 40.48,
+          "mllm_acc": 52.83,
+          "best_mllm": "Gemma4-26B",
+          "correct": 22.2,
+          "cost": 4200.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 60,
+      "accuracy": 64.18,
+      "cost": 61170.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 63.4,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "clip",
+          "anchor_acc": 80.15,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 662.0,
+          "cost": 826.0
+        },
+        "read": {
+          "n": 601,
+          "use": "mllm",
+          "anchor_acc": 22.96,
+          "mllm_acc": 31.84,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 191.4,
+          "cost": 60100.0
+        },
+        "write": {
+          "n": 244,
+          "use": "clip",
+          "anchor_acc": 89.75,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 219.0,
+          "cost": 244.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 60,
+      "accuracy": 66.55,
+      "cost": 11593.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 77.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "mllm",
+          "anchor_acc": 50.0,
+          "mllm_acc": 76.85,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 86.1,
+          "cost": 11200.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "clip",
+          "anchor_acc": 63.61,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 250.0,
+          "cost": 393.0
+        }
+      }
+    }
+  },
+  "65": {
+    "TeacherBehavior": {
+      "threshold": 65,
+      "accuracy": 59.59,
+      "cost": 324000.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "mllm",
+          "anchor_acc": 29.34,
+          "mllm_acc": 36.02,
+          "best_mllm": "Gemma4-26B",
+          "correct": 60.2,
+          "cost": 16700.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "mllm",
+          "anchor_acc": 5.57,
+          "mllm_acc": 0.35,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1.0,
+          "cost": 28700.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "mllm",
+          "anchor_acc": 54.17,
+          "mllm_acc": 81.88,
+          "best_mllm": "Gemma4-26B",
+          "correct": 39.3,
+          "cost": 4800.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "mllm",
+          "anchor_acc": 26.09,
+          "mllm_acc": 94.58,
+          "best_mllm": "Gemma4-26B",
+          "correct": 152.3,
+          "cost": 16100.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "mllm",
+          "anchor_acc": 50.36,
+          "mllm_acc": 80.38,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1353.6,
+          "cost": 168400.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "mllm",
+          "anchor_acc": 9.34,
+          "mllm_acc": 16.32,
+          "best_mllm": "Gemma4-26B",
+          "correct": 71.6,
+          "cost": 43900.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "mllm",
+          "anchor_acc": 40.48,
+          "mllm_acc": 52.83,
+          "best_mllm": "Gemma4-26B",
+          "correct": 22.2,
+          "cost": 4200.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 65,
+      "accuracy": 64.18,
+      "cost": 61170.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 63.4,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "clip",
+          "anchor_acc": 80.15,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 662.0,
+          "cost": 826.0
+        },
+        "read": {
+          "n": 601,
+          "use": "mllm",
+          "anchor_acc": 22.96,
+          "mllm_acc": 31.84,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 191.4,
+          "cost": 60100.0
+        },
+        "write": {
+          "n": 244,
+          "use": "clip",
+          "anchor_acc": 89.75,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 219.0,
+          "cost": 244.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 65,
+      "accuracy": 88.23,
+      "cost": 50500.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "mllm",
+          "anchor_acc": 50.0,
+          "mllm_acc": 76.85,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 86.1,
+          "cost": 11200.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "mllm",
+          "anchor_acc": 63.61,
+          "mllm_acc": 91.47,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 359.5,
+          "cost": 39300.0
+        }
+      }
+    }
+  },
+  "70": {
+    "TeacherBehavior": {
+      "threshold": 70,
+      "accuracy": 59.59,
+      "cost": 324000.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "mllm",
+          "anchor_acc": 29.34,
+          "mllm_acc": 36.02,
+          "best_mllm": "Gemma4-26B",
+          "correct": 60.2,
+          "cost": 16700.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "mllm",
+          "anchor_acc": 5.57,
+          "mllm_acc": 0.35,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1.0,
+          "cost": 28700.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "mllm",
+          "anchor_acc": 54.17,
+          "mllm_acc": 81.88,
+          "best_mllm": "Gemma4-26B",
+          "correct": 39.3,
+          "cost": 4800.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "mllm",
+          "anchor_acc": 26.09,
+          "mllm_acc": 94.58,
+          "best_mllm": "Gemma4-26B",
+          "correct": 152.3,
+          "cost": 16100.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "mllm",
+          "anchor_acc": 50.36,
+          "mllm_acc": 80.38,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1353.6,
+          "cost": 168400.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "mllm",
+          "anchor_acc": 9.34,
+          "mllm_acc": 16.32,
+          "best_mllm": "Gemma4-26B",
+          "correct": 71.6,
+          "cost": 43900.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "mllm",
+          "anchor_acc": 40.48,
+          "mllm_acc": 52.83,
+          "best_mllm": "Gemma4-26B",
+          "correct": 22.2,
+          "cost": 4200.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 70,
+      "accuracy": 64.18,
+      "cost": 61170.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 63.4,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "clip",
+          "anchor_acc": 80.15,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 662.0,
+          "cost": 826.0
+        },
+        "read": {
+          "n": 601,
+          "use": "mllm",
+          "anchor_acc": 22.96,
+          "mllm_acc": 31.84,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 191.4,
+          "cost": 60100.0
+        },
+        "write": {
+          "n": 244,
+          "use": "clip",
+          "anchor_acc": 89.75,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 219.0,
+          "cost": 244.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 70,
+      "accuracy": 88.23,
+      "cost": 50500.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "mllm",
+          "anchor_acc": 50.0,
+          "mllm_acc": 76.85,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 86.1,
+          "cost": 11200.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "mllm",
+          "anchor_acc": 63.61,
+          "mllm_acc": 91.47,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 359.5,
+          "cost": 39300.0
+        }
+      }
+    }
+  },
+  "75": {
+    "TeacherBehavior": {
+      "threshold": 75,
+      "accuracy": 59.59,
+      "cost": 324000.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "mllm",
+          "anchor_acc": 29.34,
+          "mllm_acc": 36.02,
+          "best_mllm": "Gemma4-26B",
+          "correct": 60.2,
+          "cost": 16700.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "mllm",
+          "anchor_acc": 5.57,
+          "mllm_acc": 0.35,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1.0,
+          "cost": 28700.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "mllm",
+          "anchor_acc": 54.17,
+          "mllm_acc": 81.88,
+          "best_mllm": "Gemma4-26B",
+          "correct": 39.3,
+          "cost": 4800.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "mllm",
+          "anchor_acc": 26.09,
+          "mllm_acc": 94.58,
+          "best_mllm": "Gemma4-26B",
+          "correct": 152.3,
+          "cost": 16100.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "mllm",
+          "anchor_acc": 50.36,
+          "mllm_acc": 80.38,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1353.6,
+          "cost": 168400.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "mllm",
+          "anchor_acc": 9.34,
+          "mllm_acc": 16.32,
+          "best_mllm": "Gemma4-26B",
+          "correct": 71.6,
+          "cost": 43900.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "mllm",
+          "anchor_acc": 40.48,
+          "mllm_acc": 52.83,
+          "best_mllm": "Gemma4-26B",
+          "correct": 22.2,
+          "cost": 4200.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 75,
+      "accuracy": 64.18,
+      "cost": 61170.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 63.4,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "clip",
+          "anchor_acc": 80.15,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 662.0,
+          "cost": 826.0
+        },
+        "read": {
+          "n": 601,
+          "use": "mllm",
+          "anchor_acc": 22.96,
+          "mllm_acc": 31.84,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 191.4,
+          "cost": 60100.0
+        },
+        "write": {
+          "n": 244,
+          "use": "clip",
+          "anchor_acc": 89.75,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 219.0,
+          "cost": 244.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 75,
+      "accuracy": 88.23,
+      "cost": 50500.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "mllm",
+          "anchor_acc": 50.0,
+          "mllm_acc": 76.85,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 86.1,
+          "cost": 11200.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "mllm",
+          "anchor_acc": 63.61,
+          "mllm_acc": 91.47,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 359.5,
+          "cost": 39300.0
+        }
+      }
+    }
+  },
+  "80": {
+    "TeacherBehavior": {
+      "threshold": 80,
+      "accuracy": 59.59,
+      "cost": 324000.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "mllm",
+          "anchor_acc": 29.34,
+          "mllm_acc": 36.02,
+          "best_mllm": "Gemma4-26B",
+          "correct": 60.2,
+          "cost": 16700.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "mllm",
+          "anchor_acc": 5.57,
+          "mllm_acc": 0.35,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1.0,
+          "cost": 28700.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "mllm",
+          "anchor_acc": 54.17,
+          "mllm_acc": 81.88,
+          "best_mllm": "Gemma4-26B",
+          "correct": 39.3,
+          "cost": 4800.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "mllm",
+          "anchor_acc": 26.09,
+          "mllm_acc": 94.58,
+          "best_mllm": "Gemma4-26B",
+          "correct": 152.3,
+          "cost": 16100.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "mllm",
+          "anchor_acc": 50.36,
+          "mllm_acc": 80.38,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1353.6,
+          "cost": 168400.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "mllm",
+          "anchor_acc": 9.34,
+          "mllm_acc": 16.32,
+          "best_mllm": "Gemma4-26B",
+          "correct": 71.6,
+          "cost": 43900.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "mllm",
+          "anchor_acc": 40.48,
+          "mllm_acc": 52.83,
+          "best_mllm": "Gemma4-26B",
+          "correct": 22.2,
+          "cost": 4200.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 80,
+      "accuracy": 64.18,
+      "cost": 61170.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 63.4,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "clip",
+          "anchor_acc": 80.15,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 662.0,
+          "cost": 826.0
+        },
+        "read": {
+          "n": 601,
+          "use": "mllm",
+          "anchor_acc": 22.96,
+          "mllm_acc": 31.84,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 191.4,
+          "cost": 60100.0
+        },
+        "write": {
+          "n": 244,
+          "use": "clip",
+          "anchor_acc": 89.75,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 219.0,
+          "cost": 244.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 80,
+      "accuracy": 88.23,
+      "cost": 50500.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "mllm",
+          "anchor_acc": 50.0,
+          "mllm_acc": 76.85,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 86.1,
+          "cost": 11200.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "mllm",
+          "anchor_acc": 63.61,
+          "mllm_acc": 91.47,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 359.5,
+          "cost": 39300.0
+        }
+      }
+    }
+  },
+  "85": {
+    "TeacherBehavior": {
+      "threshold": 85,
+      "accuracy": 59.59,
+      "cost": 324000.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "mllm",
+          "anchor_acc": 29.34,
+          "mllm_acc": 36.02,
+          "best_mllm": "Gemma4-26B",
+          "correct": 60.2,
+          "cost": 16700.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "mllm",
+          "anchor_acc": 5.57,
+          "mllm_acc": 0.35,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1.0,
+          "cost": 28700.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "mllm",
+          "anchor_acc": 54.17,
+          "mllm_acc": 81.88,
+          "best_mllm": "Gemma4-26B",
+          "correct": 39.3,
+          "cost": 4800.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "mllm",
+          "anchor_acc": 26.09,
+          "mllm_acc": 94.58,
+          "best_mllm": "Gemma4-26B",
+          "correct": 152.3,
+          "cost": 16100.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "mllm",
+          "anchor_acc": 50.36,
+          "mllm_acc": 80.38,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1353.6,
+          "cost": 168400.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "mllm",
+          "anchor_acc": 9.34,
+          "mllm_acc": 16.32,
+          "best_mllm": "Gemma4-26B",
+          "correct": 71.6,
+          "cost": 43900.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "mllm",
+          "anchor_acc": 40.48,
+          "mllm_acc": 52.83,
+          "best_mllm": "Gemma4-26B",
+          "correct": 22.2,
+          "cost": 4200.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 85,
+      "accuracy": 69.89,
+      "cost": 142944.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 14.5,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "mllm",
+          "anchor_acc": 80.15,
+          "mllm_acc": 91.7,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 757.4,
+          "cost": 82600.0
+        },
+        "read": {
+          "n": 601,
+          "use": "mllm",
+          "anchor_acc": 22.96,
+          "mllm_acc": 31.84,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 191.4,
+          "cost": 60100.0
+        },
+        "write": {
+          "n": 244,
+          "use": "clip",
+          "anchor_acc": 89.75,
+          "mllm_acc": null,
+          "best_mllm": null,
+          "correct": 219.0,
+          "cost": 244.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 85,
+      "accuracy": 88.23,
+      "cost": 50500.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "mllm",
+          "anchor_acc": 50.0,
+          "mllm_acc": 76.85,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 86.1,
+          "cost": 11200.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "mllm",
+          "anchor_acc": 63.61,
+          "mllm_acc": 91.47,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 359.5,
+          "cost": 39300.0
+        }
+      }
+    }
+  },
+  "90": {
+    "TeacherBehavior": {
+      "threshold": 90,
+      "accuracy": 59.59,
+      "cost": 324000.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "mllm",
+          "anchor_acc": 29.34,
+          "mllm_acc": 36.02,
+          "best_mllm": "Gemma4-26B",
+          "correct": 60.2,
+          "cost": 16700.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "mllm",
+          "anchor_acc": 5.57,
+          "mllm_acc": 0.35,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1.0,
+          "cost": 28700.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "mllm",
+          "anchor_acc": 54.17,
+          "mllm_acc": 81.88,
+          "best_mllm": "Gemma4-26B",
+          "correct": 39.3,
+          "cost": 4800.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "mllm",
+          "anchor_acc": 26.09,
+          "mllm_acc": 94.58,
+          "best_mllm": "Gemma4-26B",
+          "correct": 152.3,
+          "cost": 16100.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "mllm",
+          "anchor_acc": 50.36,
+          "mllm_acc": 80.38,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1353.6,
+          "cost": 168400.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "mllm",
+          "anchor_acc": 9.34,
+          "mllm_acc": 16.32,
+          "best_mllm": "Gemma4-26B",
+          "correct": 71.6,
+          "cost": 43900.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "mllm",
+          "anchor_acc": 40.48,
+          "mllm_acc": 52.83,
+          "best_mllm": "Gemma4-26B",
+          "correct": 22.2,
+          "cost": 4200.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 90,
+      "accuracy": 70.96,
+      "cost": 167100.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "mllm",
+          "anchor_acc": 80.15,
+          "mllm_acc": 91.7,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 757.4,
+          "cost": 82600.0
+        },
+        "read": {
+          "n": 601,
+          "use": "mllm",
+          "anchor_acc": 22.96,
+          "mllm_acc": 31.84,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 191.4,
+          "cost": 60100.0
+        },
+        "write": {
+          "n": 244,
+          "use": "mllm",
+          "anchor_acc": 89.75,
+          "mllm_acc": 97.11,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 236.9,
+          "cost": 24400.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 90,
+      "accuracy": 88.23,
+      "cost": 50500.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "mllm",
+          "anchor_acc": 50.0,
+          "mllm_acc": 76.85,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 86.1,
+          "cost": 11200.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "mllm",
+          "anchor_acc": 63.61,
+          "mllm_acc": 91.47,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 359.5,
+          "cost": 39300.0
+        }
+      }
+    }
+  },
+  "95": {
+    "TeacherBehavior": {
+      "threshold": 95,
+      "accuracy": 59.59,
+      "cost": 324000.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "mllm",
+          "anchor_acc": 29.34,
+          "mllm_acc": 36.02,
+          "best_mllm": "Gemma4-26B",
+          "correct": 60.2,
+          "cost": 16700.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "mllm",
+          "anchor_acc": 5.57,
+          "mllm_acc": 0.35,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1.0,
+          "cost": 28700.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "mllm",
+          "anchor_acc": 54.17,
+          "mllm_acc": 81.88,
+          "best_mllm": "Gemma4-26B",
+          "correct": 39.3,
+          "cost": 4800.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "mllm",
+          "anchor_acc": 26.09,
+          "mllm_acc": 94.58,
+          "best_mllm": "Gemma4-26B",
+          "correct": 152.3,
+          "cost": 16100.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "mllm",
+          "anchor_acc": 50.36,
+          "mllm_acc": 80.38,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1353.6,
+          "cost": 168400.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "mllm",
+          "anchor_acc": 9.34,
+          "mllm_acc": 16.32,
+          "best_mllm": "Gemma4-26B",
+          "correct": 71.6,
+          "cost": 43900.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "mllm",
+          "anchor_acc": 40.48,
+          "mllm_acc": 52.83,
+          "best_mllm": "Gemma4-26B",
+          "correct": 22.2,
+          "cost": 4200.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 95,
+      "accuracy": 70.96,
+      "cost": 167100.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "mllm",
+          "anchor_acc": 80.15,
+          "mllm_acc": 91.7,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 757.4,
+          "cost": 82600.0
+        },
+        "read": {
+          "n": 601,
+          "use": "mllm",
+          "anchor_acc": 22.96,
+          "mllm_acc": 31.84,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 191.4,
+          "cost": 60100.0
+        },
+        "write": {
+          "n": 244,
+          "use": "mllm",
+          "anchor_acc": 89.75,
+          "mllm_acc": 97.11,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 236.9,
+          "cost": 24400.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 95,
+      "accuracy": 88.23,
+      "cost": 50500.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "mllm",
+          "anchor_acc": 50.0,
+          "mllm_acc": 76.85,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 86.1,
+          "cost": 11200.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "mllm",
+          "anchor_acc": 63.61,
+          "mllm_acc": 91.47,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 359.5,
+          "cost": 39300.0
+        }
+      }
+    }
+  },
+  "100": {
+    "TeacherBehavior": {
+      "threshold": 100,
+      "accuracy": 59.59,
+      "cost": 324000.0,
+      "all_mllm_cost": 324000.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 3240,
+      "best_mllm": "Gemma4-26B",
+      "best_mllm_overall_acc": 59.59,
+      "per_class": {
+        "guide": {
+          "n": 167,
+          "use": "mllm",
+          "anchor_acc": 29.34,
+          "mllm_acc": 36.02,
+          "best_mllm": "Gemma4-26B",
+          "correct": 60.2,
+          "cost": 16700.0
+        },
+        "answer": {
+          "n": 287,
+          "use": "mllm",
+          "anchor_acc": 5.57,
+          "mllm_acc": 0.35,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1.0,
+          "cost": 28700.0
+        },
+        "On-stage interaction": {
+          "n": 48,
+          "use": "mllm",
+          "anchor_acc": 54.17,
+          "mllm_acc": 81.88,
+          "best_mllm": "Gemma4-26B",
+          "correct": 39.3,
+          "cost": 4800.0
+        },
+        "blackboard-writing": {
+          "n": 161,
+          "use": "mllm",
+          "anchor_acc": 26.09,
+          "mllm_acc": 94.58,
+          "best_mllm": "Gemma4-26B",
+          "correct": 152.3,
+          "cost": 16100.0
+        },
+        "teacher": {
+          "n": 1684,
+          "use": "mllm",
+          "anchor_acc": 50.36,
+          "mllm_acc": 80.38,
+          "best_mllm": "Gemma4-26B",
+          "correct": 1353.6,
+          "cost": 168400.0
+        },
+        "stand": {
+          "n": 439,
+          "use": "mllm",
+          "anchor_acc": 9.34,
+          "mllm_acc": 16.32,
+          "best_mllm": "Gemma4-26B",
+          "correct": 71.6,
+          "cost": 43900.0
+        },
+        "screen": {
+          "n": 42,
+          "use": "mllm",
+          "anchor_acc": 40.48,
+          "mllm_acc": 52.83,
+          "best_mllm": "Gemma4-26B",
+          "correct": 22.2,
+          "cost": 4200.0
+        },
+        "blackBoard": {
+          "n": 412,
+          "use": "mllm",
+          "anchor_acc": 3.4,
+          "mllm_acc": 55.97,
+          "best_mllm": "Gemma4-26B",
+          "correct": 230.6,
+          "cost": 41200.0
+        }
+      }
+    },
+    "HandriseReadWrite": {
+      "threshold": 100,
+      "accuracy": 70.96,
+      "cost": 167100.0,
+      "all_mllm_cost": 167100.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 1671,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 70.96,
+      "per_class": {
+        "hand-raising": {
+          "n": 826,
+          "use": "mllm",
+          "anchor_acc": 80.15,
+          "mllm_acc": 91.7,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 757.4,
+          "cost": 82600.0
+        },
+        "read": {
+          "n": 601,
+          "use": "mllm",
+          "anchor_acc": 22.96,
+          "mllm_acc": 31.84,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 191.4,
+          "cost": 60100.0
+        },
+        "write": {
+          "n": 244,
+          "use": "mllm",
+          "anchor_acc": 89.75,
+          "mllm_acc": 97.11,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 236.9,
+          "cost": 24400.0
+        }
+      }
+    },
+    "BowTurnHead": {
+      "threshold": 100,
+      "accuracy": 88.23,
+      "cost": 50500.0,
+      "all_mllm_cost": 50500.0,
+      "cost_savings_pct": 0.0,
+      "n_total": 505,
+      "best_mllm": "Qwen3.5-35B",
+      "best_mllm_overall_acc": 88.23,
+      "per_class": {
+        "BowHead": {
+          "n": 112,
+          "use": "mllm",
+          "anchor_acc": 50.0,
+          "mllm_acc": 76.85,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 86.1,
+          "cost": 11200.0
+        },
+        "TurnHead": {
+          "n": 393,
+          "use": "mllm",
+          "anchor_acc": 63.61,
+          "mllm_acc": 91.47,
+          "best_mllm": "Qwen3.5-35B",
+          "correct": 359.5,
+          "cost": 39300.0
+        }
+      }
+    }
+  }
+}

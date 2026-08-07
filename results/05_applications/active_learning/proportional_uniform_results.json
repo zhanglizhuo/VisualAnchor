@@ -1,0 +1,54 @@
+{
+  "TeacherBehavior": {
+    "mean_acc": 56.37,
+    "std_acc": 3.07,
+    "per_seed": [
+      55.83,
+      59.85,
+      51.79,
+      59.69,
+      54.69
+    ],
+    "budget_per_class": [
+      103,
+      109,
+      40,
+      135,
+      936,
+      318,
+      40,
+      115
+    ]
+  },
+  "HandriseReadWrite": {
+    "mean_acc": 66.36,
+    "std_acc": 1.54,
+    "per_seed": [
+      67.74,
+      67.38,
+      64.51,
+      67.74,
+      64.45
+    ],
+    "budget_per_class": [
+      600,
+      351,
+      87
+    ]
+  },
+  "BowTurnHead": {
+    "mean_acc": 77.03,
+    "std_acc": 1.44,
+    "per_seed": [
+      77.23,
+      77.82,
+      78.42,
+      77.43,
+      74.26
+    ],
+    "budget_per_class": [
+      100,
+      281
+    ]
+  }
+}

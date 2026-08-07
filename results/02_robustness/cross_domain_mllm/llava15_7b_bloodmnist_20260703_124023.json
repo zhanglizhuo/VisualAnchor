@@ -1,0 +1,42 @@
+{
+  "Basophil": {
+    "correct": 8,
+    "total": 50,
+    "acc": 16.0
+  },
+  "Eosinophil": {
+    "correct": 47,
+    "total": 50,
+    "acc": 94.0
+  },
+  "Erythroblast": {
+    "correct": 0,
+    "total": 50,
+    "acc": 0.0
+  },
+  "Immature granulocyte": {
+    "correct": 0,
+    "total": 50,
+    "acc": 0.0
+  },
+  "Lymphocyte": {
+    "correct": 0,
+    "total": 50,
+    "acc": 0.0
+  },
+  "Monocyte": {
+    "correct": 0,
+    "total": 50,
+    "acc": 0.0
+  },
+  "Neutrophil": {
+    "correct": 4,
+    "total": 50,
+    "acc": 8.0
+  },
+  "Platelet": {
+    "correct": 0,
+    "total": 50,
+    "acc": 0.0
+  }
+}

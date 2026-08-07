@@ -1,0 +1,17 @@
+{
+  "hand-raising": {
+    "correct": 96,
+    "total": 100,
+    "acc": 96.0
+  },
+  "read": {
+    "correct": 51,
+    "total": 100,
+    "acc": 51.0
+  },
+  "write": {
+    "correct": 0,
+    "total": 100,
+    "acc": 0.0
+  }
+}

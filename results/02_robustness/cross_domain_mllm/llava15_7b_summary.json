@@ -1,0 +1,22 @@
+{
+  "bloodmnist": {
+    "correct": 59,
+    "total": 400,
+    "acc": 14.8
+  },
+  "eurosat": {
+    "correct": 240,
+    "total": 500,
+    "acc": 48.0
+  },
+  "pathmnist": {
+    "correct": 58,
+    "total": 450,
+    "acc": 12.9
+  },
+  "tissuemnist": {
+    "correct": 36,
+    "total": 400,
+    "acc": 9.0
+  }
+}

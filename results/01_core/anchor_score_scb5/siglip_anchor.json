@@ -1,0 +1,78 @@
+{
+  "TeacherBehavior": {
+    "overall_acc": 16.33,
+    "per_class_acc": {
+      "guide": {
+        "n": 167,
+        "acc": 87.43
+      },
+      "answer": {
+        "n": 287,
+        "acc": 3.14
+      },
+      "On-stage interaction": {
+        "n": 48,
+        "acc": 0.0
+      },
+      "blackboard-writing": {
+        "n": 161,
+        "acc": 26.71
+      },
+      "teacher": {
+        "n": 1684,
+        "acc": 16.51
+      },
+      "stand": {
+        "n": 439,
+        "acc": 9.34
+      },
+      "screen": {
+        "n": 42,
+        "acc": 28.57
+      },
+      "blackBoard": {
+        "n": 412,
+        "acc": 0.0
+      }
+    },
+    "total": 3240,
+    "correct": 529,
+    "model": "ViT-SO400M-14-SigLIP-384"
+  },
+  "HandriseReadWrite": {
+    "overall_acc": 71.58,
+    "per_class_acc": {
+      "hand-raising": {
+        "n": 826,
+        "acc": 68.89
+      },
+      "read": {
+        "n": 601,
+        "acc": 83.03
+      },
+      "write": {
+        "n": 244,
+        "acc": 52.46
+      }
+    },
+    "total": 1671,
+    "correct": 1196,
+    "model": "ViT-SO400M-14-SigLIP-384"
+  },
+  "BowTurnHead": {
+    "overall_acc": 65.94,
+    "per_class_acc": {
+      "BowHead": {
+        "n": 112,
+        "acc": 65.18
+      },
+      "TurnHead": {
+        "n": 393,
+        "acc": 66.16
+      }
+    },
+    "total": 505,
+    "correct": 333,
+    "model": "ViT-SO400M-14-SigLIP-384"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "TeacherBehavior": {
+    "uniform": {
+      "mean_acc": 48.38,
+      "std_acc": 1.34,
+      "per_seed": [
+        49.57,
+        49.29,
+        47.44,
+        46.2,
+        49.41
+      ],
+      "budget_per_class": [
+        225,
+        225,
+        225,
+        225,
+        224,
+        224,
+        224,
+        224
+      ]
+    },
+    "anchor_weight": {
+      "mean_acc": 33.62,
+      "std_acc": 2.52,
+      "per_seed": [
+        34.1,
+        37.01,
+        35.49,
+        30.93,
+        30.59
+      ],
+      "budget_per_class": [
+        93,
+        430,
+        51,
+        104,
+        55,
+        273,
+        68,
+        722
+      ]
+    },
+    "anchor_proportional": {
+      "mean_acc": 43.34,
+      "std_acc": 1.05,
+      "per_seed": [
+        43.21,
+        44.81,
+        41.6,
+        43.18,
+        43.89
+      ],
+      "budget_per_class": [
+        241,
+        52,
+        438,
+        215,
+        408,
+        82,
+        329,
+        31
+      ]
+    }
+  },
+  "HandriseReadWrite": {
+    "uniform": {
+      "mean_acc": 62.64,
+      "std_acc": 1.23,
+      "per_seed": [
+        64.39,
+        61.64,
+        62.3,
+        61.16,
+        63.73
+      ],
+      "budget_per_class": [
+        346,
+        346,
+        346
+      ]
+    },
+    "anchor_weight": {
+      "mean_acc": 67.84,
+      "std_acc": 0.87,
+      "per_seed": [
+        68.16,
+        68.46,
+        66.13,
+        68.04,
+        68.4
+      ],
+      "budget_per_class": [
+        196,
+        667,
+        175
+      ]
+    },
+    "anchor_proportional": {
+      "mean_acc": 56.89,
+      "std_acc": 1.6,
+      "per_seed": [
+        56.67,
+        54.82,
+        57.63,
+        55.83,
+        59.49
+      ],
+      "budget_per_class": [
+        431,
+        126,
+        481
+      ]
+    }
+  },
+  "BowTurnHead": {
+    "uniform": {
+      "mean_acc": 68.24,
+      "std_acc": 2.89,
+      "per_seed": [
+        65.94,
+        64.16,
+        70.5,
+        68.51,
+        72.08
+      ],
+      "budget_per_class": [
+        191,
+        190
+      ]
+    },
+    "anchor_weight": {
+      "mean_acc": 63.68,
+      "std_acc": 0.8,
+      "per_seed": [
+        62.57,
+        63.17,
+        64.95,
+        63.96,
+        63.76
+      ],
+      "budget_per_class": [
+        215,
+        166
+      ]
+    },
+    "anchor_proportional": {
+      "mean_acc": 71.05,
+      "std_acc": 2.75,
+      "per_seed": [
+        69.31,
+        69.7,
+        69.11,
+        70.69,
+        76.44
+      ],
+      "budget_per_class": [
+        166,
+        215
+      ]
+    }
+  }
+}

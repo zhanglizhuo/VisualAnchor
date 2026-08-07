@@ -1,0 +1,13 @@
+{
+ "description": "Cross-domain class-level correlation by MLLM subset. 2-MLLM = Qwen2-VL-7B + LLaVA-1.5-7B (earlier two-model evaluation); 4-MLLM adds Qwen2.5-VL-7B and LLaVA-NeXT-Mistral-7B. Reproduces unified_results.json cross_domain_class_level for 4-MLLM.",
+ "two_mllm": {
+  "n": 34,
+  "spearman_rho": 0.2802,
+  "spearman_p": 0.10853
+ },
+ "four_mllm": {
+  "n": 34,
+  "spearman_rho": 0.462,
+  "spearman_p": 0.005953
+ }
+}

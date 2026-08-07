@@ -1,0 +1,848 @@
+{
+  "TeacherBehavior": {
+    "blackBoard": {
+      "anchor_score": 3.4,
+      "most_confused": "teacher",
+      "n_standard": 16,
+      "n_enhanced": 15,
+      "standard_acc": 31.25,
+      "enhanced_acc": 60.0,
+      "standard_results": [
+        {
+          "response": "blackboard-writing",
+          "is_correct": true,
+          "pred_class": "blackBoard"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "blackboard-writing",
+          "is_correct": true,
+          "pred_class": "blackBoard"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "on-stage interaction",
+          "is_correct": false,
+          "pred_class": "On-stage interaction"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "blackboard-writing",
+          "is_correct": true,
+          "pred_class": "blackBoard"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "answer",
+          "is_correct": false,
+          "pred_class": "answer"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "on-stage interaction",
+          "is_correct": false,
+          "pred_class": "On-stage interaction"
+        },
+        {
+          "response": "on-stage interaction",
+          "is_correct": false,
+          "pred_class": "On-stage interaction"
+        },
+        {
+          "response": "answer",
+          "is_correct": false,
+          "pred_class": "answer"
+        },
+        {
+          "response": "blackboard-writing",
+          "is_correct": true,
+          "pred_class": "blackBoard"
+        },
+        {
+          "response": "blackboard-writing",
+          "is_correct": true,
+          "pred_class": "blackBoard"
+        }
+      ],
+      "enhanced_results": [
+        {
+          "response": "blackboard-writing",
+          "is_correct": true,
+          "pred_class": "blackBoard"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "blackboard-writing",
+          "is_correct": true,
+          "pred_class": "blackBoard"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "blackboard",
+          "is_correct": true,
+          "pred_class": "blackBoard"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "blackboard-writing",
+          "is_correct": true,
+          "pred_class": "blackBoard"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "blackboard",
+          "is_correct": true,
+          "pred_class": "blackBoard"
+        },
+        {
+          "response": "blackboard",
+          "is_correct": true,
+          "pred_class": "blackBoard"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "blackboard",
+          "is_correct": true,
+          "pred_class": "blackBoard"
+        },
+        {
+          "response": "answer",
+          "is_correct": false,
+          "pred_class": "answer"
+        },
+        {
+          "response": "blackboard-writing",
+          "is_correct": true,
+          "pred_class": "blackBoard"
+        },
+        {
+          "response": "blackboard-writing",
+          "is_correct": true,
+          "pred_class": "blackBoard"
+        }
+      ]
+    },
+    "answer": {
+      "anchor_score": 5.57,
+      "most_confused": "stand",
+      "n_standard": 10,
+      "n_enhanced": 14,
+      "standard_acc": 10.0,
+      "enhanced_acc": 50.0,
+      "standard_results": [
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "answer",
+          "is_correct": true,
+          "pred_class": "answer"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "on-stage interaction",
+          "is_correct": false,
+          "pred_class": "On-stage interaction"
+        }
+      ],
+      "enhanced_results": [
+        {
+          "response": "answer",
+          "is_correct": true,
+          "pred_class": "answer"
+        },
+        {
+          "response": "answer",
+          "is_correct": true,
+          "pred_class": "answer"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "answer",
+          "is_correct": true,
+          "pred_class": "answer"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "answer",
+          "is_correct": true,
+          "pred_class": "answer"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "guide",
+          "is_correct": false,
+          "pred_class": "guide"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "answer\n</think>\n\nanswer",
+          "is_correct": true,
+          "pred_class": "answer"
+        },
+        {
+          "response": "answer",
+          "is_correct": true,
+          "pred_class": "answer"
+        },
+        {
+          "response": "answer",
+          "is_correct": true,
+          "pred_class": "answer"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        }
+      ]
+    },
+    "stand": {
+      "anchor_score": 9.34,
+      "most_confused": "answer",
+      "n_standard": 13,
+      "n_enhanced": 20,
+      "standard_acc": 23.08,
+      "enhanced_acc": 85.0,
+      "standard_results": [
+        {
+          "response": "answer",
+          "is_correct": false,
+          "pred_class": "answer"
+        },
+        {
+          "response": "on-stage interaction",
+          "is_correct": false,
+          "pred_class": "On-stage interaction"
+        },
+        {
+          "response": "on-stage interaction",
+          "is_correct": false,
+          "pred_class": "On-stage interaction"
+        },
+        {
+          "response": "answer",
+          "is_correct": false,
+          "pred_class": "answer"
+        },
+        {
+          "response": "answer",
+          "is_correct": false,
+          "pred_class": "answer"
+        },
+        {
+          "response": "answer",
+          "is_correct": false,
+          "pred_class": "answer"
+        },
+        {
+          "response": "stand",
+          "is_correct": true,
+          "pred_class": "stand"
+        },
+        {
+          "response": "stand",
+          "is_correct": true,
+          "pred_class": "stand"
+        },
+        {
+          "response": "on-stage interaction",
+          "is_correct": false,
+          "pred_class": "On-stage interaction"
+        },
+        {
+          "response": "teacher",
+          "is_correct": false,
+          "pred_class": "teacher"
+        },
+        {
+          "response": "answer",
+          "is_correct": false,
+          "pred_class": "answer"
+        },
+        {
+          "response": "stand",
+          "is_correct": true,
+          "pred_class": "stand"
+        },
+        {
+          "response": "on-stage interaction",
+          "is_correct": false,
+          "pred_class": "On-stage interaction"
+        }
+      ],
+      "enhanced_results": [
+        {
+          "response": "answer\n</think>\n\nanswer",
+          "is_correct": false,
+          "pred_class": "answer"
+        },
+        {
+          "response": "stand",
+          "is_correct": true,
+          "pred_class": "stand"
+        },
+        {
+          "response": "answer",
+          "is_correct": false,
+          "pred_class": "answer"
+        },
+        {
+          "response": "stand",
+          "is_correct": true,
+          "pred_class": "stand"
+        },
+        {
+          "response": "stand",
+          "is_correct": true,
+          "pred_class": "stand"
+        },
+        {
+          "response": "stand",
+          "is_correct": true,
+          "pred_class": "stand"
+        },
+        {
+          "response": "stand",
+          "is_correct": true,
+          "pred_class": "stand"
+        },
+        {
+          "response": "stand",
+          "is_correct": true,
+          "pred_class": "stand"
+        },
+        {
+          "response": "stand",
+          "is_correct": true,
+          "pred_class": "stand"
+        },
+        {
+          "response": "stand",
+          "is_correct": true,
+          "pred_class": "stand"
+        },
+        {
+          "response": "stand",
+          "is_correct": true,
+          "pred_class": "stand"
+        },
+        {
+          "response": "stand",
+          "is_correct": true,
+          "pred_class": "stand"
+        },
+        {
+          "response": "stand",
+          "is_correct": true,
+          "pred_class": "stand"
+        },
+        {
+          "response": "stand\n</think>\n\nstand",
+          "is_correct": true,
+          "pred_class": "stand"
+        },
+        {
+          "response": "stand",
+          "is_correct": true,
+          "pred_class": "stand"
+        },
+        {
+          "response": "stand",
+          "is_correct": true,
+          "pred_class": "stand"
+        },
+        {
+          "response": "stand",
+          "is_correct": true,
+          "pred_class": "stand"
+        },
+        {
+          "response": "answer\n</think>\n\nanswer",
+          "is_correct": false,
+          "pred_class": "answer"
+        },
+        {
+          "response": "stand",
+          "is_correct": true,
+          "pred_class": "stand"
+        },
+        {
+          "response": "stand",
+          "is_correct": true,
+          "pred_class": "stand"
+        }
+      ]
+    }
+  },
+  "HandriseReadWrite": {
+    "read": {
+      "anchor_score": 23.13,
+      "most_confused": "write",
+      "n_standard": 20,
+      "n_enhanced": 17,
+      "standard_acc": 40.0,
+      "enhanced_acc": 82.35,
+      "standard_results": [
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "write",
+          "is_correct": false,
+          "pred_class": "write"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "write",
+          "is_correct": false,
+          "pred_class": "write"
+        },
+        {
+          "response": "hand-raising",
+          "is_correct": false,
+          "pred_class": "hand-raising"
+        },
+        {
+          "response": "hand-raising",
+          "is_correct": false,
+          "pred_class": "hand-raising"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "write",
+          "is_correct": false,
+          "pred_class": "write"
+        },
+        {
+          "response": "write",
+          "is_correct": false,
+          "pred_class": "write"
+        },
+        {
+          "response": "write",
+          "is_correct": false,
+          "pred_class": "write"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "write",
+          "is_correct": false,
+          "pred_class": "write"
+        },
+        {
+          "response": "write",
+          "is_correct": false,
+          "pred_class": "write"
+        },
+        {
+          "response": "write",
+          "is_correct": false,
+          "pred_class": "write"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "write",
+          "is_correct": false,
+          "pred_class": "write"
+        },
+        {
+          "response": "write",
+          "is_correct": false,
+          "pred_class": "write"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        }
+      ],
+      "enhanced_results": [
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "write",
+          "is_correct": false,
+          "pred_class": "write"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "write",
+          "is_correct": false,
+          "pred_class": "write"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "write",
+          "is_correct": false,
+          "pred_class": "write"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        },
+        {
+          "response": "read",
+          "is_correct": true,
+          "pred_class": "read"
+        }
+      ]
+    },
+    "hand-raising": {
+      "anchor_score": 84.99,
+      "most_confused": "write",
+      "skipped": true
+    },
+    "write": {
+      "anchor_score": 86.07,
+      "most_confused": "read",
+      "skipped": true
+    }
+  },
+  "BowTurnHead": {
+    "TurnHead": {
+      "anchor_score": 36.64,
+      "most_confused": "BowHead",
+      "n_standard": 13,
+      "n_enhanced": 15,
+      "standard_acc": 84.62,
+      "enhanced_acc": 100.0,
+      "standard_results": [
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "bowhead",
+          "is_correct": false,
+          "pred_class": "BowHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "bowhead",
+          "is_correct": false,
+          "pred_class": "BowHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        }
+      ],
+      "enhanced_results": [
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        },
+        {
+          "response": "turnhead",
+          "is_correct": true,
+          "pred_class": "TurnHead"
+        }
+      ]
+    },
+    "BowHead": {
+      "anchor_score": 75.89,
+      "most_confused": "TurnHead",
+      "skipped": true
+    }
+  }
+}

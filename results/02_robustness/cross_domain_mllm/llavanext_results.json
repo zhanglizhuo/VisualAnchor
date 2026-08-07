@@ -1,0 +1,34 @@
+{
+  "EuroSAT": {
+    "mean_accuracy": 43.6,
+    "accuracy": {
+      "AnnualCrop": 0.0, "Forest": 20.0, "HerbaceousVegetation": 0.0,
+      "Highway": 78.0, "Industrial": 50.0, "Pasture": 82.0,
+      "PermanentCrop": 54.0, "Residential": 66.0, "River": 86.0, "SeaLake": 0.0
+    }
+  },
+  "PathMNIST": {
+    "mean_accuracy": 11.11,
+    "accuracy": {
+      "Adipose tissue": 0.0, "Background": 100.0, "Debris": 0.0,
+      "Lymphocytes": 0.0, "Mucus": 0.0, "Smooth muscle": 0.0,
+      "Normal colon mucosa": 0.0, "Cancer-associated stroma": 0.0, "Tumor epithelium": 0.0
+    }
+  },
+  "BloodMNIST": {
+    "mean_accuracy": 15.25,
+    "accuracy": {
+      "Basophil": 2.0, "Eosinophil": 0.0, "Erythroblast": 0.0,
+      "Immature granulocyte": 0.0, "Lymphocyte": 0.0, "Monocyte": 0.0,
+      "Neutrophil": 64.0, "Platelet": 56.0
+    }
+  },
+  "TissueMNIST": {
+    "mean_accuracy": 12.5,
+    "accuracy": {
+      "Collecting Duct": 0.0, "Connecting Tubule": 0.0, "Distal Convoluted Tubule": 100.0,
+      "Glomerular Endothelial Cells": 0.0, "Interstitial Endothelial Cells": 0.0,
+      "Leukocytes": 0.0, "Podocytes": 0.0, "Proximal Tubule Segments": 0.0
+    }
+  }
+}

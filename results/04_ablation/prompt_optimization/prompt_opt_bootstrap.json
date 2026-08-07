@@ -1,0 +1,96 @@
+{
+  "qwen35": {
+    "BowHead": {
+      "delta_pp": 5.0,
+      "delta_ci_95": [
+        -20.0,
+        30.0
+      ],
+      "n_std": 20,
+      "n_enh": 20
+    },
+    "answer": {
+      "delta_pp": 30.0,
+      "delta_ci_95": [
+        5.0,
+        55.0
+      ],
+      "n_std": 20,
+      "n_enh": 20
+    },
+    "blackBoard": {
+      "delta_pp": 5.0,
+      "delta_ci_95": [
+        -10.0,
+        20.0
+      ],
+      "n_std": 20,
+      "n_enh": 20
+    },
+    "read": {
+      "delta_pp": 15.0,
+      "delta_ci_95": [
+        -10.0,
+        40.0
+      ],
+      "n_std": 20,
+      "n_enh": 20
+    },
+    "stand": {
+      "delta_pp": 45.0,
+      "delta_ci_95": [
+        15.0,
+        70.0
+      ],
+      "n_std": 20,
+      "n_enh": 20
+    }
+  },
+  "qwen36": {
+    "BowHead": {
+      "delta_pp": 15.0,
+      "delta_ci_95": [
+        -10.0,
+        40.0
+      ],
+      "n_std": 20,
+      "n_enh": 20
+    },
+    "answer": {
+      "delta_pp": 5.0,
+      "delta_ci_95": [
+        -15.0,
+        25.0
+      ],
+      "n_std": 20,
+      "n_enh": 20
+    },
+    "blackBoard": {
+      "delta_pp": -30.0,
+      "delta_ci_95": [
+        -55.0,
+        -10.0
+      ],
+      "n_std": 20,
+      "n_enh": 20
+    },
+    "read": {
+      "delta_pp": 15.0,
+      "delta_ci_95": [
+        -10.0,
+        40.0
+      ],
+      "n_std": 20,
+      "n_enh": 20
+    },
+    "stand": {
+      "delta_pp": 5.0,
+      "delta_ci_95": [
+        -20.0,
+        30.0
+      ],
+      "n_std": 20,
+      "n_enh": 20
+    }
+  }
+}

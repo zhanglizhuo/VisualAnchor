@@ -1,0 +1,158 @@
+{
+  "EuroSAT": {
+    "accuracy": {
+      "AnnualCrop": 92.0,
+      "Forest": 76.0,
+      "HerbaceousVegetation": 0.0,
+      "Highway": 80.0,
+      "Industrial": 46.0,
+      "Pasture": 62.0,
+      "PermanentCrop": 0.0,
+      "Residential": 40.0,
+      "River": 64.0,
+      "SeaLake": 22.0
+    },
+    "mean_accuracy": 48.2,
+    "per_class": {
+      "AnnualCrop": {
+        "correct": 46,
+        "total": 50
+      },
+      "Forest": {
+        "correct": 38,
+        "total": 50
+      },
+      "HerbaceousVegetation": {
+        "correct": 0,
+        "total": 50
+      },
+      "Highway": {
+        "correct": 40,
+        "total": 50
+      },
+      "Industrial": {
+        "correct": 23,
+        "total": 50
+      },
+      "Pasture": {
+        "correct": 31,
+        "total": 50
+      },
+      "PermanentCrop": {
+        "correct": 0,
+        "total": 50
+      },
+      "Residential": {
+        "correct": 20,
+        "total": 50
+      },
+      "River": {
+        "correct": 32,
+        "total": 50
+      },
+      "SeaLake": {
+        "correct": 11,
+        "total": 50
+      }
+    }
+  },
+  "PathMNIST": {
+    "accuracy": {
+      "Adipose tissue": 94.0,
+      "Background": 0.0,
+      "Debris": 0.0,
+      "Lymphocytes": 0.0,
+      "Mucus": 0.0,
+      "Smooth muscle": 0.0,
+      "Normal colon mucosa": 40.0,
+      "Cancer-associated stroma": 4.0,
+      "Tumor epithelium": 0.0
+    },
+    "mean_accuracy": 15.33,
+    "per_class": {
+      "Adipose tissue": {
+        "correct": 47,
+        "total": 50
+      },
+      "Background": {
+        "correct": 0,
+        "total": 50
+      },
+      "Debris": {
+        "correct": 0,
+        "total": 50
+      },
+      "Lymphocytes": {
+        "correct": 0,
+        "total": 50
+      },
+      "Mucus": {
+        "correct": 0,
+        "total": 50
+      },
+      "Smooth muscle": {
+        "correct": 0,
+        "total": 50
+      },
+      "Normal colon mucosa": {
+        "correct": 20,
+        "total": 50
+      },
+      "Cancer-associated stroma": {
+        "correct": 2,
+        "total": 50
+      },
+      "Tumor epithelium": {
+        "correct": 0,
+        "total": 50
+      }
+    }
+  },
+  "BloodMNIST": {
+    "accuracy": {
+      "Basophil": 14.0,
+      "Eosinophil": 94.0,
+      "Erythroblast": 0.0,
+      "Immature granulocyte": 0.0,
+      "Lymphocyte": 2.0,
+      "Monocyte": 0.0,
+      "Neutrophil": 8.0,
+      "Platelet": 0.0
+    },
+    "mean_accuracy": 14.75,
+    "per_class": {
+      "Basophil": {
+        "correct": 7,
+        "total": 50
+      },
+      "Eosinophil": {
+        "correct": 47,
+        "total": 50
+      },
+      "Erythroblast": {
+        "correct": 0,
+        "total": 50
+      },
+      "Immature granulocyte": {
+        "correct": 0,
+        "total": 50
+      },
+      "Lymphocyte": {
+        "correct": 1,
+        "total": 50
+      },
+      "Monocyte": {
+        "correct": 0,
+        "total": 50
+      },
+      "Neutrophil": {
+        "correct": 4,
+        "total": 50
+      },
+      "Platelet": {
+        "correct": 0,
+        "total": 50
+      }
+    }
+  }
+}

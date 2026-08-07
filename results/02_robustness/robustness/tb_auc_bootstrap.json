@@ -1,0 +1,12 @@
+{
+  "description": "Bootstrap 95% CI for TeacherBehavior ranking AUC",
+  "dataset": "TeacherBehavior",
+  "k": 8,
+  "auc": 0.9375,
+  "bootstrap_ci_95": [
+    0.667,
+    1.0
+  ],
+  "n_bootstrap": 5000,
+  "seed": 42
+}

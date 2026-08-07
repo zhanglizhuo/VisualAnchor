@@ -1,0 +1,162 @@
+{
+  "TeacherBehavior": {
+    "clip_acc": 32.56,
+    "tau_star": 45,
+    "rows": [
+      {
+        "mllm": "Gemma4-26B",
+        "overall_acc": 59.59,
+        "hybrid_acc": 43.64,
+        "gain_pp": 11.08,
+        "cost_savings_pct": 52.9,
+        "is_oracle": true
+      },
+      {
+        "mllm": "Qwen3.6-27B",
+        "overall_acc": 56.37,
+        "hybrid_acc": 45.93,
+        "gain_pp": 13.37,
+        "cost_savings_pct": 52.9,
+        "is_oracle": false
+      },
+      {
+        "mllm": "Gemma4-31B",
+        "overall_acc": 53.84,
+        "hybrid_acc": 46.73,
+        "gain_pp": 14.17,
+        "cost_savings_pct": 52.9,
+        "is_oracle": false
+      },
+      {
+        "mllm": "Qwen3.5-35B",
+        "overall_acc": 52.99,
+        "hybrid_acc": 41.25,
+        "gain_pp": 8.69,
+        "cost_savings_pct": 52.9,
+        "is_oracle": false
+      },
+      {
+        "mllm": "Qwen3.5-27B",
+        "overall_acc": 52.07,
+        "hybrid_acc": 49.49,
+        "gain_pp": 16.93,
+        "cost_savings_pct": 52.9,
+        "is_oracle": false
+      }
+    ],
+    "oracle_mllm": "Gemma4-26B",
+    "oracle_all_mllm_acc": 59.59
+  },
+  "HandriseReadWrite": {
+    "clip_acc": 60.92,
+    "tau_star": 45,
+    "rows": [
+      {
+        "mllm": "Qwen3.5-35B",
+        "overall_acc": 70.96,
+        "hybrid_acc": 64.11,
+        "gain_pp": 3.19,
+        "cost_savings_pct": 63.4,
+        "is_oracle": true
+      },
+      {
+        "mllm": "Qwen3.6-35B",
+        "overall_acc": 70.72,
+        "hybrid_acc": 64.28,
+        "gain_pp": 3.36,
+        "cost_savings_pct": 63.4,
+        "is_oracle": false
+      },
+      {
+        "mllm": "Qwen3.6-27B",
+        "overall_acc": 68.41,
+        "hybrid_acc": 63.45,
+        "gain_pp": 2.53,
+        "cost_savings_pct": 63.4,
+        "is_oracle": false
+      },
+      {
+        "mllm": "Gemma4-31B",
+        "overall_acc": 66.3,
+        "hybrid_acc": 60.29,
+        "gain_pp": -0.63,
+        "cost_savings_pct": 63.4,
+        "is_oracle": false
+      },
+      {
+        "mllm": "Qwen3.5-27B",
+        "overall_acc": 66.21,
+        "hybrid_acc": 62.59,
+        "gain_pp": 1.67,
+        "cost_savings_pct": 63.4,
+        "is_oracle": false
+      },
+      {
+        "mllm": "Gemma4-26B",
+        "overall_acc": 65.95,
+        "hybrid_acc": 59.45,
+        "gain_pp": -1.47,
+        "cost_savings_pct": 63.4,
+        "is_oracle": false
+      }
+    ],
+    "oracle_mllm": "Qwen3.5-35B",
+    "oracle_all_mllm_acc": 70.96
+  },
+  "BowTurnHead": {
+    "clip_acc": 60.79,
+    "tau_star": 55,
+    "rows": [
+      {
+        "mllm": "Qwen3.5-35B",
+        "overall_acc": 88.23,
+        "hybrid_acc": 66.94,
+        "gain_pp": 6.15,
+        "cost_savings_pct": 77.0,
+        "is_oracle": true
+      },
+      {
+        "mllm": "Gemma4-31B",
+        "overall_acc": 86.69,
+        "hybrid_acc": 69.86,
+        "gain_pp": 9.07,
+        "cost_savings_pct": 77.0,
+        "is_oracle": false
+      },
+      {
+        "mllm": "Gemma4-26B",
+        "overall_acc": 85.6,
+        "hybrid_acc": 60.0,
+        "gain_pp": -0.79,
+        "cost_savings_pct": 77.0,
+        "is_oracle": false
+      },
+      {
+        "mllm": "Qwen3.5-27B",
+        "overall_acc": 80.39,
+        "hybrid_acc": 69.74,
+        "gain_pp": 8.95,
+        "cost_savings_pct": 77.0,
+        "is_oracle": false
+      },
+      {
+        "mllm": "Qwen3.6-35B",
+        "overall_acc": 80.34,
+        "hybrid_acc": 69.86,
+        "gain_pp": 9.07,
+        "cost_savings_pct": 77.0,
+        "is_oracle": false
+      },
+      {
+        "mllm": "Qwen3.6-27B",
+        "overall_acc": 76.54,
+        "hybrid_acc": 70.11,
+        "gain_pp": 9.32,
+        "cost_savings_pct": 77.0,
+        "is_oracle": false
+      }
+    ],
+    "oracle_mllm": "Qwen3.5-35B",
+    "oracle_all_mllm_acc": 88.23
+  }
+}

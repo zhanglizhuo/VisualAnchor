@@ -1,0 +1,154 @@
+{
+  "results": {
+    "existing_13_6mllm": {
+      "rho": 0.7692,
+      "p": 0.002112
+    },
+    "scb5_llm_10_5mllm": {
+      "rho": 0.5065,
+      "p": 0.135195
+    },
+    "combined_23_mixed_ensemble": {
+      "rho": 0.681,
+      "p": 0.000347
+    },
+    "combined_23_llava_only": {
+      "rho": 0.3521,
+      "p": 0.09939
+    },
+    "existing_13_llava_only": {
+      "rho": 0.4726,
+      "p": 0.102898
+    },
+    "scb5_llm_10_llava_only": {
+      "rho": 0.0211,
+      "p": 0.95379
+    },
+    "scb5_llm_8_non_overlap_5mllm": {
+      "rho": 0.5065,
+      "p": 0.135195
+    }
+  },
+  "scb5_llm_per_class": {
+    "answering_questions": {
+      "clip": 80.0,
+      "llava": 0.0,
+      "ollama": {
+        "qwen3.5:27b": 28.0,
+        "qwen3.6:27b": 26.0,
+        "qwen3.6:35b-a3b": 28.0,
+        "gemma4:26b": 30.0
+      },
+      "5mllm_mean": 22.4
+    },
+    "discussion": {
+      "clip": 2.0,
+      "llava": 2.0,
+      "ollama": {
+        "qwen3.5:27b": 42.0,
+        "qwen3.6:27b": 32.0,
+        "qwen3.6:35b-a3b": 20.0,
+        "gemma4:26b": 14.0
+      },
+      "5mllm_mean": 22.0
+    },
+    "lecturing": {
+      "clip": 60.0,
+      "llava": 98.0,
+      "ollama": {
+        "qwen3.5:27b": 22.0,
+        "qwen3.6:27b": 50.0,
+        "qwen3.6:35b-a3b": 74.0,
+        "gemma4:26b": 48.0
+      },
+      "5mllm_mean": 58.4
+    },
+    "listening_to_lecture": {
+      "clip": 2.0,
+      "llava": 6.0,
+      "ollama": {
+        "qwen3.5:27b": 36.0,
+        "qwen3.6:27b": 34.0,
+        "qwen3.6:35b-a3b": 30.0,
+        "gemma4:26b": 56.0
+      },
+      "5mllm_mean": 32.4
+    },
+    "patrolling": {
+      "clip": 2.0,
+      "llava": 0.0,
+      "ollama": {
+        "qwen3.5:27b": 48.0,
+        "qwen3.6:27b": 20.0,
+        "qwen3.6:35b-a3b": 10.0,
+        "gemma4:26b": 8.0
+      },
+      "5mllm_mean": 17.2
+    },
+    "reading_aloud": {
+      "clip": 8.0,
+      "llava": 14.0,
+      "ollama": {
+        "qwen3.5:27b": 76.0,
+        "qwen3.6:27b": 72.0,
+        "qwen3.6:35b-a3b": 72.0,
+        "gemma4:26b": 20.0
+      },
+      "5mllm_mean": 50.8
+    },
+    "responding": {
+      "clip": 2.0,
+      "llava": 0.0,
+      "ollama": {
+        "qwen3.5:27b": 0.0,
+        "qwen3.6:27b": 0.0,
+        "qwen3.6:35b-a3b": 0.0,
+        "gemma4:26b": 0.0
+      },
+      "5mllm_mean": 0.0
+    },
+    "stage_interaction": {
+      "clip": 34.0,
+      "llava": 0.0,
+      "ollama": {
+        "qwen3.5:27b": 24.0,
+        "qwen3.6:27b": 42.0,
+        "qwen3.6:35b-a3b": 26.0,
+        "gemma4:26b": 24.0
+      },
+      "5mllm_mean": 23.2
+    },
+    "stage_presentation": {
+      "clip": 6.8,
+      "llava": 0.0,
+      "ollama": {
+        "qwen3.5:27b": 75.0,
+        "qwen3.6:27b": 63.6,
+        "qwen3.6:35b-a3b": 88.6,
+        "gemma4:26b": 47.7
+      },
+      "5mllm_mean": 55.0
+    },
+    "student_blackboard_writing": {
+      "clip": 10.0,
+      "llava": 0.0,
+      "ollama": {
+        "qwen3.5:27b": 94.0,
+        "qwen3.6:27b": 98.0,
+        "qwen3.6:35b-a3b": 62.0,
+        "gemma4:26b": 60.0
+      },
+      "5mllm_mean": 62.8
+    }
+  },
+  "models_used": {
+    "scb_5mllm": [
+      "LLaVA-1.5-7B",
+      "qwen3.5:27b",
+      "qwen3.6:27b",
+      "qwen3.6:35b-a3b",
+      "gemma4:26b"
+    ],
+    "existing_6mllm": "pooled_class_level_results.json"
+  }
+}

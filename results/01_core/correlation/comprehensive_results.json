@@ -1,0 +1,61 @@
+{
+  "scb5_global": {
+    "n": 91,
+    "spearman_rho": 0.6942,
+    "spearman_p": 0.0,
+    "pearson_r": 0.7375,
+    "pearson_p": 0.0
+  },
+  "cross_domain": {
+    "EuroSAT (10cls)": {
+      "AnchorScore": 38.7,
+      "n": 27000
+    },
+    "PathMNIST (9cls)": {
+      "AnchorScore": 15.49,
+      "n": 7180
+    },
+    "BloodMNIST (8cls)": {
+      "AnchorScore": 5.88,
+      "n": 3421
+    },
+    "TissueMNIST (8cls)": {
+      "AnchorScore": 15.6,
+      "n": 47280
+    }
+  },
+  "per_class_teacher_behavior": {
+    "guide": {
+      "anchor": 29.34,
+      "mllm_avg": 36.45
+    },
+    "answer": {
+      "anchor": 5.57,
+      "mllm_avg": 10.8
+    },
+    "On-stage interaction": {
+      "anchor": 54.17,
+      "mllm_avg": 75.84
+    },
+    "blackboard-writing": {
+      "anchor": 26.09,
+      "mllm_avg": 93.55
+    },
+    "teacher": {
+      "anchor": 50.48,
+      "mllm_avg": 71.32
+    },
+    "stand": {
+      "anchor": 9.57,
+      "mllm_avg": 22.01
+    },
+    "screen": {
+      "anchor": 40.48,
+      "mllm_avg": 66.21
+    },
+    "blackBoard": {
+      "anchor": 3.16,
+      "mllm_avg": 46.04
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "model": {
+    "method": "REML",
+    "dependent_variable": "MLLM accuracy (%)",
+    "fixed_effects": {
+      "intercept": 28.425030310071975,
+      "anchor_score": 0.8486838775879939,
+      "anchor_score_p": 1.519139391798978e-22,
+      "anchor_score_ci_95": [
+        0.6784236565276676,
+        1.0189440986483203
+      ]
+    },
+    "random_effects": {
+      "mllm_intercept_var": 0.0023544852313816165,
+      "residual_var": 412.7746838440763
+    },
+    "icc_mllm": 5.704012124587321e-06,
+    "fit": {
+      "n_obs": 78,
+      "n_groups": 6,
+      "log_likelihood": -344.34294425847565,
+      "converged": true
+    },
+    "software": {
+      "package": "statsmodels",
+      "version": "statsmodels.regression.mixed_linear_model"
+    }
+  },
+  "per_mllm_mean_accuracy": {
+    "Gemma4-26B": 59.11,
+    "Qwen3.6-35B": 62.35846153846155,
+    "Qwen3.5-35B": 60.469230769230776,
+    "Qwen3.5-27B": 65.92615384615385,
+    "Gemma4-31B": 64.74846153846154,
+    "Qwen3.6-27B": 63.51
+  },
+  "per_mllm_random_intercept": {
+    "Gemma4-26B": -0.00026522791612119257,
+    "Gemma4-31B": 0.00015284755612030628,
+    "Qwen3.5-27B": 0.0002401700046880737,
+    "Qwen3.5-35B": -0.00016444492028889655,
+    "Qwen3.6-27B": 6.101924639195519e-05,
+    "Qwen3.6-35B": -2.436397079024435e-05
+  },
+  "naive_pooled_spearman": {
+    "rho": 0.6924524925592862,
+    "p": 2.178476594998808e-12,
+    "n": 78
+  },
+  "input_source": "/home/lizhuo/Work/Mayan/VisualAnchor/results/01_core/correlation/unified_results.json",
+  "canonical_mllms": [
+    "Qwen3.5-27B",
+    "Qwen3.6-27B",
+    "Qwen3.5-35B",
+    "Qwen3.6-35B",
+    "Gemma4-31B",
+    "Gemma4-26B"
+  ]
+}

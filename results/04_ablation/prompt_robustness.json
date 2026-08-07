@@ -1,0 +1,186 @@
+{
+  "original_3template": {
+    "templates": [
+      "a photo of a person {} in classroom.",
+      "a classroom scene showing {}.",
+      "the action of {} in a school environment."
+    ],
+    "n_templates": 3,
+    "class_level_rho": 0.7692,
+    "class_level_p": 0.0021,
+    "n_classes": 13,
+    "per_class_anchor": {
+      "TeacherBehavior": {
+        "guide": 29.34,
+        "answer": 5.57,
+        "On-stage interaction": 54.17,
+        "blackboard-writing": 26.09,
+        "teacher": 50.36,
+        "stand": 9.34,
+        "screen": 40.48,
+        "blackBoard": 3.4
+      },
+      "HandriseReadWrite": {
+        "hand-raising": 80.15,
+        "read": 22.96,
+        "write": 89.75
+      },
+      "BowTurnHead": {
+        "BowHead": 50.0,
+        "TurnHead": 63.61
+      }
+    }
+  },
+  "minimal_photo": {
+    "templates": [
+      "a photo of {}."
+    ],
+    "n_templates": 1,
+    "class_level_rho": 0.2376,
+    "class_level_p": 0.4345,
+    "n_classes": 13,
+    "per_class_anchor": {
+      "TeacherBehavior": {
+        "guide": 14.97,
+        "answer": 8.01,
+        "On-stage interaction": 0.0,
+        "blackboard-writing": 21.12,
+        "teacher": 51.43,
+        "stand": 23.69,
+        "screen": 0.0,
+        "blackBoard": 0.0
+      },
+      "HandriseReadWrite": {
+        "hand-raising": 89.71,
+        "read": 70.88,
+        "write": 15.57
+      },
+      "BowTurnHead": {
+        "BowHead": 36.61,
+        "TurnHead": 70.74
+      }
+    }
+  },
+  "person_no_context": {
+    "templates": [
+      "a photo of a person {}."
+    ],
+    "n_templates": 1,
+    "class_level_rho": 0.1492,
+    "class_level_p": 0.6267,
+    "n_classes": 13,
+    "per_class_anchor": {
+      "TeacherBehavior": {
+        "guide": 6.59,
+        "answer": 2.09,
+        "On-stage interaction": 0.0,
+        "blackboard-writing": 8.07,
+        "teacher": 57.96,
+        "stand": 33.71,
+        "screen": 0.0,
+        "blackBoard": 0.0
+      },
+      "HandriseReadWrite": {
+        "hand-raising": 57.51,
+        "read": 95.84,
+        "write": 7.38
+      },
+      "BowTurnHead": {
+        "BowHead": 62.5,
+        "TurnHead": 52.93
+      }
+    }
+  },
+  "single_classroom": {
+    "templates": [
+      "a photo of a person {} in classroom."
+    ],
+    "n_templates": 1,
+    "class_level_rho": 0.6703,
+    "class_level_p": 0.0122,
+    "n_classes": 13,
+    "per_class_anchor": {
+      "TeacherBehavior": {
+        "guide": 5.39,
+        "answer": 0.35,
+        "On-stage interaction": 81.25,
+        "blackboard-writing": 22.98,
+        "teacher": 55.7,
+        "stand": 2.96,
+        "screen": 28.57,
+        "blackBoard": 3.88
+      },
+      "HandriseReadWrite": {
+        "hand-raising": 73.61,
+        "read": 47.92,
+        "write": 69.67
+      },
+      "BowTurnHead": {
+        "BowHead": 16.96,
+        "TurnHead": 94.66
+      }
+    }
+  },
+  "classroom_only": {
+    "templates": [
+      "a photo of {} in a classroom."
+    ],
+    "n_templates": 1,
+    "class_level_rho": 0.7363,
+    "class_level_p": 0.0041,
+    "n_classes": 13,
+    "per_class_anchor": {
+      "TeacherBehavior": {
+        "guide": 34.13,
+        "answer": 6.62,
+        "On-stage interaction": 79.17,
+        "blackboard-writing": 24.84,
+        "teacher": 49.88,
+        "stand": 5.24,
+        "screen": 16.67,
+        "blackBoard": 3.16
+      },
+      "HandriseReadWrite": {
+        "hand-raising": 80.15,
+        "read": 14.81,
+        "write": 94.67
+      },
+      "BowTurnHead": {
+        "BowHead": 90.18,
+        "TurnHead": 17.3
+      }
+    }
+  },
+  "alternative_phrasing": {
+    "templates": [
+      "an image of someone {} in a school.",
+      "a classroom photo depicting {}.",
+      "{} happening in an educational setting."
+    ],
+    "n_templates": 3,
+    "class_level_rho": 0.5989,
+    "class_level_p": 0.0306,
+    "n_classes": 13,
+    "per_class_anchor": {
+      "TeacherBehavior": {
+        "guide": 10.78,
+        "answer": 5.23,
+        "On-stage interaction": 75.0,
+        "blackboard-writing": 20.5,
+        "teacher": 46.2,
+        "stand": 18.68,
+        "screen": 33.33,
+        "blackBoard": 2.18
+      },
+      "HandriseReadWrite": {
+        "hand-raising": 77.97,
+        "read": 53.91,
+        "write": 65.16
+      },
+      "BowTurnHead": {
+        "BowHead": 33.04,
+        "TurnHead": 82.44
+      }
+    }
+  }
+}

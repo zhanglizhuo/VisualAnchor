@@ -1,0 +1,39 @@
+{
+  "model_label": "blip2",
+  "model": "blip2_anchor",
+  "spearman_vs_mllm": {
+    "rho": 0.0336,
+    "p": 0.9132,
+    "n": 13
+  },
+  "per_class_vl": {
+    "guide": 0.0,
+    "answer": 0.0,
+    "On-stage interaction": 0.0,
+    "blackboard-writing": 0.0,
+    "teacher": 0.0,
+    "stand": 79.73,
+    "screen": 0.0,
+    "blackBoard": 34.71,
+    "hand-raising": 100.0,
+    "read": 0.0,
+    "write": 0.0,
+    "BowHead": 100.0,
+    "TurnHead": 0.0
+  },
+  "per_class_mllm": {
+    "guide": 42.5,
+    "answer": 12.4,
+    "On-stage interaction": 80.2,
+    "blackboard-writing": 97.5,
+    "teacher": 68.8,
+    "stand": 23.1,
+    "screen": 67.8,
+    "blackBoard": 44.6,
+    "hand-raising": 89.2,
+    "read": 27.0,
+    "write": 97.8,
+    "BowHead": 80.5,
+    "TurnHead": 83.7
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "description": "Meta-analysis of AnchorScore-MLLM correlations",
+  "date": "2026-07-17",
+  "studies": [
+    {
+      "name": "SCB5",
+      "r": 0.769,
+      "n": 13,
+      "se": 0.3162,
+      "ci_95": [
+        0.3783,
+        0.9271
+      ]
+    },
+    {
+      "name": "SCB-LLM-202506",
+      "r": 0.506,
+      "n": 10,
+      "se": 0.378,
+      "ci_95": [
+        -0.1814,
+        0.8612
+      ]
+    },
+    {
+      "name": "Cross-domain per-class",
+      "r": 0.462,
+      "n": 34,
+      "se": 0.1796,
+      "ci_95": [
+        0.1468,
+        0.692
+      ]
+    },
+    {
+      "name": "Stanford40",
+      "r": 0.817,
+      "n": 40,
+      "se": 0.1644,
+      "ci_95": [
+        0.6781,
+        0.8996
+      ]
+    }
+  ],
+  "fixed_effect": {
+    "r": 0.6898,
+    "ci_95": [
+      0.5615,
+      0.7857
+    ]
+  },
+  "heterogeneity": {
+    "Q": 7.9614,
+    "df": 3,
+    "p": 0.0468,
+    "I2_pct": 62.32,
+    "tau2": 0.0889,
+    "significant": true
+  },
+  "random_effects": {
+    "r": 0.6771,
+    "ci_95": [
+      0.4161,
+      0.835
+    ],
+    "prediction_interval_95": [
+      0.1257,
+      0.9089
+    ]
+  },
+  "subgroup_classroom_only": {
+    "description": "SCB5 + SCB-LLM-202506",
+    "r": 0.6795,
+    "ci_95": [
+      0.3389,
+      0.8627
+    ]
+  },
+  "subgroup_all_scene": {
+    "description": "SCB5 + SCB-LLM-202506 + Stanford40 (excludes cross-domain)",
+    "r": 0.7807,
+    "ci_95": [
+      0.653,
+      0.8653
+    ]
+  },
+  "previous_3_study": {
+    "description": "Same as prior version without Stanford40",
+    "studies": [
+      "SCB5",
+      "SCB-LLM-202506",
+      "Cross-domain per-class"
+    ],
+    "r": 0.5508,
+    "ci_95": [
+      0.3179,
+      0.7211
+    ]
+  }
+}

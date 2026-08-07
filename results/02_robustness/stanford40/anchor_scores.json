@@ -1,0 +1,207 @@
+{
+  "overall_acc": 91.86,
+  "per_class_acc": {
+    "applauding": {
+      "n": 284,
+      "correct": 197,
+      "acc": 69.37
+    },
+    "blowing bubbles": {
+      "n": 259,
+      "correct": 251,
+      "acc": 96.91
+    },
+    "brushing teeth": {
+      "n": 200,
+      "correct": 158,
+      "acc": 79.0
+    },
+    "cleaning the floor": {
+      "n": 212,
+      "correct": 205,
+      "acc": 96.7
+    },
+    "climbing": {
+      "n": 295,
+      "correct": 292,
+      "acc": 98.98
+    },
+    "cooking": {
+      "n": 288,
+      "correct": 281,
+      "acc": 97.57
+    },
+    "cutting trees": {
+      "n": 203,
+      "correct": 202,
+      "acc": 99.51
+    },
+    "cutting vegetables": {
+      "n": 189,
+      "correct": 90,
+      "acc": 47.62
+    },
+    "drinking": {
+      "n": 256,
+      "correct": 243,
+      "acc": 94.92
+    },
+    "feeding a horse": {
+      "n": 287,
+      "correct": 283,
+      "acc": 98.61
+    },
+    "fishing": {
+      "n": 273,
+      "correct": 271,
+      "acc": 99.27
+    },
+    "fixing a bike": {
+      "n": 228,
+      "correct": 226,
+      "acc": 99.12
+    },
+    "fixing a car": {
+      "n": 251,
+      "correct": 251,
+      "acc": 100.0
+    },
+    "gardening": {
+      "n": 199,
+      "correct": 193,
+      "acc": 96.98
+    },
+    "holding an umbrella": {
+      "n": 292,
+      "correct": 286,
+      "acc": 97.95
+    },
+    "jumping": {
+      "n": 295,
+      "correct": 282,
+      "acc": 95.59
+    },
+    "looking through a microscope": {
+      "n": 191,
+      "correct": 190,
+      "acc": 99.48
+    },
+    "looking through a telescope": {
+      "n": 203,
+      "correct": 182,
+      "acc": 89.66
+    },
+    "phoning": {
+      "n": 259,
+      "correct": 248,
+      "acc": 95.75
+    },
+    "playing guitar": {
+      "n": 289,
+      "correct": 288,
+      "acc": 99.65
+    },
+    "playing violin": {
+      "n": 260,
+      "correct": 257,
+      "acc": 98.85
+    },
+    "pouring liquid": {
+      "n": 200,
+      "correct": 122,
+      "acc": 61.0
+    },
+    "pushing a cart": {
+      "n": 235,
+      "correct": 229,
+      "acc": 97.45
+    },
+    "reading": {
+      "n": 245,
+      "correct": 239,
+      "acc": 97.55
+    },
+    "riding a bike": {
+      "n": 293,
+      "correct": 288,
+      "acc": 98.29
+    },
+    "riding a horse": {
+      "n": 296,
+      "correct": 294,
+      "acc": 99.32
+    },
+    "rowing a boat": {
+      "n": 185,
+      "correct": 185,
+      "acc": 100.0
+    },
+    "running": {
+      "n": 251,
+      "correct": 243,
+      "acc": 96.81
+    },
+    "shooting an arrow": {
+      "n": 214,
+      "correct": 213,
+      "acc": 99.53
+    },
+    "smoking": {
+      "n": 241,
+      "correct": 224,
+      "acc": 92.95
+    },
+    "taking photos": {
+      "n": 197,
+      "correct": 169,
+      "acc": 85.79
+    },
+    "texting message": {
+      "n": 193,
+      "correct": 102,
+      "acc": 52.85
+    },
+    "throwing frisby": {
+      "n": 202,
+      "correct": 198,
+      "acc": 98.02
+    },
+    "using a computer": {
+      "n": 230,
+      "correct": 219,
+      "acc": 95.22
+    },
+    "walking the dog": {
+      "n": 293,
+      "correct": 291,
+      "acc": 99.32
+    },
+    "washing dishes": {
+      "n": 182,
+      "correct": 157,
+      "acc": 86.26
+    },
+    "watching TV": {
+      "n": 223,
+      "correct": 218,
+      "acc": 97.76
+    },
+    "waving hands": {
+      "n": 210,
+      "correct": 164,
+      "acc": 78.1
+    },
+    "writing on a board": {
+      "n": 183,
+      "correct": 180,
+      "acc": 98.36
+    },
+    "writing on a book": {
+      "n": 246,
+      "correct": 145,
+      "acc": 58.94
+    }
+  },
+  "total": 9532,
+  "correct": 8756
+}

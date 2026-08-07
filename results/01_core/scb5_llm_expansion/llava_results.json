@@ -1,0 +1,52 @@
+{
+  "answering_questions": {
+    "correct": 0,
+    "total": 50,
+    "acc": 0.0
+  },
+  "discussion": {
+    "correct": 1,
+    "total": 50,
+    "acc": 2.0
+  },
+  "lecturing": {
+    "correct": 49,
+    "total": 50,
+    "acc": 98.0
+  },
+  "listening_to_lecture": {
+    "correct": 3,
+    "total": 50,
+    "acc": 6.0
+  },
+  "patrolling": {
+    "correct": 0,
+    "total": 50,
+    "acc": 0.0
+  },
+  "reading_aloud": {
+    "correct": 7,
+    "total": 50,
+    "acc": 14.0
+  },
+  "responding": {
+    "correct": 0,
+    "total": 50,
+    "acc": 0.0
+  },
+  "stage_interaction": {
+    "correct": 0,
+    "total": 50,
+    "acc": 0.0
+  },
+  "stage_presentation": {
+    "correct": 0,
+    "total": 44,
+    "acc": 0.0
+  },
+  "student_blackboard_writing": {
+    "correct": 0,
+    "total": 50,
+    "acc": 0.0
+  }
+}
