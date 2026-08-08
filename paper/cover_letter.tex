@@ -1,0 +1,36 @@
+\documentclass[10pt]{letter}
+\usepackage[margin=0.65in]{geometry}
+\usepackage{hyperref}
+\usepackage{url}
+\setlength{\parskip}{3pt}
+\setlength{\parindent}{0pt}
+\setlength{\topskip}{4pt}
+\addtolength{\topmargin}{-0.3in}
+\addtolength{\textheight}{80pt}
+
+\signature{Lizhuo Zhang \\ zhanglizhuo@hunau.edu.cn}
+\address{Lizhuo Zhang \\ Hunan Agricultural University \\ Changsha 410128, China}
+
+\begin{document}
+
+\begin{letter}{Editor-in-Chief \\ IEEE Access}
+
+\opening{Dear Editor-in-Chief,}
+
+We submit the enclosed manuscript, ``AnchorScore: CLIP Zero-Shot Accuracy as a Diagnostic for MLLM Annotation Difficulty in Classroom Behavior Analysis,'' for consideration at IEEE Access. Lizhuo Zhang (zhanglizhuo@hunau.edu.cn) is the corresponding author; Yan Ma has approved this submission.
+
+MLLM annotation accuracy varies dramatically across classes (12\%--98\% in our setting), yet measuring it costs roughly 14 hours of inference per model. No cheap a priori signal currently exists to identify where an MLLM will struggle before committing to full evaluation. We propose \emph{AnchorScore}, the per-class zero-shot accuracy of a frozen CLIP model, which flags the classes MLLMs are least likely to annotate reliably for the cost of about 3 minutes of CLIP inference per dataset---roughly 1/270th of the compute of a single MLLM pass.
+
+The paper rests on four empirical findings. First, AnchorScore correlates with class-level MLLM accuracy on SCB5 (13 classroom behavior classes, six MLLMs; Spearman $\rho{=}0.769$, $p{=}0.002$) and replicates on Stanford40 (40 classes; $\rho{=}0.817$, $p{<}0.001$), with negligible heterogeneity across three activity-recognition studies ($I^2{=}3.0\%$, though based on only $k{=}3$ studies with wide confidence intervals, as noted in the manuscript). Second, the signal is absent from alternative difficulty predictors (DINOv2, ResNet-50, MLLM self-verbalized uncertainty) and only suggestive for SigLIP, a pattern that points to CLIP's contrastive vision--language alignment rather than generic visual difficulty. Third, we demonstrate three downstream uses: a hybrid CLIP/MLLM annotation strategy (up to $+11$\,pp at about half the MLLM cost, or up to 83\% cost saving on a near-ceiling dataset), prompt disambiguation guided by CLIP confusion matrices, and review-priority prediction for human verification. Fourth, the signal attenuates on visually distant medical and satellite domains (pooled $\rho{=}0.462$); our conclusion therefore frames AnchorScore as a low-cost ranking diagnostic rather than a universal accuracy estimator---the manuscript reports these limits in full, including a Mantel test showing that CLIP and MLLM confusion matrices do not align ($\rho{\approx}0.28$).
+
+The work connects computer vision, natural language processing, and applied educational data analysis, and its scope does not fit neatly within any single specialized venue; we believe it is well suited to the multidisciplinary readership of IEEE Access.
+
+This manuscript is original, has not been published elsewhere, and is not under consideration by another journal. All authors have read and approved the final version. The authors declare no competing interests, and this research received no external funding. SCB5 is public on Hugging Face; code, prompts, and result files are open at \url{https://github.com/zhanglizhuo/VisualAnchor}.
+
+Thank you for your consideration.
+
+\closing{Sincerely,}
+
+\end{letter}
+
+\end{document}
