@@ -351,8 +351,13 @@ for idx, ds_name in enumerate(ds_show):
     ax.set_ylabel("MLLM Accuracy (%)", fontsize=11)
     ax.set_title(ds_name, fontsize=12, fontweight="bold")
     ax.grid(True, alpha=0.25)
-    r_s_ds, p_s_ds = spearmanr(ds_a, ds_m)
-    ax.text(0.95, 0.07, f"$\\rho$={r_s_ds:.3f}, p={p_s_ds:.3f}",
+    r_s_ds, p_s_ds = spearmanr(means_A, means_M)
+    k_cls = len(means_A)
+    if k_cls >= 5:
+        stat_txt = f"class $\\rho$={r_s_ds:.2f}, p={p_s_ds:.3f}"
+    else:
+        stat_txt = f"class $\\rho$={r_s_ds:.2f} (k={k_cls}, n.s.)"
+    ax.text(0.95, 0.07, stat_txt,
             transform=ax.transAxes, fontsize=9, verticalalignment="bottom", horizontalalignment="right",
             bbox=dict(boxstyle="round,pad=0.3", facecolor="white", alpha=0.85))
     ax.set_xlim(0, 100)
