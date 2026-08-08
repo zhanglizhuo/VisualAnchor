@@ -194,7 +194,7 @@ Five sensitivity analyses (\Cref{tab:robustness_all}, Panel~A) confirm the resul
 
 \par
 \noindent
-At the class level---the appropriate unit of analysis---TeacherBehavior shows a moderate but non-significant trend ($\rho=0.60$, $p=0.12$, $k=8$), while HandriseReadWrite ($k=3$) and BowTurnHead ($k=2$) are too small for a reliable per-dataset correlation (\Cref{fig:per_dataset_app}). The primary test remains the pooled class-level $\rho=0.769$ ($n=13$, $p=0.002$); the per-dataset breakdowns are exploratory and limited by small $k$.
+At the class level---the appropriate unit of analysis---TeacherBehavior shows a moderate but non-significant trend ($\rho=0.60$, $p=0.12$, $k=8$), while HandriseReadWrite ($k=3$) and BowTurnHead ($k=2$) are too small for a reliable per-dataset correlation. The primary test remains the pooled class-level $\rho=0.769$ ($n=13$, $p=0.002$); the per-dataset breakdowns are exploratory and limited by small $k$.
 
 We further evaluate AnchorScore's ranking utility. Using median MLLM accuracy as a threshold, AnchorScore achieves an AUC of $0.952$ for identifying below-median classes. The top-$k$ overlap is $4/5$ and $5/6$ for $k=5$ and $k=6$, respectively, meaning AnchorScore's lowest-scoring classes are almost exactly the classes where MLLMs perform worst. This confirms that AnchorScore is primarily useful as a relative ranking signal (identifying which classes to distrust) rather than as an absolute accuracy indicator.
 
@@ -584,13 +584,6 @@ AnchorScore is not a universal predictor. The effect was strong and consistent o
 \clearpage
 \section{Supporting Materials}
 \label{app:materials}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=\columnwidth]{figA1_per_dataset.pdf}
-\caption{Per-dataset correlation between AnchorScore and MLLM accuracy for TeacherBehavior ($k=8$, left) and HandriseReadWrite ($k=3$, right). Class means (large markers) are shown with $\pm1$\,SD error bars across the six MLLMs; the dashed OLS line, its 95\% confidence band, and the reported $\rho$ are all computed on class means ($n=k$ per dataset). Individual MLLM points are jittered horizontally ($\pm1.5\%$) for visibility. BowTurnHead ($k=2$) is omitted as Spearman on two points is uninformative; for $k<5$ the $p$-value is suppressed.}
-\label{fig:per_dataset_app}
-\end{figure}
 
 \textbf{TeacherBehavior per-class accuracy.} \Cref{tab:per_class_tb} reports AnchorScore and per-class MLLM accuracy (6-MLLM mean $\pm$ SD) for all eight TeacherBehavior classes, sorted by ascending AnchorScore. The largest AnchorScore--MLLM divergences occur on composite action classes (blackboard-writing +71.4\,pp, blackboard +41.4\,pp).
 
