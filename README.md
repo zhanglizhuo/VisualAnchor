@@ -18,7 +18,7 @@ flags the classes MLLMs are least likely to annotate reliably, at a fraction of 
 |--------|-------|----------|
 | Class-level correlation (SCB5, 13 classes, 6 MLLMs) | **ρ = 0.769** (p = 0.002) | `results/01_core/correlation/unified_results.json` |
 | Replication (Stanford40 Actions, 40 classes) | **ρ = 0.817** (p < 0.001) | `results/02_robustness/stanford40/` |
-| Three-study meta-analysis (activity recognition) | **ρ = 0.781**, 95% CI [0.653, 0.865], I² = 3.0% | `results/02_robustness/robustness/` |
+| Three-study meta-analysis (activity recognition) | **ρ = 0.781**, 95% CI [0.653, 0.865], I² = 3.0% | `results/05_applications/meta_analysis_results.json` (`subgroup_all_scene`) |
 | SigLIP / DINOv2 / ResNet-50 baselines | no significant correlation (ρ ≤ 0.201) | `results/01_core/anchor_score_scb5/{siglip,dinov2}_correlation.json`, `results/03_baselines/resnet50_baseline/resnet50_results.json` |
 
 The signal is most consistent with specificity to CLIP's vision-language alignment. It supports
