@@ -585,10 +585,10 @@ AnchorScore is not a universal predictor. The effect was strong and consistent o
 \section{Supporting Materials}
 \label{app:materials}
 
-\textbf{TeacherBehavior per-class accuracy.} \Cref{tab:per_class_tb} reports AnchorScore and per-class MLLM accuracy (6-MLLM mean $\pm$ SD) for all eight TeacherBehavior classes, sorted by ascending AnchorScore. The largest AnchorScore--MLLM divergences occur on composite action classes (blackboard-writing +71.4\,pp, blackboard +41.4\,pp).
+\textbf{SCB5 per-class accuracy.} \Cref{tab:per_class_tb} reports AnchorScore and per-class MLLM accuracy (6-MLLM mean $\pm$ SD) for all 13 SCB5 classes across the three sub-datasets, sorted by ascending AnchorScore. The largest AnchorScore--MLLM divergences occur on composite action classes (blackboard-writing +71.4\,pp, blackboard +41.4\,pp).
 
 \begin{table}[h]
-\caption{Per-class AnchorScore and average MLLM accuracy on TeacherBehavior (6 MLLMs).}
+\caption{Per-class AnchorScore and average MLLM accuracy across all 13 SCB5 classes (TeacherBehavior, HandriseReadWrite, BowTurnHead; 6 MLLMs), grouped by sub-dataset and sorted by ascending AnchorScore.}
 \label{tab:per_class_tb}
 \centering
 \footnotesize
@@ -597,6 +597,7 @@ AnchorScore is not a universal predictor. The effect was strong and consistent o
 \toprule
 \textbf{Class} & \textbf{Anchor\%} & \textbf{MLLM avg\%} & \textbf{MLLM std\%} & $\Delta$\,(pp) \\
 \midrule
+\multicolumn{5}{l}{\textit{TeacherBehavior}} \\
 blackboard & 3.2 & 44.6 & 14.3 & $+$41.4 \\
 answer & 5.6 & 12.4 & 6.9 & $+$6.8 \\
 stand & 9.6 & 23.1 & 6.1 & $+$13.5 \\
@@ -605,6 +606,15 @@ guide & 29.3 & 42.5 & 20.6 & $+$13.2 \\
 screen & 40.5 & 67.8 & 13.7 & $+$27.3 \\
 teacher & 50.5 & 68.8 & 8.0 & $+$18.3 \\
 On-stage interaction & 54.2 & 80.2 & 8.2 & $+$26.0 \\
+\midrule
+\multicolumn{5}{l}{\textit{HandriseReadWrite}} \\
+read & 23.0 & 27.0 & 5.2 & $+$4.0 \\
+hand-raising & 80.0 & 89.2 & 2.3 & $+$9.2 \\
+write & 89.8 & 97.8 & 0.4 & $+$8.0 \\
+\midrule
+\multicolumn{5}{l}{\textit{BowTurnHead}} \\
+BowHead & 49.1 & 80.5 & 16.4 & $+$31.4 \\
+TurnHead & 64.1 & 83.7 & 8.6 & $+$19.6 \\
 \bottomrule
 \end{tabular}
 \end{table}
