@@ -25,6 +25,8 @@ The signal is most consistent with specificity to CLIP's vision-language alignme
 *ranking* (which classes are relatively harder) rather than *calibration* (exact accuracy estimates);
 full caveats in the paper.
 
+![Per-dataset correlation between AnchorScore and MLLM accuracy](paper/figures/per_dataset_correlation.png)
+
 ## Pipeline
 
 ![AnchorScore pipeline](paper/figures/pipeline_overview.png)

@@ -304,6 +304,70 @@ fig3.savefig(OUT_DIR / "fig1_correlation.png", bbox_inches="tight")
 fig3.savefig(OUT_DIR / "fig1_correlation.pdf", bbox_inches="tight")
 print(f"Saved {OUT_DIR / 'fig1_correlation.png'} ({len(all_indiv_A)} points, {n_models} MLLMs, class ρ={r_s_cls:.3f})")
 
+# ── Per-dataset subplots (TeacherBehavior + HandriseReadWrite) — used in README ──
+ds_show = ["TeacherBehavior", "HandriseReadWrite"]
+fig_a1, axes = plt.subplots(1, 2, figsize=(10, 4.5))
+for idx, ds_name in enumerate(ds_show):
+    ax = axes[idx]
+    anchor_acc = scb5[ds_name]["per_class_acc"]
+    class_list = list(anchor_acc.keys())
+    ds_a, ds_m = [], []
+    means_A, means_M = [], []
+    class_means = {}
+    for cname in class_list:
+        a_val = anchor_acc[cname]["acc"]
+        vals = []
+        for mname, mdata in MLLM_DATA.get(ds_name, {}).items():
+            if cname in mdata:
+                vals.append(mdata[cname])
+                ds_a.append(a_val)
+                ds_m.append(mdata[cname])
+        if vals:
+            m_mean = np.mean(vals)
+            m_std = np.std(vals, ddof=1) if len(vals) > 1 else 0.0
+            class_means[cname] = (a_val, m_mean, m_std)
+            means_A.append(a_val)
+            means_M.append(m_mean)
+    rng2 = np.random.default_rng(7)
+    jitter = rng2.uniform(-1.5, 1.5, size=len(ds_a))
+    ax.scatter(np.array(ds_a) + jitter, ds_m, alpha=0.45, s=18,
+               color=colors_ds[ds_name], edgecolors="white", linewidth=0.5)
+    # Class means + error bars + labels
+    for cname, (a_mean, m_mean, m_std) in sorted(class_means.items(), key=lambda x: x[1][0]):
+        ax.errorbar(a_mean, m_mean, yerr=m_std, fmt="none", ecolor=colors_ds[ds_name],
+                    capsize=3, capthick=1.0, linewidth=1.0, alpha=0.6, zorder=4)
+        ax.scatter(a_mean, m_mean, s=60, color=colors_ds[ds_name],
+                   edgecolors="white", linewidth=0.8, zorder=5)
+        if ds_name == "TeacherBehavior":
+            label = "on-stage" if cname == "on-stage interaction" else cname.replace("-", " ")
+            ax.annotate(label, (a_mean, m_mean), textcoords="offset points",
+                        xytext=(5, -8), fontsize=7, color="#333", alpha=0.9)
+        elif ds_name == "HandriseReadWrite":
+            ax.annotate(cname.replace("-", " "), (a_mean, m_mean), textcoords="offset points",
+                        xytext=(5, -8), fontsize=7, color="#333", alpha=0.9)
+    # OLS trend on class means with CI band
+    add_ols_fit(ax, means_A, means_M)
+    ax.set_xlabel("AnchorScore (%)", fontsize=11)
+    ax.set_ylabel("MLLM Accuracy (%)", fontsize=11)
+    ax.set_title(ds_name, fontsize=12, fontweight="bold")
+    ax.grid(True, alpha=0.25)
+    r_s_ds, p_s_ds = spearmanr(means_A, means_M)
+    k_cls = len(means_A)
+    if k_cls >= 5:
+        stat_txt = f"class $\\rho$={r_s_ds:.2f}, p={p_s_ds:.3f}"
+    else:
+        stat_txt = f"class $\\rho$={r_s_ds:.2f} (k={k_cls}, n.s.)"
+    ax.text(0.95, 0.07, stat_txt,
+            transform=ax.transAxes, fontsize=9, verticalalignment="bottom", horizontalalignment="right",
+            bbox=dict(boxstyle="round,pad=0.3", facecolor="white", alpha=0.85))
+    ax.set_xlim(0, 100)
+    ax.set_ylim(0, 100)
+
+plt.tight_layout()
+fig_a1.savefig(OUT_DIR / "per_dataset_correlation.png", bbox_inches="tight")
+fig_a1.savefig(OUT_DIR / "per_dataset_correlation.pdf", bbox_inches="tight")
+print(f"Saved {OUT_DIR / 'per_dataset_correlation.png'}")
+
 # ── Figure 4: Cross-domain AnchorScore bar chart (with per-class std error bars) ──
 CROSS_DOMAIN_FILE = RESULTS_DIR / "02_robustness" / "anchor_score_cross_domain" / "anchor_scores.json"
 with open(CROSS_DOMAIN_FILE) as f:
