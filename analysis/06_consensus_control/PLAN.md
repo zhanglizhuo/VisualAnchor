@@ -55,12 +55,15 @@
 - hybrid τ=50 镜像：TB 55.97%（LA 44.81）、HR 62.21%（LA 62.43）、BT 80.76%（LA 67.75）。
 - 结论：OpenAI 主干相关较弱但路由增益在 TB/BT 反而更高（该主干与 MLLM/CLIP 混合边界有利）；主干选择影响 ρ 强弱，不影响路由框架。
 
-## Framing 修改（Exp2 决策门后，待办）
-- 标题尾缀 "…as a Decision-Support Diagnostic"（删除“CLIP 特异性机制”主张）
-- 核心声明改为：AnchorScore 是共享难度因子的廉价代理（0.76 vs 共识），cold-start 场景（MLLM 未跑）下零成本筛选。
-- 三应用收敛为"筛查 → 路由（τ=50 pre-registered）→ 消歧 → 复核"管线。
-- 摘要删除绝对化表述；机制段即 SigLIP null 的"对比损失特异性"改述为"不同家族代理质量差异"。
-- limites §5.4：partial≈0 的限制、类数 n=13 检验力、BLIP2/ResNet 地板。
+## Framing 修改（已完成 2026-08-09）
+- ✅ 标题尾缀 "…as a Decision-Support Diagnostic"（删除"CLIP 特异性机制"主张）
+- ✅ 核心声明改为：AnchorScore 是共享难度因子的廉价代理（ρ=0.763 vs 5 模型共识，与单模型 0.692 相当），cold-start 场景（MLLM 未跑）下零成本筛选
+- ✅ 三应用收敛为"筛查 → 路由（τ=50 pre-registered）→ 消歧 → 复核"管线
+- ✅ 摘要删除绝对化表述（0.692→0.763、partial 0.067 写入摘要 + intro）；机制段 SigLIP null 改述为"不同家族代理质量差异"，并新增 Cross-model consensus control 段
+- ✅ §5.4 新增限制 (6)：partial≈0（CI 宽 [-0.036, 0.789]）、类数 n=13 检验力、BLIP2/ResNet 地板效应（69% 类 <15%）；baseline 空述
+
+## 修改文件清单（commit pending）
+- paper/VisualAnchor.tex（摘要/intro/机制/§5.4/结论 + 标题running head恢复）
 
 ## 期刊
 - Neurocomputing（2 区）主攻；EAAI 仅当加固全过 + 跨域消歧复现。
