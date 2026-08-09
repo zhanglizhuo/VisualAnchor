@@ -1,0 +1,94 @@
+{
+  "laion_l14": {
+    "label": "LAION-L/14 (paper primary)",
+    "rho_pooled": 0.7692307692307693,
+    "p_pooled": 0.0021122295993498776,
+    "n_pooled": 13,
+    "per_dataset": {
+      "TeacherBehavior": {
+        "rho": 0.5952,
+        "p": 0.11952980613879259,
+        "n": 8
+      },
+      "HandriseReadWrite": {
+        "rho": 1.0,
+        "p": 0.0,
+        "n": 3
+      },
+      "BowTurnHead": {
+        "rho": 1.0,
+        "p": NaN,
+        "n": 2
+      }
+    },
+    "hybrid": {
+      "TeacherBehavior": {
+        "tau_best": 55,
+        "acc_best": 54.76,
+        "sav_best": 0.0,
+        "acc_tau50": 44.81,
+        "sav_tau50": 52.9
+      },
+      "HandriseReadWrite": {
+        "tau_best": 90,
+        "acc_best": 68.09,
+        "sav_best": 0.0,
+        "acc_tau50": 62.43,
+        "sav_tau50": 63.4
+      },
+      "BowTurnHead": {
+        "tau_best": 65,
+        "acc_best": 82.97,
+        "sav_best": 0.0,
+        "acc_tau50": 67.75,
+        "sav_tau50": 77.0
+      }
+    }
+  },
+  "openai_l14": {
+    "label": "OpenAI-L/14 (mirror primary)",
+    "rho_pooled": 0.4725274725274725,
+    "p_pooled": 0.10298105029992852,
+    "n_pooled": 13,
+    "per_dataset": {
+      "TeacherBehavior": {
+        "rho": 0.4524,
+        "p": 0.260404767436885,
+        "n": 8
+      },
+      "HandriseReadWrite": {
+        "rho": 0.5,
+        "p": 0.6666666666666667,
+        "n": 3
+      },
+      "BowTurnHead": {
+        "rho": -1.0,
+        "p": NaN,
+        "n": 2
+      }
+    },
+    "hybrid": {
+      "TeacherBehavior": {
+        "tau_best": 35,
+        "acc_best": 55.97,
+        "sav_best": 5.1,
+        "acc_tau50": 55.97,
+        "sav_tau50": 5.1
+      },
+      "HandriseReadWrite": {
+        "tau_best": 89,
+        "acc_best": 68.09,
+        "sav_best": 0.0,
+        "acc_tau50": 62.18,
+        "sav_tau50": 63.4
+      },
+      "BowTurnHead": {
+        "tau_best": 71,
+        "acc_best": 82.97,
+        "sav_best": 0.0,
+        "acc_tau50": 80.76,
+        "sav_tau50": 22.0
+      }
+    }
+  }
+}

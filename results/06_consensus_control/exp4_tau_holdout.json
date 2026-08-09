@@ -1,0 +1,1316 @@
+{
+  "TeacherBehavior": {
+    "n_classes": 8,
+    "tau_best_raw": 55,
+    "acc_best": 54.76,
+    "tau_pre_registered": 50,
+    "acc_pre_registered": 44.84,
+    "savings_pre_registered": 52.9,
+    "acc_clip_only": 32.57,
+    "acc_oracle_per_class": 54.76,
+    "random_route_mean": 54.7,
+    "random_route_sd": 0.0,
+    "leave_one_class_out": [
+      {
+        "leave": "guide",
+        "tau_star": 55,
+        "leave_hybrid_acc": 42.49,
+        "leave_anchor_acc": 29.34
+      },
+      {
+        "leave": "answer",
+        "tau_star": 55,
+        "leave_hybrid_acc": 12.37,
+        "leave_anchor_acc": 5.57
+      },
+      {
+        "leave": "On-stage interaction",
+        "tau_star": 51,
+        "leave_hybrid_acc": 54.17,
+        "leave_anchor_acc": 54.17
+      },
+      {
+        "leave": "blackboard-writing",
+        "tau_star": 55,
+        "leave_hybrid_acc": 97.47,
+        "leave_anchor_acc": 26.09
+      },
+      {
+        "leave": "teacher",
+        "tau_star": 55,
+        "leave_hybrid_acc": 68.83,
+        "leave_anchor_acc": 50.48
+      },
+      {
+        "leave": "stand",
+        "tau_star": 55,
+        "leave_hybrid_acc": 23.09,
+        "leave_anchor_acc": 9.57
+      },
+      {
+        "leave": "screen",
+        "tau_star": 55,
+        "leave_hybrid_acc": 67.78,
+        "leave_anchor_acc": 40.48
+      },
+      {
+        "leave": "blackBoard",
+        "tau_star": 55,
+        "leave_hybrid_acc": 44.55,
+        "leave_anchor_acc": 3.16
+      }
+    ],
+    "grid": {
+      "1": {
+        "hybrid_acc": 32.57,
+        "cost_savings": 99.0
+      },
+      "2": {
+        "hybrid_acc": 32.57,
+        "cost_savings": 99.0
+      },
+      "3": {
+        "hybrid_acc": 32.57,
+        "cost_savings": 99.0
+      },
+      "4": {
+        "hybrid_acc": 37.83,
+        "cost_savings": 86.4
+      },
+      "5": {
+        "hybrid_acc": 37.83,
+        "cost_savings": 86.4
+      },
+      "6": {
+        "hybrid_acc": 38.43,
+        "cost_savings": 77.6
+      },
+      "7": {
+        "hybrid_acc": 38.43,
+        "cost_savings": 77.6
+      },
+      "8": {
+        "hybrid_acc": 38.43,
+        "cost_savings": 77.6
+      },
+      "9": {
+        "hybrid_acc": 38.43,
+        "cost_savings": 77.6
+      },
+      "10": {
+        "hybrid_acc": 40.26,
+        "cost_savings": 64.2
+      },
+      "11": {
+        "hybrid_acc": 40.26,
+        "cost_savings": 64.2
+      },
+      "12": {
+        "hybrid_acc": 40.26,
+        "cost_savings": 64.2
+      },
+      "13": {
+        "hybrid_acc": 40.26,
+        "cost_savings": 64.2
+      },
+      "14": {
+        "hybrid_acc": 40.26,
+        "cost_savings": 64.2
+      },
+      "15": {
+        "hybrid_acc": 40.26,
+        "cost_savings": 64.2
+      },
+      "16": {
+        "hybrid_acc": 40.26,
+        "cost_savings": 64.2
+      },
+      "17": {
+        "hybrid_acc": 40.26,
+        "cost_savings": 64.2
+      },
+      "18": {
+        "hybrid_acc": 40.26,
+        "cost_savings": 64.2
+      },
+      "19": {
+        "hybrid_acc": 40.26,
+        "cost_savings": 64.2
+      },
+      "20": {
+        "hybrid_acc": 40.26,
+        "cost_savings": 64.2
+      },
+      "21": {
+        "hybrid_acc": 40.26,
+        "cost_savings": 64.2
+      },
+      "22": {
+        "hybrid_acc": 40.26,
+        "cost_savings": 64.2
+      },
+      "23": {
+        "hybrid_acc": 40.26,
+        "cost_savings": 64.2
+      },
+      "24": {
+        "hybrid_acc": 40.26,
+        "cost_savings": 64.2
+      },
+      "25": {
+        "hybrid_acc": 40.26,
+        "cost_savings": 64.2
+      },
+      "26": {
+        "hybrid_acc": 40.26,
+        "cost_savings": 64.2
+      },
+      "27": {
+        "hybrid_acc": 43.81,
+        "cost_savings": 59.3
+      },
+      "28": {
+        "hybrid_acc": 43.81,
+        "cost_savings": 59.3
+      },
+      "29": {
+        "hybrid_acc": 43.81,
+        "cost_savings": 59.3
+      },
+      "30": {
+        "hybrid_acc": 44.49,
+        "cost_savings": 54.2
+      },
+      "31": {
+        "hybrid_acc": 44.49,
+        "cost_savings": 54.2
+      },
+      "32": {
+        "hybrid_acc": 44.49,
+        "cost_savings": 54.2
+      },
+      "33": {
+        "hybrid_acc": 44.49,
+        "cost_savings": 54.2
+      },
+      "34": {
+        "hybrid_acc": 44.49,
+        "cost_savings": 54.2
+      },
+      "35": {
+        "hybrid_acc": 44.49,
+        "cost_savings": 54.2
+      },
+      "36": {
+        "hybrid_acc": 44.49,
+        "cost_savings": 54.2
+      },
+      "37": {
+        "hybrid_acc": 44.49,
+        "cost_savings": 54.2
+      },
+      "38": {
+        "hybrid_acc": 44.49,
+        "cost_savings": 54.2
+      },
+      "39": {
+        "hybrid_acc": 44.49,
+        "cost_savings": 54.2
+      },
+      "40": {
+        "hybrid_acc": 44.49,
+        "cost_savings": 54.2
+      },
+      "41": {
+        "hybrid_acc": 44.84,
+        "cost_savings": 52.9
+      },
+      "42": {
+        "hybrid_acc": 44.84,
+        "cost_savings": 52.9
+      },
+      "43": {
+        "hybrid_acc": 44.84,
+        "cost_savings": 52.9
+      },
+      "44": {
+        "hybrid_acc": 44.84,
+        "cost_savings": 52.9
+      },
+      "45": {
+        "hybrid_acc": 44.84,
+        "cost_savings": 52.9
+      },
+      "46": {
+        "hybrid_acc": 44.84,
+        "cost_savings": 52.9
+      },
+      "47": {
+        "hybrid_acc": 44.84,
+        "cost_savings": 52.9
+      },
+      "48": {
+        "hybrid_acc": 44.84,
+        "cost_savings": 52.9
+      },
+      "49": {
+        "hybrid_acc": 44.84,
+        "cost_savings": 52.9
+      },
+      "50": {
+        "hybrid_acc": 44.84,
+        "cost_savings": 52.9
+      },
+      "51": {
+        "hybrid_acc": 54.38,
+        "cost_savings": 1.5
+      },
+      "52": {
+        "hybrid_acc": 54.38,
+        "cost_savings": 1.5
+      },
+      "53": {
+        "hybrid_acc": 54.38,
+        "cost_savings": 1.5
+      },
+      "54": {
+        "hybrid_acc": 54.38,
+        "cost_savings": 1.5
+      },
+      "55": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "56": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "57": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "58": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "59": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "60": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "61": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "62": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "63": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "64": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "65": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "66": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "67": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "68": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "69": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "70": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "71": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "72": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "73": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "74": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "75": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "76": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "77": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "78": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "79": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "80": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "81": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "82": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "83": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "84": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "85": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "86": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "87": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "88": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "89": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "90": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "91": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "92": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "93": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "94": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "95": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "96": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "97": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "98": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      },
+      "99": {
+        "hybrid_acc": 54.76,
+        "cost_savings": 0.0
+      }
+    }
+  },
+  "HandriseReadWrite": {
+    "n_classes": 3,
+    "tau_best_raw": 90,
+    "acc_best": 68.09,
+    "tau_pre_registered": 50,
+    "acc_pre_registered": 62.36,
+    "savings_pre_registered": 63.4,
+    "acc_clip_only": 60.92,
+    "acc_oracle_per_class": 68.09,
+    "random_route_mean": 68.08,
+    "random_route_sd": 0.0,
+    "leave_one_class_out": [
+      {
+        "leave": "hand-raising",
+        "tau_star": 90,
+        "leave_hybrid_acc": 89.24,
+        "leave_anchor_acc": 80.02
+      },
+      {
+        "leave": "read",
+        "tau_star": 90,
+        "leave_hybrid_acc": 26.97,
+        "leave_anchor_acc": 22.96
+      },
+      {
+        "leave": "write",
+        "tau_star": 81,
+        "leave_hybrid_acc": 89.75,
+        "leave_anchor_acc": 89.75
+      }
+    ],
+    "grid": {
+      "1": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "2": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "3": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "4": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "5": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "6": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "7": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "8": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "9": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "10": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "11": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "12": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "13": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "14": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "15": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "16": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "17": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "18": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "19": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "20": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "21": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "22": {
+        "hybrid_acc": 60.92,
+        "cost_savings": 99.0
+      },
+      "23": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "24": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "25": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "26": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "27": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "28": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "29": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "30": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "31": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "32": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "33": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "34": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "35": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "36": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "37": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "38": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "39": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "40": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "41": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "42": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "43": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "44": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "45": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "46": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "47": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "48": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "49": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "50": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "51": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "52": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "53": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "54": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "55": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "56": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "57": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "58": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "59": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "60": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "61": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "62": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "63": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "64": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "65": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "66": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "67": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "68": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "69": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "70": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "71": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "72": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "73": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "74": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "75": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "76": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "77": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "78": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "79": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "80": {
+        "hybrid_acc": 62.36,
+        "cost_savings": 63.4
+      },
+      "81": {
+        "hybrid_acc": 66.92,
+        "cost_savings": 14.5
+      },
+      "82": {
+        "hybrid_acc": 66.92,
+        "cost_savings": 14.5
+      },
+      "83": {
+        "hybrid_acc": 66.92,
+        "cost_savings": 14.5
+      },
+      "84": {
+        "hybrid_acc": 66.92,
+        "cost_savings": 14.5
+      },
+      "85": {
+        "hybrid_acc": 66.92,
+        "cost_savings": 14.5
+      },
+      "86": {
+        "hybrid_acc": 66.92,
+        "cost_savings": 14.5
+      },
+      "87": {
+        "hybrid_acc": 66.92,
+        "cost_savings": 14.5
+      },
+      "88": {
+        "hybrid_acc": 66.92,
+        "cost_savings": 14.5
+      },
+      "89": {
+        "hybrid_acc": 66.92,
+        "cost_savings": 14.5
+      },
+      "90": {
+        "hybrid_acc": 68.09,
+        "cost_savings": 0.0
+      },
+      "91": {
+        "hybrid_acc": 68.09,
+        "cost_savings": 0.0
+      },
+      "92": {
+        "hybrid_acc": 68.09,
+        "cost_savings": 0.0
+      },
+      "93": {
+        "hybrid_acc": 68.09,
+        "cost_savings": 0.0
+      },
+      "94": {
+        "hybrid_acc": 68.09,
+        "cost_savings": 0.0
+      },
+      "95": {
+        "hybrid_acc": 68.09,
+        "cost_savings": 0.0
+      },
+      "96": {
+        "hybrid_acc": 68.09,
+        "cost_savings": 0.0
+      },
+      "97": {
+        "hybrid_acc": 68.09,
+        "cost_savings": 0.0
+      },
+      "98": {
+        "hybrid_acc": 68.09,
+        "cost_savings": 0.0
+      },
+      "99": {
+        "hybrid_acc": 68.09,
+        "cost_savings": 0.0
+      }
+    }
+  },
+  "BowTurnHead": {
+    "n_classes": 2,
+    "tau_best_raw": 65,
+    "acc_best": 82.97,
+    "tau_pre_registered": 50,
+    "acc_pre_registered": 67.75,
+    "savings_pre_registered": 77.0,
+    "acc_clip_only": 60.79,
+    "acc_oracle_per_class": 82.97,
+    "random_route_mean": 82.86,
+    "random_route_sd": 0.0,
+    "leave_one_class_out": [
+      {
+        "leave": "BowHead",
+        "tau_star": 65,
+        "leave_hybrid_acc": 80.49,
+        "leave_anchor_acc": 49.11
+      },
+      {
+        "leave": "TurnHead",
+        "tau_star": 50,
+        "leave_hybrid_acc": 64.12,
+        "leave_anchor_acc": 64.12
+      }
+    ],
+    "grid": {
+      "1": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "2": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "3": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "4": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "5": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "6": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "7": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "8": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "9": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "10": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "11": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "12": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "13": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "14": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "15": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "16": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "17": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "18": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "19": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "20": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "21": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "22": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "23": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "24": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "25": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "26": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "27": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "28": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "29": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "30": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "31": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "32": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "33": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "34": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "35": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "36": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "37": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "38": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "39": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "40": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "41": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "42": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "43": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "44": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "45": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "46": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "47": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "48": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "49": {
+        "hybrid_acc": 60.79,
+        "cost_savings": 99.0
+      },
+      "50": {
+        "hybrid_acc": 67.75,
+        "cost_savings": 77.0
+      },
+      "51": {
+        "hybrid_acc": 67.75,
+        "cost_savings": 77.0
+      },
+      "52": {
+        "hybrid_acc": 67.75,
+        "cost_savings": 77.0
+      },
+      "53": {
+        "hybrid_acc": 67.75,
+        "cost_savings": 77.0
+      },
+      "54": {
+        "hybrid_acc": 67.75,
+        "cost_savings": 77.0
+      },
+      "55": {
+        "hybrid_acc": 67.75,
+        "cost_savings": 77.0
+      },
+      "56": {
+        "hybrid_acc": 67.75,
+        "cost_savings": 77.0
+      },
+      "57": {
+        "hybrid_acc": 67.75,
+        "cost_savings": 77.0
+      },
+      "58": {
+        "hybrid_acc": 67.75,
+        "cost_savings": 77.0
+      },
+      "59": {
+        "hybrid_acc": 67.75,
+        "cost_savings": 77.0
+      },
+      "60": {
+        "hybrid_acc": 67.75,
+        "cost_savings": 77.0
+      },
+      "61": {
+        "hybrid_acc": 67.75,
+        "cost_savings": 77.0
+      },
+      "62": {
+        "hybrid_acc": 67.75,
+        "cost_savings": 77.0
+      },
+      "63": {
+        "hybrid_acc": 67.75,
+        "cost_savings": 77.0
+      },
+      "64": {
+        "hybrid_acc": 67.75,
+        "cost_savings": 77.0
+      },
+      "65": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "66": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "67": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "68": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "69": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "70": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "71": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "72": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "73": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "74": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "75": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "76": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "77": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "78": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "79": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "80": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "81": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "82": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "83": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "84": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "85": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "86": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "87": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "88": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "89": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "90": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "91": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "92": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "93": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "94": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "95": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "96": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "97": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "98": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      },
+      "99": {
+        "hybrid_acc": 82.97,
+        "cost_savings": 0.0
+      }
+    }
+  }
+}

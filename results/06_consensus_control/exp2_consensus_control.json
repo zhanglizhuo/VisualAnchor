@@ -1,0 +1,22 @@
+{
+  "description": "Exp2 consensus control. AnchorsScore vs MLLM class accuracy, cond. on generic difficulty proxy (mean accuracy of the other 5 MLLMs on the same class).",
+  "partB_flagged": "mllm_image_level jsonl (TeacherBehavior) disagree with canonical mllm_raw.json (e.g. guide 93% vs 52%) - different pipeline; excluded.",
+  "partA_pooled": {
+    "n": 78,
+    "rho_anchor_vs_mllm": 0.6924524925592862,
+    "p": 2.178476594998808e-12,
+    "rho_anchor_vs_loo_proxy": 0.7633718027862373,
+    "p_proxy": 4.457194936929084e-16,
+    "partial_rho_given_proxy": 0.06710332677591001,
+    "partial_ci95_cluster_boot": [
+      -0.03578045449137055,
+      0.7887327397959484
+    ]
+  },
+  "partA_class_level": {
+    "n": 13,
+    "rho_anchor_vs_mean_mllm": 0.7692307692307693,
+    "p": 0.0021122295993498776,
+    "partial_rho_given_proxy": 0.219491369351826
+  }
+}

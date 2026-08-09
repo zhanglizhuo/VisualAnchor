@@ -1,0 +1,81 @@
+{
+  "description": "Exp1: delta-rho tests vs AnchorScore (LAION-L/14). Coupled class-level bootstrap B=10000, n=13 classes, target = 6-MLLM mean per-class accuracy.",
+  "n_classes": 13,
+  "laion_rho": 0.7692,
+  "rows": [
+    {
+      "predictor": "AnchorScore (LAION-L/14)",
+      "rho": 0.7692,
+      "ci95_rho": [
+        0.3148,
+        1.0
+      ],
+      "delta_vs_laion": 0.0,
+      "ci95_delta": [
+        0.0,
+        0.0
+      ],
+      "significant_5pct": true
+    },
+    {
+      "predictor": "OpenAI-L/14",
+      "rho": 0.4725,
+      "delta_vs_laion": 0.2967,
+      "ci95_delta": [
+        -0.11204481792717091,
+        0.84593837535014
+      ],
+      "significant_5pct": false
+    },
+    {
+      "predictor": "OpenAI-B/32",
+      "rho": 0.2418,
+      "delta_vs_laion": 0.5275,
+      "ci95_delta": [
+        0.01690022155404334,
+        1.1186891705834872
+      ],
+      "significant_5pct": true
+    },
+    {
+      "predictor": "SigLIP",
+      "rho": 0.2008,
+      "delta_vs_laion": 0.5684,
+      "ci95_delta": [
+        -0.021404437384657284,
+        1.2112676056338028
+      ],
+      "significant_5pct": false
+    },
+    {
+      "predictor": "DINOv2",
+      "rho": 0.0495,
+      "delta_vs_laion": 0.7197,
+      "ci95_delta": [
+        0.05698005698005704,
+        1.3183175553184112
+      ],
+      "significant_5pct": true
+    },
+    {
+      "predictor": "BLIP2",
+      "rho": 0.0336,
+      "delta_vs_laion": 0.7356,
+      "ci95_delta": [
+        0.16125223174663672,
+        1.336580131820322
+      ],
+      "significant_5pct": true
+    },
+    {
+      "predictor": "ResNet-50",
+      "rho": 0.0809,
+      "delta_vs_laion": 0.6883,
+      "ci95_delta": [
+        -0.18063889059191973,
+        1.4141131138331209
+      ],
+      "significant_5pct": false
+    }
+  ]
+}
