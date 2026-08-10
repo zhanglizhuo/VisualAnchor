@@ -1,4 +1,4 @@
-# AnchorScore: CLIP Zero-Shot Accuracy as a Diagnostic for MLLM Annotation Difficulty in Classroom Behavior Analysis
+# AnchorScore: A CLIP-Based Diagnostic of MLLM Annotation Difficulty in Classroom Behavior Analysis
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
@@ -21,9 +21,7 @@ flags the classes MLLMs are least likely to annotate reliably, at a fraction of 
 | Three-study meta-analysis (activity recognition) | **ρ = 0.781**, 95% CI [0.653, 0.865], I² = 3.0% | `results/05_applications/meta_analysis_results.json` (`subgroup_all_scene`) |
 | SigLIP / DINOv2 / ResNet-50 baselines | no significant correlation (ρ ≤ 0.201) | `results/01_core/anchor_score_scb5/{siglip,dinov2}_correlation.json`, `results/03_baselines/resnet50_baseline/resnet50_results.json` |
 
-The signal is most consistent with specificity to CLIP's vision-language alignment. It supports
-*ranking* (which classes are relatively harder) rather than *calibration* (exact accuracy estimates);
-full caveats in the paper.
+The signal is most consistent with a **shared class-difficulty factor**: a cross-model consensus control shows AnchorScore tracks difficulty shared across CLIP and MLLMs rather than a CLIP-specific mechanism, and its value lies in being a zero-cost cold-start proxy of that shared factor. It supports *ranking* (which classes are relatively harder) rather than *calibration* (exact accuracy estimates); full caveats in the paper.
 
 ![Per-dataset correlation between AnchorScore and MLLM accuracy](paper/figures/per_dataset_correlation.png)
 
@@ -131,15 +129,16 @@ All paper figures and tables come from:
 ```
 VisualAnchor/
 ├── experiments/{01_core,02_robustness,03_baselines,04_ablation,05_applications}/
-├── analysis/{01_core,02_robustness,03_baselines,04_ablation,05_applications}/
+├── analysis/{01_core,02_robustness,03_baselines,04_ablation,05_applications,06_consensus_control,07_mechanism}/
 ├── paper/                # LaTeX / paper source
 ├── results/              # All experiment outputs (tracked in git)
 ├── logs/                 # Execution logs (gitignored)
 └── data/                 # Dataset configs + small auxiliary data
 ```
 
-`experiments/` and `analysis/` share the same five-phase layout (`01_core` → `05_applications`),
-mirroring the paper's structure.
+`experiments/` and `analysis/` share the same phase layout (`01_core` → `05_applications`), with two
+additional analysis-only phases: `06_consensus_control` (cross-model shared-difficulty control) and
+`07_mechanism` (confusion-structure transitivity test).
 
 ## Experiment Groups
 
@@ -153,6 +152,8 @@ All paths below are relative to the respective directory (e.g. `01_core/anchor_s
 | **03_baselines** — non-CLIP vision models | `siglip_anchor_scb5.py`, `dinov2_anchor_scb5.py`, `resnet50_baseline_scb5.py`, `blip2_anchor_scb5.py`, `vl_baseline_correlate.py` |
 | **04_ablation** — prompt robustness, self-uncertainty | `prompt_robustness_ablation.py`, `prompt_optimization.py`, `self_uncertainty_scb5.py` |
 | **05_applications** — active learning, hybrid annotation | `active_learning_{naive,capped_b32,capped_l14}.py`, `hybrid_annotation.py`, `run_prompt_opt_simple.py` |
+| **06_consensus_control** *(analysis-only)* — cross-model shared-difficulty control | `consensus_control_exp2.py`, `exp{1,3,4,5}_*.py` |
+| **07_mechanism** *(analysis-only)* — confusion-structure transitivity (Mantel test) | `confusion_transitivity.py` |
 
 Scripts are named by research question, not execution order — each is independent and can be run
 separately.
@@ -160,11 +161,11 @@ separately.
 ## Citation
 
 ```bibtex
-@article{ma2025anchorscore,
-  title={AnchorScore: CLIP Zero-Shot Accuracy as a Diagnostic for MLLM Annotation Difficulty in Classroom Behavior Analysis},
+@article{ma2026anchorscore,
+  title={AnchorScore: A CLIP-Based Diagnostic of MLLM Annotation Difficulty in Classroom Behavior Analysis},
   author={Ma, Yan and Zhang, Lizhuo},
-  note={Submitted for publication},
-  year={2025}
+  note={Pre-submission manuscript},
+  year={2026}
 }
 ```
 
