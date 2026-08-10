@@ -634,8 +634,8 @@ datasets_hybrid = [
 ]
 
 for label, clip_acc, hybrid_acc, cost_saved, color in datasets_hybrid:
-    # CLIP baseline (cost=100%)
-    ax7.scatter(0, clip_acc, s=80, color=color, marker="o", edgecolors="white",
+    # CLIP baseline: all-CLIP saves ~99% of MLLM cost (MLLM/CLIP cost ratio 100x)
+    ax7.scatter(99, clip_acc, s=80, color=color, marker="o", edgecolors="white",
                 linewidth=0.8, zorder=5)
     # Hybrid point
     ax7.scatter(cost_saved, hybrid_acc, s=100, color=color, marker="s",
@@ -661,7 +661,7 @@ for tau_show in [65, 80, 90]:
                  fontsize=7, color=C_MLLM, fontweight="bold")
 
 # Stanford40 CLIP baseline
-ax7.scatter(0, 91.86, s=80, color=C_MLLM, marker="o", edgecolors="white",
+ax7.scatter(99, 91.86, s=80, color=C_MLLM, marker="o", edgecolors="white",
             linewidth=0.8, zorder=5)
 ax7.hlines(91.86, 0, 100, colors=C_MLLM, linestyles=":", linewidth=0.8, alpha=0.4)
 
