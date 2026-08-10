@@ -45,7 +45,7 @@ Inputs
 
 Output
 ------
-  results/06_mechanism/confusion_transitivity.json
+  results/07_mechanism/confusion_transitivity.json
 """
 import json
 from pathlib import Path
@@ -55,7 +55,7 @@ from statsmodels.stats.multitest import multipletests
 
 BASE = Path(__file__).resolve().parent.parent.parent
 RESULTS = BASE / "results"
-OUT_DIR = RESULTS / "06_mechanism"
+OUT_DIR = RESULTS / "07_mechanism"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 OUT_PATH = OUT_DIR / "confusion_transitivity.json"
 

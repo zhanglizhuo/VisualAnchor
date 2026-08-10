@@ -11,6 +11,11 @@ paper/*.fdb_latexmk
 paper/*.fls
 paper/*.run.xml
 paper/*.synctex.gz
+paper/*.pfb
+paper/*.tfm
+paper/*.fd
+paper/*.map
+paper/input_pipeline_verification.txt
 
 # Auto-generated figures (from generate_figures.py)
 /paper/figures/cross_domain_anchor.png
