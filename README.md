@@ -1,4 +1,4 @@
-# AnchorScore: A CLIP-Based Diagnostic of MLLM Annotation Difficulty in Human Action Recognition
+# AnchorScore: A CLIP-Based Diagnostic of MLLM Annotation Difficulty in Classroom Behavior Analysis
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
@@ -162,7 +162,7 @@ separately.
 
 ```bibtex
 @article{ma2026anchorscore,
-  title={AnchorScore: A CLIP-Based Diagnostic of MLLM Annotation Difficulty in Human Action Recognition},
+  title={AnchorScore: A CLIP-Based Diagnostic of MLLM Annotation Difficulty in Classroom Behavior Analysis},
   author={Ma, Yan and Zhang, Lizhuo},
   note={Pre-submission manuscript},
   year={2026}
