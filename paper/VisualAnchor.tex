@@ -84,7 +84,7 @@ AnchorScore measures the per-class zero-shot accuracy of a CLIP model on a targe
 \label{eq:anchorscore}
 \end{equation}
 
-where $n_i$ is the number of validation images of class $c_i$, and $n_i^{\text{corr}} \leq n_i$ counts how many of these images CLIP classifies correctly. In words, $\text{AnchorScore}(c_i)$ is the fraction of class-$c_i$ images that CLIP classifies correctly---CLIP's per-class zero-shot accuracy. The CLIP prediction is defined as:
+where $n_i$ is the number of validation images of class $c_i$, and $n_i^{\text{corr}} \leq n_i$ counts how many of these images CLIP classifies correctly. In words, $\text{AnchorScore}(c_i)$ is the fraction of class-$c_i$ images that CLIP classifies correctly---CLIP's per-class zero-shot accuracy. It serves as a low-cost proxy of the class-level difficulty and is the difficulty signal used throughout the correlation analyses in \Cref{sec:experiments}. The CLIP prediction is defined as:
 
 \begin{equation}
 \hat{y}_j = \arg\max_{k \in \{1,\dots,C\}} \frac{\mathbf{f}_{\text{img}}(x_j)^\top \bar{\mathbf{f}}_{\text{text}}(c_k)}{\|\mathbf{f}_{\text{img}}(x_j)\| \|\bar{\mathbf{f}}_{\text{text}}(c_k)\|}
