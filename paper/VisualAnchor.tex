@@ -80,11 +80,11 @@ The AnchorScore pipeline proceeds as follows.
 AnchorScore measures the per-class zero-shot accuracy of a CLIP model on a target dataset. For a dataset with $C$ classes $\{c_1, c_2, \dots, c_C\}$ and a validation set of $N$ images, we compute:
 
 \begin{equation}
-\text{AnchorScore}(c_i) = \frac{1}{N_i} \sum_{j: y_j = c_i} \mathbb{1}[\hat{y}_j = y_j]
+\text{AnchorScore}(c_i) = \frac{|\{j : y_j = c_i \text{ and } \hat{y}_j = y_j\}|}{N_i}
 \label{eq:anchorscore}
 \end{equation}
 
-where $N_i = |\{j : y_j = c_i\}|$ is the number of validation images of class $c_i$, $y_j$ is the ground-truth label, and $\hat{y}_j$ is the CLIP zero-shot prediction:
+where $N_i = |\{j : y_j = c_i\}|$ is the number of validation images of class $c_i$, $y_j$ and $\hat{y}_j$ are the ground-truth class label and the CLIP prediction (both encoded as class indices in $\{1,\dots,C\}$), and $|\cdot|$ denotes the cardinality of a set. In words, $\text{AnchorScore}(c_i)$ is the fraction of class-$c_i$ images that CLIP classifies correctly---CLIP's per-class zero-shot accuracy. The CLIP prediction is defined as:
 
 \begin{equation}
 \hat{y}_j = \arg\max_{k \in \{1,\dots,C\}} \frac{\mathbf{f}_{\text{img}}(x_j)^\top \bar{\mathbf{f}}_{\text{text}}(c_k)}{\|\mathbf{f}_{\text{img}}(x_j)\| \|\bar{\mathbf{f}}_{\text{text}}(c_k)\|}
