@@ -66,7 +66,7 @@ AnchorScore is not a calibrated accuracy estimator; it is a low-cost diagnostic 
 \begin{itemize}
 \item \textbf{Diagnostic discovery.} We show that a cheap, training-free probe from a \emph{different} model family---frozen-CLIP per-class zero-shot accuracy---predicts where MLLM annotation is unreliable, correlating with per-class MLLM accuracy on SCB5 ($\rho=0.769$, $p=0.002$) and replicating on Stanford40 ($\rho=0.817$, $p<0.001$). This is not a claim that ``CLIP knows difficulty''; the value is that the signal is obtainable before any MLLM inference, turning MLLM evaluation from a per-model cost into an allocatable budget.
 \item \textbf{Mechanism clarification.} Alternative difficulty predictors (SigLIP, DINOv2, ResNet-50, MLLM self-uncertainty) show no significant correlation, and a cross-model consensus control indicates the signal reflects a \emph{shared} class-difficulty factor rather than a CLIP-specific mechanism.
-\item \textbf{Practical uses.} The signal supports a \emph{screening--routing--disambiguation--review} pipeline: hybrid CLIP/MLLM annotation, confusion-guided prompt disambiguation, and review-priority prediction.
+\item \textbf{Practical uses.} The signal supports a \emph{screening-routing-disambiguation-review} pipeline: hybrid CLIP/MLLM annotation, confusion-guided prompt disambiguation, and review-priority prediction.
 \end{itemize}
 Our contribution is empirical rather than algorithmic: AnchorScore is simply CLIP zero-shot accuracy, and its value lies in the evidence chain establishing when and where this diagnostic is reliable.
 
@@ -87,11 +87,11 @@ AnchorScore measures the per-class zero-shot accuracy of a CLIP model on a targe
 where $N_i$ is the number of validation images of class $c_i$, $y_j$ is the ground-truth label, and $\hat{y}_j$ is the CLIP zero-shot prediction:
 
 \begin{equation}
-\hat{y}_j = \arg\max_{k \in \{1,\dots,C\}} \frac{\mathbf{f}_{\text{img}}(x_j)^\top \mathbf{f}_{\text{text}}(p_k)}{\|\mathbf{f}_{\text{img}}(x_j)\| \|\mathbf{f}_{\text{text}}(p_k)\|}
+\hat{y}_j = \arg\max_{k \in \{1,\dots,C\}} \frac{\mathbf{f}_{\text{img}}(x_j)^\top \bar{\mathbf{f}}_{\text{text}}(c_k)}{\|\mathbf{f}_{\text{img}}(x_j)\| \|\bar{\mathbf{f}}_{\text{text}}(c_k)\|}
 \label{eq:clip_pred}
 \end{equation}
 
-Here $\mathbf{f}_{\text{img}}$ and $\mathbf{f}_{\text{text}}$ are the CLIP vision and text encoders, $x_j$ is the input image, and $p_k$ is the text prompt for class $c_k$.
+Here $\mathbf{f}_{\text{img}}$ and $\mathbf{f}_{\text{text}}$ are the CLIP vision and text encoders, $x_j$ is the input image, and $p_k$ is the text prompt for class $c_k$. Following template averaging, $\bar{\mathbf{f}}_{\text{text}}(c_k) = \frac{1}{T}\sum_{t=1}^{T}\mathbf{f}_{\text{text}}(p_{k,t})$ denotes the mean text embedding of class $c_k$ across $T$ prompt templates $p_{k,1}, \dots, p_{k,T}$, with $T=3$ in our experiments.
 
 \subsection{Prompt Design}
 
