@@ -66,7 +66,7 @@ AnchorScore is not a calibrated accuracy estimator; it is a low-cost diagnostic 
 \begin{itemize}
 \item \textbf{Diagnostic discovery.} This study shows that a cheap, training-free probe from a \emph{different} model family---frozen-CLIP per-class zero-shot accuracy---predicts where MLLM annotation is unreliable, correlating with per-class MLLM accuracy on SCB5 ($\rho=0.769$, $p=0.002$) and replicating on Stanford40 ($\rho=0.817$, $p<0.001$). The value of the probe is precisely that the signal is obtainable before any MLLM inference, turning MLLM evaluation from a per-model cost into an allocatable budget.
 \item \textbf{Mechanism clarification.} Alternative difficulty predictors (SigLIP, DINOv2, ResNet-50, MLLM self-uncertainty) show no significant class-level correlation, and a cross-model consensus control indicates the signal reflects a \emph{shared} class-difficulty factor rather than a CLIP-specific mechanism.
-\item \textbf{Practical uses.} The signal supports a \emph{screening-routing-disambiguation-review} pipeline: hybrid CLIP/MLLM annotation, confusion-guided prompt disambiguation, and review-priority prediction.
+\item \textbf{Practical uses.} The signal supports three complementary workflows: hybrid CLIP/MLLM annotation, confusion-guided prompt disambiguation, and review-priority prediction.
 \end{itemize}
 The contribution is empirical rather than algorithmic: AnchorScore is simply CLIP zero-shot accuracy, and its value lies in the evidence chain establishing when and where this diagnostic is reliable.
 
