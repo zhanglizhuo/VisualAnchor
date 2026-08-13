@@ -95,6 +95,8 @@ def main():
     r_a_pooled = fisher_z_inv(z_a_pooled)
     ci_a = (fisher_z_inv(z_a_pooled - 1.96 * se_a_pooled),
             fisher_z_inv(z_a_pooled + 1.96 * se_a_pooled))
+    Q_a = np.sum(w_a * (z_a - z_a_pooled) ** 2)
+    I2_a = max(0, (Q_a - (len(all_scene) - 1)) / Q_a * 100) if Q_a > 0 else 0
 
     # Build output structure
     output = {
@@ -138,6 +140,8 @@ def main():
             "description": "SCB5 + SCB-LLM-202506 + Stanford40 (excludes cross-domain)",
             "r": round(float(r_a_pooled), 4),
             "ci_95": [round(float(ci_a[0]), 4), round(float(ci_a[1]), 4)],
+            "I2_pct": round(float(I2_a), 2),
+            "Q": round(float(Q_a), 4),
         },
         "previous_3_study": {
             "description": "Same as prior version without Stanford40",

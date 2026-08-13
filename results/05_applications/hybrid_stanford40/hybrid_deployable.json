@@ -1,0 +1,1222 @@
+{
+  "n_images": 9532,
+  "clip_only_acc": 91.87,
+  "deployable": {
+    "qwen3.5:27b": {
+      "0": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "5": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "10": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "15": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "20": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "25": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "30": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "35": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "40": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "45": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "50": {
+        "acc": 91.77,
+        "cost_saved_pct": 99.0
+      },
+      "55": {
+        "acc": 91.77,
+        "cost_saved_pct": 98.0
+      },
+      "60": {
+        "acc": 91.78,
+        "cost_saved_pct": 96.4
+      },
+      "65": {
+        "acc": 91.78,
+        "cost_saved_pct": 95.0
+      },
+      "70": {
+        "acc": 91.7,
+        "cost_saved_pct": 92.8
+      },
+      "75": {
+        "acc": 91.7,
+        "cost_saved_pct": 92.8
+      },
+      "80": {
+        "acc": 92.21,
+        "cost_saved_pct": 88.6
+      },
+      "85": {
+        "acc": 92.21,
+        "cost_saved_pct": 88.6
+      },
+      "90": {
+        "acc": 92.37,
+        "cost_saved_pct": 82.9
+      },
+      "95": {
+        "acc": 93.44,
+        "cost_saved_pct": 76.8
+      },
+      "100": {
+        "acc": 97.66,
+        "cost_saved_pct": 4.7
+      }
+    },
+    "qwen3.5:35b-a3b": {
+      "0": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "5": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "10": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "15": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "20": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "25": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "30": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "35": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "40": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "45": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "50": {
+        "acc": 91.73,
+        "cost_saved_pct": 99.0
+      },
+      "55": {
+        "acc": 91.64,
+        "cost_saved_pct": 98.0
+      },
+      "60": {
+        "acc": 91.59,
+        "cost_saved_pct": 96.4
+      },
+      "65": {
+        "acc": 91.67,
+        "cost_saved_pct": 95.0
+      },
+      "70": {
+        "acc": 91.72,
+        "cost_saved_pct": 92.8
+      },
+      "75": {
+        "acc": 91.72,
+        "cost_saved_pct": 92.8
+      },
+      "80": {
+        "acc": 92.3,
+        "cost_saved_pct": 88.6
+      },
+      "85": {
+        "acc": 92.3,
+        "cost_saved_pct": 88.6
+      },
+      "90": {
+        "acc": 92.47,
+        "cost_saved_pct": 82.9
+      },
+      "95": {
+        "acc": 93.47,
+        "cost_saved_pct": 76.8
+      },
+      "100": {
+        "acc": 98.04,
+        "cost_saved_pct": 4.7
+      }
+    },
+    "qwen3.6:27b": {
+      "0": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "5": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "10": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "15": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "20": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "25": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "30": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "35": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "40": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "45": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "50": {
+        "acc": 91.63,
+        "cost_saved_pct": 99.0
+      },
+      "55": {
+        "acc": 91.59,
+        "cost_saved_pct": 98.0
+      },
+      "60": {
+        "acc": 91.54,
+        "cost_saved_pct": 96.4
+      },
+      "65": {
+        "acc": 91.54,
+        "cost_saved_pct": 95.0
+      },
+      "70": {
+        "acc": 91.55,
+        "cost_saved_pct": 92.8
+      },
+      "75": {
+        "acc": 91.55,
+        "cost_saved_pct": 92.8
+      },
+      "80": {
+        "acc": 92.04,
+        "cost_saved_pct": 88.6
+      },
+      "85": {
+        "acc": 92.04,
+        "cost_saved_pct": 88.6
+      },
+      "90": {
+        "acc": 92.09,
+        "cost_saved_pct": 82.9
+      },
+      "95": {
+        "acc": 93.16,
+        "cost_saved_pct": 76.8
+      },
+      "100": {
+        "acc": 97.53,
+        "cost_saved_pct": 4.7
+      }
+    },
+    "qwen3.6:35b-a3b": {
+      "0": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "5": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "10": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "15": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "20": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "25": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "30": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "35": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "40": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "45": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "50": {
+        "acc": 91.65,
+        "cost_saved_pct": 99.0
+      },
+      "55": {
+        "acc": 91.5,
+        "cost_saved_pct": 98.0
+      },
+      "60": {
+        "acc": 91.18,
+        "cost_saved_pct": 96.4
+      },
+      "65": {
+        "acc": 91.2,
+        "cost_saved_pct": 95.0
+      },
+      "70": {
+        "acc": 91.21,
+        "cost_saved_pct": 92.8
+      },
+      "75": {
+        "acc": 91.21,
+        "cost_saved_pct": 92.8
+      },
+      "80": {
+        "acc": 91.81,
+        "cost_saved_pct": 88.6
+      },
+      "85": {
+        "acc": 91.81,
+        "cost_saved_pct": 88.6
+      },
+      "90": {
+        "acc": 91.95,
+        "cost_saved_pct": 82.9
+      },
+      "95": {
+        "acc": 92.92,
+        "cost_saved_pct": 76.8
+      },
+      "100": {
+        "acc": 96.98,
+        "cost_saved_pct": 4.7
+      }
+    },
+    "gemma4:26b": {
+      "0": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "5": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "10": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "15": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "20": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "25": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "30": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "35": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "40": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "45": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "50": {
+        "acc": 91.75,
+        "cost_saved_pct": 99.0
+      },
+      "55": {
+        "acc": 91.58,
+        "cost_saved_pct": 98.0
+      },
+      "60": {
+        "acc": 91.46,
+        "cost_saved_pct": 96.4
+      },
+      "65": {
+        "acc": 91.49,
+        "cost_saved_pct": 95.0
+      },
+      "70": {
+        "acc": 91.62,
+        "cost_saved_pct": 92.8
+      },
+      "75": {
+        "acc": 91.62,
+        "cost_saved_pct": 92.8
+      },
+      "80": {
+        "acc": 92.19,
+        "cost_saved_pct": 88.6
+      },
+      "85": {
+        "acc": 92.19,
+        "cost_saved_pct": 88.6
+      },
+      "90": {
+        "acc": 92.26,
+        "cost_saved_pct": 82.9
+      },
+      "95": {
+        "acc": 93.26,
+        "cost_saved_pct": 76.8
+      },
+      "100": {
+        "acc": 96.81,
+        "cost_saved_pct": 4.7
+      }
+    },
+    "gemma4:31b": {
+      "0": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "5": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "10": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "15": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "20": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "25": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "30": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "35": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "40": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "45": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "50": {
+        "acc": 91.69,
+        "cost_saved_pct": 99.0
+      },
+      "55": {
+        "acc": 91.52,
+        "cost_saved_pct": 98.0
+      },
+      "60": {
+        "acc": 91.35,
+        "cost_saved_pct": 96.4
+      },
+      "65": {
+        "acc": 91.4,
+        "cost_saved_pct": 95.0
+      },
+      "70": {
+        "acc": 91.49,
+        "cost_saved_pct": 92.8
+      },
+      "75": {
+        "acc": 91.49,
+        "cost_saved_pct": 92.8
+      },
+      "80": {
+        "acc": 92.08,
+        "cost_saved_pct": 88.6
+      },
+      "85": {
+        "acc": 92.08,
+        "cost_saved_pct": 88.6
+      },
+      "90": {
+        "acc": 92.28,
+        "cost_saved_pct": 82.9
+      },
+      "95": {
+        "acc": 93.3,
+        "cost_saved_pct": 76.8
+      },
+      "100": {
+        "acc": 97.29,
+        "cost_saved_pct": 4.7
+      }
+    },
+    "mean": {
+      "0": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "5": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "10": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "15": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "20": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "25": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "30": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "35": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "40": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "45": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "50": {
+        "acc": 91.7,
+        "cost_saved_pct": 99.0
+      },
+      "55": {
+        "acc": 91.6,
+        "cost_saved_pct": 98.0
+      },
+      "60": {
+        "acc": 91.48,
+        "cost_saved_pct": 96.4
+      },
+      "65": {
+        "acc": 91.51,
+        "cost_saved_pct": 95.0
+      },
+      "70": {
+        "acc": 91.55,
+        "cost_saved_pct": 92.8
+      },
+      "75": {
+        "acc": 91.55,
+        "cost_saved_pct": 92.8
+      },
+      "80": {
+        "acc": 92.1,
+        "cost_saved_pct": 88.6
+      },
+      "85": {
+        "acc": 92.1,
+        "cost_saved_pct": 88.6
+      },
+      "90": {
+        "acc": 92.24,
+        "cost_saved_pct": 82.9
+      },
+      "95": {
+        "acc": 93.26,
+        "cost_saved_pct": 76.8
+      },
+      "100": {
+        "acc": 97.38,
+        "cost_saved_pct": 4.7
+      }
+    }
+  },
+  "oracle": {
+    "qwen3.5:27b": {
+      "0": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "5": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "10": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "15": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "20": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "25": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "30": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "35": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "40": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "45": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "50": {
+        "acc": 92.67,
+        "cost_saved_pct": 98.0
+      },
+      "55": {
+        "acc": 93.62,
+        "cost_saved_pct": 96.0
+      },
+      "60": {
+        "acc": 94.63,
+        "cost_saved_pct": 93.4
+      },
+      "65": {
+        "acc": 95.33,
+        "cost_saved_pct": 91.3
+      },
+      "70": {
+        "acc": 95.82,
+        "cost_saved_pct": 88.3
+      },
+      "75": {
+        "acc": 95.82,
+        "cost_saved_pct": 88.3
+      },
+      "80": {
+        "acc": 96.53,
+        "cost_saved_pct": 84.0
+      },
+      "85": {
+        "acc": 96.53,
+        "cost_saved_pct": 84.0
+      },
+      "90": {
+        "acc": 97.06,
+        "cost_saved_pct": 77.9
+      },
+      "95": {
+        "acc": 97.27,
+        "cost_saved_pct": 72.7
+      },
+      "100": {
+        "acc": 97.77,
+        "cost_saved_pct": 4.6
+      }
+    },
+    "qwen3.5:35b-a3b": {
+      "0": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "5": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "10": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "15": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "20": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "25": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "30": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "35": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "40": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "45": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "50": {
+        "acc": 92.59,
+        "cost_saved_pct": 98.0
+      },
+      "55": {
+        "acc": 93.38,
+        "cost_saved_pct": 96.0
+      },
+      "60": {
+        "acc": 94.29,
+        "cost_saved_pct": 93.4
+      },
+      "65": {
+        "acc": 95.11,
+        "cost_saved_pct": 91.3
+      },
+      "70": {
+        "acc": 95.78,
+        "cost_saved_pct": 88.3
+      },
+      "75": {
+        "acc": 95.78,
+        "cost_saved_pct": 88.3
+      },
+      "80": {
+        "acc": 96.54,
+        "cost_saved_pct": 84.0
+      },
+      "85": {
+        "acc": 96.54,
+        "cost_saved_pct": 84.0
+      },
+      "90": {
+        "acc": 97.07,
+        "cost_saved_pct": 77.9
+      },
+      "95": {
+        "acc": 97.18,
+        "cost_saved_pct": 72.7
+      },
+      "100": {
+        "acc": 98.15,
+        "cost_saved_pct": 4.6
+      }
+    },
+    "qwen3.6:27b": {
+      "0": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "5": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "10": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "15": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "20": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "25": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "30": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "35": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "40": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "45": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "50": {
+        "acc": 92.39,
+        "cost_saved_pct": 98.0
+      },
+      "55": {
+        "acc": 93.27,
+        "cost_saved_pct": 96.0
+      },
+      "60": {
+        "acc": 94.17,
+        "cost_saved_pct": 93.4
+      },
+      "65": {
+        "acc": 94.86,
+        "cost_saved_pct": 91.3
+      },
+      "70": {
+        "acc": 95.48,
+        "cost_saved_pct": 88.3
+      },
+      "75": {
+        "acc": 95.48,
+        "cost_saved_pct": 88.3
+      },
+      "80": {
+        "acc": 96.15,
+        "cost_saved_pct": 84.0
+      },
+      "85": {
+        "acc": 96.15,
+        "cost_saved_pct": 84.0
+      },
+      "90": {
+        "acc": 96.55,
+        "cost_saved_pct": 77.9
+      },
+      "95": {
+        "acc": 96.77,
+        "cost_saved_pct": 72.7
+      },
+      "100": {
+        "acc": 97.64,
+        "cost_saved_pct": 4.6
+      }
+    },
+    "qwen3.6:35b-a3b": {
+      "0": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "5": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "10": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "15": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "20": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "25": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "30": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "35": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "40": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "45": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "50": {
+        "acc": 92.43,
+        "cost_saved_pct": 98.0
+      },
+      "55": {
+        "acc": 93.1,
+        "cost_saved_pct": 96.0
+      },
+      "60": {
+        "acc": 93.54,
+        "cost_saved_pct": 93.4
+      },
+      "65": {
+        "acc": 94.28,
+        "cost_saved_pct": 91.3
+      },
+      "70": {
+        "acc": 94.89,
+        "cost_saved_pct": 88.3
+      },
+      "75": {
+        "acc": 94.89,
+        "cost_saved_pct": 88.3
+      },
+      "80": {
+        "acc": 95.69,
+        "cost_saved_pct": 84.0
+      },
+      "85": {
+        "acc": 95.69,
+        "cost_saved_pct": 84.0
+      },
+      "90": {
+        "acc": 96.19,
+        "cost_saved_pct": 77.9
+      },
+      "95": {
+        "acc": 96.3,
+        "cost_saved_pct": 72.7
+      },
+      "100": {
+        "acc": 97.09,
+        "cost_saved_pct": 4.6
+      }
+    },
+    "gemma4:26b": {
+      "0": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "5": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "10": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "15": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "20": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "25": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "30": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "35": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "40": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "45": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "50": {
+        "acc": 92.63,
+        "cost_saved_pct": 98.0
+      },
+      "55": {
+        "acc": 93.26,
+        "cost_saved_pct": 96.0
+      },
+      "60": {
+        "acc": 94.06,
+        "cost_saved_pct": 93.4
+      },
+      "65": {
+        "acc": 94.8,
+        "cost_saved_pct": 91.3
+      },
+      "70": {
+        "acc": 95.59,
+        "cost_saved_pct": 88.3
+      },
+      "75": {
+        "acc": 95.59,
+        "cost_saved_pct": 88.3
+      },
+      "80": {
+        "acc": 96.3,
+        "cost_saved_pct": 84.0
+      },
+      "85": {
+        "acc": 96.3,
+        "cost_saved_pct": 84.0
+      },
+      "90": {
+        "acc": 96.72,
+        "cost_saved_pct": 77.9
+      },
+      "95": {
+        "acc": 96.88,
+        "cost_saved_pct": 72.7
+      },
+      "100": {
+        "acc": 96.93,
+        "cost_saved_pct": 4.6
+      }
+    },
+    "gemma4:31b": {
+      "0": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "5": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "10": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "15": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "20": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "25": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "30": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "35": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "40": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "45": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "50": {
+        "acc": 92.51,
+        "cost_saved_pct": 98.0
+      },
+      "55": {
+        "acc": 93.14,
+        "cost_saved_pct": 96.0
+      },
+      "60": {
+        "acc": 93.84,
+        "cost_saved_pct": 93.4
+      },
+      "65": {
+        "acc": 94.62,
+        "cost_saved_pct": 91.3
+      },
+      "70": {
+        "acc": 95.35,
+        "cost_saved_pct": 88.3
+      },
+      "75": {
+        "acc": 95.35,
+        "cost_saved_pct": 88.3
+      },
+      "80": {
+        "acc": 96.11,
+        "cost_saved_pct": 84.0
+      },
+      "85": {
+        "acc": 96.11,
+        "cost_saved_pct": 84.0
+      },
+      "90": {
+        "acc": 96.68,
+        "cost_saved_pct": 77.9
+      },
+      "95": {
+        "acc": 96.83,
+        "cost_saved_pct": 72.7
+      },
+      "100": {
+        "acc": 97.4,
+        "cost_saved_pct": 4.6
+      }
+    },
+    "mean": {
+      "0": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "5": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "10": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "15": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "20": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "25": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "30": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "35": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "40": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "45": {
+        "acc": 91.87,
+        "cost_saved_pct": 100.0
+      },
+      "50": {
+        "acc": 92.54,
+        "cost_saved_pct": 98.0
+      },
+      "55": {
+        "acc": 93.3,
+        "cost_saved_pct": 96.0
+      },
+      "60": {
+        "acc": 94.09,
+        "cost_saved_pct": 93.4
+      },
+      "65": {
+        "acc": 94.83,
+        "cost_saved_pct": 91.3
+      },
+      "70": {
+        "acc": 95.49,
+        "cost_saved_pct": 88.3
+      },
+      "75": {
+        "acc": 95.49,
+        "cost_saved_pct": 88.3
+      },
+      "80": {
+        "acc": 96.22,
+        "cost_saved_pct": 84.0
+      },
+      "85": {
+        "acc": 96.22,
+        "cost_saved_pct": 84.0
+      },
+      "90": {
+        "acc": 96.71,
+        "cost_saved_pct": 77.9
+      },
+      "95": {
+        "acc": 96.87,
+        "cost_saved_pct": 72.7
+      },
+      "100": {
+        "acc": 97.5,
+        "cost_saved_pct": 4.6
+      }
+    }
+  },
+  "_meta": {
+    "description": "Deployable predicted-class routing vs oracle true-class routing on Stanford40 (9,532 images). MLLM branch uses per-class rates from ollama_results.json (50 images/class per MLLM); expected-value estimator. CLIP predictions from stanford40/per_image_predictions.json (ViT-L-14 laion2b_s32b_b82k, 3-template averaged; overall 91.87% vs canonical 91.86%).",
+    "source_files": [
+      "/home/lizhuo/Work/Mayan/VisualAnchor/results/02_robustness/stanford40/per_image_predictions.json",
+      "/home/lizhuo/Work/Mayan/VisualAnchor/results/02_robustness/stanford40/anchor_scores.json",
+      "/home/lizhuo/Work/Mayan/VisualAnchor/results/02_robustness/stanford40/ollama_results.json"
+    ],
+    "assumption": "P(MLLM correct | routed) = per-class MLLM accuracy; expected-value estimate",
+    "computation_date": "2026-08-12"
+  }
+}

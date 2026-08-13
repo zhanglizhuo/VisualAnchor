@@ -20,40 +20,25 @@
 \def\textpagefraction{.001}
 \shorttitle{AnchorScore: A CLIP-Based Diagnostic}
 
-\shortauthors{Ma and Zhang}
+\shortauthors{}
 
 \title[mode=title]{AnchorScore: A CLIP-Based Diagnostic of MLLM Annotation Difficulty in Classroom Behavior Analysis}
 
-\author[1,2]{Yan Ma}[orcid=0009-0002-5071-0054]
-\ead{mayan@csust.edu.cn}
-\credit{Conceptualization, Investigation, Writing---review and editing}
+\author[1]{Anonymous Author}
+\author[2]{Anonymous Author}
 
-\author[3]{Lizhuo Zhang}[orcid=0009-0004-0749-3239]
-\cormark[1]
-\ead{zhanglizhuo@hunau.edu.cn}
-\credit{Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Writing---original draft, Writing---review and editing, Supervision}
+\affiliation[1]{organization={Anonymous Institution},
+    city={Anonymous},
+    country={Anonymous}}
 
-\affiliation[1]{organization={School of Foreign Studies, Changsha University of Science and Technology},
-    city={Changsha},
-    postcode={410114},
-    country={China}}
+\affiliation[2]{organization={Anonymous Institution},
+    city={Anonymous},
+    country={Anonymous}}
 
-\affiliation[2]{organization={School of Education, Hunan Agricultural University},
-    city={Changsha},
-    postcode={410128},
-    country={China}}
-
-\affiliation[3]{organization={School of Information and Intelligence, Hunan Agricultural University},
-    city={Changsha},
-    postcode={410128},
-    country={China}}
-
-\cortext[1]{Corresponding author}
-
-\nonumnote{This research received no external funding.}
+% Author details withheld for double-blind review.
 
 \begin{abstract}
-Multimodal large language models (MLLMs) are widely used for automated annotation, yet their per-class accuracy varies widely (12\%--98\%) and is expensive to measure: evaluating one MLLM takes roughly 14 hours, while CLIP inference on a small labeled validation set completes in 3 minutes. No cheap signal has been shown to rank classes by expected MLLM annotation difficulty \emph{a priori}. Building on the AnchorProxy construct (per-class zero-shot CLIP accuracy) introduced in our companion study, this paper systematically evaluates its full-frame formulation---termed \textbf{AnchorScore} here---as an \emph{a priori} diagnostic that flags the classes MLLMs are least likely to annotate reliably.
+Multimodal large language models (MLLMs) are widely used for automated annotation, yet their per-class accuracy varies widely (12\%--98\%) and is expensive to measure: evaluating one MLLM takes roughly 14 hours, while CLIP inference on a small labeled validation set completes in 3 minutes. No cheap signal has been shown to rank classes by expected MLLM annotation difficulty \emph{a priori}. Building on the AnchorProxy construct (per-class zero-shot CLIP accuracy) introduced in prior work~\cite{ma2026agreement}, this paper systematically evaluates its full-frame formulation---termed \textbf{AnchorScore} here---as an \emph{a priori} diagnostic that flags the classes MLLMs are least likely to annotate reliably.
 
 On classroom behavior data (SCB5, 13 classes, 6 MLLMs), AnchorScore correlates with per-class MLLM accuracy (Spearman $\rho=0.769$, $p=0.002$, $n=13$). None of the alternative difficulty predictors (DINOv2, ResNet-50, SigLIP, or MLLM self-verbalized uncertainty) showed a significant class-level correlation. A cross-model consensus control suggests AnchorScore captures a shared class-difficulty factor rather than a CLIP-specific signal: conditioning on the consensus of the other five MLLMs leaves a partial correlation statistically indistinguishable from zero. An independent replication on Stanford40 Actions yields a nearly identical effect ($\rho=0.817$, $p<0.001$).
 
@@ -131,7 +116,7 @@ where $j$ indexes the $N$ validation images, $N_i$ is the number of validation i
 
 Here $\mathbf{f}_{\text{img}}$ and $\mathbf{f}_{\text{text}}$ are the CLIP vision and text encoders and $x_j$ is the input image. Following template averaging, $\bar{\mathbf{f}}_{\text{text}}(c_k) = \frac{1}{T}\sum_{t=1}^{T}\frac{\mathbf{f}_{\text{text}}(p_{k,t})}{\|\mathbf{f}_{\text{text}}(p_{k,t})\|}$ denotes the mean of the L2-normalized template embeddings of class $c_k$ across $T$ prompt templates $p_{k,1}, \dots, p_{k,T}$ (each template embedding is normalized before averaging, matching the implementation; the cosine in \Cref{eq:clip_pred} then normalizes the averaged vector), with $T=3$ throughout this study. The logit scale of $100$ used in the implementation is omitted because it is a positive constant and does not change the $\arg\max$.
 
-The companion paper~\cite{ma2026agreement} introduced this construct under the name \emph{AnchorProxy}---per-class zero-shot CLIP accuracy under a bbox-cropped input protocol---and used it only as a post-hoc screening signal for pseudo-label reliability. AnchorScore is an independent recomputation of the same construct under the full-frame protocol (\S\ref{sec:input_repr}), the deployment setting in which object bounding boxes are unavailable; this paper provides the first systematic evidence chain for the construct as an \emph{a priori} predictor of per-class MLLM accuracy.
+Prior work~\cite{ma2026agreement} introduced this construct under the name \emph{AnchorProxy}---per-class zero-shot CLIP accuracy under a bbox-cropped input protocol---and used it only as a post-hoc screening signal for pseudo-label reliability. AnchorScore is an independent recomputation of the same construct under the full-frame protocol (\S\ref{sec:input_repr}), the deployment setting in which object bounding boxes are unavailable; this paper provides the first systematic evidence chain for the construct as an \emph{a priori} predictor of per-class MLLM accuracy.
 
 \subsection{Prompt Design}
 
@@ -658,7 +643,7 @@ AnchorScore is not a universal predictor. The effect was strong and consistent o
 
 This appendix provides the full per-class evidence underlying the main text: the 13-class SCB5 breakdown (Table~\ref{tab:per_class_tb}), the 40-class Stanford40 breakdown (Table~\ref{tab:stanford40_per_class}), the 34-class cross-domain breakdown (Table~\ref{tab:cross_domain_per_class}), the prompt-variant robustness analysis (Table~\ref{tab:prompt_robustness}), and the calibration diagnostics (Fig.~\ref{fig:calibration}). Throughout this appendix, $\Delta$ denotes mean MLLM accuracy minus AnchorScore (percentage points); positive values mean the MLLM outperforms CLIP on that class.
 
-\textbf{SCB5 per-class accuracy.} \Cref{tab:per_class_tb} reports AnchorScore and per-class MLLM accuracy (6-MLLM mean $\pm$ SD) for all 13 SCB5 classes across the three sub-datasets, sorted by ascending AnchorScore. The largest AnchorScore--MLLM divergences occur on composite action classes (blackboard-writing +71.4~pp, blackboard +41.4~pp). The companion paper reports per-class accuracy for a different model set and filtering strategy (Qwen2-VL-7B and LLaVA-1.5-7B under the Agreement strategy on bbox-cropped inputs)~\cite{ma2026agreement}; the two per-class tables are complementary and not directly comparable.
+\textbf{SCB5 per-class accuracy.} \Cref{tab:per_class_tb} reports AnchorScore and per-class MLLM accuracy (6-MLLM mean $\pm$ SD) for all 13 SCB5 classes across the three sub-datasets, sorted by ascending AnchorScore. The largest AnchorScore--MLLM divergences occur on composite action classes (blackboard-writing +71.4~pp, blackboard +41.4~pp). Prior work reports per-class accuracy for a different model set and filtering strategy (Qwen2-VL-7B and LLaVA-1.5-7B under the Agreement strategy on bbox-cropped inputs)~\cite{ma2026agreement}; the two per-class tables are complementary and not directly comparable.
 
 \begin{table}[t]
 \caption{Per-class AnchorScore and average MLLM accuracy across all 13 SCB5 classes (TeacherBehavior, HandriseReadWrite, BowTurnHead; 6 MLLMs), grouped by sub-dataset and sorted by ascending AnchorScore. MLLM std is the sample standard deviation of the six per-model accuracies.}
@@ -825,7 +810,7 @@ Alternative 3-template phrasing & 3 & 0.599 & 0.031 & Yes \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section*{Data Availability}
-The SCB5 datasets used in this study are publicly available on Hugging Face at \url{https://huggingface.co/datasets/wintonYF/SCB-Dataset}. EuroSAT is available at \url{https://github.com/phelber/EuroSAT}. MedMNIST datasets are available at \url{https://medmnist.com}. The experiment code, prompt templates, per-image MLLM predictions, and all result files are available at \url{https://github.com/zhanglizhuo/VisualAnchor}.
+The SCB5 datasets used in this study are publicly available on Hugging Face at \url{https://huggingface.co/datasets/wintonYF/SCB-Dataset}. EuroSAT is available at \url{https://github.com/phelber/EuroSAT}. MedMNIST datasets are available at \url{https://medmnist.com}. Code and result files will be made available upon acceptance.
 
 \section*{Acknowledgments}
 The authors thank the contributors of the SCB dataset, EuroSAT, and MedMNIST for making their data publicly available. During the preparation of this work, the authors used AI-assisted tools for code development and manuscript revision support. After using these tools, the authors reviewed and edited the content as needed and take full responsibility for the content of the publication.
@@ -835,19 +820,15 @@ The authors declare no conflicts of interest.
 
 \printcredits
 
-\bio{}
-Yan Ma received the Ph.D.\ degree in linguistics from Hunan Normal University. She is currently a lecturer with the School of Foreign Studies, Changsha University of Science and Technology. Her research interests include applied linguistics and educational technology.
-\endbio
 
-\bio{}
-Lizhuo Zhang received the Ph.D.\ degree in computer science from Hunan University. He is currently an assistant professor with the School of Information and Intelligence, Hunan Agricultural University. His research interests include multimodal learning, vision-language models, and their applications in educational technology.
-\endbio
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % References
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \bibliographystyle{elsarticle-num-names}
-\bibliography{refs}
+\bibliography{refs_blind}
 
 \end{document}

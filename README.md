@@ -19,9 +19,13 @@ flags the classes MLLMs are least likely to annotate reliably, at a fraction of 
 | Class-level correlation (SCB5, 13 classes, 6 MLLMs) | **ρ = 0.769** (p = 0.002) | `results/01_core/correlation/unified_results.json` |
 | Replication (Stanford40 Actions, 40 classes) | **ρ = 0.817** (p < 0.001) | `results/02_robustness/stanford40/` |
 | Three-study meta-analysis (activity recognition) | **ρ = 0.781**, 95% CI [0.653, 0.865], I² = 3.0% | `results/05_applications/meta_analysis_results.json` (`subgroup_all_scene`) |
-| SigLIP / DINOv2 / ResNet-50 baselines | no significant correlation (ρ ≤ 0.201) | `results/01_core/anchor_score_scb5/{siglip,dinov2}_correlation.json`, `results/03_baselines/resnet50_baseline/resnet50_results.json` |
+| Cross-domain validation (4 datasets, pooled per-class) | **ρ = 0.462** (p = 0.006, n = 34) | `results/01_core/correlation/cross_domain_mllm_subset.json` |
+| Deployable hybrid CLIP/MLLM routing | up to **+23.3 pp** over CLIP-only at 43.5% MLLM cost saving (TeacherBehavior); +21.6 pp at 60.8% (BowTurnHead); +1.4 pp at 76.8% (Stanford40); none on HandriseReadWrite | `results/05_applications/hybrid/hybrid_deployable.json`, `results/05_applications/hybrid_stanford40/hybrid_deployable.json` |
+| Review-priority ranking (Stanford40) | **AUC = 0.842** (permutation p < 0.001) | `results/05_applications/ranking/stanford40_ranking.json` |
+| Prompt disambiguation (exploratory) | +25.0 pp mean with direct visual-distinction prompts (3/10 significant) | `results/04_ablation/prompt_optimization/prompt_opt_v3_bootstrap.json` |
+| SigLIP / DINOv2 / ResNet-50 baselines | no significant class-level correlation (ρ ≤ 0.201) | `results/01_core/anchor_score_scb5/{siglip,dinov2}_correlation.json`, `results/03_baselines/resnet50_baseline/resnet50_results.json` |
 
-The signal is most consistent with a **shared class-difficulty factor**: a cross-model consensus control shows AnchorScore tracks difficulty shared across CLIP and MLLMs rather than a CLIP-specific mechanism, and its value lies in being a zero-cost cold-start proxy of that shared factor. It supports *ranking* (which classes are relatively harder) rather than *calibration* (exact accuracy estimates); full caveats in the paper.
+The signal is most consistent with a **shared class-difficulty factor**: a cross-model consensus control shows AnchorScore tracks difficulty shared across CLIP and MLLMs rather than a CLIP-specific mechanism, and its value lies in being a low-compute, label-seeded cold-start proxy of that shared factor (no MLLM inference; only a small labeled validation set). It supports *ranking* (which classes are relatively harder) rather than *calibration* (exact accuracy estimates); full caveats in the paper.
 
 ![Per-dataset correlation between AnchorScore and MLLM accuracy](paper/figures/per_dataset_correlation.png)
 
@@ -30,9 +34,11 @@ The signal is most consistent with a **shared class-difficulty factor**: a cross
 ![AnchorScore pipeline](paper/figures/pipeline_overview.png)
 
 **(A)** Per-class images + domain prompts → frozen CLIP (428M, ~3 min) → AnchorScore (per-class
-zero-shot accuracy). **(B)** Downstream applications: (i) *hybrid routing* — high-AnchorScore classes
-to CLIP, low to MLLM; (ii) *prompt disambiguation* — CLIP confusion matrix guides MLLM prompt
-refinements; (iii) *review priority* — AnchorScore ranking predicts which classes most need human
+zero-shot accuracy). **(B)** Downstream applications: (i) *hybrid routing* — each image is routed by
+CLIP's predicted class: high-AnchorScore predictions are accepted from CLIP, low-AnchorScore ones
+go to the MLLM (up to +23 pp over CLIP-only, e.g., +23 pp at ~44% cost savings on TeacherBehavior); (ii) *prompt
+disambiguation* — CLIP confusion matrix guides MLLM prompt refinements (+25.0 pp mean with direct
+visual-distinction descriptions, exploratory); (iii) *review priority* — AnchorScore ranking predicts which classes most need human
 verification.
 
 ## Quick Start (Analysis Only)
@@ -54,10 +60,17 @@ python analysis/03_baselines/baselines_correlation.py
 ### Environment
 
 ```bash
-pip install torch torchvision open-clip-python scipy Pillow requests
-pip install transformers accelerate  # for LLaVA
-pip install medmnist                  # for cross-domain
+# Analysis-only mode (no GPU, no raw data): only scipy + numpy needed
+pip install scipy numpy
+
+# Full reproduction (GPU):
+pip install -r requirements.txt
 ```
+
+Version notes (see `requirements.txt`):
+
+- `open-clip-torch` is pinned to **2.32.0** with `transformers<5.0` — open_clip's T5 tokenizer path breaks under transformers 5.x.
+- ViT-L/14 inference runs in FP16 (hard-coded `model.half()` in the scripts); FP32 requires ~41 GB and OOMs on 40 GB GPUs (FP16 ≈ 17 GB at batch 64).
 
 ### Data Dependencies
 
@@ -67,10 +80,12 @@ pip install medmnist                  # for cross-domain
 | SCB5-LLM-202506 (10 cls, 494 imgs) | `wintonYF/SCB-Dataset` | SCB5-LLM experiments |
 | EuroSAT RGB | `torchvision.datasets.EuroSAT` (auto) | cross-domain |
 | MedMNIST (Blood/Tissue/PathMNIST) | `medmnist` (auto) | cross-domain |
+| Stanford40 Actions (40 classes, 9,532 images) | [Stanford40](https://vision.stanford.edu/Datasets/40actions.html) (images under `JPEGImages/`; see `experiments/02_robustness/stanford40_clip_per_image.py`) | `anchor_stanford40`, `stanford40_clip_per_image`, hybrid routing |
 
 Custom data paths:
 
 - `SCB5_DATA_ROOT` — SCB5 root directory
+- `STANFORD40_DIR` — Stanford40 root directory (containing `JPEGImages/`)
 - `HF_ENDPOINT` — Hugging Face mirror (e.g. `https://hf-mirror.com` in China)
 
 ### Experiment Pipeline (Ordered)

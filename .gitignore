@@ -64,3 +64,6 @@ results/**/run.log
 
 # Personal launch wrappers
 /experiments/05_applications/run_prompt_opt.sh
+
+# Local agent state
+/.aris/

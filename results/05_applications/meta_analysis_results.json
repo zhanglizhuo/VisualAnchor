@@ -83,7 +83,9 @@
     "ci_95": [
       0.653,
       0.8653
-    ]
+    ],
+    "I2_pct": 3.02,
+    "Q": 2.0623
   },
   "previous_3_study": {
     "description": "Same as prior version without Stanford40",

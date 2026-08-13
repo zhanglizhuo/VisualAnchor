@@ -1,0 +1,13 @@
+# Full reproduction (GPU) dependencies.
+# Analysis-only mode needs only: scipy numpy
+
+torch>=2.0
+torchvision>=0.15
+open-clip-torch==2.32.0
+transformers<5.0          # open_clip 2.32.0 T5 tokenizer path breaks with transformers 5.x
+accelerate>=0.25          # LLaVA evaluation
+Pillow>=9.0
+requests>=2.28
+scipy>=1.10
+numpy>=1.24
+medmnist>=2.2             # cross-domain (auto-downloads MedMNIST)

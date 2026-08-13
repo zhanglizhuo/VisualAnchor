@@ -1,0 +1,3648 @@
+{
+  "TeacherBehavior": {
+    "n_images": 3240,
+    "clip_only_acc": 32.38,
+    "deployable": {
+      "Qwen3.5-27B": {
+        "0": {
+          "acc": 32.38,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 32.38,
+          "cost_saved_pct": 99.3
+        },
+        "10": {
+          "acc": 39.46,
+          "cost_saved_pct": 77.5
+        },
+        "15": {
+          "acc": 39.46,
+          "cost_saved_pct": 77.5
+        },
+        "20": {
+          "acc": 39.46,
+          "cost_saved_pct": 77.5
+        },
+        "25": {
+          "acc": 39.46,
+          "cost_saved_pct": 77.5
+        },
+        "30": {
+          "acc": 43.98,
+          "cost_saved_pct": 63.6
+        },
+        "35": {
+          "acc": 43.98,
+          "cost_saved_pct": 63.6
+        },
+        "40": {
+          "acc": 43.98,
+          "cost_saved_pct": 63.6
+        },
+        "45": {
+          "acc": 55.85,
+          "cost_saved_pct": 43.5
+        },
+        "50": {
+          "acc": 55.85,
+          "cost_saved_pct": 43.5
+        },
+        "55": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        },
+        "60": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        },
+        "65": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Qwen3.6-27B": {
+        "0": {
+          "acc": 32.38,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 32.39,
+          "cost_saved_pct": 99.3
+        },
+        "10": {
+          "acc": 39.13,
+          "cost_saved_pct": 77.5
+        },
+        "15": {
+          "acc": 39.13,
+          "cost_saved_pct": 77.5
+        },
+        "20": {
+          "acc": 39.13,
+          "cost_saved_pct": 77.5
+        },
+        "25": {
+          "acc": 39.13,
+          "cost_saved_pct": 77.5
+        },
+        "30": {
+          "acc": 43.78,
+          "cost_saved_pct": 63.6
+        },
+        "35": {
+          "acc": 43.78,
+          "cost_saved_pct": 63.6
+        },
+        "40": {
+          "acc": 43.78,
+          "cost_saved_pct": 63.6
+        },
+        "45": {
+          "acc": 56.49,
+          "cost_saved_pct": 43.5
+        },
+        "50": {
+          "acc": 56.49,
+          "cost_saved_pct": 43.5
+        },
+        "55": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        },
+        "60": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        },
+        "65": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Qwen3.5-35B": {
+        "0": {
+          "acc": 32.38,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 32.26,
+          "cost_saved_pct": 99.3
+        },
+        "10": {
+          "acc": 38.74,
+          "cost_saved_pct": 77.5
+        },
+        "15": {
+          "acc": 38.74,
+          "cost_saved_pct": 77.5
+        },
+        "20": {
+          "acc": 38.74,
+          "cost_saved_pct": 77.5
+        },
+        "25": {
+          "acc": 38.74,
+          "cost_saved_pct": 77.5
+        },
+        "30": {
+          "acc": 42.83,
+          "cost_saved_pct": 63.6
+        },
+        "35": {
+          "acc": 42.83,
+          "cost_saved_pct": 63.6
+        },
+        "40": {
+          "acc": 42.83,
+          "cost_saved_pct": 63.6
+        },
+        "45": {
+          "acc": 54.13,
+          "cost_saved_pct": 43.5
+        },
+        "50": {
+          "acc": 54.13,
+          "cost_saved_pct": 43.5
+        },
+        "55": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        },
+        "60": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        },
+        "65": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Gemma4-31B": {
+        "0": {
+          "acc": 32.38,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 32.34,
+          "cost_saved_pct": 99.3
+        },
+        "10": {
+          "acc": 39.73,
+          "cost_saved_pct": 77.5
+        },
+        "15": {
+          "acc": 39.73,
+          "cost_saved_pct": 77.5
+        },
+        "20": {
+          "acc": 39.73,
+          "cost_saved_pct": 77.5
+        },
+        "25": {
+          "acc": 39.73,
+          "cost_saved_pct": 77.5
+        },
+        "30": {
+          "acc": 44.56,
+          "cost_saved_pct": 63.6
+        },
+        "35": {
+          "acc": 44.56,
+          "cost_saved_pct": 63.6
+        },
+        "40": {
+          "acc": 44.56,
+          "cost_saved_pct": 63.6
+        },
+        "45": {
+          "acc": 56.09,
+          "cost_saved_pct": 43.5
+        },
+        "50": {
+          "acc": 56.09,
+          "cost_saved_pct": 43.5
+        },
+        "55": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        },
+        "60": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        },
+        "65": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Gemma4-26B": {
+        "0": {
+          "acc": 32.38,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 32.43,
+          "cost_saved_pct": 99.3
+        },
+        "10": {
+          "acc": 38.96,
+          "cost_saved_pct": 77.5
+        },
+        "15": {
+          "acc": 38.96,
+          "cost_saved_pct": 77.5
+        },
+        "20": {
+          "acc": 38.96,
+          "cost_saved_pct": 77.5
+        },
+        "25": {
+          "acc": 38.96,
+          "cost_saved_pct": 77.5
+        },
+        "30": {
+          "acc": 43.69,
+          "cost_saved_pct": 63.6
+        },
+        "35": {
+          "acc": 43.69,
+          "cost_saved_pct": 63.6
+        },
+        "40": {
+          "acc": 43.69,
+          "cost_saved_pct": 63.6
+        },
+        "45": {
+          "acc": 56.98,
+          "cost_saved_pct": 43.5
+        },
+        "50": {
+          "acc": 56.98,
+          "cost_saved_pct": 43.5
+        },
+        "55": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        },
+        "60": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        },
+        "65": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Qwen3.6-35B": {
+        "0": {
+          "acc": 32.38,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 32.31,
+          "cost_saved_pct": 99.3
+        },
+        "10": {
+          "acc": 38.59,
+          "cost_saved_pct": 77.5
+        },
+        "15": {
+          "acc": 38.59,
+          "cost_saved_pct": 77.5
+        },
+        "20": {
+          "acc": 38.59,
+          "cost_saved_pct": 77.5
+        },
+        "25": {
+          "acc": 38.59,
+          "cost_saved_pct": 77.5
+        },
+        "30": {
+          "acc": 42.59,
+          "cost_saved_pct": 63.6
+        },
+        "35": {
+          "acc": 42.59,
+          "cost_saved_pct": 63.6
+        },
+        "40": {
+          "acc": 42.59,
+          "cost_saved_pct": 63.6
+        },
+        "45": {
+          "acc": 54.38,
+          "cost_saved_pct": 43.5
+        },
+        "50": {
+          "acc": 54.38,
+          "cost_saved_pct": 43.5
+        },
+        "55": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        },
+        "60": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        },
+        "65": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "mean": {
+        "0": {
+          "acc": 32.38,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 32.35,
+          "cost_saved_pct": 99.3
+        },
+        "10": {
+          "acc": 39.1,
+          "cost_saved_pct": 77.5
+        },
+        "15": {
+          "acc": 39.1,
+          "cost_saved_pct": 77.5
+        },
+        "20": {
+          "acc": 39.1,
+          "cost_saved_pct": 77.5
+        },
+        "25": {
+          "acc": 39.1,
+          "cost_saved_pct": 77.5
+        },
+        "30": {
+          "acc": 43.57,
+          "cost_saved_pct": 63.6
+        },
+        "35": {
+          "acc": 43.57,
+          "cost_saved_pct": 63.6
+        },
+        "40": {
+          "acc": 43.57,
+          "cost_saved_pct": 63.6
+        },
+        "45": {
+          "acc": 55.66,
+          "cost_saved_pct": 43.5
+        },
+        "50": {
+          "acc": 55.66,
+          "cost_saved_pct": 43.5
+        },
+        "55": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        },
+        "60": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        },
+        "65": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        }
+      }
+    },
+    "oracle": {
+      "Qwen3.5-27B": {
+        "0": {
+          "acc": 32.38,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 39.62,
+          "cost_saved_pct": 87.3
+        },
+        "10": {
+          "acc": 43.94,
+          "cost_saved_pct": 64.9
+        },
+        "15": {
+          "acc": 43.94,
+          "cost_saved_pct": 64.9
+        },
+        "20": {
+          "acc": 43.94,
+          "cost_saved_pct": 64.9
+        },
+        "25": {
+          "acc": 43.94,
+          "cost_saved_pct": 64.9
+        },
+        "30": {
+          "acc": 48.7,
+          "cost_saved_pct": 54.8
+        },
+        "35": {
+          "acc": 48.7,
+          "cost_saved_pct": 54.8
+        },
+        "40": {
+          "acc": 48.7,
+          "cost_saved_pct": 54.8
+        },
+        "45": {
+          "acc": 49.33,
+          "cost_saved_pct": 53.5
+        },
+        "50": {
+          "acc": 49.33,
+          "cost_saved_pct": 53.5
+        },
+        "55": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        },
+        "60": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        },
+        "65": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 52.07,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Qwen3.6-27B": {
+        "0": {
+          "acc": 32.38,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 38.87,
+          "cost_saved_pct": 87.3
+        },
+        "10": {
+          "acc": 41.3,
+          "cost_saved_pct": 64.9
+        },
+        "15": {
+          "acc": 41.3,
+          "cost_saved_pct": 64.9
+        },
+        "20": {
+          "acc": 41.3,
+          "cost_saved_pct": 64.9
+        },
+        "25": {
+          "acc": 41.3,
+          "cost_saved_pct": 64.9
+        },
+        "30": {
+          "acc": 45.33,
+          "cost_saved_pct": 54.8
+        },
+        "35": {
+          "acc": 45.33,
+          "cost_saved_pct": 54.8
+        },
+        "40": {
+          "acc": 45.33,
+          "cost_saved_pct": 54.8
+        },
+        "45": {
+          "acc": 45.77,
+          "cost_saved_pct": 53.5
+        },
+        "50": {
+          "acc": 45.77,
+          "cost_saved_pct": 53.5
+        },
+        "55": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        },
+        "60": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        },
+        "65": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 56.37,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Qwen3.5-35B": {
+        "0": {
+          "acc": 32.38,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 34.46,
+          "cost_saved_pct": 87.3
+        },
+        "10": {
+          "acc": 37.31,
+          "cost_saved_pct": 64.9
+        },
+        "15": {
+          "acc": 37.31,
+          "cost_saved_pct": 64.9
+        },
+        "20": {
+          "acc": 37.31,
+          "cost_saved_pct": 64.9
+        },
+        "25": {
+          "acc": 37.31,
+          "cost_saved_pct": 64.9
+        },
+        "30": {
+          "acc": 40.66,
+          "cost_saved_pct": 54.8
+        },
+        "35": {
+          "acc": 40.66,
+          "cost_saved_pct": 54.8
+        },
+        "40": {
+          "acc": 40.66,
+          "cost_saved_pct": 54.8
+        },
+        "45": {
+          "acc": 41.09,
+          "cost_saved_pct": 53.5
+        },
+        "50": {
+          "acc": 41.09,
+          "cost_saved_pct": 53.5
+        },
+        "55": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        },
+        "60": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        },
+        "65": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 52.99,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Gemma4-31B": {
+        "0": {
+          "acc": 32.38,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 37.6,
+          "cost_saved_pct": 87.3
+        },
+        "10": {
+          "acc": 40.26,
+          "cost_saved_pct": 64.9
+        },
+        "15": {
+          "acc": 40.26,
+          "cost_saved_pct": 64.9
+        },
+        "20": {
+          "acc": 40.26,
+          "cost_saved_pct": 64.9
+        },
+        "25": {
+          "acc": 40.26,
+          "cost_saved_pct": 64.9
+        },
+        "30": {
+          "acc": 46.47,
+          "cost_saved_pct": 54.8
+        },
+        "35": {
+          "acc": 46.47,
+          "cost_saved_pct": 54.8
+        },
+        "40": {
+          "acc": 46.47,
+          "cost_saved_pct": 54.8
+        },
+        "45": {
+          "acc": 46.57,
+          "cost_saved_pct": 53.5
+        },
+        "50": {
+          "acc": 46.57,
+          "cost_saved_pct": 53.5
+        },
+        "55": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        },
+        "60": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        },
+        "65": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 53.84,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Gemma4-26B": {
+        "0": {
+          "acc": 32.38,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 39.09,
+          "cost_saved_pct": 87.3
+        },
+        "10": {
+          "acc": 39.58,
+          "cost_saved_pct": 64.9
+        },
+        "15": {
+          "acc": 39.58,
+          "cost_saved_pct": 64.9
+        },
+        "20": {
+          "acc": 39.58,
+          "cost_saved_pct": 64.9
+        },
+        "25": {
+          "acc": 39.58,
+          "cost_saved_pct": 64.9
+        },
+        "30": {
+          "acc": 43.32,
+          "cost_saved_pct": 54.8
+        },
+        "35": {
+          "acc": 43.32,
+          "cost_saved_pct": 54.8
+        },
+        "40": {
+          "acc": 43.32,
+          "cost_saved_pct": 54.8
+        },
+        "45": {
+          "acc": 43.48,
+          "cost_saved_pct": 53.5
+        },
+        "50": {
+          "acc": 43.48,
+          "cost_saved_pct": 53.5
+        },
+        "55": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        },
+        "60": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        },
+        "65": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 59.59,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Qwen3.6-35B": {
+        "0": {
+          "acc": 32.38,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 36.21,
+          "cost_saved_pct": 87.3
+        },
+        "10": {
+          "acc": 38.26,
+          "cost_saved_pct": 64.9
+        },
+        "15": {
+          "acc": 38.26,
+          "cost_saved_pct": 64.9
+        },
+        "20": {
+          "acc": 38.26,
+          "cost_saved_pct": 64.9
+        },
+        "25": {
+          "acc": 38.26,
+          "cost_saved_pct": 64.9
+        },
+        "30": {
+          "acc": 41.49,
+          "cost_saved_pct": 54.8
+        },
+        "35": {
+          "acc": 41.49,
+          "cost_saved_pct": 54.8
+        },
+        "40": {
+          "acc": 41.49,
+          "cost_saved_pct": 54.8
+        },
+        "45": {
+          "acc": 41.86,
+          "cost_saved_pct": 53.5
+        },
+        "50": {
+          "acc": 41.86,
+          "cost_saved_pct": 53.5
+        },
+        "55": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        },
+        "60": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        },
+        "65": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 53.72,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "mean": {
+        "0": {
+          "acc": 32.38,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 37.64,
+          "cost_saved_pct": 87.3
+        },
+        "10": {
+          "acc": 40.1,
+          "cost_saved_pct": 64.9
+        },
+        "15": {
+          "acc": 40.1,
+          "cost_saved_pct": 64.9
+        },
+        "20": {
+          "acc": 40.1,
+          "cost_saved_pct": 64.9
+        },
+        "25": {
+          "acc": 40.1,
+          "cost_saved_pct": 64.9
+        },
+        "30": {
+          "acc": 44.33,
+          "cost_saved_pct": 54.8
+        },
+        "35": {
+          "acc": 44.33,
+          "cost_saved_pct": 54.8
+        },
+        "40": {
+          "acc": 44.33,
+          "cost_saved_pct": 54.8
+        },
+        "45": {
+          "acc": 44.68,
+          "cost_saved_pct": 53.5
+        },
+        "50": {
+          "acc": 44.68,
+          "cost_saved_pct": 53.5
+        },
+        "55": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        },
+        "60": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        },
+        "65": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 54.76,
+          "cost_saved_pct": 0.0
+        }
+      }
+    }
+  },
+  "HandriseReadWrite": {
+    "n_images": 1671,
+    "clip_only_acc": 61.04,
+    "deployable": {
+      "Qwen3.5-27B": {
+        "0": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 59.29,
+          "cost_saved_pct": 86.9
+        },
+        "30": {
+          "acc": 59.29,
+          "cost_saved_pct": 86.9
+        },
+        "35": {
+          "acc": 59.29,
+          "cost_saved_pct": 86.9
+        },
+        "40": {
+          "acc": 59.29,
+          "cost_saved_pct": 86.9
+        },
+        "45": {
+          "acc": 59.29,
+          "cost_saved_pct": 86.9
+        },
+        "50": {
+          "acc": 59.29,
+          "cost_saved_pct": 86.9
+        },
+        "55": {
+          "acc": 59.29,
+          "cost_saved_pct": 86.9
+        },
+        "60": {
+          "acc": 59.29,
+          "cost_saved_pct": 86.9
+        },
+        "65": {
+          "acc": 59.29,
+          "cost_saved_pct": 86.9
+        },
+        "70": {
+          "acc": 59.29,
+          "cost_saved_pct": 86.9
+        },
+        "75": {
+          "acc": 59.29,
+          "cost_saved_pct": 86.9
+        },
+        "80": {
+          "acc": 59.29,
+          "cost_saved_pct": 86.9
+        },
+        "85": {
+          "acc": 54.97,
+          "cost_saved_pct": 42.7
+        },
+        "90": {
+          "acc": 66.21,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 66.21,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 66.21,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Qwen3.6-27B": {
+        "0": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 59.59,
+          "cost_saved_pct": 86.9
+        },
+        "30": {
+          "acc": 59.59,
+          "cost_saved_pct": 86.9
+        },
+        "35": {
+          "acc": 59.59,
+          "cost_saved_pct": 86.9
+        },
+        "40": {
+          "acc": 59.59,
+          "cost_saved_pct": 86.9
+        },
+        "45": {
+          "acc": 59.59,
+          "cost_saved_pct": 86.9
+        },
+        "50": {
+          "acc": 59.59,
+          "cost_saved_pct": 86.9
+        },
+        "55": {
+          "acc": 59.59,
+          "cost_saved_pct": 86.9
+        },
+        "60": {
+          "acc": 59.59,
+          "cost_saved_pct": 86.9
+        },
+        "65": {
+          "acc": 59.59,
+          "cost_saved_pct": 86.9
+        },
+        "70": {
+          "acc": 59.59,
+          "cost_saved_pct": 86.9
+        },
+        "75": {
+          "acc": 59.59,
+          "cost_saved_pct": 86.9
+        },
+        "80": {
+          "acc": 59.59,
+          "cost_saved_pct": 86.9
+        },
+        "85": {
+          "acc": 56.47,
+          "cost_saved_pct": 42.7
+        },
+        "90": {
+          "acc": 68.41,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 68.41,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 68.41,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Qwen3.5-35B": {
+        "0": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 59.9,
+          "cost_saved_pct": 86.9
+        },
+        "30": {
+          "acc": 59.9,
+          "cost_saved_pct": 86.9
+        },
+        "35": {
+          "acc": 59.9,
+          "cost_saved_pct": 86.9
+        },
+        "40": {
+          "acc": 59.9,
+          "cost_saved_pct": 86.9
+        },
+        "45": {
+          "acc": 59.9,
+          "cost_saved_pct": 86.9
+        },
+        "50": {
+          "acc": 59.9,
+          "cost_saved_pct": 86.9
+        },
+        "55": {
+          "acc": 59.9,
+          "cost_saved_pct": 86.9
+        },
+        "60": {
+          "acc": 59.9,
+          "cost_saved_pct": 86.9
+        },
+        "65": {
+          "acc": 59.9,
+          "cost_saved_pct": 86.9
+        },
+        "70": {
+          "acc": 59.9,
+          "cost_saved_pct": 86.9
+        },
+        "75": {
+          "acc": 59.9,
+          "cost_saved_pct": 86.9
+        },
+        "80": {
+          "acc": 59.9,
+          "cost_saved_pct": 86.9
+        },
+        "85": {
+          "acc": 58.47,
+          "cost_saved_pct": 42.7
+        },
+        "90": {
+          "acc": 70.96,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 70.96,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 70.96,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Gemma4-31B": {
+        "0": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 58.95,
+          "cost_saved_pct": 86.9
+        },
+        "30": {
+          "acc": 58.95,
+          "cost_saved_pct": 86.9
+        },
+        "35": {
+          "acc": 58.95,
+          "cost_saved_pct": 86.9
+        },
+        "40": {
+          "acc": 58.95,
+          "cost_saved_pct": 86.9
+        },
+        "45": {
+          "acc": 58.95,
+          "cost_saved_pct": 86.9
+        },
+        "50": {
+          "acc": 58.95,
+          "cost_saved_pct": 86.9
+        },
+        "55": {
+          "acc": 58.95,
+          "cost_saved_pct": 86.9
+        },
+        "60": {
+          "acc": 58.95,
+          "cost_saved_pct": 86.9
+        },
+        "65": {
+          "acc": 58.95,
+          "cost_saved_pct": 86.9
+        },
+        "70": {
+          "acc": 58.95,
+          "cost_saved_pct": 86.9
+        },
+        "75": {
+          "acc": 58.95,
+          "cost_saved_pct": 86.9
+        },
+        "80": {
+          "acc": 58.95,
+          "cost_saved_pct": 86.9
+        },
+        "85": {
+          "acc": 56.37,
+          "cost_saved_pct": 42.7
+        },
+        "90": {
+          "acc": 66.3,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 66.3,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 66.3,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Gemma4-26B": {
+        "0": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 58.8,
+          "cost_saved_pct": 86.9
+        },
+        "30": {
+          "acc": 58.8,
+          "cost_saved_pct": 86.9
+        },
+        "35": {
+          "acc": 58.8,
+          "cost_saved_pct": 86.9
+        },
+        "40": {
+          "acc": 58.8,
+          "cost_saved_pct": 86.9
+        },
+        "45": {
+          "acc": 58.8,
+          "cost_saved_pct": 86.9
+        },
+        "50": {
+          "acc": 58.8,
+          "cost_saved_pct": 86.9
+        },
+        "55": {
+          "acc": 58.8,
+          "cost_saved_pct": 86.9
+        },
+        "60": {
+          "acc": 58.8,
+          "cost_saved_pct": 86.9
+        },
+        "65": {
+          "acc": 58.8,
+          "cost_saved_pct": 86.9
+        },
+        "70": {
+          "acc": 58.8,
+          "cost_saved_pct": 86.9
+        },
+        "75": {
+          "acc": 58.8,
+          "cost_saved_pct": 86.9
+        },
+        "80": {
+          "acc": 58.8,
+          "cost_saved_pct": 86.9
+        },
+        "85": {
+          "acc": 56.51,
+          "cost_saved_pct": 42.7
+        },
+        "90": {
+          "acc": 65.95,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 65.95,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 65.95,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Qwen3.6-35B": {
+        "0": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 59.91,
+          "cost_saved_pct": 86.9
+        },
+        "30": {
+          "acc": 59.91,
+          "cost_saved_pct": 86.9
+        },
+        "35": {
+          "acc": 59.91,
+          "cost_saved_pct": 86.9
+        },
+        "40": {
+          "acc": 59.91,
+          "cost_saved_pct": 86.9
+        },
+        "45": {
+          "acc": 59.91,
+          "cost_saved_pct": 86.9
+        },
+        "50": {
+          "acc": 59.91,
+          "cost_saved_pct": 86.9
+        },
+        "55": {
+          "acc": 59.91,
+          "cost_saved_pct": 86.9
+        },
+        "60": {
+          "acc": 59.91,
+          "cost_saved_pct": 86.9
+        },
+        "65": {
+          "acc": 59.91,
+          "cost_saved_pct": 86.9
+        },
+        "70": {
+          "acc": 59.91,
+          "cost_saved_pct": 86.9
+        },
+        "75": {
+          "acc": 59.91,
+          "cost_saved_pct": 86.9
+        },
+        "80": {
+          "acc": 59.91,
+          "cost_saved_pct": 86.9
+        },
+        "85": {
+          "acc": 58.11,
+          "cost_saved_pct": 42.7
+        },
+        "90": {
+          "acc": 70.72,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 70.72,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 70.72,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "mean": {
+        "0": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 59.41,
+          "cost_saved_pct": 86.9
+        },
+        "30": {
+          "acc": 59.41,
+          "cost_saved_pct": 86.9
+        },
+        "35": {
+          "acc": 59.41,
+          "cost_saved_pct": 86.9
+        },
+        "40": {
+          "acc": 59.41,
+          "cost_saved_pct": 86.9
+        },
+        "45": {
+          "acc": 59.41,
+          "cost_saved_pct": 86.9
+        },
+        "50": {
+          "acc": 59.41,
+          "cost_saved_pct": 86.9
+        },
+        "55": {
+          "acc": 59.41,
+          "cost_saved_pct": 86.9
+        },
+        "60": {
+          "acc": 59.41,
+          "cost_saved_pct": 86.9
+        },
+        "65": {
+          "acc": 59.41,
+          "cost_saved_pct": 86.9
+        },
+        "70": {
+          "acc": 59.41,
+          "cost_saved_pct": 86.9
+        },
+        "75": {
+          "acc": 59.41,
+          "cost_saved_pct": 86.9
+        },
+        "80": {
+          "acc": 59.41,
+          "cost_saved_pct": 86.9
+        },
+        "85": {
+          "acc": 56.82,
+          "cost_saved_pct": 42.7
+        },
+        "90": {
+          "acc": 68.09,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 68.09,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 68.09,
+          "cost_saved_pct": 0.0
+        }
+      }
+    },
+    "oracle": {
+      "Qwen3.5-27B": {
+        "0": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 62.71,
+          "cost_saved_pct": 64.0
+        },
+        "30": {
+          "acc": 62.71,
+          "cost_saved_pct": 64.0
+        },
+        "35": {
+          "acc": 62.71,
+          "cost_saved_pct": 64.0
+        },
+        "40": {
+          "acc": 62.71,
+          "cost_saved_pct": 64.0
+        },
+        "45": {
+          "acc": 62.71,
+          "cost_saved_pct": 64.0
+        },
+        "50": {
+          "acc": 62.71,
+          "cost_saved_pct": 64.0
+        },
+        "55": {
+          "acc": 62.71,
+          "cost_saved_pct": 64.0
+        },
+        "60": {
+          "acc": 62.71,
+          "cost_saved_pct": 64.0
+        },
+        "65": {
+          "acc": 62.71,
+          "cost_saved_pct": 64.0
+        },
+        "70": {
+          "acc": 62.71,
+          "cost_saved_pct": 64.0
+        },
+        "75": {
+          "acc": 62.71,
+          "cost_saved_pct": 64.0
+        },
+        "80": {
+          "acc": 62.71,
+          "cost_saved_pct": 64.0
+        },
+        "85": {
+          "acc": 64.97,
+          "cost_saved_pct": 14.6
+        },
+        "90": {
+          "acc": 66.21,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 66.21,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 66.21,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Qwen3.6-27B": {
+        "0": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 63.57,
+          "cost_saved_pct": 64.0
+        },
+        "30": {
+          "acc": 63.57,
+          "cost_saved_pct": 64.0
+        },
+        "35": {
+          "acc": 63.57,
+          "cost_saved_pct": 64.0
+        },
+        "40": {
+          "acc": 63.57,
+          "cost_saved_pct": 64.0
+        },
+        "45": {
+          "acc": 63.57,
+          "cost_saved_pct": 64.0
+        },
+        "50": {
+          "acc": 63.57,
+          "cost_saved_pct": 64.0
+        },
+        "55": {
+          "acc": 63.57,
+          "cost_saved_pct": 64.0
+        },
+        "60": {
+          "acc": 63.57,
+          "cost_saved_pct": 64.0
+        },
+        "65": {
+          "acc": 63.57,
+          "cost_saved_pct": 64.0
+        },
+        "70": {
+          "acc": 63.57,
+          "cost_saved_pct": 64.0
+        },
+        "75": {
+          "acc": 63.57,
+          "cost_saved_pct": 64.0
+        },
+        "80": {
+          "acc": 63.57,
+          "cost_saved_pct": 64.0
+        },
+        "85": {
+          "acc": 67.2,
+          "cost_saved_pct": 14.6
+        },
+        "90": {
+          "acc": 68.41,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 68.41,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 68.41,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Qwen3.5-35B": {
+        "0": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 64.23,
+          "cost_saved_pct": 64.0
+        },
+        "30": {
+          "acc": 64.23,
+          "cost_saved_pct": 64.0
+        },
+        "35": {
+          "acc": 64.23,
+          "cost_saved_pct": 64.0
+        },
+        "40": {
+          "acc": 64.23,
+          "cost_saved_pct": 64.0
+        },
+        "45": {
+          "acc": 64.23,
+          "cost_saved_pct": 64.0
+        },
+        "50": {
+          "acc": 64.23,
+          "cost_saved_pct": 64.0
+        },
+        "55": {
+          "acc": 64.23,
+          "cost_saved_pct": 64.0
+        },
+        "60": {
+          "acc": 64.23,
+          "cost_saved_pct": 64.0
+        },
+        "65": {
+          "acc": 64.23,
+          "cost_saved_pct": 64.0
+        },
+        "70": {
+          "acc": 64.23,
+          "cost_saved_pct": 64.0
+        },
+        "75": {
+          "acc": 64.23,
+          "cost_saved_pct": 64.0
+        },
+        "80": {
+          "acc": 64.23,
+          "cost_saved_pct": 64.0
+        },
+        "85": {
+          "acc": 69.89,
+          "cost_saved_pct": 14.6
+        },
+        "90": {
+          "acc": 70.96,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 70.96,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 70.96,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Gemma4-31B": {
+        "0": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 60.41,
+          "cost_saved_pct": 64.0
+        },
+        "30": {
+          "acc": 60.41,
+          "cost_saved_pct": 64.0
+        },
+        "35": {
+          "acc": 60.41,
+          "cost_saved_pct": 64.0
+        },
+        "40": {
+          "acc": 60.41,
+          "cost_saved_pct": 64.0
+        },
+        "45": {
+          "acc": 60.41,
+          "cost_saved_pct": 64.0
+        },
+        "50": {
+          "acc": 60.41,
+          "cost_saved_pct": 64.0
+        },
+        "55": {
+          "acc": 60.41,
+          "cost_saved_pct": 64.0
+        },
+        "60": {
+          "acc": 60.41,
+          "cost_saved_pct": 64.0
+        },
+        "65": {
+          "acc": 60.41,
+          "cost_saved_pct": 64.0
+        },
+        "70": {
+          "acc": 60.41,
+          "cost_saved_pct": 64.0
+        },
+        "75": {
+          "acc": 60.41,
+          "cost_saved_pct": 64.0
+        },
+        "80": {
+          "acc": 60.41,
+          "cost_saved_pct": 64.0
+        },
+        "85": {
+          "acc": 65.13,
+          "cost_saved_pct": 14.6
+        },
+        "90": {
+          "acc": 66.3,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 66.3,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 66.3,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Gemma4-26B": {
+        "0": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 59.57,
+          "cost_saved_pct": 64.0
+        },
+        "30": {
+          "acc": 59.57,
+          "cost_saved_pct": 64.0
+        },
+        "35": {
+          "acc": 59.57,
+          "cost_saved_pct": 64.0
+        },
+        "40": {
+          "acc": 59.57,
+          "cost_saved_pct": 64.0
+        },
+        "45": {
+          "acc": 59.57,
+          "cost_saved_pct": 64.0
+        },
+        "50": {
+          "acc": 59.57,
+          "cost_saved_pct": 64.0
+        },
+        "55": {
+          "acc": 59.57,
+          "cost_saved_pct": 64.0
+        },
+        "60": {
+          "acc": 59.57,
+          "cost_saved_pct": 64.0
+        },
+        "65": {
+          "acc": 59.57,
+          "cost_saved_pct": 64.0
+        },
+        "70": {
+          "acc": 59.57,
+          "cost_saved_pct": 64.0
+        },
+        "75": {
+          "acc": 59.57,
+          "cost_saved_pct": 64.0
+        },
+        "80": {
+          "acc": 59.57,
+          "cost_saved_pct": 64.0
+        },
+        "85": {
+          "acc": 64.77,
+          "cost_saved_pct": 14.6
+        },
+        "90": {
+          "acc": 65.95,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 65.95,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 65.95,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Qwen3.6-35B": {
+        "0": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 64.4,
+          "cost_saved_pct": 64.0
+        },
+        "30": {
+          "acc": 64.4,
+          "cost_saved_pct": 64.0
+        },
+        "35": {
+          "acc": 64.4,
+          "cost_saved_pct": 64.0
+        },
+        "40": {
+          "acc": 64.4,
+          "cost_saved_pct": 64.0
+        },
+        "45": {
+          "acc": 64.4,
+          "cost_saved_pct": 64.0
+        },
+        "50": {
+          "acc": 64.4,
+          "cost_saved_pct": 64.0
+        },
+        "55": {
+          "acc": 64.4,
+          "cost_saved_pct": 64.0
+        },
+        "60": {
+          "acc": 64.4,
+          "cost_saved_pct": 64.0
+        },
+        "65": {
+          "acc": 64.4,
+          "cost_saved_pct": 64.0
+        },
+        "70": {
+          "acc": 64.4,
+          "cost_saved_pct": 64.0
+        },
+        "75": {
+          "acc": 64.4,
+          "cost_saved_pct": 64.0
+        },
+        "80": {
+          "acc": 64.4,
+          "cost_saved_pct": 64.0
+        },
+        "85": {
+          "acc": 69.57,
+          "cost_saved_pct": 14.6
+        },
+        "90": {
+          "acc": 70.72,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 70.72,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 70.72,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "mean": {
+        "0": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 61.04,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 62.48,
+          "cost_saved_pct": 64.0
+        },
+        "30": {
+          "acc": 62.48,
+          "cost_saved_pct": 64.0
+        },
+        "35": {
+          "acc": 62.48,
+          "cost_saved_pct": 64.0
+        },
+        "40": {
+          "acc": 62.48,
+          "cost_saved_pct": 64.0
+        },
+        "45": {
+          "acc": 62.48,
+          "cost_saved_pct": 64.0
+        },
+        "50": {
+          "acc": 62.48,
+          "cost_saved_pct": 64.0
+        },
+        "55": {
+          "acc": 62.48,
+          "cost_saved_pct": 64.0
+        },
+        "60": {
+          "acc": 62.48,
+          "cost_saved_pct": 64.0
+        },
+        "65": {
+          "acc": 62.48,
+          "cost_saved_pct": 64.0
+        },
+        "70": {
+          "acc": 62.48,
+          "cost_saved_pct": 64.0
+        },
+        "75": {
+          "acc": 62.48,
+          "cost_saved_pct": 64.0
+        },
+        "80": {
+          "acc": 62.48,
+          "cost_saved_pct": 64.0
+        },
+        "85": {
+          "acc": 66.92,
+          "cost_saved_pct": 14.6
+        },
+        "90": {
+          "acc": 68.09,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 68.09,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 68.09,
+          "cost_saved_pct": 0.0
+        }
+      }
+    }
+  },
+  "BowTurnHead": {
+    "n_images": 505,
+    "clip_only_acc": 60.4,
+    "deployable": {
+      "Qwen3.5-27B": {
+        "0": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "30": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "35": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "40": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "45": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "50": {
+          "acc": 81.28,
+          "cost_saved_pct": 60.8
+        },
+        "55": {
+          "acc": 81.28,
+          "cost_saved_pct": 60.8
+        },
+        "60": {
+          "acc": 81.28,
+          "cost_saved_pct": 60.8
+        },
+        "65": {
+          "acc": 80.39,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 80.39,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 80.39,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 80.39,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 80.39,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 80.39,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 80.39,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 80.39,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Qwen3.6-27B": {
+        "0": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "30": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "35": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "40": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "45": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "50": {
+          "acc": 79.93,
+          "cost_saved_pct": 60.8
+        },
+        "55": {
+          "acc": 79.93,
+          "cost_saved_pct": 60.8
+        },
+        "60": {
+          "acc": 79.93,
+          "cost_saved_pct": 60.8
+        },
+        "65": {
+          "acc": 76.54,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 76.54,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 76.54,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 76.54,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 76.54,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 76.54,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 76.54,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 76.54,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Qwen3.5-35B": {
+        "0": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "30": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "35": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "40": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "45": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "50": {
+          "acc": 83.78,
+          "cost_saved_pct": 60.8
+        },
+        "55": {
+          "acc": 83.78,
+          "cost_saved_pct": 60.8
+        },
+        "60": {
+          "acc": 83.78,
+          "cost_saved_pct": 60.8
+        },
+        "65": {
+          "acc": 88.23,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 88.23,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 88.23,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 88.23,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 88.23,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 88.23,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 88.23,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 88.23,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Gemma4-31B": {
+        "0": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "30": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "35": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "40": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "45": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "50": {
+          "acc": 83.59,
+          "cost_saved_pct": 60.8
+        },
+        "55": {
+          "acc": 83.59,
+          "cost_saved_pct": 60.8
+        },
+        "60": {
+          "acc": 83.59,
+          "cost_saved_pct": 60.8
+        },
+        "65": {
+          "acc": 86.69,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 86.69,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 86.69,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 86.69,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 86.69,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 86.69,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 86.69,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 86.69,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Gemma4-26B": {
+        "0": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "30": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "35": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "40": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "45": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "50": {
+          "acc": 81.94,
+          "cost_saved_pct": 60.8
+        },
+        "55": {
+          "acc": 81.94,
+          "cost_saved_pct": 60.8
+        },
+        "60": {
+          "acc": 81.94,
+          "cost_saved_pct": 60.8
+        },
+        "65": {
+          "acc": 85.6,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 85.6,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 85.6,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 85.6,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 85.6,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 85.6,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 85.6,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 85.6,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Qwen3.6-35B": {
+        "0": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "30": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "35": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "40": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "45": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "50": {
+          "acc": 81.28,
+          "cost_saved_pct": 60.8
+        },
+        "55": {
+          "acc": 81.28,
+          "cost_saved_pct": 60.8
+        },
+        "60": {
+          "acc": 81.28,
+          "cost_saved_pct": 60.8
+        },
+        "65": {
+          "acc": 80.34,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 80.34,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 80.34,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 80.34,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 80.34,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 80.34,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 80.34,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 80.34,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "mean": {
+        "0": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "30": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "35": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "40": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "45": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "50": {
+          "acc": 81.96,
+          "cost_saved_pct": 60.8
+        },
+        "55": {
+          "acc": 81.96,
+          "cost_saved_pct": 60.8
+        },
+        "60": {
+          "acc": 81.96,
+          "cost_saved_pct": 60.8
+        },
+        "65": {
+          "acc": 82.97,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 82.97,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 82.97,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 82.97,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 82.97,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 82.97,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 82.97,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 82.97,
+          "cost_saved_pct": 0.0
+        }
+      }
+    },
+    "oracle": {
+      "Qwen3.5-27B": {
+        "0": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "30": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "35": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "40": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "45": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "50": {
+          "acc": 69.34,
+          "cost_saved_pct": 77.8
+        },
+        "55": {
+          "acc": 69.34,
+          "cost_saved_pct": 77.8
+        },
+        "60": {
+          "acc": 69.34,
+          "cost_saved_pct": 77.8
+        },
+        "65": {
+          "acc": 80.39,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 80.39,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 80.39,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 80.39,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 80.39,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 80.39,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 80.39,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 80.39,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Qwen3.6-27B": {
+        "0": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "30": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "35": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "40": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "45": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "50": {
+          "acc": 69.71,
+          "cost_saved_pct": 77.8
+        },
+        "55": {
+          "acc": 69.71,
+          "cost_saved_pct": 77.8
+        },
+        "60": {
+          "acc": 69.71,
+          "cost_saved_pct": 77.8
+        },
+        "65": {
+          "acc": 76.54,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 76.54,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 76.54,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 76.54,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 76.54,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 76.54,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 76.54,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 76.54,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Qwen3.5-35B": {
+        "0": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "30": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "35": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "40": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "45": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "50": {
+          "acc": 66.55,
+          "cost_saved_pct": 77.8
+        },
+        "55": {
+          "acc": 66.55,
+          "cost_saved_pct": 77.8
+        },
+        "60": {
+          "acc": 66.55,
+          "cost_saved_pct": 77.8
+        },
+        "65": {
+          "acc": 88.23,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 88.23,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 88.23,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 88.23,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 88.23,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 88.23,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 88.23,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 88.23,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Gemma4-31B": {
+        "0": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "30": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "35": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "40": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "45": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "50": {
+          "acc": 69.47,
+          "cost_saved_pct": 77.8
+        },
+        "55": {
+          "acc": 69.47,
+          "cost_saved_pct": 77.8
+        },
+        "60": {
+          "acc": 69.47,
+          "cost_saved_pct": 77.8
+        },
+        "65": {
+          "acc": 86.69,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 86.69,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 86.69,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 86.69,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 86.69,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 86.69,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 86.69,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 86.69,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Gemma4-26B": {
+        "0": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "30": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "35": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "40": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "45": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "50": {
+          "acc": 59.61,
+          "cost_saved_pct": 77.8
+        },
+        "55": {
+          "acc": 59.61,
+          "cost_saved_pct": 77.8
+        },
+        "60": {
+          "acc": 59.61,
+          "cost_saved_pct": 77.8
+        },
+        "65": {
+          "acc": 85.6,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 85.6,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 85.6,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 85.6,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 85.6,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 85.6,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 85.6,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 85.6,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "Qwen3.6-35B": {
+        "0": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "30": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "35": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "40": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "45": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "50": {
+          "acc": 69.47,
+          "cost_saved_pct": 77.8
+        },
+        "55": {
+          "acc": 69.47,
+          "cost_saved_pct": 77.8
+        },
+        "60": {
+          "acc": 69.47,
+          "cost_saved_pct": 77.8
+        },
+        "65": {
+          "acc": 80.34,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 80.34,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 80.34,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 80.34,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 80.34,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 80.34,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 80.34,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 80.34,
+          "cost_saved_pct": 0.0
+        }
+      },
+      "mean": {
+        "0": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "5": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "10": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "15": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "20": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "25": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "30": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "35": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "40": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "45": {
+          "acc": 60.4,
+          "cost_saved_pct": 100.0
+        },
+        "50": {
+          "acc": 67.36,
+          "cost_saved_pct": 77.8
+        },
+        "55": {
+          "acc": 67.36,
+          "cost_saved_pct": 77.8
+        },
+        "60": {
+          "acc": 67.36,
+          "cost_saved_pct": 77.8
+        },
+        "65": {
+          "acc": 82.97,
+          "cost_saved_pct": 0.0
+        },
+        "70": {
+          "acc": 82.97,
+          "cost_saved_pct": 0.0
+        },
+        "75": {
+          "acc": 82.97,
+          "cost_saved_pct": 0.0
+        },
+        "80": {
+          "acc": 82.97,
+          "cost_saved_pct": 0.0
+        },
+        "85": {
+          "acc": 82.97,
+          "cost_saved_pct": 0.0
+        },
+        "90": {
+          "acc": 82.97,
+          "cost_saved_pct": 0.0
+        },
+        "95": {
+          "acc": 82.97,
+          "cost_saved_pct": 0.0
+        },
+        "100": {
+          "acc": 82.97,
+          "cost_saved_pct": 0.0
+        }
+      }
+    }
+  },
+  "_meta": {
+    "description": "Deployable predicted-class routing vs oracle true-class routing on SCB5. MLLM branch accuracy uses canonical per-class rates (expected-value estimator). CLIP predictions: clip_per_image run, same protocol as canonical AnchorScore (per-class within 0.5pp).",
+    "source_files": [
+      "/home/lizhuo/Work/Mayan/VisualAnchor/results/01_core/clip_per_image/per_image_predictions.json",
+      "/home/lizhuo/Work/Mayan/VisualAnchor/results/01_core/paper_data/mllm_raw.json",
+      "/home/lizhuo/Work/Mayan/VisualAnchor/results/01_core/anchor_score_scb5/anchor_scores.json"
+    ],
+    "assumption": "P(MLLM correct | routed) = per-class MLLM accuracy; expected-value estimate, no per-image MLLM predictions used",
+    "computation_date": "2026-08-12"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "description": "Domain-level Spearman correlation: domain-mean AnchorScore vs domain-mean MLLM accuracy (7 domains). Companion to the pooled n=47 class-level analysis; addresses the effective-sample-size concern by testing the between-domain ordering directly.",
+  "source": "results/01_core/correlation/pooled_class_level_results.json (47 class rows aggregated by domain)",
+  "computation_date": "2026-08-12",
+  "n_domains": 7,
+  "spearman_rho": 0.8214,
+  "p_value": 0.0234,
+  "domains": [
+    {
+      "domain": "BloodMNIST",
+      "n_classes": 8,
+      "mean_anchor": 7.5525,
+      "mean_mllm": 15.375
+    },
+    {
+      "domain": "EuroSAT",
+      "n_classes": 10,
+      "mean_anchor": 39.609,
+      "mean_mllm": 40.25
+    },
+    {
+      "domain": "PathMNIST",
+      "n_classes": 9,
+      "mean_anchor": 14.2178,
+      "mean_mllm": 14.2778
+    },
+    {
+      "domain": "SCB5-BowTurnHead",
+      "n_classes": 2,
+      "mean_anchor": 56.615,
+      "mean_mllm": 82.1
+    },
+    {
+      "domain": "SCB5-HandriseReadWrite",
+      "n_classes": 3,
+      "mean_anchor": 64.2433,
+      "mean_mllm": 71.3333
+    },
+    {
+      "domain": "SCB5-TeacherBehavior",
+      "n_classes": 8,
+      "mean_anchor": 27.3575,
+      "mean_mllm": 54.6125
+    },
+    {
+      "domain": "TissueMNIST",
+      "n_classes": 7,
+      "mean_anchor": 9.3486,
+      "mean_mllm": 13.5
+    }
+  ]
+}

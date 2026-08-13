@@ -53,5 +53,6 @@
       0.339,
       0.863
     ]
-  }
+  },
+  "_superseded_note": "Superseded 2026-08-13: this 2026-07-14 3-study meta used SCB5+SCB-LLM+Cross-domain (pre-Stanford40). The canonical meta is results/05_applications/meta_analysis_results.json (4-study overall + activity subgroup SCB5+SCB-LLM+Stanford40 with I2_pct=3.02 now stored)."
 }

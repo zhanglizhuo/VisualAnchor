@@ -9,6 +9,9 @@ import matplotlib.patches as mpatches
 from matplotlib.lines import Line2D
 
 plt.rcParams.update({"font.size": 12, "figure.dpi": 300, "font.family": "serif"})
+# Elsevier: no Type 3 fonts; embed TrueType outlines
+plt.rcParams["pdf.fonttype"] = 42
+plt.rcParams["ps.fonttype"] = 42
 
 C_CLIP = "#1a9988"
 C_MLLM = "#e86850"
@@ -56,6 +59,11 @@ def add_ols_fit(ax, x_vals, y_vals):
                     color="#ccc", alpha=0.3, zorder=0)
     ax.plot(x_fit, y_fit, "--", color="#888", linewidth=1.3, alpha=0.6, zorder=1)
 
+
+def r3(x):
+    """Format rho to 3 decimals with half-up rounding (matches paper's canonical rounding)."""
+    return f"{x + 1e-9:.3f}"
+
 # ── Figure 1: Concept figure (cost, intuition, result preview) ──
 fig1, axes1 = plt.subplots(2, 1, figsize=(7.2, 5.5),
                            gridspec_kw={"height_ratios": [1.55, 1.25], "hspace": 0.08})
@@ -91,7 +99,7 @@ ax.text(5.0, 2.8, "$\\approx$270$\\times$", ha="center", fontsize=14, fontweight
         bbox=dict(boxstyle="round,pad=0.2", facecolor="#fff4e6", edgecolor="#ff922b", linewidth=2))
 ax.text(5.0, 3.3, "more FLOPs", ha="center", fontsize=8, color="#777")
 ax.text(5.0, 1.8, "no additional training", ha="center", fontsize=8, color="#777")
-ax.text(5.0, 0.5, "Input: unlabeled validation images", fontsize=8, color="#555", ha="center")
+ax.text(5.0, 0.5, "Input: small labeled validation set", fontsize=8, color="#555", ha="center")
 # Π-shaped arrows: horizontal segments stop at text edges
 ax.plot([1.9, 2.7], [0.55, 0.55], color="#999", lw=2, solid_capstyle="round")
 ax.plot([7.3, 8.1], [0.55, 0.55], color="#999", lw=2, solid_capstyle="round")
@@ -195,10 +203,10 @@ ov_arrow(9.0, 3.5, 9.0, 2.98, C_ANCHOR_EDGE, 1.2)             # right branch
 
 # -- (i) Hybrid Annotation (3 layers, symmetric with ii) --
 ax2.text(3.0, 0.1, "(i) Hybrid Annotation", fontsize=8, fontweight="bold", color="#374151", ha="center", va="center")
-ov_box(3.0, 2.7, 2.0, 0.4, "Apply threshold $\\tau$\nto AnchorScore", C_ANCHOR_FILL, C_ANCHOR_EDGE, fs=7)
-ov_box(1.5, 1.7, 2.0, 0.4, "High \u2192 CLIP\n(cheap)", C_CLIP_LIGHT, C_CLIP, fs=6.5)
-ov_box(4.5, 1.7, 2.0, 0.4, "Low \u2192 MLLM\n(expensive)", C_MLLM_LIGHT, C_MLLM, fs=6.5)
-ov_box(3.0, 0.7, 2.0, 0.4, "+3\u201311pp accuracy\n53\u201377% cost saved", C_DATA_FILL, C_DATA_EDGE, fs=6.5)
+ov_box(3.0, 2.7, 2.0, 0.4, "Apply $\\tau$ to AnchorScore\n(CLIP-predicted class)", C_ANCHOR_FILL, C_ANCHOR_EDGE, fs=7)
+ov_box(1.5, 1.7, 2.0, 0.4, "High \u2192 CLIP\n(cheap)", C_CLIP_LIGHT, C_CLIP, fs=7)
+ov_box(4.5, 1.7, 2.0, 0.4, "Low \u2192 MLLM\n(expensive)", C_MLLM_LIGHT, C_MLLM, fs=7)
+ov_box(3.0, 0.7, 2.0, 0.4, "+1\u201323pp accuracy\n44\u201377% cost saved", C_DATA_FILL, C_DATA_EDGE, fs=7)
 ov_elbow(1.92, 2.7, 1.5, 1.98, via="h")  # threshold left edge → High top-center
 ov_elbow(4.08, 2.7, 4.5, 1.98, via="h")  # threshold right edge → Low top-center
 ov_elbow(1.5, 1.42, 1.92, 0.7, via="v")  # High bottom-center → result left edge
@@ -208,7 +216,7 @@ ov_elbow(4.5, 1.42, 4.08, 0.7, via="v")  # Low bottom-center → result right ed
 ax2.text(9.0, 0.1, "(ii) Prompt Disambiguation", fontsize=8, fontweight="bold", color="#374151", ha="center", va="center")
 ov_box(9.0, 2.7, 2.0, 0.4, "Confusion\nmatrix", C_CLIP_LIGHT, C_CLIP, fs=7)
 ov_box(9.0, 1.7, 2.0, 0.4, "Enhanced prompts\n(disambiguation)", C_MLLM_LIGHT, C_MLLM, fs=7)
-ov_box(9.0, 0.7, 2.0, 0.4, "MLLM accuracy\n+11.0pp avg", C_DATA_FILL, C_DATA_EDGE, fs=7)
+ov_box(9.0, 0.7, 2.0, 0.4, "MLLM accuracy\n+25.0pp (direct)", C_DATA_FILL, C_DATA_EDGE, fs=7)
 ov_arrow(9.0, 2.42, 9.0, 1.98)
 ov_arrow(9.0, 1.42, 9.0, 0.98)
 
@@ -217,6 +225,12 @@ fig2.savefig(OUT_DIR / "pipeline_overview.pdf", bbox_inches="tight", pad_inches=
 print(f"Saved {OUT_DIR / 'pipeline_overview.png'}")
 
 # ── Figure 3: Strip plot — class-level mean + individual MLLM runs ──
+# Canonical pooled rho from the evidence file, so the in-figure stats box
+# matches the paper text exactly (independent recomputation can drift at
+# the 4th decimal due to rounded anchor values).
+_unified_canon = json.load((RESULTS_DIR / "01_core" / "correlation" / "unified_results.json").open())
+pooled_rho_canonical = _unified_canon["scb5_pooled"]["spearman_rho"]
+
 fig3, ax = plt.subplots(figsize=(7, 5))
 
 rng = np.random.default_rng(42)
@@ -292,9 +306,8 @@ ax.grid(True, alpha=0.25)
 ax.set_xlim(0, 100)
 ax.set_ylim(0, 100)
 
-stats_text = (f"Class-level $\\rho$ = {r_s_cls:.3f}  (p = {p_s_cls:.3f}, $n=13$ classes)\n"
-              f"Pooled $\\rho$ = {r_s_pool:.3f}  ($p < 0.001$, $n=78$)\n"
-              f"Filled markers: class means; colors denote dataset")
+stats_text = (f"Class-level $\\rho$ = {r3(r_s_cls)}  (p = {p_s_cls:.3f}, $n=13$ classes)\n"
+              f"Pooled $\\rho$ = {r3(pooled_rho_canonical)}  ($p < 0.001$, $n=78$)")
 ax.text(0.98, 0.35, stats_text, transform=ax.transAxes, fontsize=10,
         verticalalignment="top", horizontalalignment="right",
         bbox=dict(boxstyle="round,pad=0.5", facecolor="white", alpha=0.90, edgecolor="#999", linewidth=0.8))
@@ -409,8 +422,8 @@ for bar, val, err in zip(bars, values, errs):
 for bar, val in zip(bars, values):
     ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.5, f"{val:.1f}%",
             ha="center", va="bottom", fontsize=10, fontweight="bold", zorder=5)
-# n= inside bar bottom
-n_classes = [8, 9, 8, 10, 13]
+# n= inside bar bottom (derived from data, not hardcoded)
+n_classes = [len(ddata["per_class_acc"]) for _, ddata in domain_info]
 # Visually mark SCB5 (last bar) as in-domain reference via a divider
 ax.axvline(x=3.5, color="#bbbbbb", linestyle="--", linewidth=1, zorder=0)
 for bar, nc in zip(bars, n_classes):
@@ -454,7 +467,7 @@ width = 0.35
 ax_top.bar(x - width/2, bin_anchor_means, width, color=C_CLIP, alpha=0.85, label="AnchorScore")
 ax_top.bar(x + width/2, bin_mllm_means, width, color=C_MLLM, alpha=0.85, label="MLLM accuracy")
 ax_top.set_ylabel("Accuracy (%)", fontsize=12)
-ax_top.set_title("AnchorScore Calibration (Reliability Diagram)", fontsize=13, fontweight="bold")
+ax_top.set_title("AnchorScore Calibration", fontsize=13, fontweight="bold")
 ax_top.set_xticks(x)
 ax_top.set_xticklabels([f"{bin_edges[i]:.0f}-{bin_edges[i+1]:.0f}" for i in range(n_bins)], fontsize=9)
 ax_top.legend(fontsize=9, loc="upper left")
@@ -462,10 +475,14 @@ ax_top.grid(True, alpha=0.2, axis="y")
 for i, c in enumerate(bin_counts):
     y_ref = max(bin_anchor_means[i], bin_mllm_means[i])
     ax_top.text(i, y_ref + 1.5, f"$n$={c}", ha="center", fontsize=7, color="#666")
-# Caveat: last bin has only 2 EuroSAT classes
-if bin_counts[-1] == 2:
-    ax_top.text(n_bins - 1, 5, "n=2\n(EuroSAT\nonly)", ha="center", fontsize=6, color="#999",
-                fontstyle="italic")
+# Flag bins with very few classes: the bin mean can hide offsetting extremes
+for i, c in enumerate(bin_counts):
+    if c <= 2:
+        lo, hi = bin_edges[i], bin_edges[i + 1]
+        mask = (anchor_all >= lo) & (anchor_all <= hi) if i == n_bins - 1 else (anchor_all >= lo) & (anchor_all < hi)
+        names = [pooled_data["data"][j]["class"] for j in range(len(anchor_all)) if mask[j]][:2]
+        label = "(" + ", ".join(names) + ")"
+        ax_top.text(i, 6, label, ha="center", fontsize=7, color="#999", fontstyle="italic")
 
 deltas = [m - a for a, m in zip(bin_anchor_means, bin_mllm_means)]
 colors_delta = [C_CLIP if d < 0 else C_MLLM for d in deltas]
@@ -484,9 +501,9 @@ ax_top.text(0.98, 0.05, f"ECE = {ece:.3f}", transform=ax_top.transAxes, fontsize
             bbox=dict(boxstyle="round,pad=0.4", facecolor="white", edgecolor="#333", linewidth=0.8))
 
 plt.tight_layout()
-fig6.savefig(OUT_DIR / "figA2_calibration.png", bbox_inches="tight")
-fig6.savefig(OUT_DIR / "figA2_calibration.pdf", bbox_inches="tight")
-print(f"Saved {OUT_DIR / 'figA2_calibration.png'}")
+fig6.savefig(OUT_DIR / "figA1_calibration.png", bbox_inches="tight")
+fig6.savefig(OUT_DIR / "figA1_calibration.pdf", bbox_inches="tight")
+print(f"Saved {OUT_DIR / 'figA1_calibration.png'}")
 
 # ── Figure 5: Forest plot — robustness summary ──
 import matplotlib.patheffects as pe
@@ -608,50 +625,68 @@ print(f"Saved {OUT_DIR / 'fig3_forest.png'}")
 # ── Figure 7: Pareto curve — hybrid routing (accuracy vs cost) ──
 hybrid_tb = json.load((RESULTS_DIR / "05_applications" / "hybrid" / "hybrid_fixed_mllm.json").open())
 stanford_hybrid = json.load((RESULTS_DIR / "05_applications" / "hybrid_stanford40" / "hybrid_simulation.json").open())
+hybrid_dep = json.load((RESULTS_DIR / "05_applications" / "hybrid" / "hybrid_deployable.json").open())
+s40_dep = json.load((RESULTS_DIR / "05_applications" / "hybrid_stanford40" / "hybrid_deployable.json").open())
 
-fig7, ax7 = plt.subplots(figsize=(7, 4.5))
+fig7, ax7 = plt.subplots(figsize=(7, 5.0))
 
-# TeacherBehavior: scan taus by collecting oracle gains at various thresholds
-# From hybrid_fixed_mllm: we have the fixed-MLLM gain range and the clip_acc
-tb_clip = hybrid_tb["TeacherBehavior"]["clip_acc"]
-hrw_clip = hybrid_tb["HandriseReadWrite"]["clip_acc"]
-bth_clip = hybrid_tb["BowTurnHead"]["clip_acc"]
-
-# Stanford40: full sweep from simulation
+# Stanford40: full sweep from simulation (class-aware bound)
 stanford_taus = sorted([int(k) for k in stanford_hybrid.keys()])
 stanford_accs = [stanford_hybrid[str(t)]["accuracy"] for t in stanford_taus]
 stanford_costs = [stanford_hybrid[str(t)]["cost_savings_pct"] for t in stanford_taus]
 
-# For SCB5 subsets: we plot the Pareto-optimal point + CLIP baseline
-# TB: tau=45, clip=32.56, oracle=43.64, cost_saved=52.9
-# HRW: tau=45, clip=60.92, oracle=64.11, cost_saved=63.4
-# BTH: tau=55, clip=60.79, oracle=66.94, cost_saved=77.0
-
+# Class-aware bound points (Panel B of Table 5)
 datasets_hybrid = [
-    ("TeacherBehavior (8 cls)", tb_clip, 43.64, 52.9, C_CLIP),
-    ("HandriseReadWrite (3 cls)", hrw_clip, 64.11, 63.4, "#56B4E9"),
-    ("BowTurnHead (2 cls)", bth_clip, 66.94, 77.0, "#CC79A7"),
+    ("TeacherBehavior (8 cls)", 43.64, 52.9, C_CLIP),
+    ("HandriseReadWrite (3 cls)", 64.11, 63.4, "#56B4E9"),
+    ("BowTurnHead (2 cls)", 66.94, 77.0, "#CC79A7"),
 ]
 
-for label, clip_acc, hybrid_acc, cost_saved, color in datasets_hybrid:
-    # CLIP baseline: all-CLIP saves ~99% of MLLM cost (MLLM/CLIP cost ratio 100x)
+# Deployable predicted-class operating points (Panel A of Table 5)
+# x-coordinates converted to the 100:1 MLLM:CLIP cost-ratio convention used on
+# this axis (ratio = 0.99 x image-fraction, since CLIP costs 1/100 of MLLM);
+# Table 5 Panel A reports the image-fraction values (43.5/60.8/76.8).
+deployable_pts = [
+    ("TeacherBehavior (8 cls)", "TeacherBehavior", 45, 55.66, 43.1, C_CLIP),
+    ("BowTurnHead (2 cls)", "BowTurnHead", 50, 81.96, 60.2, "#CC79A7"),
+    ("Stanford40 (40 cls)", "Stanford40", 95, 93.26, 76.0, C_MLLM),
+]
+
+# All-CLIP baselines (per-image values, Panel A of Table 5), labeled right-aligned;
+# HandriseReadWrite and BowTurnHead labels are vertically offset to avoid
+# overlapping text (their baselines are 0.6 pp apart).
+baselines = [
+    ("TeacherBehavior", hybrid_dep["TeacherBehavior"]["clip_only_acc"], C_CLIP, 0.0),
+    ("HandriseReadWrite", hybrid_dep["HandriseReadWrite"]["clip_only_acc"], "#56B4E9", +2.6),
+    ("BowTurnHead", hybrid_dep["BowTurnHead"]["clip_only_acc"], "#CC79A7", -2.6),
+    ("Stanford40", s40_dep["clip_only_acc"], C_MLLM, -3.0),
+]
+for name, clip_acc, color, dy in baselines:
     ax7.scatter(99, clip_acc, s=80, color=color, marker="o", edgecolors="white",
                 linewidth=0.8, zorder=5)
-    # Hybrid point
-    ax7.scatter(cost_saved, hybrid_acc, s=100, color=color, marker="s",
-                edgecolors="white", linewidth=0.8, zorder=6)
-    # Dashed horizontal: CLIP baseline level
     ax7.hlines(clip_acc, 0, 100, colors=color, linestyles=":", linewidth=0.8, alpha=0.4)
-    if label == "TeacherBehavior (8 cls)":
-        ax7.annotate(f"{label}\nCLIP→Hybrid", (cost_saved + 2, hybrid_acc - 2),
-                     fontsize=7, color=color, fontweight="bold")
-    else:
-        ax7.annotate(label, (cost_saved + 2, hybrid_acc + 0.5),
-                     fontsize=7, color=color)
+    ax7.annotate(name, (94, clip_acc + dy), ha="right", va="center",
+                 fontsize=7, color=color)
+
+# Class-aware bound points (identity via color + baseline labels)
+for name, hybrid_acc, cost_saved, color in datasets_hybrid:
+    ax7.scatter(cost_saved, hybrid_acc, s=100, color=color, marker="s",
+                edgecolors="white", linewidth=0.8, zorder=6, alpha=0.85)
+
+# Deployable operating points (predicted-class routing)
+for label, ds, tau, acc, saved, color in deployable_pts:
+    ax7.scatter(saved, acc, s=110, color=color, marker="^",
+                edgecolors="white", linewidth=0.8, zorder=7)
+    ax7.annotate(f"deployable\n$\\tau$={tau}", (saved - 20, acc + 1.5),
+                 fontsize=7, color=color, fontweight="bold")
+
+# HandriseReadWrite deployable optimum = CLIP-only; annotate
+ax7.annotate("HR deployable\nequals CLIP-only", (50, 57),
+             fontsize=7, color="#56B4E9", fontstyle="italic")
 
 # Stanford40 Pareto curve
 ax7.plot(stanford_costs, stanford_accs, "o-", color=C_MLLM, markersize=5,
-         linewidth=1.5, alpha=0.7, zorder=3, label="Stanford40 (40 cls)")
+         linewidth=1.5, alpha=0.7, zorder=3, label="Stanford40 class-aware bound curve")
 # Mark key thresholds
 for tau_show in [65, 80, 90]:
     idx = stanford_taus.index(tau_show)
@@ -660,17 +695,15 @@ for tau_show in [65, 80, 90]:
     ax7.annotate(f"$\\tau$={tau_show}", (s_cost + 1, s_acc),
                  fontsize=7, color=C_MLLM, fontweight="bold")
 
-# Stanford40 CLIP baseline
-ax7.scatter(99, 91.86, s=80, color=C_MLLM, marker="o", edgecolors="white",
-            linewidth=0.8, zorder=5)
-ax7.hlines(91.86, 0, 100, colors=C_MLLM, linestyles=":", linewidth=0.8, alpha=0.4)
-
 # Legend
 legend_elements7 = [
     Line2D([0], [0], marker="o", color="w", markerfacecolor="#555", markersize=7, label="All-CLIP baseline"),
-    Line2D([0], [0], marker="s", color="w", markerfacecolor="#555", markersize=8, label="Hybrid (Pareto-optimal)"),
+    Line2D([0], [0], marker="s", color="w", markerfacecolor="#555", markersize=8, label="Class-aware bound"),
+    Line2D([0], [0], marker="^", color="w", markerfacecolor="#555", markersize=8, label="Deployable (predicted class)"),
+    Line2D([0], [0], color=C_MLLM, marker="o", markersize=5, lw=1.5, label="Stanford40 bound curve"),
 ]
-ax7.legend(handles=legend_elements7, fontsize=9, loc="lower right")
+ax7.legend(handles=legend_elements7, fontsize=9, loc="lower center",
+           bbox_to_anchor=(0.5, -0.30), ncol=2, frameon=False)
 
 ax7.set_xlabel("MLLM Cost Saved (%)", fontsize=12)
 ax7.set_ylabel("Overall Accuracy (%)", fontsize=12)

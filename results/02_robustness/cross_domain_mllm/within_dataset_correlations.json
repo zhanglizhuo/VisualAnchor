@@ -1,0 +1,25 @@
+{
+ "description": "Within-dataset Spearman rho between AnchorScore and 4-MLLM mean accuracy.\n\nComputes the four within-dataset class-level correlations reported in\nVisualAnchor.tex Appendix Table A3 headers (EuroSAT rho=0.286, PathMNIST\nrho=0.162, BloodMNIST rho=0.019, TissueMNIST rho=0.741). Class alignment\nfollows analysis/01_core/cross_domain_mllm_subset.py:\n- TissueMNIST merged AnchorScore class \"Collecting Duct, Connecting Tubule\"\n  is compared against the MLLM's \"Collecting Duct\" accuracy (partial mapping;\n  the MLLM evaluated the two sub-classes separately).\n- \"Thick Ascending Limb\" has no MLLM counterpart and is excluded.\nThis yields n = 10 + 9 + 8 + 7 = 34 classes, matching the pooled\ncross-domain class-level analysis (n=34).",
+ "per_dataset": {
+  "EuroSAT": {
+   "n": 10,
+   "spearman_rho": 0.2857,
+   "spearman_p": 0.4236
+  },
+  "PathMNIST": {
+   "n": 9,
+   "spearman_rho": 0.1617,
+   "spearman_p": 0.6777
+  },
+  "BloodMNIST": {
+   "n": 8,
+   "spearman_rho": 0.0185,
+   "spearman_p": 0.9653
+  },
+  "TissueMNIST": {
+   "n": 7,
+   "spearman_rho": 0.7412,
+   "spearman_p": 0.0566
+  }
+ }
+}

@@ -1,0 +1,416 @@
+{
+ "description": "Per-class cross-domain MLLM statistics (Table A3 evidence). Mean and sample std (ddof=1) over the 4 cross-domain MLLMs. Class mapping matches Table A3: Tumor epithelium -> colorectal adenocarcinoma epithelium; Collecting Duct -> Collecting Duct, Connecting Tubule. Thick Ascending Limb dropped (no MLLM match).",
+ "date": "2026-08-13",
+ "n_mllms": 4,
+ "std_convention": "sample standard deviation (numpy ddof=1), matching unified_results.json",
+ "per_class": [
+  {
+   "dataset": "EuroSAT",
+   "a3_class_name": "HerbaceousVegetation",
+   "mllm_mean_pct": 1.0,
+   "mllm_std_pct_ddof1": 1.2,
+   "values": {
+    "qwen2vl": 2.0,
+    "qwen25vl": 2.0,
+    "llavanext": 0.0,
+    "llava15": 0.0
+   }
+  },
+  {
+   "dataset": "EuroSAT",
+   "a3_class_name": "AnnualCrop",
+   "mllm_mean_pct": 36.5,
+   "mllm_std_pct_ddof1": 41.5,
+   "values": {
+    "qwen2vl": 44.0,
+    "qwen25vl": 10.0,
+    "llavanext": 0.0,
+    "llava15": 92.0
+   }
+  },
+  {
+   "dataset": "EuroSAT",
+   "a3_class_name": "Forest",
+   "mllm_mean_pct": 56.0,
+   "mllm_std_pct_ddof1": 24.7,
+   "values": {
+    "qwen2vl": 62.0,
+    "qwen25vl": 66.0,
+    "llavanext": 20.0,
+    "llava15": 76.0
+   }
+  },
+  {
+   "dataset": "EuroSAT",
+   "a3_class_name": "Pasture",
+   "mllm_mean_pct": 36.5,
+   "mllm_std_pct_ddof1": 41.8,
+   "values": {
+    "qwen2vl": 2.0,
+    "qwen25vl": 0.0,
+    "llavanext": 82.0,
+    "llava15": 62.0
+   }
+  },
+  {
+   "dataset": "EuroSAT",
+   "a3_class_name": "SeaLake",
+   "mllm_mean_pct": 41.0,
+   "mllm_std_pct_ddof1": 36.2,
+   "values": {
+    "qwen2vl": 78.0,
+    "qwen25vl": 64.0,
+    "llavanext": 0.0,
+    "llava15": 22.0
+   }
+  },
+  {
+   "dataset": "EuroSAT",
+   "a3_class_name": "River",
+   "mllm_mean_pct": 65.5,
+   "mllm_std_pct_ddof1": 15.6,
+   "values": {
+    "qwen2vl": 48.0,
+    "qwen25vl": 64.0,
+    "llavanext": 86.0,
+    "llava15": 64.0
+   }
+  },
+  {
+   "dataset": "EuroSAT",
+   "a3_class_name": "Industrial",
+   "mllm_mean_pct": 55.5,
+   "mllm_std_pct_ddof1": 8.9,
+   "values": {
+    "qwen2vl": 64.0,
+    "qwen25vl": 62.0,
+    "llavanext": 50.0,
+    "llava15": 46.0
+   }
+  },
+  {
+   "dataset": "EuroSAT",
+   "a3_class_name": "Highway",
+   "mllm_mean_pct": 47.5,
+   "mllm_std_pct_ddof1": 37.0,
+   "values": {
+    "qwen2vl": 8.0,
+    "qwen25vl": 24.0,
+    "llavanext": 78.0,
+    "llava15": 80.0
+   }
+  },
+  {
+   "dataset": "EuroSAT",
+   "a3_class_name": "PermanentCrop",
+   "mllm_mean_pct": 13.5,
+   "mllm_std_pct_ddof1": 27.0,
+   "values": {
+    "qwen2vl": 0.0,
+    "qwen25vl": 0.0,
+    "llavanext": 54.0,
+    "llava15": 0.0
+   }
+  },
+  {
+   "dataset": "EuroSAT",
+   "a3_class_name": "Residential",
+   "mllm_mean_pct": 49.5,
+   "mllm_std_pct_ddof1": 16.1,
+   "values": {
+    "qwen2vl": 60.0,
+    "qwen25vl": 32.0,
+    "llavanext": 66.0,
+    "llava15": 40.0
+   }
+  },
+  {
+   "dataset": "PathMNIST",
+   "a3_class_name": "debris",
+   "mllm_mean_pct": 0.5,
+   "mllm_std_pct_ddof1": 1.0,
+   "values": {
+    "qwen2vl": 0.0,
+    "qwen25vl": 2.0,
+    "llavanext": 0.0,
+    "llava15": 0.0
+   }
+  },
+  {
+   "dataset": "PathMNIST",
+   "a3_class_name": "lymphocytes",
+   "mllm_mean_pct": 2.5,
+   "mllm_std_pct_ddof1": 3.0,
+   "values": {
+    "qwen2vl": 4.0,
+    "qwen25vl": 6.0,
+    "llavanext": 0.0,
+    "llava15": 0.0
+   }
+  },
+  {
+   "dataset": "PathMNIST",
+   "a3_class_name": "mucus",
+   "mllm_mean_pct": 3.0,
+   "mllm_std_pct_ddof1": 6.0,
+   "values": {
+    "qwen2vl": 0.0,
+    "qwen25vl": 12.0,
+    "llavanext": 0.0,
+    "llava15": 0.0
+   }
+  },
+  {
+   "dataset": "PathMNIST",
+   "a3_class_name": "cancer-associated stroma",
+   "mllm_mean_pct": 35.0,
+   "mllm_std_pct_ddof1": 42.9,
+   "values": {
+    "qwen2vl": 92.0,
+    "qwen25vl": 44.0,
+    "llavanext": 0.0,
+    "llava15": 4.0
+   }
+  },
+  {
+   "dataset": "PathMNIST",
+   "a3_class_name": "normal colon mucosa",
+   "mllm_mean_pct": 17.5,
+   "mllm_std_pct_ddof1": 18.1,
+   "values": {
+    "qwen2vl": 6.0,
+    "qwen25vl": 24.0,
+    "llavanext": 0.0,
+    "llava15": 40.0
+   }
+  },
+  {
+   "dataset": "PathMNIST",
+   "a3_class_name": "adipose",
+   "mllm_mean_pct": 25.5,
+   "mllm_std_pct_ddof1": 45.8,
+   "values": {
+    "qwen2vl": 0.0,
+    "qwen25vl": 8.0,
+    "llavanext": 0.0,
+    "llava15": 94.0
+   }
+  },
+  {
+   "dataset": "PathMNIST",
+   "a3_class_name": "colorectal adenocarcinoma epithelium",
+   "mllm_mean_pct": 0.0,
+   "mllm_std_pct_ddof1": 0.0,
+   "values": {
+    "qwen2vl": 0.0,
+    "qwen25vl": 0.0,
+    "llavanext": 0.0,
+    "llava15": 0.0
+   }
+  },
+  {
+   "dataset": "PathMNIST",
+   "a3_class_name": "smooth muscle",
+   "mllm_mean_pct": 2.5,
+   "mllm_std_pct_ddof1": 5.0,
+   "values": {
+    "qwen2vl": 0.0,
+    "qwen25vl": 10.0,
+    "llavanext": 0.0,
+    "llava15": 0.0
+   }
+  },
+  {
+   "dataset": "PathMNIST",
+   "a3_class_name": "background",
+   "mllm_mean_pct": 42.0,
+   "mllm_std_pct_ddof1": 48.5,
+   "values": {
+    "qwen2vl": 4.0,
+    "qwen25vl": 64.0,
+    "llavanext": 100.0,
+    "llava15": 0.0
+   }
+  },
+  {
+   "dataset": "BloodMNIST",
+   "a3_class_name": "erythroblast",
+   "mllm_mean_pct": 0.0,
+   "mllm_std_pct_ddof1": 0.0,
+   "values": {
+    "qwen2vl": 0.0,
+    "qwen25vl": 0.0,
+    "llavanext": 0.0,
+    "llava15": 0.0
+   }
+  },
+  {
+   "dataset": "BloodMNIST",
+   "a3_class_name": "neutrophil",
+   "mllm_mean_pct": 24.0,
+   "mllm_std_pct_ddof1": 28.0,
+   "values": {
+    "qwen2vl": 22.0,
+    "qwen25vl": 2.0,
+    "llavanext": 64.0,
+    "llava15": 8.0
+   }
+  },
+  {
+   "dataset": "BloodMNIST",
+   "a3_class_name": "platelet",
+   "mllm_mean_pct": 24.0,
+   "mllm_std_pct_ddof1": 23.4,
+   "values": {
+    "qwen2vl": 22.0,
+    "qwen25vl": 18.0,
+    "llavanext": 56.0,
+    "llava15": 0.0
+   }
+  },
+  {
+   "dataset": "BloodMNIST",
+   "a3_class_name": "immature granulocytes",
+   "mllm_mean_pct": 0.0,
+   "mllm_std_pct_ddof1": 0.0,
+   "values": {
+    "qwen2vl": 0.0,
+    "qwen25vl": 0.0,
+    "llavanext": 0.0,
+    "llava15": 0.0
+   }
+  },
+  {
+   "dataset": "BloodMNIST",
+   "a3_class_name": "basophil",
+   "mllm_mean_pct": 24.5,
+   "mllm_std_pct_ddof1": 38.8,
+   "values": {
+    "qwen2vl": 0.0,
+    "qwen25vl": 82.0,
+    "llavanext": 2.0,
+    "llava15": 14.0
+   }
+  },
+  {
+   "dataset": "BloodMNIST",
+   "a3_class_name": "eosinophil",
+   "mllm_mean_pct": 48.0,
+   "mllm_std_pct_ddof1": 43.5,
+   "values": {
+    "qwen2vl": 74.0,
+    "qwen25vl": 24.0,
+    "llavanext": 0.0,
+    "llava15": 94.0
+   }
+  },
+  {
+   "dataset": "BloodMNIST",
+   "a3_class_name": "lymphocyte",
+   "mllm_mean_pct": 2.5,
+   "mllm_std_pct_ddof1": 2.5,
+   "values": {
+    "qwen2vl": 6.0,
+    "qwen25vl": 2.0,
+    "llavanext": 0.0,
+    "llava15": 2.0
+   }
+  },
+  {
+   "dataset": "BloodMNIST",
+   "a3_class_name": "monocyte",
+   "mllm_mean_pct": 0.0,
+   "mllm_std_pct_ddof1": 0.0,
+   "values": {
+    "qwen2vl": 0.0,
+    "qwen25vl": 0.0,
+    "llavanext": 0.0,
+    "llava15": 0.0
+   }
+  },
+  {
+   "dataset": "TissueMNIST",
+   "a3_class_name": "Glomerular endothelial cells",
+   "mllm_mean_pct": 0.0,
+   "mllm_std_pct_ddof1": 0.0,
+   "values": {
+    "qwen2vl": 0.0,
+    "qwen25vl": 0.0,
+    "llavanext": 0.0,
+    "llava15": 0.0
+   }
+  },
+  {
+   "dataset": "TissueMNIST",
+   "a3_class_name": "Interstitial endothelial cells",
+   "mllm_mean_pct": 0.0,
+   "mllm_std_pct_ddof1": 0.0,
+   "values": {
+    "qwen2vl": 0.0,
+    "qwen25vl": 0.0,
+    "llavanext": 0.0,
+    "llava15": 0.0
+   }
+  },
+  {
+   "dataset": "TissueMNIST",
+   "a3_class_name": "Proximal Tubule Segments",
+   "mllm_mean_pct": 2.0,
+   "mllm_std_pct_ddof1": 2.3,
+   "values": {
+    "qwen2vl": 4.0,
+    "qwen25vl": 4.0,
+    "llavanext": 0.0,
+    "llava15": 0.0
+   }
+  },
+  {
+   "dataset": "TissueMNIST",
+   "a3_class_name": "Leukocytes",
+   "mllm_mean_pct": 0.0,
+   "mllm_std_pct_ddof1": 0.0,
+   "values": {
+    "qwen2vl": 0.0,
+    "qwen25vl": 0.0,
+    "llavanext": 0.0,
+    "llava15": 0.0
+   }
+  },
+  {
+   "dataset": "TissueMNIST",
+   "a3_class_name": "Podocytes",
+   "mllm_mean_pct": 47.0,
+   "mllm_std_pct_ddof1": 54.3,
+   "values": {
+    "qwen2vl": 94.0,
+    "qwen25vl": 94.0,
+    "llavanext": 0.0,
+    "llava15": 0.0
+   }
+  },
+  {
+   "dataset": "TissueMNIST",
+   "a3_class_name": "Distal Convoluted Tubule",
+   "mllm_mean_pct": 28.0,
+   "mllm_std_pct_ddof1": 48.3,
+   "values": {
+    "qwen2vl": 0.0,
+    "qwen25vl": 0.0,
+    "llavanext": 100.0,
+    "llava15": 12.0
+   }
+  },
+  {
+   "dataset": "TissueMNIST",
+   "a3_class_name": "Collecting Duct, Connecting Tubule",
+   "mllm_mean_pct": 17.5,
+   "mllm_std_pct_ddof1": 33.7,
+   "values": {
+    "qwen2vl": 0.0,
+    "qwen25vl": 2.0,
+    "llavanext": 0.0,
+    "llava15": 68.0
+   }
+  }
+ ]
+}

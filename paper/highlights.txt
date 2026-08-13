@@ -1,0 +1,7 @@
+Highlights
+
+• Cheap CLIP-based diagnostic flags classes where MLLM annotation is unreliable
+• Correlates with MLLM class accuracy (classroom rho=0.769, Stanford40 rho=0.817)
+• Beats non-CLIP probes (DINOv2, ResNet-50, SigLIP, MLLM self-uncertainty)
+• Three workflows: hybrid routing, prompt disambiguation, review ranking
+• 3-minute CLIP pass versus ~14-hour MLLM evaluation per dataset

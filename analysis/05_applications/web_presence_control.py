@@ -101,19 +101,19 @@ def main():
     for name, idx in [("Classroom only", classroom_idx), ("Cross-domain only", cross_idx)]:
         r, p = spearmanr(anchor[idx], mllm[idx])
         r_w, p_w = spearmanr(log_web_freqs[idx], anchor[idx])
-        r_wm, p_wm = spearmanr(log_web_freqs[idx], mllm[idx])
+        r_wm_d, p_wm_d = spearmanr(log_web_freqs[idx], mllm[idx])
         print(f"\n{name} (n={len(idx)}):")
         print(f"  Full: rho={r:.4f}, p={p:.6f}")
         print(f"  Web freq vs Anchor: rho={r_w:.4f}, p={p_w:.6f}")
-        print(f"  Web freq vs MLLM: rho={r_wm:.4f}, p={p_wm:.6f}")
+        print(f"  Web freq vs MLLM: rho={r_wm_d:.4f}, p={p_wm_d:.6f}")
         per_domain[name] = {
             "n": len(idx),
             "spearman_rho": round(r, 4),
             "spearman_p": round(p, 6),
             "web_freq_vs_anchor_rho": round(r_w, 4),
             "web_freq_vs_anchor_p": round(p_w, 6),
-            "web_freq_vs_mllm_rho": round(r_wm, 4),
-            "web_freq_vs_mllm_p": round(p_wm, 6),
+            "web_freq_vs_mllm_rho": round(r_wm_d, 4),
+            "web_freq_vs_mllm_p": round(p_wm_d, 6),
         }
 
     result = {
