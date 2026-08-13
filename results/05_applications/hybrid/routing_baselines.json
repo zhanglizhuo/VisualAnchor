@@ -1,0 +1,23 @@
+{
+ "description": "TeacherBehavior routing baselines at matched cost (56.5% images to MLLM). AnchorScore routing vs CLIP max-logit confidence routing vs random routing. MLLM branch uses per-class expected accuracy (same assumption as hybrid_deployable.py). Random = 200 seeds.",
+ "computation_date": "2026-08-13",
+ "anchor_routing_tau45": {
+  "acc": 55.66,
+  "mllm_frac": 0.565
+ },
+ "confidence_routing_best": {
+  "acc": 52.87,
+  "threshold_quantile": 0.01,
+  "mllm_frac": 0.04
+ },
+ "confidence_routing_matched_cost": {
+  "acc": 41.86,
+  "mllm_frac": 0.565
+ },
+ "random_routing_matched_cost": {
+  "acc_mean": 44.98,
+  "acc_sd": 0.43,
+  "reps": 200
+ },
+ "clip_only": 32.38
+}
