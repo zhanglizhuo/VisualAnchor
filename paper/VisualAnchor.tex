@@ -81,7 +81,7 @@ Multimodal large language models (MLLMs) are now widely adopted for automatic da
 
 Existing approaches, such as running a pilot sample through the MLLM or extracting model-specific uncertainty~\cite{kadavath2022language}, remain computationally expensive. Evaluating one 27B MLLM on 5,416 validation images takes roughly 14 hours, while requiring access to the model itself. This paper proposes a lightweight alternative: \textbf{AnchorScore}, defined as the per-class zero-shot accuracy of a frozen CLIP model~\cite{radford2021clip}. If CLIP's zero-shot accuracy on a class is low, will a larger MLLM (26--35B parameters) also struggle? Given a small labeled validation set (as few as 20 images per class), a single CLIP forward pass in 3 minutes can reveal which classes are likely to challenge the MLLM, producing a per-class difficulty map that would otherwise require hours of MLLM inference.
 
-Validation on SCB5 (13 classes, 6 MLLMs) shows a significant class-level correlation between AnchorScore and MLLM accuracy ($\rho=0.769$, $p=0.002$). Alternative probes (SigLIP, DINOv2, ResNet-50, MLLM self-uncertainty) show no significant class-level correlation, and a consensus control indicates the signal reflects a shared class-difficulty factor rather than a CLIP-specific mechanism. An independent replication on Stanford40 Actions (40 classes, $\rho=0.817$) confirms the effect. Three practical applications follow from this diagnostic, together forming a resource-aware annotation workflow: hybrid CLIP/MLLM annotation routing, prompt disambiguation guided by CLIP confusion patterns, and review-priority ranking.
+Validation on SCB5 (13 classes, 6 MLLMs) shows a significant class-level correlation between AnchorScore and MLLM accuracy ($\rho=0.769$, $p=0.002$). Alternative probes (SigLIP, DINOv2, ResNet-50, MLLM self-uncertainty) show no significant class-level correlation, and a consensus control indicates the signal reflects a shared class-difficulty factor rather than a CLIP-specific mechanism. An independent replication on Stanford40 Actions (40 classes, $\rho=0.817$) corroborates the effect. Three practical applications follow from this diagnostic, together forming a resource-aware annotation workflow: hybrid CLIP/MLLM annotation routing, prompt disambiguation guided by CLIP confusion patterns, and review-priority ranking.
 
 AnchorScore is not a calibrated accuracy estimator; it is a low-cost diagnostic for ranking classes by relative difficulty. The contributions are threefold:
 \begin{itemize}
@@ -90,6 +90,13 @@ AnchorScore is not a calibrated accuracy estimator; it is a low-cost diagnostic 
 \item \textbf{Practical uses.} The signal supports three complementary workflows: hybrid CLIP/MLLM annotation, confusion-guided prompt disambiguation, and review-priority prediction.
 \end{itemize}
 The contribution is empirical rather than algorithmic: AnchorScore is simply CLIP zero-shot accuracy, and its value lies in the evidence chain establishing when and where this diagnostic is reliable.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{fig1_concept.pdf}
+\caption{AnchorScore at a glance. (a)~Cost asymmetry: evaluating one 27B MLLM on the 5{,}416 SCB5 validation images takes roughly 14 hours, whereas a single frozen-CLIP forward pass yields per-class scores in about 3 minutes ($\approx$270$\times$ fewer FLOPs, no additional training). (b)~Illustrative classes ranked by AnchorScore: per-class CLIP zero-shot accuracy (left bars) and six-MLLM mean accuracy (right bars) co-move from ``teacher'' (high AnchorScore) to ``answer'' (very low AnchorScore); values are the canonical per-class estimates of \S\ref{sec:main_result}.}
+\label{fig:concept}
+\end{figure}
 
 \section{Related Work}
 \label{sec:related}
@@ -243,7 +250,7 @@ Five sensitivity analyses (\Cref{tab:robustness_all}, Panel~A) confirm the resul
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\columnwidth]{fig1_correlation.pdf}
+\includegraphics[width=\columnwidth]{fig2_correlation.pdf}
 \caption{AnchorScore vs.\ MLLM accuracy across 78 data points (48 TeacherBehavior, 18 HandriseReadWrite, 12 BowTurnHead). Each point is one MLLM--class pair, jittered horizontally for visibility; colors and marker shapes indicate sub-datasets, and large filled markers show class means with error bars ($\pm1$\,SD across MLLMs). The dashed line and gray band show the OLS fit and its 95\% confidence band on class means; the primary inference is the class-level correlation ($\rho=0.769$, $p=0.002$, $n=13$).}
 \label{fig:correlation}
 \end{figure}
@@ -332,7 +339,7 @@ Does AnchorScore generalize beyond classroom behavior to visually distant domain
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\columnwidth]{fig2_cross_domain.pdf}
+\includegraphics[width=\columnwidth]{fig3_cross_domain.pdf}
 \caption{AnchorScore across diverse domains spanning satellite imagery (EuroSAT), medical pathology (PathMNIST, BloodMNIST, TissueMNIST), and classroom scenes (SCB5, included as an in-domain reference, separated by a dashed divider). Bars show overall accuracy weighted by class size; error bars show $\pm1$ SEM of per-class accuracies within each dataset. All AnchorScores use CLIP ViT-L/14 (LAION-2B).}
 \label{fig:cross_domain}
 \end{figure}
@@ -409,7 +416,7 @@ Pooled / class-level $\rho$ separated by slash in Panel~B. LODO = leave-one-data
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\columnwidth]{fig3_forest.pdf}
+\includegraphics[width=\columnwidth]{fig4_forest.pdf}
 \caption{Forest plot summarizing all robustness checks of the AnchorScore--MLLM association. Point estimates with 95\% Fisher $z$-transform CIs (error bars); pooled estimates shown as diamonds. These CIs are methodologically consistent with, but may differ slightly from, the bootstrap CIs in the corresponding tables.}
 \label{fig:robustness_forest}
 \end{figure}
@@ -431,7 +438,14 @@ The Stanford40 result carries two additional implications. First, the dataset co
 \section{Applications}
 \label{sec:applications}
 
-Beyond its diagnostic value, AnchorScore enables three workflow analyses that bear directly on MLLM annotation pipelines: deployable hybrid routing, prompt-disambiguation experiments, and review-priority ranking. All three are demonstrated on the SCB5 dataset using the reference AnchorScore values from \S\ref{sec:main_result}.
+Beyond its diagnostic value, AnchorScore enables three workflow analyses that bear directly on MLLM annotation pipelines: deployable hybrid routing, prompt-disambiguation experiments, and review-priority ranking. All three are demonstrated on the SCB5 dataset using the reference AnchorScore values from \S\ref{sec:main_result}. One methodological note applies to the routing analyses specifically: they combine cached per-image CLIP predictions with the canonical per-class MLLM accuracy rates (per-image MLLM predictions under the canonical bbox protocol are not cached), so the MLLM branch is modeled by its per-class expected accuracy and the reported routing accuracies are expected values rather than realized pipeline runs.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{fig5_pipeline.pdf}
+\caption{The AnchorScore pipeline. (A)~AnchorScore computation: per-class validation images with domain prompts pass through frozen CLIP ViT-L/14 zero-shot inference, yielding a per-class AnchorScore. (B)~Downstream workflows: (i)~hybrid routing thresholds the AnchorScore of CLIP's \emph{predicted} class ($\tau$), accepting high-score predictions from CLIP and sending low-score images to the MLLM (gains of $+$1 to $+$23~pp at 44--77\% cost savings across the deployable datasets; \Cref{tab:hybrid} Panel~A); (ii)~prompt disambiguation derives enhanced MLLM prompts from CLIP's confusion matrix (combined $+$25.0~pp with direct visual-distinction descriptions; \S\ref{sec:prompt_opt}).}
+\label{fig:pipeline}
+\end{figure}
 
 \subsection{Hybrid CLIP/MLLM Routing}
 \label{sec:hybrid}
@@ -479,7 +493,7 @@ Stanford40 (40 cls) & 91.9\% & 96.5\% & $+$3.8 to $+$4.7 & 83\% & 80 \\
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\columnwidth]{fig4_pareto.pdf}
+\includegraphics[width=\columnwidth]{fig6_pareto.pdf}
 \caption{Pareto curve of the hybrid routing strategy: overall accuracy vs.\ MLLM cost saved. Open circles show all-CLIP baselines (99\% cost saving); filled squares show the class-aware bound per dataset; filled triangles show the deployable predicted-class operating points (TeacherBehavior, BowTurnHead; HandriseReadWrite's deployable optimum is CLIP-only). The Stanford40 curve (connected circles) shows the full bound trade-off as $\tau$ varies. The $x$-axis uses the 100:1 MLLM:CLIP per-image cost-ratio convention (all-CLIP $=$ 99\%); the deployable markers differ from \Cref{tab:hybrid} Panel~A's image-fraction savings by $<$0.6~pp.}
 \label{fig:pareto}
 \end{figure}

@@ -137,9 +137,9 @@ for i, (cls_name, clip_val, mllm_val, caption, consistent) in enumerate(examples
     ax.text(x_base + 1.3, mllm_val + 11, f"MLLM {mllm_val:.1f}%", ha="center", fontsize=8, color=C_MLLM, fontweight="bold")
     ax.text(x_base + 0.75, -2, cls_name.replace("-", " ").title(), ha="center", fontsize=8, fontweight="bold", color="#bbb")
 
-fig1.savefig(OUT_DIR / "anchorscore_concept.png", bbox_inches="tight", dpi=300, pad_inches=0.1)
-fig1.savefig(OUT_DIR / "anchorscore_concept.pdf", bbox_inches="tight", pad_inches=0.1)
-print(f"Saved {OUT_DIR / 'anchorscore_concept.png'}")
+fig1.savefig(OUT_DIR / "fig1_concept.png", bbox_inches="tight", dpi=300, pad_inches=0.1)
+fig1.savefig(OUT_DIR / "fig1_concept.pdf", bbox_inches="tight", pad_inches=0.1)
+print(f"Saved {OUT_DIR / 'fig1_concept.png'}")
 
 # ── Figure 2: Pipeline diagram (matplotlib, style-matches Fig 1) ──
 fig2, ax2 = plt.subplots(figsize=(7.2, 5.5))
@@ -197,20 +197,20 @@ ax2.text(6.0, -0.4, "(B) Downstream Applications", fontsize=9, fontweight="bold"
 ax2.plot([10, 10], [4.52, 4.05], color=C_ANCHOR_EDGE, lw=1.2)    # down from AnchorScore (plain line)
 ax2.plot([10, 6], [4.05, 4.05], color=C_ANCHOR_EDGE, lw=1.2)    # dogleg left → midpoint
 ov_arrow(6, 4.05, 6, 3.5, C_ANCHOR_EDGE, 1.2)                 # dogleg down (head matches C5/C6)
-ax2.plot([3.0, 8.97], [3.5, 3.5], color=C_ANCHOR_EDGE, lw=1.2) # bar (stops short of right branch)
-ov_arrow(3.0, 3.5, 3.0, 2.98, C_ANCHOR_EDGE, 1.2)             # left branch
+ax2.plot([3.45, 8.97], [3.5, 3.5], color=C_ANCHOR_EDGE, lw=1.2) # bar (stops short of right branch)
+ov_arrow(3.45, 3.5, 3.45, 2.98, C_ANCHOR_EDGE, 1.2)             # left branch
 ov_arrow(9.0, 3.5, 9.0, 2.98, C_ANCHOR_EDGE, 1.2)             # right branch
 
 # -- (i) Hybrid Annotation (3 layers, symmetric with ii) --
-ax2.text(3.0, 0.1, "(i) Hybrid Annotation", fontsize=8, fontweight="bold", color="#374151", ha="center", va="center")
-ov_box(3.0, 2.7, 2.0, 0.4, "Apply $\\tau$ to AnchorScore\n(CLIP-predicted class)", C_ANCHOR_FILL, C_ANCHOR_EDGE, fs=7)
+ax2.text(3.45, 0.1, "(i) Hybrid Annotation", fontsize=8, fontweight="bold", color="#374151", ha="center", va="center")
+ov_box(3.45, 2.7, 2.68, 0.4, "Apply $\\tau$ to AnchorScore\n(CLIP-predicted class)", C_ANCHOR_FILL, C_ANCHOR_EDGE, fs=7)
 ov_box(1.5, 1.7, 2.0, 0.4, "High \u2192 CLIP\n(cheap)", C_CLIP_LIGHT, C_CLIP, fs=7)
-ov_box(4.5, 1.7, 2.0, 0.4, "Low \u2192 MLLM\n(expensive)", C_MLLM_LIGHT, C_MLLM, fs=7)
-ov_box(3.0, 0.7, 2.0, 0.4, "+1\u201323pp accuracy\n44\u201377% cost saved", C_DATA_FILL, C_DATA_EDGE, fs=7)
-ov_elbow(1.92, 2.7, 1.5, 1.98, via="h")  # threshold left edge → High top-center
-ov_elbow(4.08, 2.7, 4.5, 1.98, via="h")  # threshold right edge → Low top-center
-ov_elbow(1.5, 1.42, 1.92, 0.7, via="v")  # High bottom-center → result left edge
-ov_elbow(4.5, 1.42, 4.08, 0.7, via="v")  # Low bottom-center → result right edge
+ov_box(5.4, 1.7, 2.0, 0.4, "Low \u2192 MLLM\n(expensive)", C_MLLM_LIGHT, C_MLLM, fs=7)
+ov_box(3.45, 0.7, 2.68, 0.4, "+1\u201323pp accuracy\n44\u201377% cost saved", C_DATA_FILL, C_DATA_EDGE, fs=7)
+ov_elbow(2.03, 2.7, 1.5, 1.98, via="h")  # threshold left edge → High top-center (flush on drawn box edge)
+ov_elbow(4.87, 2.7, 5.4, 1.98, via="h")  # threshold right edge → Low top-center (flush on drawn box edge)
+ov_elbow(1.5, 1.42, 2.03, 0.7, via="v")  # High bottom-center → result box (tip flush on drawn box edge)
+ov_elbow(5.4, 1.42, 4.87, 0.7, via="v")  # Low bottom-center → result box (tip flush on drawn box edge)
 
 # -- (ii) Prompt Disambiguation (3 layers, y-aligned with i) --
 ax2.text(9.0, 0.1, "(ii) Prompt Disambiguation", fontsize=8, fontweight="bold", color="#374151", ha="center", va="center")
@@ -220,9 +220,9 @@ ov_box(9.0, 0.7, 2.0, 0.4, "MLLM accuracy\n+25.0pp (direct)", C_DATA_FILL, C_DAT
 ov_arrow(9.0, 2.42, 9.0, 1.98)
 ov_arrow(9.0, 1.42, 9.0, 0.98)
 
-fig2.savefig(OUT_DIR / "pipeline_overview.png", bbox_inches="tight", dpi=300, pad_inches=0.1)
-fig2.savefig(OUT_DIR / "pipeline_overview.pdf", bbox_inches="tight", pad_inches=0.1)
-print(f"Saved {OUT_DIR / 'pipeline_overview.png'}")
+fig2.savefig(OUT_DIR / "fig5_pipeline.png", bbox_inches="tight", dpi=300, pad_inches=0.1)
+fig2.savefig(OUT_DIR / "fig5_pipeline.pdf", bbox_inches="tight", pad_inches=0.1)
+print(f"Saved {OUT_DIR / 'fig5_pipeline.png'}")
 
 # ── Figure 3: Strip plot — class-level mean + individual MLLM runs ──
 # Canonical pooled rho from the evidence file, so the in-figure stats box
@@ -313,9 +313,9 @@ ax.text(0.98, 0.35, stats_text, transform=ax.transAxes, fontsize=10,
         bbox=dict(boxstyle="round,pad=0.5", facecolor="white", alpha=0.90, edgecolor="#999", linewidth=0.8))
 
 plt.tight_layout()
-fig3.savefig(OUT_DIR / "fig1_correlation.png", bbox_inches="tight")
-fig3.savefig(OUT_DIR / "fig1_correlation.pdf", bbox_inches="tight")
-print(f"Saved {OUT_DIR / 'fig1_correlation.png'} ({len(all_indiv_A)} points, {n_models} MLLMs, class ρ={r_s_cls:.3f})")
+fig3.savefig(OUT_DIR / "fig2_correlation.png", bbox_inches="tight")
+fig3.savefig(OUT_DIR / "fig2_correlation.pdf", bbox_inches="tight")
+print(f"Saved {OUT_DIR / 'fig2_correlation.png'} ({len(all_indiv_A)} points, {n_models} MLLMs, class ρ={r_s_cls:.3f})")
 
 # ── Per-dataset subplots (TeacherBehavior + HandriseReadWrite) — used in README ──
 ds_show = ["TeacherBehavior", "HandriseReadWrite"]
@@ -434,9 +434,9 @@ ax.set_ylabel("AnchorScore (%)", fontsize=12)
 ax.set_ylim(0, 55)
 ax.grid(axis="y", alpha=0.25)
 plt.tight_layout()
-fig4.savefig(OUT_DIR / "fig2_cross_domain.png", bbox_inches="tight")
-fig4.savefig(OUT_DIR / "fig2_cross_domain.pdf", bbox_inches="tight")
-print(f"Saved {OUT_DIR / 'fig2_cross_domain.png'}")
+fig4.savefig(OUT_DIR / "fig3_cross_domain.png", bbox_inches="tight")
+fig4.savefig(OUT_DIR / "fig3_cross_domain.pdf", bbox_inches="tight")
+print(f"Saved {OUT_DIR / 'fig3_cross_domain.png'}")
 
 # ── Figure 6: Calibration reliability diagram (binned) ──
 with open(RESULTS_DIR / "01_core" / "correlation" / "pooled_class_level_results.json") as f:
@@ -617,11 +617,11 @@ legend_elements = [
            label="Cross-dataset class-level estimate"),
 ]
 ax5.legend(handles=legend_elements, fontsize=8, loc="upper left", bbox_to_anchor=(0.02, 1), framealpha=0.85)
-fig5.savefig(OUT_DIR / "fig3_forest.png", dpi=300, bbox_inches="tight")
+fig5.savefig(OUT_DIR / "fig4_forest.png", dpi=300, bbox_inches="tight")
 
-fig5.savefig(OUT_DIR / "fig3_forest.pdf", bbox_inches="tight")
+fig5.savefig(OUT_DIR / "fig4_forest.pdf", bbox_inches="tight")
 
-print(f"Saved {OUT_DIR / 'fig3_forest.png'}")
+print(f"Saved {OUT_DIR / 'fig4_forest.png'}")
 # ── Figure 7: Pareto curve — hybrid routing (accuracy vs cost) ──
 hybrid_tb = json.load((RESULTS_DIR / "05_applications" / "hybrid" / "hybrid_fixed_mllm.json").open())
 stanford_hybrid = json.load((RESULTS_DIR / "05_applications" / "hybrid_stanford40" / "hybrid_simulation.json").open())
@@ -714,8 +714,8 @@ ax7.spines["top"].set_visible(False)
 ax7.spines["right"].set_visible(False)
 
 plt.tight_layout()
-fig7.savefig(OUT_DIR / "fig4_pareto.png", dpi=300, bbox_inches="tight")
-fig7.savefig(OUT_DIR / "fig4_pareto.pdf", bbox_inches="tight")
-print(f"Saved {OUT_DIR / 'fig4_pareto.png'}")
+fig7.savefig(OUT_DIR / "fig6_pareto.png", dpi=300, bbox_inches="tight")
+fig7.savefig(OUT_DIR / "fig6_pareto.pdf", bbox_inches="tight")
+print(f"Saved {OUT_DIR / 'fig6_pareto.png'}")
 
 print("Done.")

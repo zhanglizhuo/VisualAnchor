@@ -10,7 +10,7 @@ roughly 14 hours (4 GPUs), while CLIP inference completes in 3 minutes. **Anchor
 per-class zero-shot accuracy of a frozen CLIP model —
 flags the classes MLLMs are least likely to annotate reliably, at a fraction of the cost.
 
-![AnchorScore concept: cost asymmetry and per-class difficulty](paper/figures/anchorscore_concept.png)
+![AnchorScore concept: cost asymmetry and per-class difficulty](paper/figures/fig1_concept.png)
 
 ## Key Results
 
@@ -31,7 +31,7 @@ The signal is most consistent with a **shared class-difficulty factor**: a cross
 
 ## Pipeline
 
-![AnchorScore pipeline](paper/figures/pipeline_overview.png)
+![AnchorScore pipeline](paper/figures/fig5_pipeline.png)
 
 **(A)** Per-class images + domain prompts → frozen CLIP (428M, ~3 min) → AnchorScore (per-class
 zero-shot accuracy). **(B)** Downstream applications: (i) *hybrid routing* — each image is routed by
