@@ -1,0 +1,72 @@
+{
+ "description": "M5(b) scale-check: canonical 27B model (Qwen3.5-27B, Ollama q4) on EuroSAT under the same protocol as the 7B cross-domain runs (50 imgs/class, full-frame, category-name reply, seed-42 sampling). Between-domain ordering is robust to annotator scale (mean 41.8% within the 7B range 32.4-48.2%, still the highest domain); within-dataset signal is noisy at n=10 across all scales.",
+ "computation_date": "2026-08-14",
+ "model": "Qwen3.5-27B (Ollama q4)",
+ "protocol": "50 images/class, full-frame, category-name reply",
+ "mean_accuracy_pct": 41.8,
+ "per_class": {
+  "AnnualCrop": {
+   "correct": 9,
+   "total": 50,
+   "acc": 18.0
+  },
+  "Forest": {
+   "correct": 17,
+   "total": 50,
+   "acc": 34.0
+  },
+  "HerbaceousVegetation": {
+   "correct": 0,
+   "total": 50,
+   "acc": 0.0
+  },
+  "Highway": {
+   "correct": 12,
+   "total": 50,
+   "acc": 24.0
+  },
+  "Industrial": {
+   "correct": 35,
+   "total": 50,
+   "acc": 70.0
+  },
+  "Pasture": {
+   "correct": 1,
+   "total": 50,
+   "acc": 2.0
+  },
+  "PermanentCrop": {
+   "correct": 12,
+   "total": 50,
+   "acc": 24.0
+  },
+  "Residential": {
+   "correct": 35,
+   "total": 50,
+   "acc": 70.0
+  },
+  "River": {
+   "correct": 39,
+   "total": 50,
+   "acc": 78.0
+  },
+  "SeaLake": {
+   "correct": 49,
+   "total": 50,
+   "acc": 98.0
+  }
+ },
+ "spearman_rho_vs_anchor": 0.47,
+ "spearman_p": 0.171,
+ "n_classes": 10,
+ "seven_b_rho_reference": {
+  "Qwen2-VL-7B": 0.049,
+  "Qwen2.5-VL-7B": 0.006,
+  "LLaVA-1.5-7B": -0.188,
+  "LLaVA-NeXT-7B": 0.546
+ },
+ "seven_b_mean_range": [
+  32.4,
+  48.2
+ ]
+}
