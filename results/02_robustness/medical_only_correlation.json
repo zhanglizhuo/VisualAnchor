@@ -1,6 +1,6 @@
 {
  "description": "General-CLIP (LAION ViT-L/14) AnchorScore vs 4-MLLM mean accuracy on the 24 medical classes (PathMNIST 9 + BloodMNIST 8 + TissueMNIST 7, Thick Ascending Limb excluded). Non-significant: the general-CLIP signal attenuates on medical data. Contrast with the BiomedCLIP backbone control (results/02_robustness/cross_domain_medclip/): pooled rho=0.046, p=0.83, n=25.",
- "computation_date": "2026-08-13",
+ "computation_date": "2026-08-14",
  "n": 24,
  "spearman_rho": 0.214,
  "spearman_p": 0.316

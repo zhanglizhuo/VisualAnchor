@@ -1,6 +1,6 @@
 {
  "description": "Class-clustered OLS on the 78 pooled SCB5 points (6 MLLMs x 13 classes), HC1 cluster-robust SEs with G=13 class clusters, t-distribution with G-1=12 df. Complements the (1|MLLM) mixed-effects check; class is the design-respecting clustering dimension (ICC=0.881).",
- "computation_date": "2026-08-13",
+ "computation_date": "2026-08-14",
  "n": 78,
  "n_clusters": 13,
  "beta_per_pp": 0.849,

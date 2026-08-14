@@ -21,8 +21,8 @@ from datetime import date
 
 PROJ = Path(__file__).resolve().parent.parent.parent
 RESULTS = PROJ / "results"
-MANIFEST = Path("/tmp/opencode/realized_routing_manifest.json")
-SHARDS = Path("/tmp/opencode")  # shard_{0..3}.jsonl pulled from V100
+MANIFEST = RESULTS / "05_applications" / "hybrid" / "realized_routing_manifest.json"
+SHARDS = RESULTS / "05_applications" / "hybrid" / "realized_routing_raw.jsonl"
 OUT = RESULTS / "05_applications" / "hybrid" / "realized_routing.json"
 
 manifest = json.load(open(MANIFEST))
@@ -35,10 +35,7 @@ canon_mean = {c: float(np.mean([mllm["TeacherBehavior"][m][k] for m in models]))
               for c, k in zip(CLASSES, RAW_KEYS)}
 canon_q35 = {c: mllm["TeacherBehavior"]["Qwen3.5-27B"][k] for c, k in zip(CLASSES, RAW_KEYS)}
 
-recs = []
-for sid in range(4):
-    with open(SHARDS / f"shard_{sid}.jsonl") as f:
-        recs += [json.loads(ln) for ln in f]
+recs = [json.loads(ln) for ln in open(SHARDS)]
 assert len(recs) == 2072
 
 routed = [r for r in recs if r["arm"] == "routed"]

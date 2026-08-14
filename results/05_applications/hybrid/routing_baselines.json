@@ -1,6 +1,6 @@
 {
  "description": "TeacherBehavior routing baselines at matched cost (56.5% images to MLLM, the AnchorScore tau=45 operating point). AnchorScore routing vs CLIP max-logit confidence routing vs random routing. MLLM branch uses per-class expected accuracy (same assumption as hybrid_deployable.py). Random = 200 seeds. Accuracy in %. The confidence-routing curve is monotonic in the MLLM budget and peaks at the all-MLLM baseline, so its maximum is degenerate; the matched-cost operating point is the informative comparison.",
- "computation_date": "2026-08-13",
+ "computation_date": "2026-08-14",
  "anchor_routing_tau45": {
   "acc": 55.66,
   "mllm_frac": 0.565
