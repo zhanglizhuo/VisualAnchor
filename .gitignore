@@ -68,3 +68,8 @@ results/**/run.log
 # Local agent state
 /.aris/
 /DERIVATION_PACKAGE.md
+
+# Trained model checkpoints (regenerable; see the generating script)
+results/**/best_model.pt
+
+**/PLAN.md
