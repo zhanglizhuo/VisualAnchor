@@ -1,0 +1,65 @@
+{
+ "description": "Realized routing under the deployment condition: TeacherBehavior tau=45, Qwen3.5-27B via Ollama (q4), full-frame images (no annotation-derived bbox crop), category-name prompt. The routing decision uses only CLIP predicted classes; no ground truth is used at decision time. Contrast with realized_routing.json (bbox-crop fallback, canonical protocol): the protocol difference costs 4.2 pp of pipeline accuracy, while the realized deployment gain over CLIP-only remains +17.5 pp.",
+ "computation_date": "2026-08-15",
+ "model": "Qwen3.5-27B (Ollama q4)",
+ "protocol": "full-frame (no bbox), category-name reply",
+ "realized_pipeline_acc": 49.88,
+ "expected_q35": 55.85,
+ "bbox_realized_reference": 54.07,
+ "clip_only": 32.38,
+ "gain_over_clip_only_pp": 17.5,
+ "protocol_cost_pp": 4.19,
+ "clip_branch": {
+  "n": 1408,
+  "correct": 871,
+  "acc": 61.86
+ },
+ "mllm_branch": {
+  "n": 1832,
+  "correct": 745,
+  "acc": 40.67
+ },
+ "routed_per_class": {
+  "guide": {
+   "fullframe_acc": 84.06,
+   "canonical_bbox_acc": 42.49,
+   "n": 138
+  },
+  "answer": {
+   "fullframe_acc": 0.93,
+   "canonical_bbox_acc": 12.37,
+   "n": 214
+  },
+  "on-stage interaction": {
+   "fullframe_acc": 29.41,
+   "canonical_bbox_acc": 80.2,
+   "n": 17
+  },
+  "blackboard-writing": {
+   "fullframe_acc": 98.67,
+   "canonical_bbox_acc": 97.47,
+   "n": 150
+  },
+  "teacher": {
+   "fullframe_acc": 51.86,
+   "canonical_bbox_acc": 68.83,
+   "n": 698
+  },
+  "stand": {
+   "fullframe_acc": 28.95,
+   "canonical_bbox_acc": 23.09,
+   "n": 342
+  },
+  "screen": {
+   "fullframe_acc": 25.93,
+   "canonical_bbox_acc": 67.78,
+   "n": 27
+  },
+  "blackboard": {
+   "fullframe_acc": 2.44,
+   "canonical_bbox_acc": 44.55,
+   "n": 246
+  }
+ },
+ "calib_n": 240
+}
