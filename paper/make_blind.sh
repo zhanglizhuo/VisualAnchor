@@ -71,6 +71,10 @@ open('VisualAnchor_blind.tex', 'w').write(text)
 print('OK')
 PYEOF
 
+# Generate refs_blind.bib from the canonical refs.bib (anonymize the self-cite)
+cp refs.bib refs_blind.bib
+sed -i 's/author    = {Ma, Y and Zhang, L}/author    = {Author}/' refs_blind.bib
+
 # 3. Compile
 pdflatex -interaction=nonstopmode VisualAnchor_blind
 bibtex VisualAnchor_blind
