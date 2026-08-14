@@ -2,7 +2,7 @@
 """
 self_uncertainty_scb5.py
 
-MLLM self-uncertainty baseline on SCB5 (responds to reviewers R1, R3, DA).
+MLLM self-uncertainty baseline on SCB5.
 Asks each MLLM to classify the image AND rate its own confidence (1-5).
 Compares self-uncertainty vs AnchorScore as predictors of per-class MLLM accuracy.
 

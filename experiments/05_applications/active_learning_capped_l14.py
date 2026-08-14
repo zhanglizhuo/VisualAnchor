@@ -2,8 +2,7 @@
 active_learning_capped_l14.py
 
 Same as active_learning_capped_b32 but uses ViT-L/14 features for linear probing
-(consistent with the ViT-L/14 AnchorScore weights).
-Addresses reviewer comment m4: backbone mismatch confound.
+(consistent with the ViT-L/14 AnchorScore weights; backbone-matched control).
 """
 
 import json

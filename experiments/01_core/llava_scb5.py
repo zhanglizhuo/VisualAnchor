@@ -2,7 +2,7 @@
 """
 llava_scb5.py
 ==============
-Run LLaVA-1.5-7B on SCB5 classroom behavior datasets (responds to reviewer M6).
+Run LLaVA-1.5-7B on SCB5 classroom behavior datasets.
 Adds a third model family to the main experiment.
 
 Usage:

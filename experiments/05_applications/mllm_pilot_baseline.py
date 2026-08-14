@@ -1,7 +1,7 @@
 """
 mllm_pilot_baseline.py
 
-MLLM-pilot baseline (reviewer demand: why CLIP instead of one cheap MLLM pass?).
+MLLM-pilot baseline: why CLIP instead of one cheap MLLM pass?
 
 Compares class-difficulty rankers at a matched label budget (~30 images/class)
 against the canonical 6-MLLM mean per-class accuracy (ground truth):

@@ -2,7 +2,7 @@
 """
 cross_domain_self_uncertainty.py
 =================================
-MLLM self-uncertainty baseline (responds to reviewer M5).
+MLLM self-uncertainty baseline on the cross-domain datasets.
 Asks the MLLM to rate its own confidence (1-5) after classification.
 Compares self-uncertainty vs AnchorScore as predictors of MLLM accuracy.
 

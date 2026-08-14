@@ -1,9 +1,9 @@
 """
 routing_baselines.py
 
-Routing baselines for the deployable hybrid routing application (reviewer
-demand: is the AnchorScore routing gain actually driven by AnchorScore, or
-would CLIP max-logit confidence / random routing do the same?).
+Routing baselines for the deployable hybrid routing application: is the
+routing gain driven by AnchorScore itself, or would CLIP max-logit
+confidence / random routing do the same?
 
 Routes TeacherBehavior images at matched cost (56.5% of images to the MLLM,
 the AnchorScore tau=45 operating point) and compares:
