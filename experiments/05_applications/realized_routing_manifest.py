@@ -53,11 +53,13 @@ def main():
         chosen = rng.permutation(len(by_cls[c]))[:30]
         calib += [{"f": by_cls[c][i], "true": c} for i in chosen]
 
+    expected = json.load(open(RESULTS / "05_applications" / "hybrid" / "hybrid_deployable.json"))
+    expected_value_acc = round(expected["TeacherBehavior"]["deployable"]["mean"]["45"]["acc"], 2)
     manifest = {
         "description": "Realized-routing manifest for TeacherBehavior (tau=45). routed = images whose CLIP predicted class has AnchorScore < 45; calib = 30/class stratified full-val sample (seed 42). true/clip_pred are indices into the canonical class list.",
         "classes": CLASSES,
         "n_val": N, "n_routed": len(routed), "n_calib": len(calib),
-        "expected_value_acc": 55.66,
+        "expected_value_acc": expected_value_acc,
         "routed": routed, "calib": calib,
     }
     json.dump(manifest, open(OUT, "w"))

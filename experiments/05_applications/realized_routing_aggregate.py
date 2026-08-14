@@ -52,6 +52,8 @@ kept_correct = sum(1 for it in items if tb_anchor[it["pred_class_name"]] >= 45 a
 mllm_correct = sum(1 for r in routed if r["correct"] is True)
 realized = (kept_correct + mllm_correct) / N * 100
 
+hybrid = json.load(open(RESULTS / "05_applications" / "hybrid" / "hybrid_deployable.json"))
+
 def per_class_breakdown(arm_recs, canon_ref):
     by_cls = defaultdict(lambda: [0, 0])
     for r in arm_recs:
@@ -74,6 +76,8 @@ calib_bd = per_class_breakdown(calib, canon_q35)
 calib_shifts_q35 = [v["diff_pp"] for v in calib_bd.values()]
 calib_shifts_mean = [100 * 0 + v["realized"] - canon_mean[k] for k, v in calib_bd.items()]
 
+expected_q35 = hybrid["TeacherBehavior"]["deployable"]["Qwen3.5-27B"]["45"]["acc"]
+expected_mean = hybrid["TeacherBehavior"]["deployable"]["mean"]["45"]["acc"]
 out = {
     "description": (
         "R1 realized routing validation, TeacherBehavior tau=45. The MLLM branch "
@@ -90,10 +94,10 @@ out = {
     "model": "Qwen3.5-27B (Ollama q4)",
     "protocol": "bbox crop (first person box + 5% margin), category-name reply",
     "realized_pipeline_acc": round(realized, 2),
-    "expected_q35": 55.85,
-    "expected_6model_mean": 55.66,
-    "diff_vs_expected_q35_pp": round(realized - 55.85, 2),
-    "diff_vs_expected_mean_pp": round(realized - 55.66, 2),
+    "expected_q35": round(expected_q35, 2),
+    "expected_6model_mean": round(expected_mean, 2),
+    "diff_vs_expected_q35_pp": round(realized - expected_q35, 2),
+    "diff_vs_expected_mean_pp": round(realized - expected_mean, 2),
     "clip_branch": {"n": n_kept, "correct": kept_correct, "acc": round(100 * kept_correct / n_kept, 2)},
     "mllm_branch": {"n": len(routed), "correct": mllm_correct, "acc": round(100 * mllm_correct / len(routed), 2)},
     "calib_mean_shift_vs_canon_q35_pp": round(float(np.mean(calib_shifts_q35)), 2),

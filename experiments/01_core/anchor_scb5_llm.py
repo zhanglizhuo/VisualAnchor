@@ -1,5 +1,5 @@
 """
-Re-run CLIP AnchorScore on SCB5_LLM with FIXED prompts.
+Compute CLIP AnchorScore on SCB5_LLM with the normalized prompts.
 CLIP model downloads from Hugging Face; set HF_ENDPOINT if using a mirror.
 """
 from pathlib import Path
@@ -11,7 +11,7 @@ PROJ = Path(__file__).resolve().parent.parent.parent
 DATA = PROJ / "data" / "scb5_llm_expansion" / "val"
 OUT = PROJ / "results" / "01_core" / "scb5_llm_expansion"
 
-# FIXED CLASS_MAP (no grammar issues, no template doubling)
+# Normalized class-name map for prompt construction
 CLASS_MAP = {
     "answering_questions": "answering questions",
     "discussion": "discussing",
