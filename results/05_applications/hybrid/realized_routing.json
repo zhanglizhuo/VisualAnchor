@@ -1,0 +1,123 @@
+{
+ "description": "R1 realized routing validation, TeacherBehavior tau=45. The MLLM branch (1,832 routed images) was actually executed: Qwen3.5-27B served via Ollama (q4 quantization), category-name classification prompt (as validated by prompt_optimization_v3.py on this backend), first-person-bbox crops with 5% margin. v1 used the companion pipeline's index-reply prompt and failed on this backend (teacher->'0' collapse, out-of-range '8' replies); v2 is the reported protocol. calib = 30/class stratified full-val sample for backend-shift quantification (156 files overlap the routed arm; aggregate by arm field). kept branch uses cached per-image CLIP predictions.",
+ "computation_date": "2026-08-14",
+ "model": "Qwen3.5-27B (Ollama q4)",
+ "protocol": "bbox crop (first person box + 5% margin), category-name reply",
+ "realized_pipeline_acc": 54.07,
+ "expected_q35": 55.85,
+ "expected_6model_mean": 55.66,
+ "diff_vs_expected_q35_pp": -1.78,
+ "diff_vs_expected_mean_pp": -1.59,
+ "clip_branch": {
+  "n": 1408,
+  "correct": 871,
+  "acc": 61.86
+ },
+ "mllm_branch": {
+  "n": 1832,
+  "correct": 881,
+  "acc": 48.09
+ },
+ "calib_mean_shift_vs_canon_q35_pp": -1.14,
+ "calib_mean_shift_vs_canon_mean_pp": 4.15,
+ "routed_per_class": {
+  "guide": {
+   "realized": 88.41,
+   "canonical": 52.34,
+   "diff_pp": 36.07,
+   "n": 138
+  },
+  "answer": {
+   "realized": 0.47,
+   "canonical": 17.7,
+   "diff_pp": -17.23,
+   "n": 214
+  },
+  "on-stage interaction": {
+   "realized": 52.94,
+   "canonical": 73.83,
+   "diff_pp": -20.89,
+   "n": 17
+  },
+  "blackboard-writing": {
+   "realized": 98.0,
+   "canonical": 98.19,
+   "diff_pp": -0.19,
+   "n": 150
+  },
+  "teacher": {
+   "realized": 35.67,
+   "canonical": 54.89,
+   "diff_pp": -19.22,
+   "n": 698
+  },
+  "stand": {
+   "realized": 57.31,
+   "canonical": 33.26,
+   "diff_pp": 24.05,
+   "n": 342
+  },
+  "screen": {
+   "realized": 55.56,
+   "canonical": 88.77,
+   "diff_pp": -33.21,
+   "n": 27
+  },
+  "blackboard": {
+   "realized": 57.72,
+   "canonical": 60.12,
+   "diff_pp": -2.4,
+   "n": 246
+  }
+ },
+ "calib_per_class": {
+  "guide": {
+   "realized": 83.33,
+   "canonical": 52.34,
+   "diff_pp": 30.99,
+   "n": 30
+  },
+  "answer": {
+   "realized": 0.0,
+   "canonical": 17.7,
+   "diff_pp": -17.7,
+   "n": 30
+  },
+  "on-stage interaction": {
+   "realized": 66.67,
+   "canonical": 73.83,
+   "diff_pp": -7.16,
+   "n": 30
+  },
+  "blackboard-writing": {
+   "realized": 100.0,
+   "canonical": 98.19,
+   "diff_pp": 1.81,
+   "n": 30
+  },
+  "teacher": {
+   "realized": 56.67,
+   "canonical": 54.89,
+   "diff_pp": 1.78,
+   "n": 30
+  },
+  "stand": {
+   "realized": 50.0,
+   "canonical": 33.26,
+   "diff_pp": 16.74,
+   "n": 30
+  },
+  "screen": {
+   "realized": 40.0,
+   "canonical": 88.77,
+   "diff_pp": -48.77,
+   "n": 30
+  },
+  "blackboard": {
+   "realized": 73.33,
+   "canonical": 60.12,
+   "diff_pp": 13.21,
+   "n": 30
+  }
+ }
+}

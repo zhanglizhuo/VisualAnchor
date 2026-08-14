@@ -1,0 +1,48 @@
+{
+ "description": "MLLM-pilot baseline: class-difficulty rankers at matched ~30 imgs/class label budget vs canonical 6-MLLM mean per-class accuracy. AnchorScore@30 from cached per-image CLIP predictions (20 seeds). Pilots from self-uncertainty cache (full-frame, 30 imgs/class). circular=True means the pilot model is part of the 6-model ground-truth mean.",
+ "computation_date": "2026-08-14",
+ "anchorscore_30_per_class": {
+  "rho_mean": 0.778,
+  "rho_sd": 0.04,
+  "seeds": 20,
+  "protocol": "full-frame CLIP"
+ },
+ "mllm_pilots": {
+  "LLaVA-1.5-7B": {
+   "rho": -0.034,
+   "p": 0.9123,
+   "circular": false,
+   "n_images_per_class": 30,
+   "protocol": "full-frame"
+  },
+  "Qwen3.5-27B": {
+   "rho": 0.69,
+   "p": 0.0091,
+   "circular": true,
+   "n_images_per_class": 30,
+   "protocol": "full-frame"
+  },
+  "Gemma4-26B": {
+   "rho": 0.556,
+   "p": 0.0486,
+   "circular": true,
+   "n_images_per_class": 30,
+   "protocol": "full-frame"
+  },
+  "Qwen3.6-27B": {
+   "rho": 0.793,
+   "p": 0.0012,
+   "circular": true,
+   "n_images_per_class": 30,
+   "protocol": "full-frame"
+  },
+  "Qwen3.6-35B-A3B": {
+   "rho": 0.606,
+   "p": 0.0281,
+   "circular": true,
+   "n_images_per_class": 30,
+   "protocol": "full-frame"
+  }
+ },
+ "cost_note": "AnchorScore: ~390 CLIP images (minutes). 7B pilot: 390 images x ~2s. 27B pilot: 390 x ~9s (~1h). Full evaluation: 5416 x ~9s (~14h)."
+}
