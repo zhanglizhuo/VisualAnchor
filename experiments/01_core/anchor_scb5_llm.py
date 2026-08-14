@@ -74,13 +74,13 @@ def main():
     model = model.to(device)
     print(f"Device: {device}")
 
-    # Compute with fixed prompts
+    # Compute with the normalized prompts
     fixed_acc = compute_clip_anchor(model, tokenizer, transform, device, classes_list)
     print(f"\nFixed prompts CLIP AnchorScore:")
     for cn, acc in fixed_acc.items():
         print(f"  {cn:35s} {acc}%")
 
-    # Print fixed prompts for verification
+    # Print the normalized prompts for verification
     print(f"\nPrompt verification:")
     for cn in CLASS_MAP:
         p = PROMPT_TEMPLATES[0].format(CLASS_MAP[cn])
