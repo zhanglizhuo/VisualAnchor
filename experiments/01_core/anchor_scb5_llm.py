@@ -65,7 +65,7 @@ def main():
     from utils import load_clip_model
     import json
 
-    print("=== CLIP AnchorScore with FIXED prompts ===")
+    print("=== CLIP AnchorScore with normalized prompts ===")
     classes_list = sorted([d for d in DATA.iterdir() if d.is_dir() and not d.name.startswith("_")])
     print(f"Found {len(classes_list)} classes")
 
