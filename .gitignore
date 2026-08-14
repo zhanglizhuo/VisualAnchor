@@ -67,3 +67,4 @@ results/**/run.log
 
 # Local agent state
 /.aris/
+/DERIVATION_PACKAGE.md
