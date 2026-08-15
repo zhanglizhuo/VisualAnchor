@@ -404,12 +404,12 @@ Pooled / class-level $\rho$ separated by slash in Panel~B. LODO = leave-one-data
 }
 \end{table*}
 
-\Cref{fig:robustness_forest} visualizes the full set of robustness checks as a forest plot, allowing rapid comparison of effect sizes and confidence intervals across all analyses. All point estimates are positive, although several individual confidence intervals include zero (SCB-LLM, OpenAI backbones), consistent with the power analysis in \S\ref{sec:main_result}.
+\Cref{fig:robustness_forest} visualizes the point-estimate robustness checks as a forest plot, allowing rapid comparison of effect sizes and confidence intervals across all analyses; the range-based sensitivity analyses (leave-one-class-out, leave-one-MLLM-out) are reported in \Cref{tab:robustness_all}. All point estimates are positive, although several individual confidence intervals include zero (SCB-LLM, OpenAI backbones), consistent with the power analysis in \S\ref{sec:main_result}.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\columnwidth]{fig4_forest.pdf}
-\caption{Forest plot summarizing all robustness checks of the AnchorScore--MLLM association. Point estimates with 95\% Fisher $z$-transform CIs (error bars); pooled estimates shown as diamonds. These CIs are methodologically consistent with, but may differ slightly from, the bootstrap CIs in the corresponding tables.}
+\caption{Forest plot summarizing the point-estimate robustness checks of the AnchorScore--MLLM association (the range-based sensitivity analyses, e.g., leave-one-class-out and leave-one-MLLM-out, appear in \Cref{tab:robustness_all}). Point estimates with 95\% Fisher $z$-transform CIs (error bars); pooled estimates shown as diamonds. These CIs are methodologically consistent with, but may differ slightly from, the bootstrap CIs in the corresponding tables.}
 \label{fig:robustness_forest}
 \end{figure}
 
