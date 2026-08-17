@@ -677,8 +677,8 @@ for name, hybrid_acc, cost_saved, color in datasets_hybrid:
 for label, ds, tau, acc, saved, color in deployable_pts:
     ax7.scatter(saved, acc, s=110, color=color, marker="^",
                 edgecolors="white", linewidth=0.8, zorder=7)
-    ax7.annotate(f"deployable\n$\\tau$={tau}", (saved - 20, acc + 1.5),
-                 fontsize=7, color=color, fontweight="bold")
+    ax7.annotate(f"deployable\n$\\tau$={tau}", (saved, acc - 3.0),
+                 fontsize=7, color=color, fontweight="bold", ha="center", va="top")
 
 # HandriseReadWrite deployable optimum = CLIP-only; annotate
 ax7.annotate("HR deployable\nequals CLIP-only", (50, 57),
