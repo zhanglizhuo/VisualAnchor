@@ -459,6 +459,8 @@ for i in range(n_bins):
     bin_mllm_means.append(mllm_all[mask].mean() if mask.sum() > 0 else 0)
     bin_counts.append(mask.sum())
 
+ece = sum(abs(a - m) * (c / len(anchor_all)) for a, m, c in zip(bin_anchor_means, bin_mllm_means, bin_counts)) / 100.0
+
 fig6, (ax_top, ax_bot) = plt.subplots(2, 1, figsize=(6, 5.5),
                                        gridspec_kw={"height_ratios": [3, 1]}, sharex=True)
 
@@ -467,7 +469,7 @@ width = 0.35
 ax_top.bar(x - width/2, bin_anchor_means, width, color=C_CLIP, alpha=0.85, label="AnchorScore")
 ax_top.bar(x + width/2, bin_mllm_means, width, color=C_MLLM, alpha=0.85, label="MLLM accuracy")
 ax_top.set_ylabel("Accuracy (%)", fontsize=12)
-ax_top.set_title("AnchorScore Calibration", fontsize=13, fontweight="bold")
+ax_top.set_title(f"AnchorScore Calibration (ECE = {ece:.3f})", fontsize=13, fontweight="bold")
 ax_top.set_xticks(x)
 ax_top.set_xticklabels([f"{bin_edges[i]:.0f}-{bin_edges[i+1]:.0f}" for i in range(n_bins)], fontsize=9)
 ax_top.legend(fontsize=9, loc="upper left")
@@ -493,12 +495,6 @@ ax_bot.set_xlabel("AnchorScore bin", fontsize=11)
 ax_bot.set_xticks(x)
 ax_bot.set_xticklabels([f"{bin_edges[i]:.0f}-{bin_edges[i+1]:.0f}" for i in range(n_bins)], fontsize=9)
 ax_bot.grid(True, alpha=0.2, axis="y")
-
-# ECE annotation on top panel
-ece = sum(abs(a - m) * (c / len(anchor_all)) for a, m, c in zip(bin_anchor_means, bin_mllm_means, bin_counts)) / 100.0
-ax_top.text(0.98, 0.05, f"ECE = {ece:.3f}", transform=ax_top.transAxes, fontsize=12,
-            ha="right", va="bottom", fontweight="bold",
-            bbox=dict(boxstyle="round,pad=0.4", facecolor="white", edgecolor="#333", linewidth=0.8))
 
 plt.tight_layout()
 fig6.savefig(OUT_DIR / "figA1_calibration.png", bbox_inches="tight")
