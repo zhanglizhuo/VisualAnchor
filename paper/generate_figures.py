@@ -204,8 +204,8 @@ ov_arrow(9.0, 3.5, 9.0, 2.98, C_ANCHOR_EDGE, 1.2)             # right branch
 # -- (i) Hybrid Annotation (3 layers, symmetric with ii) --
 ax2.text(3.45, 0.1, "(i) Hybrid Annotation", fontsize=8, fontweight="bold", color="#374151", ha="center", va="center")
 ov_box(3.45, 2.7, 2.68, 0.4, "Apply $\\tau$ to AnchorScore\n(CLIP-predicted class)", C_ANCHOR_FILL, C_ANCHOR_EDGE, fs=7)
-ov_box(1.5, 1.7, 2.0, 0.4, "High \u2192 CLIP\n(cheap)", C_CLIP_LIGHT, C_CLIP, fs=7)
-ov_box(5.4, 1.7, 2.0, 0.4, "Low \u2192 MLLM\n(expensive)", C_MLLM_LIGHT, C_MLLM, fs=7)
+ov_box(1.5, 1.7, 1.8, 0.4, "High \u2192 CLIP\n(cheap)", C_CLIP_LIGHT, C_CLIP, fs=7)
+ov_box(5.4, 1.7, 1.8, 0.4, "Low \u2192 MLLM\n(expensive)", C_MLLM_LIGHT, C_MLLM, fs=7)
 ov_box(3.45, 0.7, 2.68, 0.4, "+1 to +23pp accuracy\n44\u201377% cost saved", C_DATA_FILL, C_DATA_EDGE, fs=7)
 ov_elbow(2.03, 2.7, 1.5, 1.98, via="h")  # threshold left edge → High top-center (flush on drawn box edge)
 ov_elbow(4.87, 2.7, 5.4, 1.98, via="h")  # threshold right edge → Low top-center (flush on drawn box edge)
