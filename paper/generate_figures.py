@@ -216,7 +216,7 @@ ov_elbow(5.4, 1.42, 4.87, 0.7, via="v")  # Low bottom-center → result box (tip
 ax2.text(9.0, 0.1, "(ii) Prompt Disambiguation", fontsize=8, fontweight="bold", color="#374151", ha="center", va="center")
 ov_box(9.0, 2.7, 2.0, 0.4, "Confusion\nmatrix", C_CLIP_LIGHT, C_CLIP, fs=7)
 ov_box(9.0, 1.7, 2.0, 0.4, "Enhanced prompts\n(disambiguation)", C_MLLM_LIGHT, C_MLLM, fs=7)
-ov_box(9.0, 0.7, 2.0, 0.4, "MLLM accuracy\n(Exploratory) +25.0pp", C_DATA_FILL, C_DATA_EDGE, fs=7)
+ov_box(9.0, 0.7, 2.68, 0.4, "MLLM accuracy\n(Exploratory) +25.0pp", C_DATA_FILL, C_DATA_EDGE, fs=7)
 ov_arrow(9.0, 2.42, 9.0, 1.98)
 ov_arrow(9.0, 1.42, 9.0, 0.98)
 
