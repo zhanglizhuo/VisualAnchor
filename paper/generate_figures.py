@@ -484,7 +484,7 @@ for i, c in enumerate(bin_counts):
         mask = (anchor_all >= lo) & (anchor_all <= hi) if i == n_bins - 1 else (anchor_all >= lo) & (anchor_all < hi)
         names = [pooled_data["data"][j]["class"] for j in range(len(anchor_all)) if mask[j]][:2]
         label = "(" + ", ".join(names) + ")"
-        ax_top.text(i, 6, label, ha="center", fontsize=7, color="#999", fontstyle="italic")
+        ax_top.text(i, 6, label, ha="center", fontsize=8, color="#666", fontstyle="italic")
 
 deltas = [m - a for a, m in zip(bin_anchor_means, bin_mllm_means)]
 colors_delta = [C_CLIP if d < 0 else C_MLLM for d in deltas]
