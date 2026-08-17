@@ -692,8 +692,8 @@ for tau_show in [65, 80, 90]:
     idx = stanford_taus.index(tau_show)
     s_acc = stanford_accs[idx]
     s_cost = stanford_costs[idx]
-    ax7.annotate(f"$\\tau$={tau_show}", (s_cost + 1, s_acc),
-                 fontsize=7, color=C_MLLM, fontweight="bold")
+    ax7.annotate(f"$\\tau$={tau_show}", (s_cost + 1.2, s_acc + 0.6),
+                 fontsize=7, color=C_MLLM, fontweight="bold", ha="left", va="bottom")
 
 # Legend
 legend_elements7 = [
