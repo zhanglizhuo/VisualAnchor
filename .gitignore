@@ -75,3 +75,10 @@ results/**/best_model.pt
 **/PLAN.md
 /eaai_submission.zip
 /arxiv_submission.zip
+
+# arxiv build artifacts
+paper/arxiv/*.aux
+paper/arxiv/*.log
+paper/arxiv/*.pdf
+paper/arxiv/*.out
+paper/arxiv/*.blg
