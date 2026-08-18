@@ -82,3 +82,4 @@ paper/arxiv/*.log
 paper/arxiv/*.pdf
 paper/arxiv/*.out
 paper/arxiv/*.blg
+/arxiv_submission/
