@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2608.16690-b31b1b.svg)](https://arxiv.org/abs/2608.16690)
 [![Status: Under review](https://img.shields.io/badge/Status-Under%20review-important.svg)]()
 
 MLLMs are increasingly used for automated image annotation, but their per-class accuracy varies
@@ -147,7 +148,7 @@ All paper figures and tables come from:
 VisualAnchor/
 ├── experiments/{01_core,02_robustness,03_baselines,04_ablation,05_applications}/
 ├── analysis/{01_core,02_robustness,03_baselines,04_ablation,05_applications,06_consensus_control,07_mechanism}/
-├── paper/                # LaTeX / paper source
+├── paper/                # LaTeX / paper source (journal version; paper/arxiv/ = arXiv preprint source)
 ├── results/              # All experiment outputs (tracked in git)
 ├── logs/                 # Execution logs (gitignored)
 └── data/                 # Dataset configs + small auxiliary data
@@ -177,12 +178,17 @@ separately.
 
 ## Citation
 
+Preprint: https://arxiv.org/abs/2608.16690 (arXiv:2608.16690 [cs.CV])
+
 ```bibtex
-@article{ma2026anchorscore,
+@misc{ma2026anchorscore,
   title={AnchorScore: A CLIP-Based Diagnostic of MLLM Annotation Difficulty},
   author={Ma, Yan and Zhang, Lizhuo},
-  note={Pre-submission manuscript},
-  year={2026}
+  year={2026},
+  eprint={2608.16690},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  doi={10.48550/arXiv.2608.16690}
 }
 ```
 
