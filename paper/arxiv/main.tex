@@ -24,8 +24,7 @@
   \small Hunan Agricultural University, Changsha, China
 \and
 Yan Ma\thanks{E-mail: mayan@csust.edu.cn} \\
-  \small School of Foreign Studies, Changsha University of Science and Technology, Changsha, China\\
-  \small and School of Education, Hunan Agricultural University, Changsha, China}
+  \small School of Foreign Studies, Changsha University of Science and Technology, Changsha, China}
 
 \begin{abstract}
 Multimodal large language models (MLLMs) are widely used for automated annotation, yet their per-class accuracy varies widely (e.g., 12\%--98\% across the 13 classes of three classroom sub-datasets, 8$+$3$+$2) and is expensive to measure: evaluating one 27B MLLM on 5{,}416 validation images takes roughly 14 hours, whereas a frozen-CLIP pass over the same images completes in about 3 minutes. A low-cost signal for ranking classes by expected MLLM annotation difficulty \emph{a priori} remains underexplored. Building on the AnchorProxy construct (per-class zero-shot CLIP accuracy) introduced in the companion study, this paper systematically evaluates its full-frame formulation---termed \textbf{AnchorScore} here---as an \emph{a priori} diagnostic that flags the classes MLLMs are least likely to annotate reliably.

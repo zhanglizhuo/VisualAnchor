@@ -5,20 +5,15 @@ cd "$(dirname "$0")"
 
 cp VisualAnchor.tex VisualAnchor_blind.tex
 
-# 1. shortauthors
-sed -i 's/\\shortauthors{Ma and Zhang}/\\shortauthors{}/' VisualAnchor_blind.tex
-
-# 2. Replace author block using a Python script that avoids backslash-in-regex issues
+# 1. Replace front matter (shortauthors through nonumnote) using a Python script that avoids backslash-in-regex issues
 python3 << 'PYEOF'
 text = open('VisualAnchor_blind.tex').read()
 
 BS = '\\'  # single backslash, not an escape
 
-# Author block replacement
 import re
-old = re.escape(BS + 'author[1,2]{Yan Ma}')
-# Match from \author[1,2]{Yan Ma} to \nonumnote{...} (inclusive)
-idx = text.find(BS + 'author[1,2]{Yan Ma}')
+start = BS + 'shortauthors{Zhang and Ma}'
+idx = text.find(start)
 if idx < 0:
     print("ERROR: author block not found")
     exit(1)
