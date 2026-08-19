@@ -183,7 +183,7 @@ Preprint: https://arxiv.org/abs/2608.16690 (arXiv:2608.16690 [cs.CV])
 ```bibtex
 @misc{ma2026anchorscore,
   title={AnchorScore: A CLIP-Based Diagnostic of MLLM Annotation Difficulty},
-  author={Ma, Yan and Zhang, Lizhuo},
+  author={Zhang, Lizhuo and Ma, Yan},
   year={2026},
   eprint={2608.16690},
   archivePrefix={arXiv},

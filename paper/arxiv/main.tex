@@ -20,12 +20,12 @@
 
 \title{AnchorScore: A CLIP-Based Diagnostic of MLLM Annotation Difficulty}
 
-\author{Yan Ma\thanks{E-mail: mayan@csust.edu.cn} \\
-  \small School of Foreign Studies, Changsha University of Science and Technology, Changsha, China\\
-  \small and School of Education, Hunan Agricultural University, Changsha, China
+\author{Lizhuo Zhang\thanks{Corresponding author. E-mail: zhanglizhuo@hunau.edu.cn} \\
+  \small School of Information and Intelligence, Hunan Agricultural University, Changsha, China
 \and
-Lizhuo Zhang\thanks{Corresponding author. E-mail: zhanglizhuo@hunau.edu.cn} \\
-  \small School of Information and Intelligence, Hunan Agricultural University, Changsha, China}
+Yan Ma\thanks{E-mail: mayan@csust.edu.cn} \\
+  \small School of Foreign Studies, Changsha University of Science and Technology, Changsha, China\\
+  \small and School of Education, Hunan Agricultural University, Changsha, China}
 
 \begin{abstract}
 Multimodal large language models (MLLMs) are widely used for automated annotation, yet their per-class accuracy varies widely (e.g., 12\%--98\% across the 13 classes of three classroom sub-datasets, 8$+$3$+$2) and is expensive to measure: evaluating one 27B MLLM on 5{,}416 validation images takes roughly 14 hours, whereas a frozen-CLIP pass over the same images completes in about 3 minutes. A low-cost signal for ranking classes by expected MLLM annotation difficulty \emph{a priori} remains underexplored. Building on the AnchorProxy construct (per-class zero-shot CLIP accuracy) introduced in the companion study, this paper systematically evaluates its full-frame formulation---termed \textbf{AnchorScore} here---as an \emph{a priori} diagnostic that flags the classes MLLMs are least likely to annotate reliably.
@@ -824,9 +824,9 @@ The authors thank the contributors of the SCB dataset, EuroSAT, and MedMNIST for
 The authors declare no conflicts of interest.
 
 \section*{Biographies}
-\textbf{Yan Ma} received the Ph.D.\ degree in linguistics from Hunan Normal University. She is currently a lecturer with the School of Foreign Studies, Changsha University of Science and Technology. Her research interests include applied linguistics and educational technology.
-
 \textbf{Lizhuo Zhang} received the Ph.D.\ degree in computer science from Hunan University. He is currently an assistant professor with the School of Information and Intelligence, Hunan Agricultural University. His research interests include multimodal learning, vision-language models, and their applications in educational technology.
+
+\textbf{Yan Ma} received the Ph.D.\ degree in science from Hunan Agricultural University. She is currently an associate professor with the School of Foreign Studies, Changsha University of Science and Technology. Her research leverages information technology and data analytics to examine the effects of classroom environments on English learning engagement, with ongoing work focused on educational data auditing for English learning prediction benchmarks.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % References
